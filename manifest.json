@@ -73,9 +73,9 @@
 		},
 		{
 			"name": "Optional Outfit Filter Removal",
-			"tooltip": "In vanilla, certain outfits with mouth coverings have a broken \"hazmat\" muffle filter on them, which this mod fixes. This toggle will disable the filter from being applied to outfits with cloth or plastic mouth coverings.",
+			"tooltip": "In vanilla, certain outfits with mouth coverings have a broken \"hazmat\" muffle filter on them, which this mod fixes. This toggle will disable the filter from being applied to outfits with plastic mouth coverings.",
 			"type": "checkbox",
-			"enabledByDefault": true,
+			"enabledByDefault": false,
 			"contentFolders": ["content/OutfitFilterFixesToggle"]
 		},
 		{
