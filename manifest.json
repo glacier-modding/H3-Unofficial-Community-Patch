@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "1.2.0",
+	"version": "1.3.0",
 	"id": "GlacierOrganisation.CommunityPatches",
 	"name": "Unofficial Community Patch",
 	"description": "The Hitman Unofficial Patch: It's like a patch, but unofficial! Fixes various bugs that IO haven't yet.",
@@ -73,9 +73,9 @@
 		},
 		{
 			"name": "Optional Outfit Filter Removal",
-			"tooltip": "In vanilla, certain outfits with mouth coverings have a broken \"hazmat\" muffle filter on them, which this mod fixes. This toggle will disable the filter from being applied to outfits with plastic mouth coverings.",
+			"tooltip": "In vanilla, certain outfits with mouth coverings have a broken \"hazmat\" muffle filter on them, which this mod fixes. This toggle will disable the filter from being applied to outfits with cloth or plastic mouth coverings.",
 			"type": "checkbox",
-			"enabledByDefault": false,
+			"enabledByDefault": true,
 			"contentFolders": ["content/OutfitFilterFixesToggle"]
 		},
 		{
