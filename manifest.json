@@ -21,7 +21,8 @@
 		"content/MovieSetLamp",
 		"content/SapienzaChurch",
 		"content/SecurityCams",
-		"content/OACFixes"
+		"content/OACFixes",
+		"content/OutfitFilterFixes"
 	],
 	"loadBefore": ["KevinRudd.FreelancerVariations"],
 	"loadAfter": ["invalid.earpiecevoices"],
@@ -69,6 +70,13 @@
 					}
 				}
 			}
+		},
+		{
+			"name": "Optional Outfit Filter Removal",
+			"tooltip": "In vanilla, certain outfits with mouth coverings have a broken \"hazmat\" muffle filter on them, which this mod fixes. This toggle will disable the filter from being applied to outfits with cloth or plastic mouth coverings.",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/OutfitFilterFixesToggle"]
 		},
 		{
 			"type": "conditional",
