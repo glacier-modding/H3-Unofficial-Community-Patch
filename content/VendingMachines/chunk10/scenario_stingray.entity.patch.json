@@ -1,0 +1,59 @@
+{
+	"tempHash": "0070350DB311B9D9",
+	"tbluHash": "00B6655C51182972",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"86b170b14ab417eb",
+				{ "SetFactory": "00D18A96397C266C" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"86b170b14ab417eb",
+				{ "SetBlueprint": "001D09350CFCBE99" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"86b170b14ab417eb",
+				{
+					"AddProperty": [
+						"DiffusePower",
+						{ "type": "float32", "value": 111.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"86b170b14ab417eb",
+				{
+					"AddProperty": [
+						"GlowPower",
+						{ "type": "float32", "value": 40.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"41b3a06ba1118324",
+				{ "SetFactory": "00D18A96397C266C" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"41b3a06ba1118324",
+				{ "SetBlueprint": "001D09350CFCBE99" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"41b3a06ba1118324",
+				{ "RemovePropertyByName": "DiffuseColor" }
+			]
+		}
+	],
+	"patchVersion": 6
+}

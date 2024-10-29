@@ -1,0 +1,44 @@
+{
+	"tempHash": "00D18A96397C266C",
+	"tbluHash": "001D09350CFCBE99",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"214ddf558861709a",
+				{
+					"AddEventConnection": [
+						"GlowPower",
+						"ConstantVector1D_07_Value",
+						"968fa0c5a8ff3146"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"968fa0c5a8ff3146",
+				{
+					"AddProperty": [
+						"ConstantVector1D_07_Value_op",
+						{
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"968fa0c5a8ff3146",
+				{
+					"AddProperty": [
+						"ConstantVector1D_07_Value",
+						{ "type": "float32", "value": 0.0 }
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
