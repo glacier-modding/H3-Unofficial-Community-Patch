@@ -22,7 +22,8 @@
 		"content/SapienzaChurch",
 		"content/SecurityCams",
 		"content/OACFixes",
-		"content/OutfitFilterFixes"
+		"content/OutfitFilterFixes",
+		"content/VendingMachines"
 	],
 	"loadBefore": ["KevinRudd.FreelancerVariations"],
 	"loadAfter": ["invalid.earpiecevoices"],
