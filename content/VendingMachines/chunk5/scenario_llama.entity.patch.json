@@ -1,0 +1,41 @@
+{
+	"tempHash": "00803F02CE901E3A",
+	"tbluHash": "00AF0EBB71375913",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"765119ef2c04347f",
+				{ "SetFactory": "00D18A96397C266C" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"765119ef2c04347f",
+				{ "SetBlueprint": "001D09350CFCBE99" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"765119ef2c04347f",
+				{
+					"AddProperty": [
+						"GlowPower",
+						{ "type": "float32", "value": 10.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"765119ef2c04347f",
+				{
+					"AddProperty": [
+						"DiffusePower",
+						{ "type": "float32", "value": 70.0 }
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

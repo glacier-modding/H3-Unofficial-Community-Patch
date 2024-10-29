@@ -1,0 +1,30 @@
+{
+	"tempHash": "0076BDE6344B48B1",
+	"tbluHash": "00E57B02872013AB",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"7fcd668877f346dd",
+				{ "SetFactory": "00D18A96397C266C" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7fcd668877f346dd",
+				{ "SetBlueprint": "001D09350CFCBE99" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7fcd668877f346dd",
+				{
+					"AddProperty": [
+						"InteractionEnabled",
+						{ "type": "bool", "value": false }
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

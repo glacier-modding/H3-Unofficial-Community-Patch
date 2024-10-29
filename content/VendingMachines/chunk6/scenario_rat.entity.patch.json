@@ -1,0 +1,249 @@
+{
+	"tempHash": "0005C60C0B3C7977",
+	"tbluHash": "002E69256922F8F6",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"221afeda077958da",
+				{
+					"SetPropertyValue": {
+						"property_name": "GlowPower",
+						"value": 400.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"221afeda077958da",
+				{
+					"AddProperty": [
+						"DiffusePower",
+						{ "type": "float32", "value": 1000.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3e28dc50fa40e6b0",
+				{
+					"AddProperty": [
+						"GlowPower",
+						{ "type": "float32", "value": 200.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3e28dc50fa40e6b0",
+				{
+					"AddProperty": [
+						"DiffusePower",
+						{ "type": "float32", "value": 1000.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a3eab4abd5a30b9c",
+				{
+					"AddProperty": [
+						"GlowPower",
+						{ "type": "float32", "value": 200.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a3eab4abd5a30b9c",
+				{
+					"AddProperty": [
+						"DiffusePower",
+						{ "type": "float32", "value": 1000.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"519509e2cebc023f",
+				{
+					"SetPropertyValue": {
+						"property_name": "GlowPower",
+						"value": 200.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"519509e2cebc023f",
+				{
+					"AddProperty": [
+						"DiffusePower",
+						{ "type": "float32", "value": 1000.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0306277ac7e50041",
+				{
+					"AddProperty": [
+						"GlowPower",
+						{ "type": "float32", "value": 400.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0306277ac7e50041",
+				{
+					"AddProperty": [
+						"DiffusePower",
+						{ "type": "float32", "value": 1000.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2bb0c4be87ea9cf2",
+				{
+					"SetPropertyValue": {
+						"property_name": "GlowPower",
+						"value": 400.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2bb0c4be87ea9cf2",
+				{
+					"SetPropertyValue": {
+						"property_name": "DiffusePower",
+						"value": 1000.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a6f1a9e359187939",
+				{
+					"AddProperty": [
+						"GlowPower",
+						{ "type": "float32", "value": 50.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a6f1a9e359187939",
+				{
+					"AddProperty": [
+						"DiffusePower",
+						{ "type": "float32", "value": 400.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"24651209746c27ab",
+				{
+					"SetPropertyValue": {
+						"property_name": "GlowPower",
+						"value": 200.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"24651209746c27ab",
+				{
+					"AddProperty": [
+						"DiffusePower",
+						{ "type": "float32", "value": 1000.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3334200293a81a4a",
+				{
+					"AddProperty": [
+						"GlowPower",
+						{ "type": "float32", "value": 50.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3334200293a81a4a",
+				{
+					"AddProperty": [
+						"DiffusePower",
+						{ "type": "float32", "value": 400.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8e6ac2a204676b7f",
+				{
+					"SetPropertyValue": {
+						"property_name": "GlowPower",
+						"value": 200.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8e6ac2a204676b7f",
+				{
+					"AddProperty": [
+						"DiffusePower",
+						{ "type": "float32", "value": 1000.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e256eabbe731e9fc",
+				{
+					"SetPropertyValue": {
+						"property_name": "GlowPower",
+						"value": 400.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e256eabbe731e9fc",
+				{
+					"AddProperty": [
+						"DiffusePower",
+						{ "type": "float32", "value": 1000.0 }
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
