@@ -5,24 +5,26 @@
 	"name": "Unofficial Community Patch",
 	"description": "The Hitman Unofficial Patch: It's like a patch, but unofficial! Fixes various bugs that IO haven't yet.",
 	"authors": [
-		"Notex",
-		"Minnow",
 		"Atampy26",
-		"Jojje",
-		"musicalmushr00m",
-		"Dribbleondo",
-		"VoodooHillbilly",
-		"Cybore",
 		"Anthony Fuller",
-		"Luiluix"
+		"Cybore",
+		"Dribbleondo",
+		"Jojje",
+		"Luiluix",
+		"Minnow",
+		"musicalmushr00m",
+		"Notex",
+		"VoodooHillbilly"
 	],
 	"contentFolders": [
-		"content/SmallFixes",
+		"content/DIF",
+		"content/HeadMeldedSunglassesFix",
 		"content/MovieSetLamp",
-		"content/SapienzaChurch",
-		"content/SecurityCams",
 		"content/OACFixes",
 		"content/OutfitFilterFixes",
+		"content/SapienzaChurch",
+		"content/SecurityCams",
+		"content/SmallFixes",
 		"content/VendingMachines"
 	],
 	"loadBefore": ["KevinRudd.FreelancerVariations"],
@@ -60,6 +62,13 @@
 			"contentFolders": ["content/NoDubaiSnipers"]
 		},
 		{
+			"name": "Optional Outfit Filter Removal",
+			"tooltip": "In vanilla, certain outfits with mouth coverings have a broken \"hazmat\" muffle filter on them, which this mod fixes. This toggle will disable the filter from being applied to outfits with plastic mouth coverings.",
+			"type": "checkbox",
+			"enabledByDefault": false,
+			"contentFolders": ["content/OutfitFilterFixesToggle"]
+		},
+		{
 			"name": "Rename Purple Streak Duck",
 			"tooltip": "Changes the name of \"Remote Explosive Purple Duck\" to \"The Purple Streak Duck\".",
 			"type": "checkbox",
@@ -71,13 +80,6 @@
 					}
 				}
 			}
-		},
-		{
-			"name": "Optional Outfit Filter Removal",
-			"tooltip": "In vanilla, certain outfits with mouth coverings have a broken \"hazmat\" muffle filter on them, which this mod fixes. This toggle will disable the filter from being applied to outfits with plastic mouth coverings.",
-			"type": "checkbox",
-			"enabledByDefault": false,
-			"contentFolders": ["content/OutfitFilterFixesToggle"]
 		},
 		{
 			"type": "conditional",
