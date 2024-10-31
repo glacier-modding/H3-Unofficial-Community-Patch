@@ -1,0 +1,29 @@
+{
+	"tempHash": "00914907B1B0CB49",
+	"tbluHash": "00A899D83F39C4AC",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"ab238f9e3397a34b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -161.84553821158548,
+								"y": 89.56308300733338,
+								"z": -24.873809627061718
+							},
+							"position": {
+								"x": 0.08145400136709213,
+								"y": 0.0174570000395178795,
+								"z": 0.0002300000051036477
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
