@@ -1,0 +1,73 @@
+{
+	"tempHash": "00803F02CE901E3A",
+	"tbluHash": "00AF0EBB71375913",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"77d1b5f79d78c715",
+				{
+					"SetPropertyValue": {
+						"property_name": "CIVFEMES01",
+						"value": "0a4c6f3f0dbb00c1"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"77d1b5f79d78c715",
+				{
+					"SetPropertyValue": {
+						"property_name": "CIVFEMES02",
+						"value": "e0da18ef3bb37115"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"eaaf9af3491951dd",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eRequiredVoiceVariation",
+						"value": "eAVV_CIVFEMES01"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fc6c0ef081581452",
+				{
+					"SetPropertyValue": {
+						"property_name": "LLAMA_MAID_FES02",
+						"value": "be921932570ea027"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fc6c0ef081581452",
+				{
+					"SetPropertyValue": {
+						"property_name": "LLAMA_MAID_FES01",
+						"value": "1ba0aa019e150459"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b9baf5fd688f8356",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eRequiredVoiceVariation",
+						"value": "eAVV_CIVFEMES02"
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
