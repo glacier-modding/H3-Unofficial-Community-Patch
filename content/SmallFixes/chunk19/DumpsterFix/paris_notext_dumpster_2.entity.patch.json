@@ -1,0 +1,42 @@
+{
+	"tempHash": "0056406088754691",
+	"tbluHash": "00CF14C55C3BCCA8",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"f1d29aaaa43d29ef",
+				{
+					"SetName": "SetPiece_Container_Body_PlasticDumpster_Paris_NoText"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f1d29aaaa43d29ef",
+				{
+					"SetFactory": "[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_plasticdumpster_paris_notext.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f1d29aaaa43d29ef",
+				{
+					"SetBlueprint": "[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_plasticdumpster_paris_notext.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f1d29aaaa43d29ef",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_sId",
+						"value": "cccfd278-d73b-453d-819a-8fbbe1b33e59"
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
