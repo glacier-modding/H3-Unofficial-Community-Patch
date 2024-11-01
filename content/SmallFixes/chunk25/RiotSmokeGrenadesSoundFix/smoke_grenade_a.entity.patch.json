@@ -1,0 +1,32 @@
+{
+	"tempHash": "002E2C34CB417286",
+	"tbluHash": "00EABFB2DA277D15",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"d4ad3e24de1db324",
+				{
+					"AddProperty": [
+						"m_bValue",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"67774755d2addd7c",
+				{
+					"AddPropertyAliasConnection": [
+						"On",
+						{
+							"originalProperty": "m_bValue",
+							"originalEntity": "d4ad3e24de1db324"
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
