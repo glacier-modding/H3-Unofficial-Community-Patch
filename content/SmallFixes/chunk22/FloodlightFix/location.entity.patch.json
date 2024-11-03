@@ -1,0 +1,18 @@
+{
+	"tempHash": "00DC179DAB61D86D",
+	"tbluHash": "00FB4EFEB6BCC8AD",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"1977ea3577f883a2",
+				{
+					"AddProperty": [
+						"On",
+						{ "type": "bool", "value": false }
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
