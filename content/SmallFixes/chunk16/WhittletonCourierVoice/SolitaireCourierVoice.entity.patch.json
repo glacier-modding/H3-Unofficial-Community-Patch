@@ -1,0 +1,66 @@
+{
+	"tempHash": "002118F4F5EFB3ED",
+	"tbluHash": "005BC0FB02E9C182",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"be6b577a9d782796",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eRequiredVoiceVariation",
+						"value": "eAVV_CIVMALE09"
+					}
+				}
+			]
+		},
+		{
+			"RemovePropertyOverrideConnection": {
+				"entity": {
+					"ref": "3d54c637f2114d7a",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 120.27176231815113
+						},
+						"position": {
+							"x": 0.015437999740242958,
+							"y": 0.04467000067234039,
+							"z": 0.009114000014960766
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "3d54c637f2114d7a",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 120.27176231815112
+						},
+						"position": {
+							"x": 0.015437999740242958,
+							"y": 0.04467000067234039,
+							"z": 0.009114000014960766
+						}
+					}
+				}
+			}
+		}
+	],
+	"patchVersion": 6
+}
