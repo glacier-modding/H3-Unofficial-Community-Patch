@@ -4,56 +4,12 @@
 	"patch": [
 		{
 			"SubEntityOperation": [
-				"0e4a8142f0ad2c47",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -0.3674977974558325,
-								"y": -0.05208187022384651,
-								"z": -42.352827152818016
-							},
-							"position": {
-								"x": -1.025398015975952,
-								"y": -0.6595309972763062,
-								"z": 0.9015870094299316
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
 				"bc7de6c25d6ff6b1",
 				{
 					"PatchArrayPropertyValue": [
 						"m_aValuesconditionsvisible",
 						[{ "RemoveItemByValue": "013c6c451444289a" }]
 					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"c6e24812a1203f7e",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -0.0,
-								"y": 0.0,
-								"z": -179.2059696846865
-							},
-							"position": {
-								"x": -0.017456049099564552,
-								"y": 0.04270505905151367,
-								"z": 0.00017547610332258046
-							}
-						}
-					}
 				}
 			]
 		}
