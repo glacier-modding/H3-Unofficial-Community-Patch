@@ -1,0 +1,141 @@
+{
+	"tempHash": "00A9B93A825F5BDC",
+	"tbluHash": "005BA5CA6AC00627",
+	"patch": [
+		{ "RemoveEntityByID": "8aa61696a77ce1d4" },
+		{
+			"SubEntityOperation": [
+				"5210bdd1b26c388b",
+				{ "SetParent": "250da8ea30303f95" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5210bdd1b26c388b",
+				{ "RemovePropertyByName": "m_eidParent" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5210bdd1b26c388b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -51.874414700531766,
+								"y": 1.8599756495499424,
+								"z": 1.8946307706106096
+							},
+							"position": {
+								"x": 0.6021900177001953,
+								"y": -0.2505340874195099,
+								"z": 0.0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5be0475283396132",
+				{ "SetName": "Setpiece_Hips_Lie_Deckchair" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5be0475283396132",
+				{
+					"SetFactory": "[assembly:/_pro/design/setpieces/setpieces_hideinplainsight.template?/setpiece_hips_lie_deckchair.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5be0475283396132",
+				{
+					"SetBlueprint": "[assembly:/_pro/design/setpieces/setpieces_hideinplainsight.template?/setpiece_hips_lie_deckchair.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5be0475283396132",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": 29.633285520249423
+							},
+							"position": {
+								"x": 0.6021900177001953,
+								"y": -0.2505340874195099,
+								"z": 0.0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5be0475283396132",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aUIHighlightGeom",
+						[{ "RemoveItemByValue": "8aa61696a77ce1d4" }]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7d8c712ada43d797",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": 124.11453642550076
+							},
+							"position": {
+								"x": 0.8042600154876709,
+								"y": 0.378693014383316,
+								"z": 0.07754600048065186
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5e5f0e35f3b8f107",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": 11.755166296200828
+							},
+							"position": {
+								"x": -0.02468341961503029,
+								"y": -0.04471151903271675,
+								"z": 0.4521631896495819
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
