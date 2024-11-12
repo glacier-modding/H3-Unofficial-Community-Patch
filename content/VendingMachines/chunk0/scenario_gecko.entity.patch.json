@@ -1,0 +1,45 @@
+{
+	"tempHash": "00FF13BC71FBD8DF",
+	"tbluHash": "006DE61CDCE4C98D",
+	"patch": [
+		{
+			"SubEntityOperation": ["44b3e81c0caec75f", { "RemovePropertyByName": "DiffuseColor" }]
+		},
+		{
+			"SubEntityOperation": [
+				"a6cfbb599e2a4cc5",
+				{
+					"AddProperty": ["DiffusePower", { "type": "float32", "value": 400.0 }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a6cfbb599e2a4cc5",
+				{
+					"AddProperty": ["GlowPower", { "type": "float32", "value": 40.0 }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["a48a8037bfd859d3", { "RemovePropertyByName": "DiffuseColor" }]
+		},
+		{
+			"SubEntityOperation": [
+				"088642476bb3668a",
+				{
+					"AddProperty": ["DiffusePower", { "type": "float32", "value": 400.0 }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"088642476bb3668a",
+				{
+					"AddProperty": ["GlowPower", { "type": "float32", "value": 40.0 }]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

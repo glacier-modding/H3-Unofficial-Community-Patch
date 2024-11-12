@@ -1,0 +1,76 @@
+{
+	"tempHash": "002C0AB436CB9143",
+	"tbluHash": "0028306CA978873A",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"c990b21a4f1e9256",
+				{
+					"AddProperty": [
+						"Subtract_03_V2_op",
+						{
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c990b21a4f1e9256",
+				{
+					"AddProperty": ["Subtract_03_V2", { "type": "float32", "value": 0.0 }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8c1e3673aca5cf69",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+							"position": {
+								"x": -3.177,
+								"y": 1.151,
+								"z": 1.0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"647a60db86917f98",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+							"position": {
+								"x": -3.177,
+								"y": 1.151,
+								"z": 0.914
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"89da79e0721d56a2",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "1cd26085e5a03c04"
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

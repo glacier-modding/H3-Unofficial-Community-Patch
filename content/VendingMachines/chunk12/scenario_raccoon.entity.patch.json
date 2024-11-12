@@ -1,0 +1,31 @@
+{
+	"tempHash": "009FDC60393C0DA2",
+	"tbluHash": "00A8BF4B33B25673",
+	"patch": [
+		{
+			"SubEntityOperation": ["631571eb8e234e75", { "SetFactory": "00D18A96397C266C" }]
+		},
+		{
+			"SubEntityOperation": ["631571eb8e234e75", { "SetBlueprint": "001D09350CFCBE99" }]
+		},
+		{
+			"SubEntityOperation": ["81e1ea8d7f7f8d67", { "SetFactory": "00D18A96397C266C" }]
+		},
+		{
+			"SubEntityOperation": ["81e1ea8d7f7f8d67", { "SetBlueprint": "001D09350CFCBE99" }]
+		},
+		{
+			"SubEntityOperation": ["45c6aa39e09f33c3", { "SetFactory": "00D18A96397C266C" }]
+		},
+		{
+			"SubEntityOperation": ["45c6aa39e09f33c3", { "SetBlueprint": "001D09350CFCBE99" }]
+		},
+		{
+			"SubEntityOperation": ["88fe4383a65b11de", { "SetFactory": "00D18A96397C266C" }]
+		},
+		{
+			"SubEntityOperation": ["88fe4383a65b11de", { "SetBlueprint": "001D09350CFCBE99" }]
+		}
+	],
+	"patchVersion": 6
+}

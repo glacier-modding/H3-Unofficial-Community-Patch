@@ -1,0 +1,216 @@
+{
+	"tempHash": "0056406088754691",
+	"tbluHash": "00CF14C55C3BCCA8",
+	"patch": [
+		{
+			"SubEntityOperation": ["96e295908e82beb0", { "SetFactory": "00D18A96397C266C" }]
+		},
+		{
+			"SubEntityOperation": ["96e295908e82beb0", { "SetBlueprint": "001D09350CFCBE99" }]
+		},
+		{
+			"SubEntityOperation": [
+				"96e295908e82beb0",
+				{
+					"AddProperty": ["GlowPower", { "type": "float32", "value": 30.0 }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"96e295908e82beb0",
+				{
+					"AddProperty": ["DiffusePower", { "type": "float32", "value": 100.0 }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"675ea363942cb699",
+				{
+					"AddProperty": ["GlowPower", { "type": "float32", "value": 30.0 }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"675ea363942cb699",
+				{
+					"AddProperty": ["DiffusePower", { "type": "float32", "value": 100.0 }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["1ba2b88d37693d4a", { "SetFactory": "00D18A96397C266C" }]
+		},
+		{
+			"SubEntityOperation": ["1ba2b88d37693d4a", { "SetBlueprint": "001D09350CFCBE99" }]
+		},
+		{
+			"SubEntityOperation": [
+				"1ba2b88d37693d4a",
+				{
+					"AddProperty": ["GlowPower", { "type": "float32", "value": 30.0 }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1ba2b88d37693d4a",
+				{
+					"AddProperty": ["DiffusePower", { "type": "float32", "value": 100.0 }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["bac12258d79a11bf", { "SetFactory": "00D18A96397C266C" }]
+		},
+		{
+			"SubEntityOperation": ["bac12258d79a11bf", { "SetBlueprint": "001D09350CFCBE99" }]
+		},
+		{
+			"SubEntityOperation": [
+				"2142e4caaa971e7a",
+				{
+					"AddProperty": ["GlowPower", { "type": "float32", "value": 30.0 }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2142e4caaa971e7a",
+				{
+					"AddProperty": ["DiffusePower", { "type": "float32", "value": 100.0 }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1e734895aba3db75",
+				{
+					"AddProperty": ["GlowPower", { "type": "float32", "value": 20.0 }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1e734895aba3db75",
+				{
+					"AddProperty": ["DiffusePower", { "type": "float32", "value": 100.0 }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f221369951f0330f",
+				{
+					"AddProperty": ["GlowPower", { "type": "float32", "value": 20.0 }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f221369951f0330f",
+				{
+					"AddProperty": ["DiffusePower", { "type": "float32", "value": 100.0 }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"efac5a0d29a22018",
+				{
+					"SetPropertyValue": {
+						"property_name": "GlowPower",
+						"value": 20.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"efac5a0d29a22018",
+				{
+					"AddProperty": ["DiffusePower", { "type": "float32", "value": 100.0 }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["5ff5609f426d28a0", { "SetFactory": "00D18A96397C266C" }]
+		},
+		{
+			"SubEntityOperation": ["5ff5609f426d28a0", { "SetBlueprint": "001D09350CFCBE99" }]
+		},
+		{
+			"SubEntityOperation": ["2e993ada29eb65f4", { "RemovePropertyByName": "DiffuseColor" }]
+		},
+		{
+			"SubEntityOperation": [
+				"2e993ada29eb65f4",
+				{
+					"SetPropertyValue": {
+						"property_name": "DiffusePower",
+						"value": 100.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["aeda74a9472adbb5", { "SetFactory": "00D18A96397C266C" }]
+		},
+		{
+			"SubEntityOperation": ["aeda74a9472adbb5", { "SetBlueprint": "001D09350CFCBE99" }]
+		},
+		{
+			"SubEntityOperation": [
+				"aeda74a9472adbb5",
+				{
+					"AddProperty": ["DiffusePower", { "type": "float32", "value": 100.0 }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["aae63bb7252ead7b", { "SetFactory": "00D18A96397C266C" }]
+		},
+		{
+			"SubEntityOperation": ["aae63bb7252ead7b", { "SetBlueprint": "001D09350CFCBE99" }]
+		},
+		{
+			"SubEntityOperation": ["aae63bb7252ead7b", { "RemovePropertyByName": "DiffuseColor" }]
+		},
+		{
+			"SubEntityOperation": [
+				"aae63bb7252ead7b",
+				{
+					"SetPropertyValue": {
+						"property_name": "DiffusePower",
+						"value": 100.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["cc2cdd8715b74302", { "SetFactory": "00D18A96397C266C" }]
+		},
+		{
+			"SubEntityOperation": ["cc2cdd8715b74302", { "SetBlueprint": "001D09350CFCBE99" }]
+		},
+		{
+			"SubEntityOperation": [
+				"cc2cdd8715b74302",
+				{
+					"AddProperty": ["GlowPower", { "type": "float32", "value": 20.0 }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cc2cdd8715b74302",
+				{
+					"AddProperty": ["DiffusePower", { "type": "float32", "value": 100.0 }]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

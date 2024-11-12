@@ -6,4 +6,8 @@ A collection of Quality of Life fixes for Hitman III (or Hitman: World of Assass
 
 ## Contributing
 
-To contribute a fix, make a branch (or make a fork if you don't have permissions to make a branch), and then commit your fix to the branch as `feat: fix this thing`. Note: do not use a `fix:` commit - your fix is to the game, not to the mod (it's a _feature_ of the mod, hence the `feat:` tag; a `fix:` commit would be if one of the mod's bug fixes didn't work properly and you were resolving that). Then, make a pull request to this repository. If there's an issue in this repository that your contribution fixes, you can add `Fixes #15` (or whatever the number is) to the PR description and the issue will be closed automatically when your PR is merged.
+To contribute a fix, make an issue for it first in this repository, then make a fork (or a branch if you have the right permissions), and then commit your fix to the branch with the title named: `feat: fix this thing`.
+
+Note: **Do not** use the prefix `fix:` in your commit title - your fix is to the game, not to the mod (adding a patch is a _feature_ of the mod, not a fix); `feat:` is for new additions, `fix:` is only to be used if one of the mod's bug fixes didn't work properly and you were resolving that.
+
+Then, make a pull request to this repository. You can then add `Fixes #15` (or whatever the number ID of the issue you created/ are fixing) to the PR description, which will close the issue automatically when your PR is merged.

@@ -1,0 +1,15 @@
+{
+	"tempHash": "00A1045D1675A0D2",
+	"tbluHash": "00E937BCE87DD459",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"bbd5d2b30620920a",
+				{
+					"AddEventConnection": ["GlowPower", "ConstantVector1D_07_Value", "4ff4027b3f90e35c"]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

@@ -1,0 +1,29 @@
+{
+	"tempHash": "004868F794D35933",
+	"tbluHash": "006E467BCDA40509",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"ddcdf55c643feeb5",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_targetEntity",
+						"value": "15b00947bdd250a7"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"38e3a33792f95495",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_targetEntity",
+						"value": "950a92814c3d81c0"
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
