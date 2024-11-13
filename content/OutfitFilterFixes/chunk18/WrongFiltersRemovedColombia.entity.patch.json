@@ -2,59 +2,23 @@
 	"tempHash": "00887DDFD8656D90",
 	"tbluHash": "00FA83E7FF633C2E",
 	"patch": [
+		{ "RemoveEntityByID": "4ce56160c61d5639" },
 		{ "RemoveEntityByID": "5809e68dfb0242f4" },
 		{ "RemoveEntityByID": "ca349469e7d6da4b" },
 		{ "RemoveEntityByID": "a05fe8f0d1af3bc0" },
+		{ "RemoveEntityByID": "8314edd72fa6d76b" },
+		{ "RemoveEntityByID": "093a80114da2d698" },
 		{ "RemoveEntityByID": "73cbe02841fd1c7d" },
+		{ "RemoveEntityByID": "fe34b3892712457a" },
 		{ "RemoveEntityByID": "2889c58714b5aa20" },
 		{ "RemoveEntityByID": "d02fac29bf4b4d40" },
+		{ "RemoveEntityByID": "b1e23c99030ae88d" },
 		{ "RemoveEntityByID": "362d107e0f449202" },
 		{ "RemoveEntityByID": "18b09339a0f1946a" },
-		{ "RemoveEntityByID": "d99d931c45017634" },
-		{
-			"SubEntityOperation": [
-				"0e766a9c2d0cb41e",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -0.0,
-								"y": 0.0,
-								"z": 90.79082128492252
-							},
-							"position": {
-								"x": 27.30213928222656,
-								"y": 65.69734191894531,
-								"z": 30.646419525146484
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"d7a89e5720ea6f84",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -0.0,
-								"y": 0.0,
-								"z": -167.41052543328215
-							},
-							"position": {
-								"x": 0.2106100022792816,
-								"y": 122.48690032958984,
-								"z": 30.99614906311035
-							}
-						}
-					}
-				}
-			]
-		}
+		{ "RemoveEntityByID": "5821a6c82afb11f0" },
+		{ "RemoveEntityByID": "6829e739daf3185b" },
+		{ "RemoveEntityByID": "cc5d839beb9af0f4" },
+		{ "RemoveEntityByID": "d99d931c45017634" }
 	],
 	"patchVersion": 6
 }
