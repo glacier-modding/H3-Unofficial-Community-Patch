@@ -91,50 +91,6 @@
 					]
 				}
 			]
-		},
-		{
-			"SubEntityOperation": [
-				"7d8c712ada43d797",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -0.0,
-								"y": 0.0,
-								"z": 124.11453642550076
-							},
-							"position": {
-								"x": 0.8042600154876709,
-								"y": 0.378693014383316,
-								"z": 0.07754600048065186
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"5e5f0e35f3b8f107",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -0.0,
-								"y": 0.0,
-								"z": 11.755166296200828
-							},
-							"position": {
-								"x": -0.02468341961503029,
-								"y": -0.04471151903271675,
-								"z": 0.4521631896495819
-							}
-						}
-					}
-				}
-			]
 		}
 	],
 	"patchVersion": 6
