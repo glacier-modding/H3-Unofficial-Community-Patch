@@ -1,0 +1,67 @@
+{
+	"tempHash": "00AC74D48A853F62",
+	"tbluHash": "008351511DFEB4A7",
+	"patch": [
+		{
+			"RemovePropertyOverrideConnection": {
+				"entity": {
+					"ref": "e22f13fc421e560a",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				"propertyName": "m_aSecurityDevices",
+				"propertyOverride": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "de341626b3dde579",
+							"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+						},
+						{
+							"ref": "5d2064f6a2c214ae",
+							"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+						},
+						{
+							"ref": "fddfa1b425b468d3",
+							"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+						},
+						"c2476ef12aa945fb",
+						"8597866b484131c3",
+						"29c7d26fb79cc7df"
+					]
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "e22f13fc421e560a",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				"propertyName": "m_aSecurityDevices",
+				"propertyOverride": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "de341626b3dde579",
+							"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+						},
+						{
+							"ref": "5d2064f6a2c214ae",
+							"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+						},
+						{
+							"ref": "fddfa1b425b468d3",
+							"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+						},
+						"c2476ef12aa945fb",
+						"8597866b484131c3",
+						"29c7d26fb79cc7df",
+						"559450791762fe95",
+						"205939f62d344ec3"
+					]
+				}
+			}
+		}
+	],
+	"patchVersion": 6
+}
