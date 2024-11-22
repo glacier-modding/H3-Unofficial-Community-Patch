@@ -1,0 +1,117 @@
+{
+	"tempHash": "004F13995E0E9AF5",
+	"tbluHash": "00D86D84723DECC6",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"9d4d1c3a6a8cd3a6",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -10.09650499806694,
+								"y": -6.230313313108293,
+								"z": -148.64155340142008
+							},
+							"position": {
+								"x": -16.16857147216797,
+								"y": -7.387866973876953,
+								"z": 0.6827850341796875
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"152f43b29e34b393",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -15.479148255303052
+							},
+							"position": {
+								"x": -2.2249908447265625,
+								"y": 3.7213566303253174,
+								"z": -0.8895111083984375
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6d44965dce15fc4b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -13.788659648437417,
+								"y": -19.227935141275484,
+								"z": 153.42361840027897
+							},
+							"position": {
+								"x": 6.8387451171875,
+								"y": 12.193828582763672,
+								"z": 0.4651908874511719
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f2bb1bc577dbe9e4",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -11.548619462699833,
+								"y": -18.25708129497626,
+								"z": -81.92305736636087
+							},
+							"position": {
+								"x": 0.9011459350585938,
+								"y": -6.299034118652344,
+								"z": -0.4257659912109375
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"742f4f8eb78ddbf7",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -9.238389270372668,
+								"y": -28.02631229824888,
+								"z": 37.25338391784071
+							},
+							"position": {
+								"x": 1.4315185546875,
+								"y": 8.79018783569336,
+								"z": 0.43218994140625
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
