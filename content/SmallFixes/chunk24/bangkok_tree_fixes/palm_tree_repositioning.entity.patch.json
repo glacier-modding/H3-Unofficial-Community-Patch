@@ -70,6 +70,28 @@
 		},
 		{
 			"SubEntityOperation": [
+				"62c5d494c2bff09e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -8.189741781412911,
+								"y": -11.64893731738198,
+								"z": -131.2402796425276
+							},
+							"position": {
+								"x": 2.3561248779296875,
+								"y": -0.00579833984375,
+								"z": -0.3912010192871094
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"f2bb1bc577dbe9e4",
 				{
 					"SetPropertyValue": {
