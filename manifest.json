@@ -62,20 +62,43 @@
 		},
 		{
 			"name": "Optional Outfit Filter Removal",
-			"tooltip": "In vanilla, certain outfits with mouth coverings have a broken \"hazmat\" muffle filter on them, which this mod fixes. This toggle will disable the filter from being applied to outfits with plastic mouth coverings.",
+			"tooltip": "Certain outfits with mouth coverings apply a \"hazmat\" muffle filter to the speaker's voice. Enabling this will remove the filter from the plastic masks of Ezra Berg and the Bank Robber disguise.",
 			"type": "checkbox",
 			"enabledByDefault": false,
 			"contentFolders": ["content/OutfitFilterFixesToggle"]
 		},
 		{
-			"name": "Rename Purple Streak Duck",
-			"tooltip": "Changes the name of \"Remote Explosive Purple Duck\" to \"The Purple Streak Duck\".",
+			"name": "Snow Globe Spelling",
+			"tooltip": "This replaces the uncommon \"Snowglobe\" spelling used in the game with the dictionary-approved \"Snow Globe\" spelling.",
 			"type": "checkbox",
 			"enabledByDefault": true,
 			"localisationOverrides": {
+				"001F0F3B7F11E788": {
+					"english": {
+						"2959258488": "An explosive snow globe.",
+						"3857998122": "Explosive Snow Globe"
+					}
+				},
 				"008322D98E1CFE04": {
 					"english": {
-						"3870856120": "The Purple Streak Duck"
+						"2784601082": "A novelty snow globe featuring the Dubai Burj Al-Ghazali. Available in the \"Sceptre\" gift shop and at selected outlets.",
+						"4033835432": "Burj Al-Ghazali Snow Globe"
+					}
+				}
+			}
+		},
+		{
+			"name": "Super Fan Uses Original Translations",
+			"tooltip": "The unlockable Super Fan suit currently uses the name \"Super fan\" in French and \"Super-Fan\" in German. This restores the original \"Fan ultime\" and \"Superfan\" names used by the Super Fan disguise.",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"french": {
+						"320948275": "Fan ultime"
+					},
+					"german": {
+						"320948275": "Superfan"
 					}
 				}
 			}
@@ -83,7 +106,7 @@
 		{
 			"type": "conditional",
 			"name": "Disruptor Escape - Base",
-			"condition": "not (\"invalid.earpiecevoices\" in config.loadOrder)",
+			"condition": "\"invalid.earpiecevoices\" not in config.loadOrder",
 			"contentFolders": ["content/DisruptorEscape/base", "content/DisruptorEscape/subtitles"]
 		},
 		{
@@ -110,9 +133,7 @@
 			"english": {
 				"1761677138": "This dagger was once owned by the Dread Pirate known as \"The Black Almond.\" The hilt contains a small secret, one dose of lethal poison, to be used when eliminating a target requires subtlety instead of violence.",
 				"2647047869": "Beak Staff",
-				"2959258488": "An explosive snow globe.",
-				"3420969825": "Xmas Star",
-				"3857998122": "Explosive Snow Globe"
+				"3420969825": "Xmas Star"
 			}
 		},
 		"00212D5C62DFFC1F": {
@@ -185,35 +206,6 @@
 				"4183668711": "A man outside the entrance claims he can get you into the club if you help him find his missing \"Allergy Pills\". They're probably close by..."
 			}
 		},
-		"004B8C5124A49543": {
-			"english": {
-				"320948275": "Super Fan"
-			},
-			"french": {
-				"320948275": "Fan ultime"
-			},
-			"italian": {
-				"320948275": "Super fan"
-			},
-			"german": {
-				"320948275": "Superfan"
-			},
-			"spanish": {
-				"320948275": "Superfan"
-			},
-			"russian": {
-				"320948275": "Ярый фанат"
-			},
-			"chineseSimplified": {
-				"320948275": "狂热粉丝"
-			},
-			"chineseTraditional": {
-				"320948275": "超級粉絲"
-			},
-			"japanese": {
-				"320948275": "熱心なファン"
-			}
-		},
 		"004EC612565A38BD": {
 			"english": {
 				"2312856866": "The youngest child of Alexa Carlisle, Rebecca is a suspect in the murder of Zachary Carlisle.<br><br>Rebecca says Patrick disappeared after dinner last night and may be in \"some sort of trouble\". Edward and Gregory went to a local pub after having drinks at the mansion. Emma acted \"strange\", but Rebecca does not know how she spent the evening. Rebecca herself claims to have been in a conference call from her laptop in her bedroom at the time of Zachary's death. Rebecca adds that Zachary was more talkative than usual and was inquiring into her connections in the publishing business on behalf of \"a friend\".<br><br>Lastly, Rebecca says she found Mr. Fernsby leaving Zachary's room this afternoon.",
@@ -275,8 +267,7 @@
 		"008322D98E1CFE04": {
 			"english": {
 				"611928695": "Old garden shears.",
-				"2784601082": "A novelty snow globe featuring the Dubai Burj Al-Ghazali. Available in the \"Sceptre\" gift shop and at selected outlets.",
-				"4033835432": "Burj Al-Ghazali Snow Globe"
+				"2913254817": "\"Good Quack Vol. 3\" VHS Tape"
 			}
 		},
 		"0094D363985DA031": {
