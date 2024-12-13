@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "1.20.0",
+	"version": "1.25.0",
 	"id": "GlacierOrganisation.CommunityPatches",
 	"name": "Unofficial Community Patch",
 	"description": "It's like a patch, but unofficial! Fixes various bugs that IO Interactive haven't yet.",
@@ -29,7 +29,7 @@
 	"loadBefore": ["KevinRudd.FreelancerVariations"],
 	"loadAfter": ["invalid.earpiecevoices"],
 	"blobsFolders": ["blobs", "blobsIOI"],
-	"frameworkVersion": "2.33.20",
+	"frameworkVersion": "2.33.21",
 	"updateCheck": "https://github.com/glacier-modding/H3-Unofficial-Community-Patch/releases/latest/download/updates.json",
 	"options": [
 		{
@@ -62,20 +62,43 @@
 		},
 		{
 			"name": "Optional Outfit Filter Removal",
-			"tooltip": "In vanilla, certain outfits with mouth coverings have a broken \"hazmat\" muffle filter on them, which this mod fixes. This toggle will disable the filter from being applied to outfits with plastic mouth coverings.",
+			"tooltip": "Certain outfits with mouth coverings apply a \"hazmat\" muffle filter to the speaker's voice. Enabling this will remove the filter from the plastic masks of Ezra Berg and the Bank Robber disguise.",
 			"type": "checkbox",
 			"enabledByDefault": false,
 			"contentFolders": ["content/OutfitFilterFixesToggle"]
 		},
 		{
-			"name": "Rename Purple Streak Duck",
-			"tooltip": "Changes the name of \"Remote Explosive Purple Duck\" to \"The Purple Streak Duck\".",
+			"name": "Snow Globe Spelling",
+			"tooltip": "This replaces the uncommon \"Snowglobe\" spelling used in the game with the dictionary-approved \"Snow Globe\" spelling.",
 			"type": "checkbox",
 			"enabledByDefault": true,
 			"localisationOverrides": {
+				"001F0F3B7F11E788": {
+					"english": {
+						"2959258488": "An explosive snow globe.",
+						"3857998122": "Explosive Snow Globe"
+					}
+				},
 				"008322D98E1CFE04": {
 					"english": {
-						"3870856120": "The Purple Streak Duck"
+						"2784601082": "A novelty snow globe featuring the Dubai Burj Al-Ghazali. Available in the \"Sceptre\" gift shop and at selected outlets.",
+						"4033835432": "Burj Al-Ghazali Snow Globe"
+					}
+				}
+			}
+		},
+		{
+			"name": "Super Fan Uses Original Translations",
+			"tooltip": "The unlockable Super Fan suit currently uses the name \"Super fan\" in French and \"Super-Fan\" in German. This restores the original \"Fan ultime\" and \"Superfan\" names used by the Super Fan disguise.",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"french": {
+						"320948275": "Fan ultime"
+					},
+					"german": {
+						"320948275": "Superfan"
 					}
 				}
 			}
@@ -83,7 +106,7 @@
 		{
 			"type": "conditional",
 			"name": "Disruptor Escape - Base",
-			"condition": "not (\"invalid.earpiecevoices\" in config.loadOrder)",
+			"condition": "\"invalid.earpiecevoices\" not in config.loadOrder",
 			"contentFolders": ["content/DisruptorEscape/base", "content/DisruptorEscape/subtitles"]
 		},
 		{
@@ -110,9 +133,7 @@
 			"english": {
 				"1761677138": "This dagger was once owned by the Dread Pirate known as \"The Black Almond.\" The hilt contains a small secret, one dose of lethal poison, to be used when eliminating a target requires subtlety instead of violence.",
 				"2647047869": "Beak Staff",
-				"2959258488": "An explosive snow globe.",
-				"3420969825": "Xmas Star",
-				"3857998122": "Explosive Snow Globe"
+				"3420969825": "Xmas Star"
 			}
 		},
 		"00212D5C62DFFC1F": {
@@ -178,40 +199,16 @@
 				"773185078": "Mark Faba was always a strange kid. Born to a firefighting father with a serious alcohol problem and an overworked mother working two jobs as a secretary in the iron and steel industry, Mark was left to his own devices from an early age. He spent his formative years living in his parents' basement and deeply embedded himself in the world of hobby electronics, phone phreaking and eventually computer hacking. <br><br> At 18, he found his calling as part of the underground computer hacking scene and sought to make himself a name by performing spectacular penetrations into corporate systems. After a series of hacks against the government, Faba was arrested by MI5 and placed in custody. Here, he was given a non-choice. Hone his skills with the Secret Service and work for England or face years of incarceration. <br><br> Faba spent two decades with MI5. He became an expert at demolitions and marksmanship. He learned infiltration techniques and grew his expertise at espionage, working for years on domestic surveillance projects aimed at journalists, politicians, corporate heads and members of the upper class. The stress and nature of his work got to Faba and one day, everything collapsed. <br><br> While on a mission to install surveillance equipment in the hotel suite of a visiting foreign diplomat, Faba was discovered. A struggle ensued and Faba ended up killing his intended surveillance target. Desperate and fearful of what might happen, Faba worked through the night to fake the circumstances around the man's death. Unfortunately, forensic experts at MI5 soon suspected foul play and as the evidence mounted, Faba felt the ground burn beneath him. In his desperation, he turned to an old bounty hunter connection and with their aid, Mark Faba disappeared from the world and was eventually presumed dead by his own hand. <br><br> Five years later, MI6 discovered a connection between of one their agents, who had been assassinated a year prior, and Mark Faba. Investigating the lead further provided vague indications that Faba was alive and was working as an assassin in various conflict zones around the world. An ICA contract was issued on Faba, requesting that he be terminated. The ICA sent one of their agents and eliminated Faba while on a mission in Somalia. However, Faba reappeared in Kosovo a few months later and so began one of the most enigmatic cases in ICA history. From that initial contract until present day, the ICA has confirmed the death of Faba more than 20 times and somehow, he keeps reappearing. <br><br> Faba has been given the nickname \"The Undying\" and has proven to be an un-erasable embarrassment for the ICA."
 			}
 		},
+		"003131BA6C4C5074": {
+			"english": {
+				"3203892346": "Coming from a proud lineage of Belgian war heroes—men who boldly defected to France in protest of King Leopold's surrender in World War II—Valliant was born with rebellion in his blood. For him, honor was everything, and he upheld his family's legacy with unwavering commitment. After graduating at the top of his class from Paris Sciences et Lettres, he took the next, inevitable step: enlisting in the French Foreign Legion. But Valliant’s ambitions ran darker than mere duty. He craved something beyond glory… he wanted power. <br><br>After his service, he transformed into a mercenary—a soldier of fortune—and soon caught the attention of the ICA, who wasted no time in recruiting him. Valliant rose quickly through their ranks, earning a deadly reputation as ICA’s most ruthless operative. Swift, precise, and merciless, he was everything they needed—and for Valliant, the money and the thrill of absolute control were… intoxicating. Killing came naturally to him. <br><br>But power, he realized, could be wielded in more ways than one. Playing multiple sides, manipulating his targets, Valliant’s games soon became a dangerous liability for ICA. When they uncovered his double-dealings, ICA took swift action, eliminating their top agent… or so they thought. <br><br>Now, he’s back, and this time, ICA’s very foundation is under threat…"
+			}
+		},
 		"004757029ED4D7C4": {
 			"english": {
 				"998061099": "A small plastic bag filled with nondescript pills, euphemistically dubbed \"Allergy Pills\" by the man outside the club entrance.",
 				"3503488150": "Bag of \"Allergy Pills\"",
 				"4183668711": "A man outside the entrance claims he can get you into the club if you help him find his missing \"Allergy Pills\". They're probably close by..."
-			}
-		},
-		"004B8C5124A49543": {
-			"english": {
-				"320948275": "Super Fan"
-			},
-			"french": {
-				"320948275": "Fan ultime"
-			},
-			"italian": {
-				"320948275": "Super fan"
-			},
-			"german": {
-				"320948275": "Superfan"
-			},
-			"spanish": {
-				"320948275": "Superfan"
-			},
-			"russian": {
-				"320948275": "Ярый фанат"
-			},
-			"chineseSimplified": {
-				"320948275": "狂热粉丝"
-			},
-			"chineseTraditional": {
-				"320948275": "超級粉絲"
-			},
-			"japanese": {
-				"320948275": "熱心なファン"
 			}
 		},
 		"004EC612565A38BD": {
@@ -275,8 +272,7 @@
 		"008322D98E1CFE04": {
 			"english": {
 				"611928695": "Old garden shears.",
-				"2784601082": "A novelty snow globe featuring the Dubai Burj Al-Ghazali. Available in the \"Sceptre\" gift shop and at selected outlets.",
-				"4033835432": "Burj Al-Ghazali Snow Globe"
+				"2913254817": "\"Good Quack Vol. 3\" VHS Tape"
 			}
 		},
 		"0094D363985DA031": {
