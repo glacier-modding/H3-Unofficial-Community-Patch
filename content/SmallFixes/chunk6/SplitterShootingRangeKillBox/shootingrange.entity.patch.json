@@ -1,0 +1,22 @@
+{
+	"tempHash": "00BB7C63E0B615F9",
+	"tbluHash": "00DD2AD7424CD570",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"74410250c6967856",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vGlobalSize",
+						"value": {
+							"x": 0.4747779965400696,
+							"y": 13.562,
+							"z": 2.065190076828003
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
