@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/wet/43000_elusive/lambic/43750_story/dr43763_lppsntnstart04.sweetdialog?/dr43763_lppsntnstart04_et_lambic_002.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr43763_lppsntnstart04_et_lambic_002",
+		"soundtag": "In-world_Mission_Important",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/43000_elusive/lambic/43750_story/dr43763_lppsntnstart04_et_lambic_002.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/43000_elusive/lambic/43750_story/dr43763_lppsntnstart04_et_lambic_002.animset].pc_animset",
+		"languages": {
+			"en": "//(0,30)\\\\What? We have cloned a human! This is a breakthrough!",
+			"fr": "//(0,30)\\\\Parce que nous avons cloné un être humain ? C'est une avancée majeure !",
+			"it": "//(0,30)\\\\Perché? Perché abbiamo clonato un essere umano? È una svolta epocale!",
+			"de": "//(0,0.9)\\\\Was denn?//(0.9,30.9)\\\\Wir haben einen Menschen geklont! Das ist ein Durchbruch!",
+			"es": "//(0,30)\\\\¿Cómo dices? ¿Que hemos clonado a un humano? ¡Qué avance tan espectacular!",
+			"ru": "//(0,30)\\\\Что? Мы клонировали человека. Это прорыв!",
+			"cn": "//(0,30)\\\\什么？你说我们克隆人类的事吗？这是一项突破！",
+			"tc": "//(0,30)\\\\什麼？我們成功做出了複製人？這可是一大突破！",
+			"jp": "//(0,30)\\\\なんだ。人間のクローンを作ったんだぞ！？これは素晴しい進歩だ！"
+		}
+	}
+}

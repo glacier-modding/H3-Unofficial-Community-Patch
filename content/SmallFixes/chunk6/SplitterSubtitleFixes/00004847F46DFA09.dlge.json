@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/wet/43000_elusive/lambic/43750_story/dr43759_meetingwait.sweetdialog?/dr43759_meetingwait_bdygrd07_002.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr43759_meetingwait_bdygrd07_002",
+		"soundtag": "In-world_Mission_Important",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/43000_elusive/lambic/43750_story/dr43759_meetingwait_bdygrd07_002.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/43000_elusive/lambic/43750_story/dr43759_meetingwait_bdygrd07_002.animset].pc_animset",
+		"languages": {
+			"en": "//(0,30)\\\\We are. But you think they're so stupid to jeopardise...",
+			"fr": "//(0,1)\\\\On est prêts. Mais...//(1,31)\\\\Vous croyez vraiment qu'ils sont assez bêtes pour mettre en danger...",
+			"it": "//(0,30)\\\\Siamo pronti. Ma pensa che siano così stupidi da mandare tutto all'aria...",
+			"de": "//(0,1.1)\\\\Sind wir.//(1.1,31.1)\\\\Aber meinen Sie wirklich, die sind dumm genug, um ...",
+			"es": "//(0,30)\\\\Lo estamos, pero ¿de verdad cree que son tan estúpidos como para poner en riesgo...?",
+			"ru": "//(0,30)\\\\Готовы. Вы думаете, они настолько глупы, чтобы рискнуть...",
+			"cn": "//(0,30)\\\\准备好了。但你觉得他们会蠢到这个地步......",
+			"tc": "//(0,30)\\\\準備好了，但你覺得他們有蠢到冒險......",
+			"jp": "//(0,30)\\\\できていますが、危険を冒してまでそんな真似をするなんて..."
+		}
+	}
+}

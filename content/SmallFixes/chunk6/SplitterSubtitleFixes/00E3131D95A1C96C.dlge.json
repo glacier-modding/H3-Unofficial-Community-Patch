@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/wet/43000_elusive/lambic/43750_story/dr43812_flbklmbcdspear.sweetdialog?/dr43812_flbklmbcdspear_rat_controller_m_002.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr43812_flbklmbcdspear_rat_controller_m_002",
+		"soundtag": "In-world_Mission_Important",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/43000_elusive/lambic/43750_story/dr43812_flbklmbcdspear_rat_controller_m_002.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/43000_elusive/lambic/43750_story/dr43812_flbklmbcdspear_rat_controller_m_002.animset].pc_animset",
+		"languages": {
+			"en": "//(0,30)\\\\I don't know. He was here just a minute ago.",
+			"fr": "//(0,30)\\\\Aucune idée, il était là il y a une minute.",
+			"it": "//(0,30)\\\\Non lo so. Non era qui fino a un minuto fa?",
+			"de": "//(0,30)\\\\Keine Ahnung? Gerade eben war er doch noch hier?",
+			"es": "//(0,30)\\\\¡No lo sé! Estaba aquí hace un momento.",
+			"ru": "//(0,30)\\\\Откуда мне знать? Он был здесь минуту назад.",
+			"cn": "//(0,30)\\\\我不知道啊？他刚才还在来着？",
+			"tc": "//(0,30)\\\\不知道？他剛剛還在這裡啊？",
+			"jp": "//(0,30)\\\\さあな。さっきまでここにいたが。"
+		}
+	}
+}

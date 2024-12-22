@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/wet/43000_elusive/lambic/43750_story/dr43763_lppsntnstart04.sweetdialog?/dr43763_lppsntnstart04_civfemch01_005.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr43763_lppsntnstart04_civfemch01_005",
+		"soundtag": "In-world_Mission_Important",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/43000_elusive/lambic/43750_story/dr43763_lppsntnstart04_civfemch01_005.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/43000_elusive/lambic/43750_story/dr43763_lppsntnstart04_civfemch01_005.animset].pc_animset",
+		"languages": {
+			"en": "//(0,30)\\\\Each clone is a perfect replication of Max Valliant...",
+			"fr": "//(0,30)\\\\Chaque clone est une réplication parfaite de Max Valliant...",
+			"it": "//(0,30)\\\\Ogni clone è una replica perfetta di Max Valliant...",
+			"de": "//(0,30)\\\\Jeder Klon ist eine perfekte Replikation von Max Valliant ...",
+			"es": "//(0,30)\\\\Cada clon es una réplica perfecta de Max Valliant...",
+			"ru": "//(0,30)\\\\Каждый клон — точная копия Макса Вальяна...",
+			"cn": "//(0,30)\\\\每个克隆人都是麦克斯·瓦兰特的完美复制体......",
+			"tc": "//(0,30)\\\\每個複製人都是馬克思·瓦里安的完美複製品......",
+			"jp": "//(0,30)\\\\クローンはすべてマックス・ヴァリアントの完璧な複製だ..."
+		}
+	}
+}
