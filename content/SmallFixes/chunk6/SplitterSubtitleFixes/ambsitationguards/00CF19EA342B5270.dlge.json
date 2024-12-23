@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/wet/43000_elusive/lambic/43750_story/dr43847_ambsitationguards.sweetdialog?/dr43847_ambsitationguards_bdygrd05_011.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr43847_ambsitationguards_bdygrd05_011",
+		"soundtag": "In-world_Mission_Important",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/43000_elusive/lambic/43750_story/dr43847_ambsitationguards_bdygrd05_011.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/43000_elusive/lambic/43750_story/dr43847_ambsitationguards_bdygrd05_011.animset].pc_animset",
+		"languages": {
+			"en": "//(0,3.9)\\\\Shit! That was a bummer of a quote.//(3.9,33.9)\\\\I guess we'll just stand here then! Like good little soldiers... ready for anything.",
+			"fr": "//(0,3.9)\\\\T'as vraiment réponse à tout, hein ?//(3.9,7)\\\\Bon bah on va rester plantés là sans rien dire alors... comme de bons petits soldats...//(7,37)\\\\Ça te va, ça ?",
+			"it": "//(0,2.7)\\\\Wow, che frase d'effetto!//(2.7,3.9)\\\\Immagino//(3.9,33.9)\\\\che ce ne staremo qui, allora... da bravi soldatini. Pronti a tutto.",
+			"de": "//(0,3.7)\\\\Shit! Voll der Runterzieher von einem Zitat.//(3.7,33.7)\\\\Ich schätze, dann stehen wir eben einfach hier rum ... Wie brave kleine Soldaten ... Auf alles gefasst ...",
+			"es": "//(0,2.84)\\\\¡Joder! Menuda frasecita, colega.//(4,5.4)\\\\Pues nada, supongo que nos quedaremos aquí quietecitos...//(5.4,35.4)\\\\como buenos soldados... preparados para todo...",
+			"ru": "//(0,3.9)\\\\Черт! Неловкая цитата получилась.//(3.9,33.9)\\\\Ладно, будем тогда просто стоять... как послушные солдатики... готовые ко всему...",
+			"cn": "//(0,2.7)\\\\该死！这句话真让人扫兴。//(3.9,33.9)\\\\我们就老实站在这......扮演模范士兵......做好一切准备......",
+			"tc": "//(0,3.9)\\\\靠！你這話真掃興。//(3.9,33.9)\\\\看來我們得像呆頭兵一樣......站在這裡......準備面對任何事......",
+			"jp": "//(0,3.85)\\\\おい！随分と気が滅入るセリフだな。//(3.85,7.15)\\\\いいよ、ここに従順な兵士のように突っ立ってればいいんだろ...//(7.15,37.15)\\\\なんでもやるよ..."
+		}
+	}
+}
