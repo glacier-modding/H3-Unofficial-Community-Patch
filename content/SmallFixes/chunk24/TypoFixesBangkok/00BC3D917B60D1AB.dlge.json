@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/bangkok/4000_cross/4000_story/dr4230_crewtalkcrossfamily.sweetdialog?/dr4230_crewtalkcrossfamily_civmale03_003.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr4230_crewtalkcrossfamily_civmale03_003",
+		"soundtag": "In-world_Mission_Normal",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/bangkok/4000_cross/4000_story/dr4230_crewtalkcrossfamily_civmale03_003.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/bangkok/4000_cross/4000_story/dr4230_crewtalkcrossfamily_civmale03_003.animset].pc_animset",
+		"languages": {
+			"en": "//(0,2.5)\\\\I don't know, would you wanna do nothin' all your life?//(2.5,32.5)\\\\That's a direct route to depression, man.",
+			"fr": "//(0,30)\\\\T'aimerais ça, toi, ne rien glander toute une vie ? C'est la dépression assurée.",
+			"it": "//(0,30)\\\\Non lo so. Tu passeresti la vita a non fare niente? È il modo migliore per cadere in depressione, fidati.",
+			"de": "//(0,30)\\\\Hättest du Lust, dein ganzes Leben lang nichts zu tun? Da wird man doch depressiv.",
+			"es": "//(0,30)\\\\No lo sé. ¿A ti te gustaría no hacer nada con tu vida? Eso te lleva directo a la depresión, tío.",
+			"ru": "//(0,3.24)\\\\Не знаю... в чем интерес всю жизнь ничего не делать?//(3.24,33.24)\\\\Это прямой путь к депрессии, приятель.",
+			"cn": "//(0,2.768098)\\\\我也不知道，你一辈子真的能什么都不干吗？//(2.768098,32.7681)\\\\恐怕用不了多久就要得抑郁症了，伙计。",
+			"tc": "//(0,30)\\\\我也不知道，你一輩子真的能什麼都不幹嗎？恐怕用不了多久就要得抑鬱症了，老兄。",
+			"jp": "//(0,30)\\\\わかんねぇ けど、 一生何も しなくて いいって 言われて おまえ、 そうすっか？ 鬱一直線だぜ。"
+		}
+	}
+}
