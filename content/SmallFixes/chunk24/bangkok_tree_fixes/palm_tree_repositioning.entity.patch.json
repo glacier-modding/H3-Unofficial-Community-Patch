@@ -5,28 +5,6 @@
 		{ "RemoveEntityByID": "4acb67d888baa2a3" },
 		{
 			"SubEntityOperation": [
-				"f722127103b5f298",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -0.0,
-								"y": 0.0,
-								"z": 90.18947740282732
-							},
-							"position": {
-								"x": 49.6355094909668,
-								"y": -26.024999618530273,
-								"z": 48.30585861206055
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
 				"3a32e1eb9a0c8a10",
 				{
 					"SetPropertyValue": {
@@ -71,6 +49,28 @@
 		},
 		{
 			"SubEntityOperation": [
+				"4cf932954fe49591",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 1.8385268212156325,
+								"y": 0.18060872349363952,
+								"z": 40.14788390429741
+							},
+							"position": {
+								"x": 2.6777313232421878,
+								"y": -71.99150085449219,
+								"z": -0.033107757568359375
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"152f43b29e34b393",
 				{
 					"SetPropertyValue": {
@@ -107,28 +107,6 @@
 								"x": 6.933305603027344,
 								"y": 12.193828582763672,
 								"z": 0.4651908874511719
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"46e0eecc2692ab5e",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": 8.62482026796231,
-								"y": 1.9699312406763592,
-								"z": -1.3730049188796591
-							},
-							"position": {
-								"x": 13.7260103225708,
-								"y": -111.43620300292967,
-								"z": -4.766604900360107
 							}
 						}
 					}
