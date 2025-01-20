@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/wet/43000_elusive/lambic/43750_story/dr43756_arrvmeetingrm.sweetdialog?/dr43756_arrvmeetingrm_et_lambic_004.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr43756_arrvmeetingrm_et_lambic_004",
+		"soundtag": "In-world_Mission_Important",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/43000_elusive/lambic/43750_story/dr43756_arrvmeetingrm_et_lambic_004.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/43000_elusive/lambic/43750_story/dr43756_arrvmeetingrm_et_lambic_004.animset].pc_animset",
+		"languages": {
+			"en": "//(0,30)\\\\No flowers? I'm crushed...",
+			"fr": "//(0,30)\\\\Même pas de fleurs ? Quelle tristesse...",
+			"it": "//(0,30)\\\\Niente fiori? Mi spezzi il cuore...",
+			"de": "//(0,30)\\\\Keine Blumen? Ich bin am Boden zerstört ...",
+			"es": "//(0,30)\\\\¿No me traes flores ni nada? Me rompes el corazón.",
+			"ru": "//(0,30)\\\\Вы без цветов? Мое сердце разбито...",
+			"cn": "//(0,30)\\\\没有带花来吗？我真伤心......",
+			"tc": "//(0,30)\\\\你沒準備花？我心碎了......",
+			"jp": "//(0,30)\\\\花を持ってきてくれなかったのか？悲しいな..."
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/wet/43000_elusive/lambic/43750_story/dr43845_escortnomeet.sweetdialog?/dr43845_escortnomeet_rat_controller_m_003.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr43845_escortnomeet_rat_controller_m_003",
+		"soundtag": "In-world_Mission_Important",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/43000_elusive/lambic/43750_story/dr43845_escortnomeet_rat_controller_m_003.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/43000_elusive/lambic/43750_story/dr43845_escortnomeet_rat_controller_m_003.animset].pc_animset",
+		"languages": {
+			"en": "//(0,1.8)\\\\This is not like Valliant...//(1.8,31.8)\\\\Psychopaths don't just bail.",
+			"fr": "//(0,1.8)\\\\Ça ne ressemble pas à du Valliant...//(1.8,31.8)\\\\les psychopathes ne fuient pas.",
+			"it": "//(0,1.8)\\\\Non è da Valliant...//(1.8,31.8)\\\\Gli psicopatici non si tirano mai indietro.",
+			"de": "//(0,30)\\\\Das passt nicht zu Valliant ... Psychopathen hauen nicht einfach ab.",
+			"es": "//(0,1.35)\\\\Esto es algo impropio de Valliant...//(1.97,31.97)\\\\Los psicópatas no huyen sin más.",
+			"ru": "//(0,1.8)\\\\Это не в стиле Вальяна...//(1.8,31.8)\\\\Психопаты не убегают.",
+			"cn": "//(0,30)\\\\这不像瓦兰特的作风......这种变态不可能就这么放我们走了。",
+			"tc": "//(0,30)\\\\瓦里安不會這樣......瘋子不會隨便離開的。",
+			"jp": "//(0,1.65)\\\\ヴァリアントらしくない...//(1.65,31.65)\\\\あいつのような異常者はこういったことを突然放り出したりしない。"
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/wet/43000_elusive/lambic/43750_story/dr43819_lppsntnphn01.sweetdialog?/dr43819_lppsntnphn01_et_lambic_001.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr43819_lppsntnphn01_et_lambic_001",
+		"soundtag": "In-world_Mission_Important",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/43000_elusive/lambic/43750_story/dr43819_lppsntnphn01_et_lambic_001.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/43000_elusive/lambic/43750_story/dr43819_lppsntnphn01_et_lambic_001.animset].pc_animset",
+		"languages": {
+			"en": "//(0,7.2)\\\\It's Valliant. Can't talk long. They might be tracking me. Someone just came with a better offer.//(9,12.3)\\\\I know we had a deal - but this is business.//(14,17.8)\\\\Don't worry - I can let a few loose for you.//(20.1,24.2)\\\\The other client won't know. Just pay up, you'll get the goods.//(26,56)\\\\Good. Don't disappoint. Bye.",
+			"fr": "//(0,7.2)\\\\C'est Valliant, j'ai pas beaucoup de temps. On nous écoute peut-être. Quelqu'un d'autre est passé, avec une meilleure offre.//(9,12.3)\\\\Je sais qu'on avait un accord, mais ce sont les affaires.//(14,17.8)\\\\Pas de panique, je peux vous en laisser quelques-uns.//(20.1,24.2)\\\\L'autre client n'en saura rien. Payez, vous aurez la marchandise.//(26,56)\\\\Bien. Ne me décevez pas. Salut.",
+			"it": "//(0,7.2)\\\\Sono Valliant. Non posso parlare a lungo. Potrebbero tenermi d'occhio. Si è presentata un'offerta migliore.//(9,12.3)\\\\So che avevamo un accordo... ma si tratta di affari.//(14,17.8)\\\\Non preoccuparti... te ne lascio qualcuno.//(20.1,24.2)\\\\L'altro cliente non lo scoprirà. Paga, e avrai la merce.//(26,56)\\\\Bene. Non deludermi. Ciao.",
+			"de": "//(0,2.4)\\\\Hier ist Valliant. Ich kann nicht lange reden.//(2.4,4.3)\\\\Die könnten mich abhören wollen.//(4.3,6.5)\\\\Jemand kam gerade mit einem besseren Angebot.//(8.8,11.9)\\\\Ich weiß, dass wir einen Deal hatten – aber Geschäft ist Geschäft.//(14,17.7)\\\\Keine Sorge – ich kann ein paar für Sie loseisen.//(20,24.1)\\\\Der andere Klient kriegt das gar nicht mit. Zahlen Sie einfach und Sie kriegen die Ware.//(26.1,56.1)\\\\Gut. Enttäuschen Sie mich nicht. Bis dann.",
+			"es": "//(0,4.35)\\\\Soy Valliant. No tengo mucho tiempo, puede que me tengan pinchado.//(4.35,6.5)\\\\Ha aparecido alguien con una oferta mejor.//(9.05,11.85)\\\\Sé que teníamos un acuerdo, pero así son los negocios.//(14,17.8)\\\\No te preocupes, puedo dejarte a unos cuantos.//(20.05,24.3)\\\\El otro cliente ni se enterará; si pagas, obtendrás la mercancía.//(26.3,56.3)\\\\Bien. No me falles. Adiós.",
+			"ru": "//(0,7.2)\\\\Это Вальян. Долго говорить не могу. Они могут следить за мной. Кто-то предложил более выгодный вариант.//(9,12.3)\\\\Я помню про наш уговор, но прибыль важнее.//(14,17.9)\\\\Не волнуйтесь, я выделю вам несколько штук.//(20.1,24.2)\\\\Другой клиент не узнает. Просто заплатите — и товар ваш.//(24.2,26)\\\\Отлично.//(26,56)\\\\Не подведите. Пока.",
+			"cn": "//(0,7.2)\\\\我是瓦兰特。我不能聊太久。他们可能在追踪我。刚才有人过来给出了更高报价。//(9,12.3)\\\\我知道我们已经约好了，但生意就是生意。//(14,17.8)\\\\别担心，我会给你剩点的。//(20.1,24.2)\\\\另一位客户不会知道的。只管给钱就行，包你能拿到货。//(26,56)\\\\很好。别让我失望。再见。",
+			"tc": "//(0,2.7)\\\\這是瓦里安。我沒時間多說。//(2.7,7.2)\\\\他們可能在追蹤我。有人提出更好的價格。//(8.6,11.8)\\\\我知道我們談好了，但是生意就是這樣。//(13.8,17.6)\\\\別擔心，我可以送你幾個。//(20,24)\\\\其他客戶不會知道的。只要你付錢，我就會把貨送到。//(26,56)\\\\好，別讓我失望了。掰。",
+			"jp": "//(0,4.15)\\\\ヴァリアントだ。長く話せない。誰かにつけられてるかもしれない。//(4.15,6.4)\\\\もっといい話を持ち掛けてきた奴がいるんだ。//(6.4,8.95)\\\\（間を置く）//(8.95,11.7)\\\\ああ、取引したのは覚えてるが、これはビジネスだ。//(11.7,14.15)\\\\（間を置く）//(14.15,19.4)\\\\心配するな、数人そちらへ送ってやる。//(19.4,23.9)\\\\他のクライアントには知らせない。ちゃんと払ってくれたら、送ってやるよ。//(23.9,26.1)\\\\（間を置く）//(26.1,56.1)\\\\いいだろう。がっかりさせるなよ。じゃあな。"
+		}
+	}
+}

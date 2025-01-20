@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/wet/43000_elusive/lambic/43750_handler/ds43761_clnscndreveal.sweetdialog?/ds43761_clnscndreveal_diana_001.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "ds43761_clnscndreveal_diana_001",
+		"soundtag": "Voiceover_Handler",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/43000_elusive/lambic/43750_handler/ds43761_clnscndreveal_diana_001.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/43000_elusive/lambic/43750_handler/ds43761_clnscndreveal_diana_001.animset].pc_animset",
+		"languages": {
+			"en": "//(0,2.5)\\\\Target eliminated, now head towards an...//(3.8,5.4)\\\\hold on...//(6.3,9.6)\\\\our analysts have discovered some unnerving intel!//(9.6,16)\\\\It... It seems Valliant has... cloned himself?!? This can't be true.//(16,46)\\\\I need to confer with the board on how to proceed. I'll get back to you.",
+			"fr": "//(0,2.5)\\\\Cible éliminée, vous pouvez chercher la s–//(3.8,5.4)\\\\Une minute...//(6.3,9.6)\\\\Nos analystes ont découvert une information troublante !//(9.6,16)\\\\Apparemment, Valliant se serait... cloné ?!//(16,46)\\\\Impossible. Laissez-moi un peu de temps, je dois en discuter avec le conseil et je vous recontacte.",
+			"it": "//(0,2.5)\\\\Bersaglio eliminato, ora dirigiti verso...//(3.8,5.4)\\\\Aspetta...//(6.3,9.6)\\\\I nostri analisti hanno scoperto un fatto inquietante!//(9.6,16)\\\\Sembra... Sembra che Valliant... si sia clonato?! Non è possibile.//(16,46)\\\\Devo consultarmi con il consiglio per capire come procedere. Ti farò sapere.",
+			"de": "//(0,2.3)\\\\Ziel neutralisiert. Gehen Sie jetzt zum ...//(3.7,4.5)\\\\Warten Sie eben ...//(6.2,9.8)\\\\Unsere Analysten haben beunruhigende Informationen aufgespürt!//(9.8,14.4)\\\\Es ... Es scheint, als hätte sich Valliant ... geklont?!?//(14.4,16.1)\\\\Das kann nicht wahr sein.//(16.1,18.8)\\\\Ich muss mit dem Direktorium besprechen, wie wir fortfahren.//(18.8,48.8)\\\\Ich melde mich wieder bei Ihnen.",
+			"es": "//(0,2.6)\\\\Objetivo eliminado. Venga, dirígete a una...//(3.9,4.9)\\\\Espera un momento...//(6.47,9.36)\\\\Nuestros analistas han conseguido una información inquietante.//(9.8,13.9)\\\\Parece... Parece que Valliant se ha... ¡¿clonado?!//(14.5,15.8)\\\\Es imposible.//(16,18.44)\\\\Tengo que debatir con la junta cómo proceder.//(18.9,48.9)\\\\Ahora te digo algo.",
+			"ru": "//(0,2.5)\\\\Цель устранена. Направляйся к...//(3.8,5.4)\\\\Минуточку...//(6.3,7.240491)\\\\Наши аналитики получили тревожную информацию!//(7.240491,16)\\\\Похоже... Вальян... клонировал себя?! Не может быть.//(16,46)\\\\Мне надо обсудить ситуацию с советом директоров. Я скоро вернусь.",
+			"cn": "//(0,2.5)\\\\目标已消灭，现在前往......//(3.8,5.4)\\\\等等......//(6.3,9.6)\\\\我们的分析师刚刚发现了一些令人不安的情报！//(9.6,16)\\\\这是......瓦兰特似乎......克隆了他自己？！这不可能。//(16,46)\\\\我需要向董事会沟通下一步计划。我稍后联系你。",
+			"tc": "//(0,4.9)\\\\目標已消滅，現在前往...... 等等......//(6.2,9.6)\\\\我們的分析師發現了可怕的情報！//(9.6,16)\\\\瓦......瓦里安......複製了自己？！怎麼可能！//(16,46)\\\\我得先和董事會討論，再決定下一步。我會再聯絡你。",
+			"jp": "//(0,3.46)\\\\ターゲット排除。次に向かう場所は...//(3.46,6.35)\\\\（混乱した感じ） ちょっと待って...//(6.35,9.35)\\\\恐ろしい情報が発覚したわ！//(9.35,15.7)\\\\どうやら... ヴァリアントは自分のクローンを作成するのに成功したみたい！こんなことってあり得るの？//(15.7,45.7)\\\\どう対処したらいいか、役員会と相談しないと。また連絡するわ。"
+		}
+	}
+}

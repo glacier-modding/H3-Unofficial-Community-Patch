@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/wet/43000_elusive/lambic/43750_story/dr43755_escortinconvo.sweetdialog?/dr43755_escortinconvo_rat_controller_m_007.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr43755_escortinconvo_rat_controller_m_007",
+		"soundtag": "In-world_Mission_Important",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/43000_elusive/lambic/43750_story/dr43755_escortinconvo_rat_controller_m_007.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/43000_elusive/lambic/43750_story/dr43755_escortinconvo_rat_controller_m_007.animset].pc_animset",
+		"languages": {
+			"en": "//(0,4.1)\\\\We crossed paths... it's complicated.//(4.1,34.1)\\\\You said biochemist. What exactly does a biochemist do for a man like Valliant?",
+			"fr": "//(0,4.1)\\\\Je l'ai déjà croisé... c'est un peu compliqué.//(4.1,34.1)\\\\Et donc biochimiste, vous disiez ? Que faites-vous pour Valliant, exactement ?",
+			"it": "//(0,4.1)\\\\Ci siamo incrociati... È complicato.//(4.1,34.1)\\\\Ha detto di essere una biochimica. Perché un uomo come Valliant ha bisogno di una biochimica?",
+			"de": "//(0,2)\\\\Wir sind uns über den Weg gelaufen ...//(2,4.1)\\\\Es ist kompliziert.//(4.1,34.1)\\\\Sie sagten Biochemikerin. Was genau macht eine Biochemikerin für jemanden wie Valliant?",
+			"es": "//(0,3.4)\\\\Coincidimos alguna vez que otra... Es complicado.//(4.25,34.25)\\\\Dice usted que es bioquímica... ¿Para qué necesita alguien como Valliant una bioquímica?",
+			"ru": "//(0,4.1)\\\\Пару раз пересекались... Долго объяснять.//(4.1,34.1)\\\\Говорите, вы биохимик? Для чего таким, как Вальян, нужны биохимики?",
+			"cn": "//(0,4.1)\\\\我们有过交集......说起来有点复杂。//(4.1,34.1)\\\\你说你是生化专家。瓦兰特这样的人为什么会需要生化专家？",
+			"tc": "//(0,4.1)\\\\我們曾有交集......一言難盡。//(4.1,34.1)\\\\你說你是生化學家。瓦里安這種人要生化學家做什麼？",
+			"jp": "//(0,4.05)\\\\何度か会いました... 複雑な関係ですよ。//(4.05,34.05)\\\\あなたは生化学者と言いましたね。生化学者がヴァリアントの元で一体何をしているのですか？"
+		}
+	}
+}

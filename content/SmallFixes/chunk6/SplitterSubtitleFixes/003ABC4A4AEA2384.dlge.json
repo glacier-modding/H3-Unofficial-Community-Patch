@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/wet/43000_elusive/lambic/43750_story/dr43828_clnargue.sweetdialog?/dr43828_clnargue_civmale08_004.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr43828_clnargue_civmale08_004",
+		"soundtag": "In-world_Mission_Important",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/43000_elusive/lambic/43750_story/dr43828_clnargue_civmale08_004.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/43000_elusive/lambic/43750_story/dr43828_clnargue_civmale08_004.animset].pc_animset",
+		"languages": {
+			"en": "//(0,4.5)\\\\Wh- No! I swear! It must have been a malfunction.//(4.5,34.5)\\\\Everything was in order just a... just a few minutes ago.",
+			"fr": "//(0,4.5)\\\\M-Mais non ! Je le jure ! Ce doit être un dysfonctionnement...//(4.5,34.5)\\\\Tout allait très bien jusqu'à... il y a quelques minutes.",
+			"it": "//(0,4.5)\\\\No, lo giuro! Deve essersi trattato di un malfunzionamento.//(4.5,34.5)\\\\Solo pochi minuti fa era tutto a posto.",
+			"de": "//(0,1.9)\\\\Na ja ... Nein!//(1.9,4.7)\\\\Ich schwöre es! Das muss eine Fehlfunktion gewesen sein.//(4.7,34.7)\\\\Es war alles noch in Ordnung vor ... Vor ein paar Minuten.",
+			"es": "//(0,2.75)\\\\Bueno... ¡No, lo juro!//(3.1,4.45)\\\\Tiene que ser un error de funcionamiento.//(5,35)\\\\Todo estaba en orden hace... apenas unos minutos.",
+			"ru": "//(0,4.5)\\\\Ох... Нет! Клянусь! Видать, что-то сломалось.//(4.5,34.5)\\\\Всё было в полном порядке... еще пару минут назад.",
+			"cn": "//(0,4.5)\\\\呃......不！我发誓！肯定是哪儿搞错了。//(4.5,34.5)\\\\直到几分钟前......一切都还很正常。",
+			"tc": "//(0,4.8)\\\\呃......沒有！我發誓！一定是出現了故障。//(4.8,34.8)\\\\幾分鐘前......一切都還很好。",
+			"jp": "//(0,4.3)\\\\え... まさか！飲んでませんよ！故障したに違いありません。//(4.3,34.3)\\\\ほんの数分前までは正常に作動していたんですから。"
+		}
+	}
+}

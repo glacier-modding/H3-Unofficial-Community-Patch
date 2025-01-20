@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/wet/43000_elusive/lambic/43750_story/dr43828_clnargue.sweetdialog?/dr43828_clnargue_civmale08_006.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr43828_clnargue_civmale08_006",
+		"soundtag": "In-world_Mission_Important",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/43000_elusive/lambic/43750_story/dr43828_clnargue_civmale08_006.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/43000_elusive/lambic/43750_story/dr43828_clnargue_civmale08_006.animset].pc_animset",
+		"languages": {
+			"en": "//(0,30)\\\\What do you think Valliant is gonna say?",
+			"fr": "//(0,30)\\\\Vous pensez que Valliant va dire quelque chose ?",
+			"it": "//(0,30)\\\\Che cosa dirà Valliant, secondo lei?",
+			"de": "//(0,30)\\\\Was meinen Sie, was Valliant sagen wird?",
+			"es": "//(0,30)\\\\¿Qué cree que va a opinar Valliant de todo esto?",
+			"ru": "//(0,30)\\\\Как думаете, что на это скажет Вальян?",
+			"cn": "//(0,30)\\\\你觉得瓦兰特会怎么说？",
+			"tc": "//(0,30)\\\\你看瓦里安會怎麼說？",
+			"jp": "//(0,30)\\\\ヴァリアントさんはなんて言うと思いますか？"
+		}
+	}
+}

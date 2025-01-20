@@ -1,0 +1,89 @@
+{
+	"tempHash": "001ECC9279457547",
+	"tbluHash": "0047BA95BA849796",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"b96ba9047d384e00",
+				{
+					"AddEventConnection": ["OnSpawnx", "Poll", "cafef4642a2095da"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9bf7a30d67d5c90f",
+				{
+					"AddEventConnection": ["OnPlay", "Poll", "cafef4642a2095da"]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe17f9f24c2a63",
+				{
+					"parent": "cafe3d9ca222847c",
+					"name": "HeroOutiftModifier",
+					"factory": "[modules:/zherooutfitmodifier.class].pc_entitytype",
+					"blueprint": "[modules:/zherooutfitmodifier.class].pc_entityblueprint",
+					"properties": {
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "d9e0fbe7-ff74-4030-bed6-5a33a01acead"
+						},
+						"m_nVariation": { "type": "uint32", "value": 1 }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafef4642a2095da",
+				{
+					"parent": "cafe3d9ca222847c",
+					"name": "Poll - Once Bool",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rValueEntity": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe5b8915121a20"
+						}
+					},
+					"events": {
+						"PollTrue": {
+							"SetFalse": ["cafe5b8915121a20"],
+							"GiveOutfit": ["cafe17f9f24c2a63"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe5b8915121a20",
+				{
+					"parent": "cafef4642a2095da",
+					"name": "Once Bool",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bValue": { "type": "bool", "value": true }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe3d9ca222847c",
+				{
+					"parent": "b96ba9047d384e00",
+					"name": "Hat Variant",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
