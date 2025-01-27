@@ -1,0 +1,142 @@
+{
+	"tempHash": "00E70F1245D35AF6",
+	"tbluHash": "006BC1D9EA8AE7B3",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"7699f3603c049828",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fRadius",
+						"value": 0.15
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7ee9f8a91ef18466",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fRadius",
+						"value": 0.11
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6e5f632cb49c09fd",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fRadius",
+						"value": 0.11
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"efccb2e7122a4218",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fRadius",
+						"value": 0.12
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0e58631af6b03a2f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pMeshResource",
+						"value": {
+							"resource": "001A9DFE654F3BE5",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1f753c1eeb952ada",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fRadius",
+						"value": 0.15
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5d78508dd30d105f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fRadius",
+						"value": 0.12
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["24ceb24873db4d30", { "SetName": "conor_mcgregor_shorts" }]
+		},
+		{
+			"SubEntityOperation": [
+				"24ceb24873db4d30",
+				{
+					"SetFactory": "[assembly:/_pro/characters/assets/individuals/magpie/conor_mcgregor/materials/conor_mcgregor_shorts.mi].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"24ceb24873db4d30",
+				{
+					"SetBlueprint": "[assembly:/_pro/characters/assets/individuals/magpie/conor_mcgregor/materials/conor_mcgregor_shorts.mi].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a67e7c5409cf405b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pMeshResource",
+						"value": {
+							"resource": "001A9DFE654F3BE5",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f02fdb8f447aadec",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fRadius",
+						"value": 0.15
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c7cce8093e63e3b2",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fRadius",
+						"value": 0.15
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
