@@ -1,0 +1,18 @@
+{
+	"tempHash": "00A391CEADCDE42B",
+	"tbluHash": "0001D1A695804BD7",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"26869f63aae69a9e",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aUIHighlightGeom",
+						[{ "AddItem": "62a55b4576adee7b" }]
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
