@@ -34,35 +34,35 @@
 			"tooltip": "In vanilla, NPCs will sometimes say things like \"somebody's doing stuff they shouldn't\" when reporting accidents. This changes that.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": ["content/Toggle-XplnAccdnt"]
+			"contentFolders": ["content/Toggles/XplnAccdnt"]
 		},
 		{
 			"name": "Elusive Target Voice Fixes",
 			"tooltip": "Corrects improperly assigned voices for certain S2 and S3 elusive/special assignment targets, as well as the targets in the Patient Zero mission.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": ["content/Toggle-ElusiveVoices"]
+			"contentFolders": ["content/Toggles/ElusiveVoices"]
 		},
 		{
 			"name": "Futo Suit Receives Ninja Dialogue",
 			"tooltip": "If this is enabled, NPCs will refer to 47 as a ninja when he is wearing the Futo Suit. This can be disabled if suit replacer mods are being used.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": ["content/Toggle-OACFixesFuto"]
+			"contentFolders": ["content/Toggles/OACFixesFuto"]
 		},
 		{
 			"name": "Illegal Snipers for Dubai",
 			"tooltip": "In an earlier patch, IO made it illegal for Dubai Penthouse guards to use sniper rifles. Then, without mentioning it, they un-fixed this. Turning this option on will re-fix it.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": ["content/Toggle-NoDubaiSnipers"]
+			"contentFolders": ["content/Toggles/NoDubaiSnipers"]
 		},
 		{
 			"name": "Optional Outfit Filter Removal",
 			"tooltip": "Certain outfits with mouth coverings apply a \"hazmat\" muffle filter to the speaker's voice. Enabling this will remove the filter from the plastic masks of Ezra Berg and the Bank Robber disguise.",
 			"type": "checkbox",
 			"enabledByDefault": false,
-			"contentFolders": ["content/Toggle-OutfitFilterFixes"]
+			"contentFolders": ["content/Toggles/OutfitFilterFixesToggle"]
 		},
 		{
 			"name": "Snow Globe Spelling",
@@ -110,7 +110,10 @@
 			"type": "conditional",
 			"name": "Disruptor Escape - Earpiece Voices Compatibility Layer",
 			"condition": "\"invalid.earpiecevoices\" in config.loadOrder",
-			"contentFolders": ["content/DisruptorEscape/base", "content/DisruptorEscape/earpiecevoices"]
+			"contentFolders": [
+				"content/LargeFixes/DisruptorEscape/base",
+				"content/LargeFixes/DisruptorEscape/earpiecevoices"
+			]
 		}
 	],
 	"localisationOverrides": {
