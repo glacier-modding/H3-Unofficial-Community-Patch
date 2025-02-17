@@ -9,12 +9,18 @@
 		"Anthony Fuller",
 		"Cybore",
 		"Dribbleondo",
+		"invalid",
 		"Jojje",
 		"Luiluix",
 		"musicalmushr00m",
 		"Minnow",
+		"moonshot11",
 		"Notex",
-		"VoodooHillbilly"
+		"RDIL",
+		"SayBan1MoreTime",
+		"VoodooHillbilly",
+		"Watchman",
+		"Zachwesse"
 	],
 	"contentFolders": [
 		"content/DIF",
@@ -69,7 +75,7 @@
 		},
 		{
 			"name": "Snow Globe Spelling",
-			"tooltip": "This replaces the uncommon \"Snowglobe\" spelling used in the game with the dictionary-approved \"Snow Globe\" spelling.",
+			"tooltip": "This replaces the \"Snowglobe\" spelling used in the game with the dictionary-approved \"Snow Globe\" spelling.",
 			"type": "checkbox",
 			"enabledByDefault": true,
 			"localisationOverrides": {
@@ -197,6 +203,11 @@
 				"4166999372": "como entrenador de golf",
 				"4178550028": "como camarero",
 				"4293601719": "como prisionero"
+			}
+		},
+		"002207BD4C412AD8": {
+			"english": {
+				"4102147943": "Claus Hugo Strandberg"
 			}
 		},
 		"0024113CCDF1598B": {
