@@ -22,15 +22,7 @@
 		"Watchman",
 		"Zachwesse"
 	],
-	"contentFolders": [
-		"content/DIF",
-		"content/MovieSetLamp",
-		"content/OACFixes",
-		"content/OutfitFilterFixes",
-		"content/SecurityCams",
-		"content/SmallFixes",
-		"content/VendingMachines"
-	],
+	"contentFolders": ["content/LargeFixes", "content/SmallFixes"],
 	"loadBefore": ["KevinRudd.FreelancerVariations"],
 	"loadAfter": ["invalid.earpiecevoices"],
 	"blobsFolders": ["blobs", "blobsIOI"],
@@ -42,35 +34,35 @@
 			"tooltip": "In vanilla, NPCs will sometimes say things like \"somebody's doing stuff they shouldn't\" when reporting accidents. This changes that.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": ["content/XplnAccdnt"]
+			"contentFolders": ["content/Toggle-XplnAccdnt"]
 		},
 		{
 			"name": "Elusive Target Voice Fixes",
 			"tooltip": "Corrects improperly assigned voices for certain S2 and S3 elusive/special assignment targets, as well as the targets in the Patient Zero mission.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": ["content/ElusiveVoices"]
+			"contentFolders": ["content/Toggle-ElusiveVoices"]
 		},
 		{
 			"name": "Futo Suit Receives Ninja Dialogue",
 			"tooltip": "If this is enabled, NPCs will refer to 47 as a ninja when he is wearing the Futo Suit. This can be disabled if suit replacer mods are being used.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": ["content/OACFixesFuto"]
+			"contentFolders": ["content/Toggle-OACFixesFuto"]
 		},
 		{
 			"name": "Illegal Snipers for Dubai",
 			"tooltip": "In an earlier patch, IO made it illegal for Dubai Penthouse guards to use sniper rifles. Then, without mentioning it, they un-fixed this. Turning this option on will re-fix it.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": ["content/NoDubaiSnipers"]
+			"contentFolders": ["content/Toggle-NoDubaiSnipers"]
 		},
 		{
 			"name": "Optional Outfit Filter Removal",
 			"tooltip": "Certain outfits with mouth coverings apply a \"hazmat\" muffle filter to the speaker's voice. Enabling this will remove the filter from the plastic masks of Ezra Berg and the Bank Robber disguise.",
 			"type": "checkbox",
 			"enabledByDefault": false,
-			"contentFolders": ["content/OutfitFilterFixesToggle"]
+			"contentFolders": ["content/Toggle-OutfitFilterFixesToggle"]
 		},
 		{
 			"name": "Snow Globe Spelling",
