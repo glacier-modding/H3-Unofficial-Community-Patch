@@ -62,7 +62,7 @@
 			"tooltip": "Certain outfits with mouth coverings apply a \"hazmat\" muffle filter to the speaker's voice. Enabling this will remove the filter from the plastic masks of Ezra Berg and the Bank Robber disguise.",
 			"type": "checkbox",
 			"enabledByDefault": false,
-			"contentFolders": ["content/Toggle-OutfitFilterFixesToggle"]
+			"contentFolders": ["content/Toggle-OutfitFilterFixes"]
 		},
 		{
 			"name": "Snow Globe Spelling",
