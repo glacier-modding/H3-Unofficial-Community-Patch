@@ -75,7 +75,7 @@
 		},
 		{
 			"name": "Snow Globe Spelling",
-			"tooltip": "This replaces the uncommon \"Snowglobe\" spelling used in the game with the dictionary-approved \"Snow Globe\" spelling.",
+			"tooltip": "This replaces the \"Snowglobe\" spelling used in the game with the dictionary-approved \"Snow Globe\" spelling.",
 			"type": "checkbox",
 			"enabledByDefault": true,
 			"localisationOverrides": {
