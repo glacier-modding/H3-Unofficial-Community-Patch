@@ -1,0 +1,152 @@
+{
+	"tempHash": "00CDEB1217A791F9",
+	"tbluHash": "000841B1B3716764",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"9b77df8b6cab961f",
+				{
+					"AddProperty": [
+						"m_PrimitiveScale",
+						{
+							"type": "SVector3",
+							"value": { "x": 0.2, "y": 0.2, "z": 0.2 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"366cbfc5f37af67d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -170.00174310287778
+							},
+							"position": {
+								"x": 0.6466598510742188,
+								"y": -0.018993988633155823,
+								"z": 0.6748771667480469
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7b63018e4f15fa61",
+				{
+					"AddProperty": [
+						"m_PrimitiveScale",
+						{
+							"type": "SVector3",
+							"value": { "x": 0.2, "y": 0.2, "z": 0.2 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7536ba43c2806b37",
+				{
+					"AddProperty": [
+						"m_PrimitiveScale",
+						{
+							"type": "SVector3",
+							"value": { "x": 0.2, "y": 0.2, "z": 0.2 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"34509010deb5df16",
+				{
+					"AddProperty": [
+						"m_PrimitiveScale",
+						{
+							"type": "SVector3",
+							"value": { "x": 0.5, "y": 0.5, "z": 0.5 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8b1aeda8281d9133",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_PrimitiveScale",
+						"value": { "x": 0.2, "y": 0.2, "z": 0.2 }
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e6b9558112065e6d",
+				{
+					"AddProperty": [
+						"m_PrimitiveScale",
+						{
+							"type": "SVector3",
+							"value": { "x": 0.2, "y": 0.2, "z": 0.2 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"08c7ab4a8e895068",
+				{
+					"AddProperty": [
+						"m_PrimitiveScale",
+						{
+							"type": "SVector3",
+							"value": { "x": 0.2, "y": 0.2, "z": 0.2 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"877f223cd422c94a",
+				{
+					"AddProperty": [
+						"m_PrimitiveScale",
+						{
+							"type": "SVector3",
+							"value": { "x": 0.2, "y": 0.2, "z": 0.2 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ef1b109ef2027146",
+				{
+					"AddProperty": [
+						"m_PrimitiveScale",
+						{
+							"type": "SVector3",
+							"value": { "x": 0.2, "y": 0.2, "z": 0.2 }
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
