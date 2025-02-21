@@ -1,0 +1,54 @@
+{
+    "tempHash": "009763A1C427B581",
+    "tbluHash": "00D4510579219532",
+    "patch": [{
+            "AddEntity": [
+                "cafe2ce79e236f41", {
+                    "parent": "f1c4bfb36efa8ac2",
+                    "name": "PFObstacle_outpost_grassfix",
+                    "factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+                    "blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+                    "properties": {
+                        "m_mTransform": {
+                            "type": "SMatrix43",
+                            "value": {
+                                "rotation": {
+                                    "x": -0.0,
+                                    "y": 0.0,
+                                    "z": -0.0
+                                },
+                                "position": {
+                                    "x": 61.80760192871094,
+                                    "y": 14.838631629943848,
+                                    "z": 13.629404067993164
+                                }
+                            }
+                        },
+                        "m_vGlobalSize": {
+                            "type": "SVector3",
+                            "value": {
+                                "x": 3.200000047683716,
+                                "y": 5.699999809265137,
+                                "z": 3.154999971389771
+                            }
+                        },
+                        "m_eidParent": {
+                            "type": "SEntityTemplateReference",
+                            "value": "f1c4bfb36efa8ac2",
+                            "postInit": true
+                        },
+                        "m_bEnabled": {
+                            "type": "bool",
+                            "value": true
+                        },
+                        "m_fPenaltyMultiplier": {
+                            "type": "float32",
+                            "value": 3.0
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "patchVersion": 6
+}
