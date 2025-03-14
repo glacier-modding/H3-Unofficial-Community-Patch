@@ -1,0 +1,24 @@
+{
+	"tempHash": "0020D3DA0B3E61CB",
+	"tbluHash": "003288640BF681BF",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"ac2a0a33edccdab9",
+				{
+					"AddProperty": [
+						"m_pImageRID",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/online/default/cloudstorage/resources/images/opportunities/hokkaido/hokkaido_opp_kaimalfunction.jpg].pc_gfx",
+								"flag": "5F"
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

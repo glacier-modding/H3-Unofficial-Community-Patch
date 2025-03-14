@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/wet/43000_elusive/lambic/43750_story/dr43812_flbklmbcdspear.sweetdialog?/dr43812_flbklmbcdspear_civfemch01_003.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr43812_flbklmbcdspear_civfemch01_003",
+		"soundtag": "In-world_Mission_Important",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/43000_elusive/lambic/43750_story/dr43812_flbklmbcdspear_civfemch01_003.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/43000_elusive/lambic/43750_story/dr43812_flbklmbcdspear_civfemch01_003.animset].pc_animset",
+		"languages": {
+			"en": "//(0,30)\\\\Stay here. I'll go and look for him.",
+			"fr": "//(0,30)\\\\Restez ici, je vais le chercher !",
+			"it": "//(0,30)\\\\Restate qui! Vado a cercarlo.",
+			"de": "//(0,30)\\\\Bleiben Sie hier! Ich gehe ihn suchen.",
+			"es": "//(0,30)\\\\Vale, espere aquí. Voy a ver si lo encuentro.",
+			"ru": "//(0,30)\\\\Стойте здесь! Я поищу его.",
+			"cn": "//(0,30)\\\\待在这儿！我去找他。",
+			"tc": "//(0,30)\\\\待在這！我去找找。",
+			"jp": "//(0,30)\\\\ここで待っていてください。探しに行ってきます。"
+		}
+	}
+}

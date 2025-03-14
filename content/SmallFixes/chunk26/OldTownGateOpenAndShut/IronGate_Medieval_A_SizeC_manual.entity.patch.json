@@ -1,0 +1,79 @@
+{
+	"tempHash": "00E9F09C3B030590",
+	"tbluHash": "001AAD1665989627",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"37c0d26d4e8945f1",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bAutoClose",
+						"value": false
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"37c0d26d4e8945f1",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bIsLocked",
+						"value": false
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"37c0d26d4e8945f1",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bManualClose",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"37c0d26d4e8945f1",
+				{
+					"AddProperty": [
+						"m_bValueOpenFromInside",
+						{
+							"type": "bool",
+							"value": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"37c0d26d4e8945f1",
+				{
+					"AddProperty": [
+						"m_bValueOpenFromOutside",
+						{
+							"type": "bool",
+							"value": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"37c0d26d4e8945f1",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bPathfindingObstacleEnabled",
+						"value": false
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

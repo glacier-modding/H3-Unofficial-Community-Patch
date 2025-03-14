@@ -1,0 +1,142 @@
+{
+	"tempHash": "0095CFD72C451029",
+	"tbluHash": "00E28EB5F7148186",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"061ec2c7fbf48d02",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fRadius",
+						"value": 0.12
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1dd275c7e83f4ea9",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fRadius",
+						"value": 0.11
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"48472e5d803c3a05",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fRadius",
+						"value": 0.12
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["ae37721a2b71aa18", { "SetName": "conor_mcgregor_shorts" }]
+		},
+		{
+			"SubEntityOperation": [
+				"ae37721a2b71aa18",
+				{
+					"SetFactory": "[assembly:/_pro/characters/assets/individuals/magpie/conor_mcgregor/materials/conor_mcgregor_shorts.mi].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ae37721a2b71aa18",
+				{
+					"SetBlueprint": "[assembly:/_pro/characters/assets/individuals/magpie/conor_mcgregor/materials/conor_mcgregor_shorts.mi].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7fa0487ae1fd3794",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fRadius",
+						"value": 0.15
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"55e83f0254e1cc0c",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fRadius",
+						"value": 0.11
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9dd006357c3513bf",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fRadius",
+						"value": 0.15
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"dcb114108135c418",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fRadius",
+						"value": 0.15
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7646d0a4bbb1c7c8",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fRadius",
+						"value": 0.15
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0bc1830b24b12683",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pMeshResource",
+						"value": {
+							"resource": "001A9DFE654F3BE5",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"65af0ce7789308a5",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pMeshResource",
+						"value": {
+							"resource": "001A9DFE654F3BE5",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

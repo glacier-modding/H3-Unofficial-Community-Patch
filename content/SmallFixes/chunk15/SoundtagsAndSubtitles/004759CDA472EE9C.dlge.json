@@ -1,0 +1,68 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/island/29000_magpie/29000_story/dr29058_oppnecklace_blakecompliment.sweetdialog].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "Random",
+		"containers": [
+			{
+				"type": "WavFile",
+				"wavName": "dr29058_oppnecklace_blakecompliment_nathaniel_001",
+				"weight": 0.3333333333333333,
+				"soundtag": "In-world_Mission_Important",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/island/29000_magpie/29000_story/dr29058_oppnecklace_blakecompliment_nathaniel_001.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/island/29000_magpie/29000_story/dr29058_oppnecklace_blakecompliment_nathaniel_001.animset].pc_animset",
+				"languages": {
+					"en": "//(0,1.5)\\\\Oh. Isn't that lovely.//(1.5,5.590583)\\\\Hey, it's amazing what you'll find lying around the attic, isn't it? Well done.",
+					"fr": "//(0,2.529056)\\\\Mais c'est charmant ! C'est épatant ce qu'on peut//(2.529056,3.896643)\\\\trouver dans le grenier,//(3.896643,5.590583)\\\\pas vrai ? Bien joué !",
+					"it": "//(0,2.05)\\\\Oh, ma che meraviglia.//(2.05,4.78)\\\\È incredibile cosa si scopre a gironzolare per l'attico!//(4.78,6.074194)\\\\Ottimo lavoro.",
+					"de": "//(0,1.791159)\\\\Oh. Das ist ja herzallerliebst.//(1.791159,2.563176)\\\\Es ist erstaunlich,//(2.563176,4.5)\\\\was man so auf dem Dachboden findet, oder?//(4.5,7.127961)\\\\Gut gemacht.",
+					"es": "//(0,1.64427)\\\\Vaya, ¿no te parece adorable?//(1.64427,3.858167)\\\\Es increíble lo que te puedes encontrar en el//(3.858167,4.764472)\\\\trastero, ¿verdad?//(4.764472,5.764472)\\\\Buen trabajo.",
+					"ru": "//(0,3.315176)\\\\О, какая прелесть! Чего только не найдешь на старом//(3.315176,4.624871)\\\\чердаке, правда?//(4.624871,5.624871)\\\\Молодец.",
+					"cn": "//(0,30)\\\\哦。这可真不错。你在阁楼发现乱放的东西很惊人吧？干得漂亮。",
+					"tc": "//(0,30)\\\\哦。這可真不錯。你在閣樓發現的東西很驚人吧？幹得漂亮。",
+					"jp": "//(0,4.5)\\\\おお、素晴らしいね。屋根裏部屋から見つけ出したのか？//(4.5,34.5)\\\\凄いじゃないか、お見事だ。"
+				}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "dr29058_oppnecklace_blakecompliment_nathaniel_002",
+				"weight": 0.3333333333333333,
+				"soundtag": "In-world_Mission_Important",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/island/29000_magpie/29000_story/dr29058_oppnecklace_blakecompliment_nathaniel_002.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/island/29000_magpie/29000_story/dr29058_oppnecklace_blakecompliment_nathaniel_002.animset].pc_animset",
+				"languages": {
+					"en": "//(0,4.35)\\\\Ah. Look at this. This should make a fine addition to the Ark Legacy.//(4.35,7.614)\\\\I will file it under P for pedestrian.",
+					"fr": "//(0,4.7)\\\\\"Ah ! Regardez donc ça ! Ça sera parfait dans l'Arche de l'héritage.//(4.7,7.614292)\\\\Rangeons ça à B, comme banal.\"",
+					"it": "//(0,1.592245)\\\\Ah, guarda questo.//(1.592245,4.95)\\\\Starà proprio bene nella collezione dell'Arca delle eredità.//(4.95,9.113717)\\\\Lo classificherò con la B di banale.",
+					"de": "//(0,1.4)\\\\„Ah. Sieh sich das einer an.//(1.4,3.2)\\\\Das sollte eine schöne Ergänzung//(3.2,4.517655)\\\\für die Vermächtnisarche sein.//(4.517655,8.698637)\\\\Ich lege es dann unter P für Pöbel ab. “",
+					"es": "//(0,1.849586)\\\\«Anda, fíjate en esto.//(1.849586,4.894631)\\\\Será un añadido maravilloso al Arca del Legado.//(4.894631,7.614292)\\\\Lo archivaré en la O de ordinario».",
+					"ru": "//(0,3.17976)\\\\О, глядите. Достойное пополнение для коллекции//(3.17976,4.56943)\\\\«Ковчега наследия».//(4.56943,7.614292)\\\\Будет храниться под литерой «Б» — банальность.",
+					"cn": "//(0,30)\\\\“啊。看看这个。传承方舟号又多了一件宝贝。我要把它归类在代表步行者的P类。”",
+					"tc": "//(0,30)\\\\「啊。看看這個。傳承方舟號又多了一件寶貝。 我要把它歸類在代表步行者的P類。」",
+					"jp": "//(0,4.5)\\\\ああ、これはスゴイ。遺産の箱舟に相応しい品だ。//(4.5,34.5)\\\\平凡すぎてあくびがでるぜ。"
+				}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "dr29058_oppnecklace_blakecompliment_nathaniel_003",
+				"weight": 0.3333333333333333,
+				"soundtag": "In-world_Mission_Important",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/island/29000_magpie/29000_story/dr29058_oppnecklace_blakecompliment_nathaniel_003.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/island/29000_magpie/29000_story/dr29058_oppnecklace_blakecompliment_nathaniel_003.animset].pc_animset",
+				"languages": {
+					"en": "//(0,1.9)\\\\Mhm. Interesting contribution.//(1.9,9.127687)\\\\An important reminder for posterity that most art leaps, but rarely soars. Kudos to you.",
+					"fr": "//(0,2.3)\\\\Hmm. Une contribution intéressante.//(2.3,8.140458)\\\\La postérité doit se souvenir que l'art est fait de tentatives, pas toutes fructueuses.//(8.140458,9.140458)\\\\Bravo.",
+					"it": "//(0,2.37)\\\\Mmm, donazione interessante.//(2.37,4.74)\\\\Un promemoria importante per le generazioni future://(4.74,6.51)\\\\quasi tutte le opere d'arte provano a librarsi in cielo,//(6.51,8.39)\\\\ma solo poche ci riescono.//(8.39,13.32436)\\\\Complimenti.",
+					"de": "//(0,1.949761)\\\\Mm-hm. Ein interessanter Beitrag.//(1.949761,4.076404)\\\\Eine wichtige Erinnerung für die Nachwelt daran,//(4.076404,6.203046)\\\\dass die meiste Kunst zwar ein Sprung,//(6.203046,9.779733)\\\\aber nur selten ein Höhenflug ist. Respekt.",
+					"es": "//(0,2.226652)\\\\Mmm, qué contribución tan interesante.//(2.226652,4.891573)\\\\Un recordatorio importante de que hay arte que//(4.891573,8.008976)\\\\impacta pese a ser plano y sin interés.//(8.008976,9.127687)\\\\Mi enhorabuena.",
+					"ru": "//(0,2.225759)\\\\М-м-м. Интересное пожертвование.//(2.225759,3.910068)\\\\Это важный пример того,//(3.910068,5.983723)\\\\что многие творцы умеют прыгать,//(5.983723,8.069966)\\\\но летают лишь единицы.//(8.069966,9.127687)\\\\Благодарю.",
+					"cn": "//(0,30)\\\\嗯。有趣的贡献。这会让后人记住艺术品的数量会剧增，却鲜有佳作。向你致敬。",
+					"tc": "//(0,30)\\\\嗯。有趣的貢獻。這會讓後人記住藝術品的數量雖有增加，卻鮮有佳作。向你致敬。",
+					"jp": "//(0,2)\\\\ふむふむ。興味深い寄贈品だ。//(2,8)\\\\素晴らしい美術品は稀少だということを後世の人々に伝えてくれるな。//(8,9.5)\\\\称賛に値する。"
+				}
+			}
+		]
+	}
+}

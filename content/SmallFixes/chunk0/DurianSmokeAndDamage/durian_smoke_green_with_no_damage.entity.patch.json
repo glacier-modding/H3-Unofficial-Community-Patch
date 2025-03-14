@@ -1,0 +1,49 @@
+{
+	"tempHash": "00E2C14821AA6FF3",
+	"tbluHash": "00FAB2DA0A5D8A65",
+	"patch": [
+		{ "RemoveEntityByID": "ee658d1238172ed8" },
+		{ "RemoveEntityByID": "494be33432bf6115" },
+		{ "RemoveEntityByID": "d3f811c595a945c3" },
+		{ "RemoveEntityByID": "a7408ed6075584c5" },
+		{
+			"SubEntityOperation": [
+				"4e769b6a58364a42",
+				{
+					"RemoveEventConnection": ["Out", "Enable", "a7408ed6075584c5"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"38733e12710c6340",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_ParticleColorRangeStart",
+						"value": "#74d478"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"38733e12710c6340",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_ParticleColorRangeEnd",
+						"value": "#74d478"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"37d7f3d6797dba81",
+				{
+					"RemoveEventConnection": ["Out", "Disable", "a7408ed6075584c5"]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

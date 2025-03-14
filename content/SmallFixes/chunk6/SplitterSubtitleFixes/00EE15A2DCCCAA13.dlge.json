@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/wet/43000_elusive/lambic/43750_story/dr43755_escortinconvo.sweetdialog?/dr43755_escortinconvo_rat_controller_m_005.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr43755_escortinconvo_rat_controller_m_005",
+		"soundtag": "In-world_Mission_Important",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/43000_elusive/lambic/43750_story/dr43755_escortinconvo_rat_controller_m_005.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/43000_elusive/lambic/43750_story/dr43755_escortinconvo_rat_controller_m_005.animset].pc_animset",
+		"languages": {
+			"en": "//(0,30)\\\\No, I guessed that... this has Valliant written all over it.",
+			"fr": "//(0,30)\\\\Je m'en doutais... C'est du Valliant tout craché.",
+			"it": "//(0,30)\\\\L'avevo intuito... Questa è opera di Valliant.",
+			"de": "//(0,1.4)\\\\Nein, das dachte ich mir ...//(1.4,31.4)\\\\Das spricht die Sprache von ... Valliant.",
+			"es": "//(0,1.1)\\\\No, eso ya me lo imaginaba...//(1.47,31.47)\\\\Esto lleva la inconfundible firma de Valliant.",
+			"ru": "//(0,30)\\\\Я уже догадался... Почерк Вальяна виден издалека.",
+			"cn": "//(0,30)\\\\我想也是......这场面带有瓦兰特的浓烈个人风格。",
+			"tc": "//(0,30)\\\\我看得出來......一看就知道是瓦里安做的。",
+			"jp": "//(0,30)\\\\それはそうでしょうね... これは明らかにヴァリアントの仕業だ。"
+		}
+	}
+}

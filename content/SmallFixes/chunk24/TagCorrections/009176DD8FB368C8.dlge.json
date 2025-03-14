@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/bangkok/4000_cross/4000_story/dr4308_hotelstaffadmirecrew.sweetdialog?/dr4308_hotelstaffadmirecrew_civfem01_006.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr4308_hotelstaffadmirecrew_civfem01_006",
+		"soundtag": "In-world_Mission_UnImportant",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/bangkok/4000_cross/4000_story/dr4308_hotelstaffadmirecrew_civfem01_006.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/bangkok/4000_cross/4000_story/dr4308_hotelstaffadmirecrew_civfem01_006.animset].pc_animset",
+		"languages": {
+			"en": "//(0,30)\\\\Yeah, a \"brother\" can set the conference table. Don't forget the sparkling water.",
+			"fr": "//(0,2.7)\\\\T'as surtout le droit d'installer la table pour la réunion.//(2.7,32.7)\\\\Et n'oublie pas l'eau gazeuse.",
+			"it": "//(0,30)\\\\A un \"fratello\" è concesso preparare la sala conferenze. Non dimenticare l'acqua frizzante.",
+			"de": "//(0,30)\\\\Ja, ein „Bruder“ kann den Konferenztisch decken. Und vergiss das Mineralwasser nicht.",
+			"es": "//(0,30)\\\\Sí, sueña con preparar la mesa de la conferencia. No te olvides del agua con gas.",
+			"ru": "//(0,2.708589)\\\\Ну-ну. Вместо этого оформи лучше стол//(2.708589,32.70859)\\\\для совещаний. И не забудь про минералку.",
+			"cn": "//(0,30)\\\\没错，男人也可以把会议桌收拾好。别忘了把苏打水准备好。",
+			"tc": "//(0,30)\\\\沒錯，男人也可以把會議桌收拾好。別忘了把蘇打水準備好。",
+			"jp": "//(0,30)\\\\「ホテルスタッフ」なら、スパークリングウォーターの準備も忘れないで。"
+		}
+	}
+}

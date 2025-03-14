@@ -1,0 +1,25 @@
+{
+	"tempHash": "0037AA1A61D02CD2",
+	"tbluHash": "008275375D549E32",
+	"patch": [
+		{
+			"AddEntity": [
+				"cafef944800b02a7",
+				{
+					"parent": "5611bab750fe0bff",
+					"name": "Prof_Skunk_Unique_Exterminator",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_skunk_unique_exterminator.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_skunk_unique_exterminator.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["5611bab750fe0bff"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

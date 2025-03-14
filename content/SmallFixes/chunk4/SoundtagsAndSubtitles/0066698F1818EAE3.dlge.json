@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/edgy/fox/42000_story/dr42330_opconfreveal.sweetdialog?/dr42330_opconfreveal_fox_clubowner_m06_009.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr42330_opconfreveal_fox_clubowner_m06_009",
+		"soundtag": "In-world_Mission_Important",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/edgy/fox/42000_story/dr42330_opconfreveal_fox_clubowner_m06_009.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/edgy/fox/42000_story/dr42330_opconfreveal_fox_clubowner_m06_009.animset].pc_animset",
+		"languages": {
+			"en": "//(0,2.5)\\\\Maybe I should just call him and get it over and done with.//(3.75,33.75)\\\\I need to think...",
+			"fr": "//(0,3.65)\\\\Je devrais peut-être l'appeler et régler ça, ce sera fait.//(3.65,33.65)\\\\Il faut que j'y réfléchisse...",
+			"it": "//(0,2.5)\\\\Forse dovrei solo chiamarlo qui e farla finita.//(3.87,33.87)\\\\Devo pensare...",
+			"de": "//(0,3.553374)\\\\Vielleicht sollte ich ihn anrufen und das ein für alle Mal hinter mich bringen.//(3.553374,33.55338)\\\\Muss ich mal drüber nachdenken ...",
+			"es": "//(0,30)\\\\Tal vez debería llamarlo y terminar con esto. Necesito pensar...",
+			"ru": "//(0,3.8)\\\\Может, просто позвать его и уже покончить со всем этим...//(3.8,33.8)\\\\Мне нужно подумать.",
+			"cn": "//(0,30)\\\\也许我该打电话给他，把事情说清楚。我得想一想......",
+			"tc": "//(0,30)\\\\或許，我應該直接打給他做個了斷。我得想想......",
+			"jp": "//(0,30)\\\\いっそのこと、奴に電話してケリをつけるか... どうするか..."
+		}
+	}
+}

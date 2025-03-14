@@ -1,0 +1,40 @@
+{
+	"tempHash": "0007AE9583D0B1E0",
+	"tbluHash": "00914E8B9D3C563B",
+	"patch": [
+		{ "RemoveEntityByID": "e7f46bfeeafc309d" },
+		{
+			"SubEntityOperation": [
+				"f5696062c753bb7d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+							"position": {
+								"x": 1.1345579624176023,
+								"y": -0.020495999604463577,
+								"z": 0.5
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f5696062c753bb7d",
+				{
+					"AddProperty": [
+						"m_PrimitiveScale",
+						{
+							"type": "SVector3",
+							"value": { "x": 1.0, "y": 1.0, "z": 2.1 }
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
