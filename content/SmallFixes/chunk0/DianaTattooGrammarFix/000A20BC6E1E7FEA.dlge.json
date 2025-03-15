@@ -1,192 +1,178 @@
 {
-    "$schema": "https://tonytools.win/schemas/dlge.schema.json",
-    "hash": "000A20BC6E1E7FEA",
-    "DITL": "00B7E83B2B5BFE20",
-    "CLNG": "00E3CBB0725ED16C",
-    "rootContainer": {
-        "type": "Switch",
-        "switchKey": "EV_DianaIDAcc",
-        "default": "DIALOGUE_ACCFALLBACK",
-        "containers": [
-            {
-                "type": "Random",
-                "cases": [
-                    "DIALOGUE_ACCFALLBACK"
-                ],
-                "containers": [
-                    {
-                        "type": "WavFile",
-                        "wavName": "ed029_idf_accfallback_diana_001",
-                        "weight": 1.0,
-                        "soundtag": "Voiceover_Handler_Evergreen",
-                        "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed029_id/ed029_idf/ed029_idf_accfallback_diana_001.wav].pc_wes",
-                        "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed029_id/ed029_idf/ed029_idf_accfallback_diana_001.animset].pc_animset",
-                        "languages": {}
-                    }
-                ]
-            },
-            {
-                "type": "Random",
-                "cases": [
-                    "DIALOGUE_EARRINGS"
-                ],
-                "containers": [
-                    {
-                        "type": "WavFile",
-                        "wavName": "ed029_idf_earrings_diana_001",
-                        "weight": 1.0,
-                        "soundtag": "Voiceover_Handler_Evergreen",
-                        "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed029_id/ed029_idf/ed029_idf_earrings_diana_001.wav].pc_wes",
-                        "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed029_id/ed029_idf/ed029_idf_earrings_diana_001.animset].pc_animset",
-                        "languages": {
-                            "en": "//[DIANA]\\\\//(0,30)\\\\And earrings.",
-                            "fr": "//[DIANA]\\\\//(0,30)\\\\Et des boucles d'oreilles.",
-                            "it": "//[DIANA]\\\\//(0,30)\\\\E orecchini.",
-                            "de": "//[DIANA]\\\\//(0,30)\\\\Und Ohrringe.",
-                            "es": "//[DIANA]\\\\//(0,30)\\\\Y pendientes.",
-                            "ru": "//[DIANA]\\\\//(0,30)\\\\И серьги.",
-                            "cn": "//[DIANA]\\\\//(0,30)\\\\且戴着耳环。",
-                            "tc": "//[DIANA]\\\\//(0,30)\\\\且戴著耳環。",
-                            "jp": "//[DIANA]\\\\//(0,30)\\\\それとイヤリングもつけている。"
-                        }
-                    }
-                ]
-            },
-            {
-                "type": "Random",
-                "cases": [
-                    "DIALOGUE_GLASSES"
-                ],
-                "containers": [
-                    {
-                        "type": "WavFile",
-                        "wavName": "ed029_idf_glasses_diana_001",
-                        "weight": 1.0,
-                        "soundtag": "Voiceover_Handler_Evergreen",
-                        "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed029_id/ed029_idf/ed029_idf_glasses_diana_001.wav].pc_wes",
-                        "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed029_id/ed029_idf/ed029_idf_glasses_diana_001.animset].pc_animset",
-                        "languages": {
-                            "en": "//[DIANA]\\\\//(0,30)\\\\And glasses.",
-                            "fr": "//[DIANA]\\\\//(0,30)\\\\Et des lunettes.",
-                            "it": "//[DIANA]\\\\//(0,30)\\\\E occhiali.",
-                            "de": "//[DIANA]\\\\//(0,30)\\\\Und eine Brille.",
-                            "es": "//[DIANA]\\\\//(0,30)\\\\Y gafas.",
-                            "ru": "//[DIANA]\\\\//(0,30)\\\\И очки.",
-                            "cn": "//[DIANA]\\\\//(0,30)\\\\且戴着眼镜。",
-                            "tc": "//[DIANA]\\\\//(0,30)\\\\且戴著眼鏡。",
-                            "jp": "//[DIANA]\\\\//(0,30)\\\\それとメガネもかけている。"
-                        }
-                    }
-                ]
-            },
-            {
-                "type": "Random",
-                "cases": [
-                    "DIALOGUE_HAT"
-                ],
-                "containers": [
-                    {
-                        "type": "WavFile",
-                        "wavName": "ed029_idf_hat_diana_001",
-                        "weight": 1.0,
-                        "soundtag": "Voiceover_Handler_Evergreen",
-                        "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed029_id/ed029_idf/ed029_idf_hat_diana_001.wav].pc_wes",
-                        "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed029_id/ed029_idf/ed029_idf_hat_diana_001.animset].pc_animset",
-                        "languages": {
-                            "en": "//[DIANA]\\\\//(0,30)\\\\And wearing a hat.",
-                            "fr": "//[DIANA]\\\\//(0,30)\\\\Et porte un chapeau.",
-                            "it": "//[DIANA]\\\\//(0,30)\\\\E porta un cappello.",
-                            "de": "//[DIANA]\\\\//(0,30)\\\\Und trägt einen Hut.",
-                            "es": "//[DIANA]\\\\//(0,30)\\\\Y lleva sombrero.",
-                            "ru": "//[DIANA]\\\\//(0,30)\\\\И головной убор.",
-                            "cn": "//[DIANA]\\\\//(0,30)\\\\且戴着帽子。",
-                            "tc": "//[DIANA]\\\\//(0,30)\\\\且戴著帽子。",
-                            "jp": "//[DIANA]\\\\//(0,30)\\\\それと帽子もかぶっている。"
-                        }
-                    }
-                ]
-            },
-            {
-                "type": "Random",
-                "cases": [
-                    "DIALOGUE_NECKLACE"
-                ],
-                "containers": [
-                    {
-                        "type": "WavFile",
-                        "wavName": "ed029_idf_necklace_diana_001",
-                        "weight": 1.0,
-                        "soundtag": "Voiceover_Handler_Evergreen",
-                        "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed029_id/ed029_idf/ed029_idf_necklace_diana_001.wav].pc_wes",
-                        "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed029_id/ed029_idf/ed029_idf_necklace_diana_001.animset].pc_animset",
-                        "languages": {
-                            "en": "//[DIANA]\\\\//(0,30)\\\\And wearing a necklace.",
-                            "fr": "//[DIANA]\\\\//(0,30)\\\\Et elle a un collier.",
-                            "it": "//[DIANA]\\\\//(0,30)\\\\E porta una collana.",
-                            "de": "//[DIANA]\\\\//(0,30)\\\\Und trägt eine Halskette.",
-                            "es": "//[DIANA]\\\\//(0,30)\\\\Y lleva un collar.",
-                            "ru": "//[DIANA]\\\\//(0,30)\\\\И ожерелье.",
-                            "cn": "//[DIANA]\\\\//(0,30)\\\\且戴着项链。",
-                            "tc": "//[DIANA]\\\\//(0,30)\\\\且戴著項鍊。",
-                            "jp": "//[DIANA]\\\\//(0,30)\\\\それとネックレスもしている。"
-                        }
-                    }
-                ]
-            },
-            {
-                "type": "Random",
-                "cases": [
-                    "DIALOGUE_TATTOO"
-                ],
-                "containers": [
-                    {
-                        "type": "WavFile",
-                        "wavName": "ed029_idf_tattoo_diana_001",
-                        "weight": 1.0,
-                        "soundtag": "Voiceover_Handler_Evergreen",
-                        "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed029_id/ed029_idf/ed029_idf_tattoo_diana_001.wav].pc_wes",
-                        "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed029_id/ed029_idf/ed029_idf_tattoo_diana_001.animset].pc_animset",
-                        "languages": {
-                            "en": "//[DIANA]\\\\//(0,30)\\\\And are sporting a tattoo.",
-                            "fr": "//[DIANA]\\\\//(0,30)\\\\Et elle a un tatouage.",
-                            "it": "//[DIANA]\\\\//(0,30)\\\\E ha un tatuaggio.",
-                            "de": "//[DIANA]\\\\//(0,30)\\\\Und hat eine Tätowierung.",
-                            "es": "//[DIANA]\\\\//(0,30)\\\\Y tiene un tatuaje.",
-                            "ru": "//[DIANA]\\\\//(0,30)\\\\И у нее есть татуировка.",
-                            "cn": "//[DIANA]\\\\//(0,30)\\\\且身上有纹身。",
-                            "tc": "//[DIANA]\\\\//(0,30)\\\\且有刺青。",
-                            "jp": "//[DIANA]\\\\//(0,30)\\\\それとタトゥーもしている。"
-                        }
-                    }
-                ]
-            },
-            {
-                "type": "Random",
-                "cases": [
-                    "DIALOGUE_WATCH"
-                ],
-                "containers": [
-                    {
-                        "type": "WavFile",
-                        "wavName": "ed029_idf_watch_diana_001",
-                        "weight": 1.0,
-                        "soundtag": "Voiceover_Handler_Evergreen",
-                        "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed029_id/ed029_idf/ed029_idf_watch_diana_001.wav].pc_wes",
-                        "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed029_id/ed029_idf/ed029_idf_watch_diana_001.animset].pc_animset",
-                        "languages": {
-                            "en": "//[DIANA]\\\\//(0,30)\\\\And have a watch.",
-                            "fr": "//[DIANA]\\\\//(0,30)\\\\Et elle a une montre.",
-                            "it": "//[DIANA]\\\\//(0,30)\\\\E ha un orologio.",
-                            "de": "//[DIANA]\\\\//(0,30)\\\\Und trägt eine Uhr.",
-                            "es": "//[DIANA]\\\\//(0,30)\\\\Y usa reloj.",
-                            "ru": "//[DIANA]\\\\//(0,30)\\\\И часы.",
-                            "cn": "//[DIANA]\\\\//(0,30)\\\\且戴着手表。",
-                            "tc": "//[DIANA]\\\\//(0,30)\\\\且戴著手錶。",
-                            "jp": "//[DIANA]\\\\//(0,30)\\\\それと時計もしている。"
-                        }
-                    }
-                ]
-            }
-        ]
-    }
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "000A20BC6E1E7FEA",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "Switch",
+		"switchKey": "EV_DianaIDAcc",
+		"default": "DIALOGUE_ACCFALLBACK",
+		"containers": [
+			{
+				"type": "Random",
+				"cases": ["DIALOGUE_ACCFALLBACK"],
+				"containers": [
+					{
+						"type": "WavFile",
+						"wavName": "ed029_idf_accfallback_diana_001",
+						"weight": 1.0,
+						"soundtag": "Voiceover_Handler_Evergreen",
+						"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed029_id/ed029_idf/ed029_idf_accfallback_diana_001.wav].pc_wes",
+						"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed029_id/ed029_idf/ed029_idf_accfallback_diana_001.animset].pc_animset",
+						"languages": {}
+					}
+				]
+			},
+			{
+				"type": "Random",
+				"cases": ["DIALOGUE_EARRINGS"],
+				"containers": [
+					{
+						"type": "WavFile",
+						"wavName": "ed029_idf_earrings_diana_001",
+						"weight": 1.0,
+						"soundtag": "Voiceover_Handler_Evergreen",
+						"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed029_id/ed029_idf/ed029_idf_earrings_diana_001.wav].pc_wes",
+						"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed029_id/ed029_idf/ed029_idf_earrings_diana_001.animset].pc_animset",
+						"languages": {
+							"en": "//[DIANA]\\\\//(0,30)\\\\And earrings.",
+							"fr": "//[DIANA]\\\\//(0,30)\\\\Et des boucles d'oreilles.",
+							"it": "//[DIANA]\\\\//(0,30)\\\\E orecchini.",
+							"de": "//[DIANA]\\\\//(0,30)\\\\Und Ohrringe.",
+							"es": "//[DIANA]\\\\//(0,30)\\\\Y pendientes.",
+							"ru": "//[DIANA]\\\\//(0,30)\\\\И серьги.",
+							"cn": "//[DIANA]\\\\//(0,30)\\\\且戴着耳环。",
+							"tc": "//[DIANA]\\\\//(0,30)\\\\且戴著耳環。",
+							"jp": "//[DIANA]\\\\//(0,30)\\\\それとイヤリングもつけている。"
+						}
+					}
+				]
+			},
+			{
+				"type": "Random",
+				"cases": ["DIALOGUE_GLASSES"],
+				"containers": [
+					{
+						"type": "WavFile",
+						"wavName": "ed029_idf_glasses_diana_001",
+						"weight": 1.0,
+						"soundtag": "Voiceover_Handler_Evergreen",
+						"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed029_id/ed029_idf/ed029_idf_glasses_diana_001.wav].pc_wes",
+						"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed029_id/ed029_idf/ed029_idf_glasses_diana_001.animset].pc_animset",
+						"languages": {
+							"en": "//[DIANA]\\\\//(0,30)\\\\And glasses.",
+							"fr": "//[DIANA]\\\\//(0,30)\\\\Et des lunettes.",
+							"it": "//[DIANA]\\\\//(0,30)\\\\E occhiali.",
+							"de": "//[DIANA]\\\\//(0,30)\\\\Und eine Brille.",
+							"es": "//[DIANA]\\\\//(0,30)\\\\Y gafas.",
+							"ru": "//[DIANA]\\\\//(0,30)\\\\И очки.",
+							"cn": "//[DIANA]\\\\//(0,30)\\\\且戴着眼镜。",
+							"tc": "//[DIANA]\\\\//(0,30)\\\\且戴著眼鏡。",
+							"jp": "//[DIANA]\\\\//(0,30)\\\\それとメガネもかけている。"
+						}
+					}
+				]
+			},
+			{
+				"type": "Random",
+				"cases": ["DIALOGUE_HAT"],
+				"containers": [
+					{
+						"type": "WavFile",
+						"wavName": "ed029_idf_hat_diana_001",
+						"weight": 1.0,
+						"soundtag": "Voiceover_Handler_Evergreen",
+						"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed029_id/ed029_idf/ed029_idf_hat_diana_001.wav].pc_wes",
+						"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed029_id/ed029_idf/ed029_idf_hat_diana_001.animset].pc_animset",
+						"languages": {
+							"en": "//[DIANA]\\\\//(0,30)\\\\And wearing a hat.",
+							"fr": "//[DIANA]\\\\//(0,30)\\\\Et porte un chapeau.",
+							"it": "//[DIANA]\\\\//(0,30)\\\\E porta un cappello.",
+							"de": "//[DIANA]\\\\//(0,30)\\\\Und trägt einen Hut.",
+							"es": "//[DIANA]\\\\//(0,30)\\\\Y lleva sombrero.",
+							"ru": "//[DIANA]\\\\//(0,30)\\\\И головной убор.",
+							"cn": "//[DIANA]\\\\//(0,30)\\\\且戴着帽子。",
+							"tc": "//[DIANA]\\\\//(0,30)\\\\且戴著帽子。",
+							"jp": "//[DIANA]\\\\//(0,30)\\\\それと帽子もかぶっている。"
+						}
+					}
+				]
+			},
+			{
+				"type": "Random",
+				"cases": ["DIALOGUE_NECKLACE"],
+				"containers": [
+					{
+						"type": "WavFile",
+						"wavName": "ed029_idf_necklace_diana_001",
+						"weight": 1.0,
+						"soundtag": "Voiceover_Handler_Evergreen",
+						"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed029_id/ed029_idf/ed029_idf_necklace_diana_001.wav].pc_wes",
+						"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed029_id/ed029_idf/ed029_idf_necklace_diana_001.animset].pc_animset",
+						"languages": {
+							"en": "//[DIANA]\\\\//(0,30)\\\\And wearing a necklace.",
+							"fr": "//[DIANA]\\\\//(0,30)\\\\Et elle a un collier.",
+							"it": "//[DIANA]\\\\//(0,30)\\\\E porta una collana.",
+							"de": "//[DIANA]\\\\//(0,30)\\\\Und trägt eine Halskette.",
+							"es": "//[DIANA]\\\\//(0,30)\\\\Y lleva un collar.",
+							"ru": "//[DIANA]\\\\//(0,30)\\\\И ожерелье.",
+							"cn": "//[DIANA]\\\\//(0,30)\\\\且戴着项链。",
+							"tc": "//[DIANA]\\\\//(0,30)\\\\且戴著項鍊。",
+							"jp": "//[DIANA]\\\\//(0,30)\\\\それとネックレスもしている。"
+						}
+					}
+				]
+			},
+			{
+				"type": "Random",
+				"cases": ["DIALOGUE_TATTOO"],
+				"containers": [
+					{
+						"type": "WavFile",
+						"wavName": "ed029_idf_tattoo_diana_001",
+						"weight": 1.0,
+						"soundtag": "Voiceover_Handler_Evergreen",
+						"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed029_id/ed029_idf/ed029_idf_tattoo_diana_001.wav].pc_wes",
+						"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed029_id/ed029_idf/ed029_idf_tattoo_diana_001.animset].pc_animset",
+						"languages": {
+							"en": "//[DIANA]\\\\//(0,30)\\\\And are sporting a tattoo.",
+							"fr": "//[DIANA]\\\\//(0,30)\\\\Et elle a un tatouage.",
+							"it": "//[DIANA]\\\\//(0,30)\\\\E ha un tatuaggio.",
+							"de": "//[DIANA]\\\\//(0,30)\\\\Und hat eine Tätowierung.",
+							"es": "//[DIANA]\\\\//(0,30)\\\\Y tiene un tatuaje.",
+							"ru": "//[DIANA]\\\\//(0,30)\\\\И у нее есть татуировка.",
+							"cn": "//[DIANA]\\\\//(0,30)\\\\且身上有纹身。",
+							"tc": "//[DIANA]\\\\//(0,30)\\\\且有刺青。",
+							"jp": "//[DIANA]\\\\//(0,30)\\\\それとタトゥーもしている。"
+						}
+					}
+				]
+			},
+			{
+				"type": "Random",
+				"cases": ["DIALOGUE_WATCH"],
+				"containers": [
+					{
+						"type": "WavFile",
+						"wavName": "ed029_idf_watch_diana_001",
+						"weight": 1.0,
+						"soundtag": "Voiceover_Handler_Evergreen",
+						"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed029_id/ed029_idf/ed029_idf_watch_diana_001.wav].pc_wes",
+						"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed029_id/ed029_idf/ed029_idf_watch_diana_001.animset].pc_animset",
+						"languages": {
+							"en": "//[DIANA]\\\\//(0,30)\\\\And have a watch.",
+							"fr": "//[DIANA]\\\\//(0,30)\\\\Et elle a une montre.",
+							"it": "//[DIANA]\\\\//(0,30)\\\\E ha un orologio.",
+							"de": "//[DIANA]\\\\//(0,30)\\\\Und trägt eine Uhr.",
+							"es": "//[DIANA]\\\\//(0,30)\\\\Y usa reloj.",
+							"ru": "//[DIANA]\\\\//(0,30)\\\\И часы.",
+							"cn": "//[DIANA]\\\\//(0,30)\\\\且戴着手表。",
+							"tc": "//[DIANA]\\\\//(0,30)\\\\且戴著手錶。",
+							"jp": "//[DIANA]\\\\//(0,30)\\\\それと時計もしている。"
+						}
+					}
+				]
+			}
+		]
+	}
 }
