@@ -31,7 +31,8 @@
 		"content/SecurityCams",
 		"content/SmallFixes",
 		"content/VendingMachines",
-		"content/Audio"
+		"content/Audio",
+		"content/FireAlarmClippingFix"
 	],
 	"loadBefore": ["KevinRudd.FreelancerVariations"],
 	"loadAfter": ["invalid.earpiecevoices"],

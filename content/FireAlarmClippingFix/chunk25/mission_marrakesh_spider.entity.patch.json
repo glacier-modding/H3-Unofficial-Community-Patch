@@ -1,0 +1,223 @@
+{
+	"tempHash": "00A0AF5FC89FF2BE",
+	"tbluHash": "0052E4A4935EEF6E",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"85a14bcc29ca5a59",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -90.0
+							},
+							"position": {
+								"x": 18.616,
+								"y": -125.14440155029295,
+								"z": 7.400209903717041
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2ddc8544ec72af04",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -180.0
+							},
+							"position": {
+								"x": 3.295038938522339,
+								"y": -196.083,
+								"z": 1.9939789772033691
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9b5ff84d90115abe",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -90.0
+							},
+							"position": {
+								"x": 178.704,
+								"y": 2.5798630714416504,
+								"z": 3.599761962890625
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c6b78d19313904f3",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -90.0
+							},
+							"position": {
+								"x": -7.216,
+								"y": -162.09579467773438,
+								"z": 7.400207042694092
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d1a9859ab5b20070",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": 89.99994270422063
+							},
+							"position": {
+								"x": 134.597,
+								"y": -20.725799560546875,
+								"z": 3.5998079776763916
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c6f56b122d0db5ab",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -180.0
+							},
+							"position": {
+								"x": -16.782180786132812,
+								"y": -139.082,
+								"z": 2.0003631114959717
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"830020f5b60a5d7b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+							"position": {
+								"x": 152.15109252929688,
+								"y": -41.814,
+								"z": 3.5997610092163086
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0e5bf490b54dd2e1",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -89.27988770081971
+							},
+							"position": {
+								"x": 168.204,
+								"y": -19.44300079345703,
+								"z": 3.5998129844665527
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"10770bbcaf01fee9",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -180.0
+							},
+							"position": {
+								"x": 140.95779418945312,
+								"y": -29.806,
+								"z": -0.8000990152359009
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9054882c811089dc",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -180.0
+							},
+							"position": {
+								"x": 19.078340530395508,
+								"y": -140.164,
+								"z": 7.400227069854736
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
