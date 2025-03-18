@@ -1,0 +1,95 @@
+{
+	"tempHash": "007205F0C734AF6D",
+	"tbluHash": "00892B61FC740897",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"72893f8de26ed725",
+				{
+					"AddPropertyAliasConnection": [
+						"ConstantColorRGB_01_Value",
+						{
+							"originalProperty": "LiquidColorStart",
+							"originalEntity": "cafe8c54c4d14843"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"72893f8de26ed725",
+				{
+					"AddPropertyAliasConnection": [
+						"ConstantColorRGB_01_Value",
+						{
+							"originalProperty": "LiquidColorEnd",
+							"originalEntity": "cafe8c54c4d14843"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a093a80b0affb359",
+				{
+					"AddEventConnection": [
+						"OnInitialDetach",
+						"Activate",
+						"cafe8c54c4d14843"
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe8c54c4d14843",
+				{
+					"parent": "1d671e42e54ce63f",
+					"name": "Liquid_Color",
+					"factory": "[assembly:/_pro/effects/templates/shatter/fx_shatter_food.template?/fx_e_shatter_food_liquid.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/effects/templates/shatter/fx_shatter_food.template?/fx_e_shatter_food_liquid.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": 0.18363599479198456,
+									"y": 0.08898399770259857,
+									"z": 0.17106999456882477
+								}
+							}
+						},
+						"SmokeColorStart": {
+							"type": "SColorRGB",
+							"value": "#707070"
+						},
+						"SmokeColorEnd": {
+							"type": "SColorRGB",
+							"value": "#363636"
+						},
+						"LiquidMinSize": {
+							"type": "float32",
+							"value": 100.0
+						},
+						"LiquidMaxSize": {
+							"type": "float32",
+							"value": 160.0
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "a093a80b0affb359"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
