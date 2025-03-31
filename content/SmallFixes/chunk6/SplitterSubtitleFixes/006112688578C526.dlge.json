@@ -10,7 +10,7 @@
 		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/43000_elusive/lambic/43750_story/dr43780_lptrshcomp_et_lambic_004.wav].pc_wes",
 		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/43000_elusive/lambic/43750_story/dr43780_lptrshcomp_et_lambic_004.animset].pc_animset",
 		"languages": {
-			"en": "//(0,30)\\\\It is, ne's pa?",
+			"en": "//(0,30)\\\\It is, n'est-ce pas?",
 			"fr": "//(0,30)\\\\Ça, vous pouvez le dire.",
 			"it": "//(0,30)\\\\Vero, n'est-ce pas?",
 			"de": "//(0,30)\\\\Das ist es, n’est-ce pas?",
