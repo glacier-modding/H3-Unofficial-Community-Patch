@@ -34,11 +34,7 @@
 			"SubEntityOperation": [
 				"a093a80b0affb359",
 				{
-					"AddEventConnection": [
-						"OnInitialDetach",
-						"Activate",
-						"cafe8c54c4d14843"
-					]
+					"AddEventConnection": ["OnInitialDetach", "Activate", "cafe8c54c4d14843"]
 				}
 			]
 		},

@@ -3,20 +3,13 @@
 	"tbluHash": "00E79CD2442D8C7A",
 	"patch": [
 		{
-			"SubEntityOperation": [
-				"79cc86fd30f5f67d",
-				{ "RemovePropertyByName": "m_aFracturedEffect" }
-			]
+			"SubEntityOperation": ["79cc86fd30f5f67d", { "RemovePropertyByName": "m_aFracturedEffect" }]
 		},
 		{
 			"SubEntityOperation": [
 				"79cc86fd30f5f67d",
 				{
-					"AddEventConnection": [
-						"OnInitialDetach",
-						"Activate",
-						"cafe5840096695e3"
-					]
+					"AddEventConnection": ["OnInitialDetach", "Activate", "cafe5840096695e3"]
 				}
 			]
 		},
