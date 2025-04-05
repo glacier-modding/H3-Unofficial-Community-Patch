@@ -23,16 +23,16 @@
 		"Zachwesse"
 	],
 	"contentFolders": [
+		"content/Audio",
 		"content/DIF",
+		"content/MissingResources",
 		"content/MovieSetLamp",
 		"content/OACFixes",
 		"content/OutfitFilterFixes",
 		"content/SapienzaChurch",
 		"content/SecurityCams",
 		"content/SmallFixes",
-		"content/VendingMachines",
-		"content/Audio",
-		"content/MissingResources"
+		"content/VendingMachines"
 	],
 	"loadBefore": ["KevinRudd.FreelancerVariations"],
 	"loadAfter": ["invalid.earpiecevoices"],
@@ -110,6 +110,14 @@
 					}
 				}
 			}
+		},
+		{
+			"name": "REPO Edits",
+			"tooltip": "Allows for edits to the REPO, such as changing NPC names or certan weapon details. If you enable this and use the Peacock server, you need to also install https://github.com/thepeacockproject/peacock-strings for Peacock’s text to display properly.",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"thumbs": ["ConsoleCmd OnlineResources_Disable 1"],
+			"contentFolders": ["content/REPO"]
 		},
 		{
 			"type": "conditional",
