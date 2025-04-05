@@ -6,10 +6,7 @@
 			"SubEntityOperation": [
 				"f65e32cacb301313",
 				{
-					"AddProperty": [
-						"m_bVisible",
-						{ "type": "bool", "value": false }
-					]
+					"AddProperty": ["m_bVisible", { "type": "bool", "value": false }]
 				}
 			]
 		},
@@ -17,10 +14,7 @@
 			"SubEntityOperation": [
 				"2c7175d92443a556",
 				{
-					"AddProperty": [
-						"m_bVisible",
-						{ "type": "bool", "value": false }
-					]
+					"AddProperty": ["m_bVisible", { "type": "bool", "value": false }]
 				}
 			]
 		},
@@ -28,10 +22,7 @@
 			"SubEntityOperation": [
 				"3878186a799af8df",
 				{
-					"AddProperty": [
-						"m_bVisible",
-						{ "type": "bool", "value": false }
-					]
+					"AddProperty": ["m_bVisible", { "type": "bool", "value": false }]
 				}
 			]
 		}
