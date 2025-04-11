@@ -1,0 +1,220 @@
+{
+	"tempHash": "00CD6A6795D3CFA7",
+	"tbluHash": "00EF44E399100E22",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"95bc16af89705ea6",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -180.0,
+								"y": 0.0,
+								"z": 170.00006910544425
+							},
+							"position": {
+								"x": 6.320281982421875,
+								"y": -1.7416939735412598,
+								"z": 0.068
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b25aae22ddadb111",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -16.282979761659313,
+								"y": -3.5587490598903604,
+								"z": -168.00121436324932
+							},
+							"position": {
+								"x": -0.010619999840855598,
+								"y": -0.08612100034952164,
+								"z": 0.153
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"da384adfc03b72da",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 89.99994270422063,
+								"y": 0.0001718873446175881,
+								"z": 19.999568841522635
+							},
+							"position": {
+								"x": 2.1663150787353516,
+								"y": -0.094,
+								"z": 0.7934640049934387
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"83a054f8a8234b77",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -59.52616161275987
+							},
+							"position": {
+								"x": 5.228759765625,
+								"y": -12.71426010131836,
+								"z": 0.193
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b1af5d89c0acb348",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -95.13070261307872
+							},
+							"position": {
+								"x": 1.6300510168075562,
+								"y": -12.928389549255373,
+								"z": 0.068
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d650c2e7e4cfb630",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -88.0004296375865
+							},
+							"position": {
+								"x": 5.190703868865967,
+								"y": -0.5221949815750122,
+								"z": -0.068
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b2d9772728ad44ab",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -73.00040405941407
+							},
+							"position": {
+								"x": 1.9698179960250857,
+								"y": -0.6020849943161011,
+								"z": 0.068
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a6c70727dd109494",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -180.0,
+								"y": 0.0,
+								"z": 45.06964629394197
+							},
+							"position": {
+								"x": 4.2120361328125,
+								"y": -12.05856990814209,
+								"z": 0.068
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafef08fbcff54f0",
+				{
+					"parent": "03d99d5cbdae6097",
+					"name": "CollisionBox03",
+					"factory": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": 19.8
+								},
+								"position": {
+									"x": -11.215,
+									"y": -26.75,
+									"z": 0.515
+								}
+							}
+						},
+						"m_vBoxSize": {
+							"type": "SVector3",
+							"value": { "x": 0.6, "y": 0.55, "z": 1.0 }
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "928bb7afc7009f5f",
+							"postInit": true
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

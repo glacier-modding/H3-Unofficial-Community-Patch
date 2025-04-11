@@ -1,0 +1,101 @@
+{
+	"tempHash": "00E07AC33C551102",
+	"tbluHash": "00E79CD2442D8C7A",
+	"patch": [
+		{
+			"SubEntityOperation": ["79cc86fd30f5f67d", { "RemovePropertyByName": "m_aFracturedEffect" }]
+		},
+		{
+			"SubEntityOperation": [
+				"79cc86fd30f5f67d",
+				{
+					"AddEventConnection": ["OnInitialDetach", "Activate", "cafe5840096695e3"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"984fd9e5d4c3ac3c",
+				{
+					"AddPropertyAliasConnection": [
+						"ConstantColorRGB_01_Value",
+						{
+							"originalProperty": "LiquidColorStart",
+							"originalEntity": "cafe5840096695e3"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"984fd9e5d4c3ac3c",
+				{
+					"AddPropertyAliasConnection": [
+						"ConstantColorRGB_01_Value",
+						{
+							"originalProperty": "LiquidColorEnd",
+							"originalEntity": "cafe5840096695e3"
+						}
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe5840096695e3",
+				{
+					"parent": "4622f865d093ddd1",
+					"name": "Liquid_Color",
+					"factory": "[assembly:/_pro/effects/templates/shatter/fx_shatter_food.template?/fx_e_shatter_food_liquid.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/effects/templates/shatter/fx_shatter_food.template?/fx_e_shatter_food_liquid.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": 0.18363599479198456,
+									"y": 0.08898399770259857,
+									"z": 0.17106999456882477
+								}
+							}
+						},
+						"SmokeColorStart": {
+							"type": "SColorRGB",
+							"value": "#707070"
+						},
+						"SmokeColorEnd": {
+							"type": "SColorRGB",
+							"value": "#363636"
+						},
+						"LiquidMinSize": {
+							"type": "float32",
+							"value": 100.0
+						},
+						"LiquidMaxSize": {
+							"type": "float32",
+							"value": 160.0
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "79cc86fd30f5f67d"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddComment": {
+				"parent": "cafe5840096695e3",
+				"name": "Notes",
+				"text": "\t\t\"LiquidColorStart\": {\n\t\t\t\"type\": \"SColorRGB\",\n\t\t\t\"value\": \"#d94800\"\n\t\t},\n\t\t\"LiquidColorEnd\": {\n\t\t\t\"type\": \"SColorRGB\",\n\t\t\t\"value\": \"#d94800\"\n\t\t},"
+			}
+		}
+	],
+	"patchVersion": 6
+}
