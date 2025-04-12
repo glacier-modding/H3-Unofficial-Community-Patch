@@ -112,11 +112,17 @@
 			}
 		},
 		{
+			"name": "Disable Online Resources",
+			"tooltip": "Allows for edits to the REPO, such as changing NPC names or certain weapon details. Not necessary if using Peacock. If you enable this and use the Peacock server, you need to also install https://github.com/thepeacockproject/peacock-strings for Peacock’s text to display properly.",
+			"type": "checkbox",
+			"enabledByDefault": false,
+			"thumbs": ["ConsoleCmd OnlineResources_Disable 1"]
+		},
+		{
 			"name": "REPO Edits",
-			"tooltip": "Allows for edits to the REPO, such as changing NPC names or certan weapon details. If you enable this and use the Peacock server, you need to also install https://github.com/thepeacockproject/peacock-strings for Peacock’s text to display properly.",
+			"tooltip": "Edits the REPO, changing NPC names or certain weapon details.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"thumbs": ["ConsoleCmd OnlineResources_Disable 1"],
 			"contentFolders": ["content/REPO"]
 		},
 		{
