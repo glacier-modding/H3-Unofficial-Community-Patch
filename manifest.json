@@ -123,6 +123,7 @@
 			"contentFolders": ["content/DisruptorEscape/base", "content/DisruptorEscape/earpiecevoices"]
 		}
 	],
+	"dependencies": ["001ECEAD8065CB53"],
 	"localisationOverrides": {
 		"0005BE61D5257592": {
 			"english": {

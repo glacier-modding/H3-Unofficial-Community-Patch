@@ -1,0 +1,40 @@
+{
+	"tempHash": "00AE3B02D38436DD",
+	"tbluHash": "000C44C5CC7C0569",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"b5e5ea0b2c67cee6",
+				{
+					"AddProperty": [
+						"m_pMeshResource",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "001ECEAD8065CB53",
+								"flag": "5F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ea1934ec28d14366",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aBodyParts",
+						[
+							{ "RemoveItemByValue": "c11f3f3e85515d0d" },
+							{
+								"AddItemAfter": ["17d2ae7571c9e286", "b5e5ea0b2c67cee6"]
+							}
+						]
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
