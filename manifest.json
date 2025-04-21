@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "1.70.1",
+	"version": "1.72.0",
 	"id": "GlacierOrganisation.CommunityPatches",
 	"name": "Unofficial Community Patch",
 	"description": "It's like a patch, but unofficial! Fixes various bugs that IO Interactive haven't yet.",
@@ -23,6 +23,7 @@
 		"Zachwesse"
 	],
 	"contentFolders": [
+		"content/Audio",
 		"content/DIF",
 		"content/MovieSetLamp",
 		"content/OACFixes",
@@ -30,8 +31,7 @@
 		"content/SapienzaChurch",
 		"content/SecurityCams",
 		"content/SmallFixes",
-		"content/VendingMachines",
-		"content/Audio"
+		"content/VendingMachines"
 	],
 	"loadBefore": ["KevinRudd.FreelancerVariations"],
 	"loadAfter": ["invalid.earpiecevoices"],
@@ -109,6 +109,20 @@
 					}
 				}
 			}
+		},
+		{
+			"name": "Disable Online Resources",
+			"tooltip": "Allows for edits to the REPO, such as changing NPC names or certain weapon details. Not necessary if using Peacock. If you enable this and use the Peacock server, you need to also install https://github.com/thepeacockproject/peacock-strings for Peacock’s text to display properly.",
+			"type": "checkbox",
+			"enabledByDefault": false,
+			"thumbs": ["ConsoleCmd OnlineResources_Disable 1"]
+		},
+		{
+			"name": "REPO Edits",
+			"tooltip": "Edits the REPO, changing NPC names or certain weapon details.",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/REPO"]
 		},
 		{
 			"type": "conditional",
