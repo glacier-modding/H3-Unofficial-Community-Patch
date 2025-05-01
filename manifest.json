@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "1.73.2",
+	"version": "1.74.0",
 	"id": "GlacierOrganisation.CommunityPatches",
 	"name": "Unofficial Community Patch",
 	"description": "It's like a patch, but unofficial! Fixes various bugs that IO Interactive haven't yet.",
