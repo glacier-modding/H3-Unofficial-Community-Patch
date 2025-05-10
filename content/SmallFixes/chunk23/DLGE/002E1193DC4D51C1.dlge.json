@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/colorado/8000_bull/8000_story/dr8061_parvatitalkstarget.sweetdialog?/dr8061_parvatitalkstarget_parvati_010.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr8061_parvatitalkstarget_parvati_010",
+		"soundtag": "In-world_Mission_Normal",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/colorado/8000_bull/8000_story/dr8061_parvatitalkstarget_parvati_010.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/colorado/8000_bull/8000_story/dr8061_parvatitalkstarget_parvati_010.animset].pc_animset",
+		"languages": {
+			"en": "//(0,30)\\\\Nobody's better at making people disappear than the Delgados.",
+			"fr": "//(0,30)\\\\Y a pas mieux que les gars de ce cartel pour faire disparaître les gens.",
+			"it": "//(0,30)\\\\Nessuno sa far scomparire le persone meglio dei Delgado.",
+			"de": "//(0,30)\\\\Niemand lässt Leute besser verschwinden als die Delgados.",
+			"es": "//(0,30)\\\\Nadie hace desaparecer a la gente tan bien como los Delgado.",
+			"ru": "//(0,30)\\\\Потому что если надо от кого-то избавиться, Дельгадо в этом деле нет равных.",
+			"cn": "//(0,30)\\\\没谁会比戴尔加多更擅长杀人灭口了。",
+			"tc": "//(0,30)\\\\沒誰會比戴爾加多更擅長讓人消失了。",
+			"jp": "//(0,30)\\\\デルガド以上に人を消すのがうまい集団なんていないだろ。"
+		}
+	}
+}
