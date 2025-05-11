@@ -1,129 +1,129 @@
 {
-    "$schema": "https://glaciermodding.org/schemas/material.schema.json",
-    "MATI": "[assembly:/_pro/characters/assets/_base/pro_fem_regular/materials/female_reg_eyelashes.mi].pc_mi",
-    "MATT": "[assembly:/_pro/characters/assets/_base/pro_fem_regular/materials/female_reg_eyelashes.mi].pc_entitytype",
-    "MATB": "[assembly:/_pro/characters/assets/_base/pro_fem_regular/materials/female_reg_eyelashes.mi].pc_entityblueprint",
-    "MATE": "[[assembly:/_pro/characters/materialclasses/basic_decal.materialclass].fx](dx11).pc_mate",
-    "ERES": "[assembly:/_pro/effects/templates/materialdescriptors/fx_md_char_flesh.template?/fx_md_char_flesh.entitytemplate].pc_entityresource",
-    "TYPE": "Standard",
-    "Material": {
-        "Instance": [
-            {
-                "Name": "female_reg_eyelashes.mi",
-                "Tags": "",
-                "Binder": [
-                    {
-                        "Render State": [
-                            {
-                                "Name": "RenderState",
-                                "Enabled": 1,
-                                "Blend Enabled": 0,
-                                "Decal Blend Diffuse": 0,
-                                "Decal Blend Normal": 0,
-                                "Decal Blend Specular": 0,
-                                "Decal Blend Roughness": 0,
-                                "Decal Blend Emission": 0,
-                                "Alpha Test Enabled": 0,
-                                "Alpha Reference": 255,
-                                "Fog Enabled": 1,
-                                "Culling Mode": "TwoSided",
-                                "Z Bias": 0,
-                                "Z Offset": 0.0,
-                                "Subsurface Red": 0.0,
-                                "Subsurface Green": 0.0,
-                                "Subsurface Blue": 0.0,
-                                "Subsurface Value": 0.0
-                            }
-                        ],
-                        "Texture": [
-                            {
-                                "Name": "mapTexture2D_01",
-                                "Enabled": 1,
-                                "Texture Id": "[assembly:/_pro/characters/assets/_base/pro_fem_regular/textures/female_reg_eyelashes.texture?/diffuse_a.tex](ascolormap).pc_tex",
-                                "Tiling U": "",
-                                "Tiling V": "",
-                                "Type": "AsColorMap"
-                            },
-                            {
-                                "Name": "mapTexture2D_03",
-                                "Enabled": 1,
-                                "Texture Id": "[assembly:/_pro/characters/assets/_base/pro_fem_regular/textures/female_reg_eyelashes.texture?/normal_a.tex](ascolormap).pc_tex",
-                                "Tiling U": "",
-                                "Tiling V": "",
-                                "Type": "AsColorMap"
-                            }
-                        ],
-                        "Float Value": [
-                            {
-                                "Name": "ConstantVector1D_01_Value",
-                                "Enabled": 1,
-                                "Value": 0.09000000357627869
-                            },
-                            {
-                                "Name": "ConstantVector1D_03_Value",
-                                "Enabled": 1,
-                                "Value": 0.800000011920929
-                            },
-                            {
-                                "Name": "ConstantVector1D_02_Value",
-                                "Enabled": 1,
-                                "Value": 0.5
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    "Overrides": {
-        "Texture": {
-            "Texture2D_01": "[assembly:/_pro/characters/assets/_base/pro_fem_regular/textures/female_reg_eyelashes.texture?/diffuse_a.tex](ascolormap).pc_tex",
-            "Texture2D_03": "[assembly:/_pro/characters/assets/_base/pro_fem_regular/textures/female_reg_eyelashes.texture?/normal_a.tex](ascolormap).pc_tex"
-        },
-        "ConstantVector1D_01_Value": 0.09000000357627869,
-        "ConstantVector1D_03_Value": 0.800000011920929,
-        "ConstantVector1D_02_Value": 0.5
-    },
-    "Flags": {
-        "Class": {
-            "REFLECTION2D": false,
-            "REFRACTION2D": false,
-            "LIGHTING": true,
-            "EMISSIVE": false,
-            "DISCARD": true,
-            "LM_SKIN": false,
-            "PRIMCLASS_STANDARD": true,
-            "PRIMCLASS_LINKED": false,
-            "PRIMCLASS_WEIGHTED": false,
-            "DOFOVERRIDE": false,
-            "USES_DEFAULT_VS": true,
-            "USES_SPRITE_SA_VS": false,
-            "USES_SPRITE_AO_VS": false,
-            "ALPHA": true,
-            "USES_SIMPLE_SHADER": true,
-            "DISABLE_INSTANCING": false,
-            "LM_HAIR": false,
-            "UNKNOWN_1": false,
-            "UNKNOWN_2": false,
-            "UNKNOWN_3": false,
-            "UNKNOWN_4": false,
-            "UNKNOWN_5": false
-        },
-        "Instance": {
-            "OPAQUE_EMISSIVE": false,
-            "TRANS_EMISSIVE": false,
-            "TRANSADD_EMISSIVE": false,
-            "OPAQUE_LIT": true,
-            "TRANS_LIT": false,
-            "DECAL": false,
-            "REFRACTIVE": false,
-            "LM_SKIN": false,
-            "LM_HAIR": false,
-            "FORCE_EMISSIVE": false,
-            "DISABLE_SHADER_LOD": true,
-            "DISCARD": false,
-            "DECAL_EMISSIVE": false,
-            "WATER_CLIPPING": false
-        }
-    }
+	"$schema": "https://glaciermodding.org/schemas/material.schema.json",
+	"MATI": "[assembly:/_pro/characters/assets/_base/pro_fem_regular/materials/female_reg_eyelashes.mi].pc_mi",
+	"MATT": "[assembly:/_pro/characters/assets/_base/pro_fem_regular/materials/female_reg_eyelashes.mi].pc_entitytype",
+	"MATB": "[assembly:/_pro/characters/assets/_base/pro_fem_regular/materials/female_reg_eyelashes.mi].pc_entityblueprint",
+	"MATE": "[[assembly:/_pro/characters/materialclasses/basic_decal.materialclass].fx](dx11).pc_mate",
+	"ERES": "[assembly:/_pro/effects/templates/materialdescriptors/fx_md_char_flesh.template?/fx_md_char_flesh.entitytemplate].pc_entityresource",
+	"TYPE": "Standard",
+	"Material": {
+		"Instance": [
+			{
+				"Name": "female_reg_eyelashes.mi",
+				"Tags": "",
+				"Binder": [
+					{
+						"Render State": [
+							{
+								"Name": "RenderState",
+								"Enabled": 1,
+								"Blend Enabled": 0,
+								"Decal Blend Diffuse": 0,
+								"Decal Blend Normal": 0,
+								"Decal Blend Specular": 0,
+								"Decal Blend Roughness": 0,
+								"Decal Blend Emission": 0,
+								"Alpha Test Enabled": 0,
+								"Alpha Reference": 255,
+								"Fog Enabled": 1,
+								"Culling Mode": "TwoSided",
+								"Z Bias": 0,
+								"Z Offset": 0.0,
+								"Subsurface Red": 0.0,
+								"Subsurface Green": 0.0,
+								"Subsurface Blue": 0.0,
+								"Subsurface Value": 0.0
+							}
+						],
+						"Texture": [
+							{
+								"Name": "mapTexture2D_01",
+								"Enabled": 1,
+								"Texture Id": "[assembly:/_pro/characters/assets/_base/pro_fem_regular/textures/female_reg_eyelashes.texture?/diffuse_a.tex](ascolormap).pc_tex",
+								"Tiling U": "",
+								"Tiling V": "",
+								"Type": "AsColorMap"
+							},
+							{
+								"Name": "mapTexture2D_03",
+								"Enabled": 1,
+								"Texture Id": "[assembly:/_pro/characters/assets/_base/pro_fem_regular/textures/female_reg_eyelashes.texture?/normal_a.tex](ascolormap).pc_tex",
+								"Tiling U": "",
+								"Tiling V": "",
+								"Type": "AsColorMap"
+							}
+						],
+						"Float Value": [
+							{
+								"Name": "ConstantVector1D_01_Value",
+								"Enabled": 1,
+								"Value": 0.09000000357627869
+							},
+							{
+								"Name": "ConstantVector1D_03_Value",
+								"Enabled": 1,
+								"Value": 0.800000011920929
+							},
+							{
+								"Name": "ConstantVector1D_02_Value",
+								"Enabled": 1,
+								"Value": 0.5
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"Overrides": {
+		"Texture": {
+			"Texture2D_01": "[assembly:/_pro/characters/assets/_base/pro_fem_regular/textures/female_reg_eyelashes.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"Texture2D_03": "[assembly:/_pro/characters/assets/_base/pro_fem_regular/textures/female_reg_eyelashes.texture?/normal_a.tex](ascolormap).pc_tex"
+		},
+		"ConstantVector1D_01_Value": 0.09000000357627869,
+		"ConstantVector1D_03_Value": 0.800000011920929,
+		"ConstantVector1D_02_Value": 0.5
+	},
+	"Flags": {
+		"Class": {
+			"REFLECTION2D": false,
+			"REFRACTION2D": false,
+			"LIGHTING": true,
+			"EMISSIVE": false,
+			"DISCARD": true,
+			"LM_SKIN": false,
+			"PRIMCLASS_STANDARD": true,
+			"PRIMCLASS_LINKED": false,
+			"PRIMCLASS_WEIGHTED": false,
+			"DOFOVERRIDE": false,
+			"USES_DEFAULT_VS": true,
+			"USES_SPRITE_SA_VS": false,
+			"USES_SPRITE_AO_VS": false,
+			"ALPHA": true,
+			"USES_SIMPLE_SHADER": true,
+			"DISABLE_INSTANCING": false,
+			"LM_HAIR": false,
+			"UNKNOWN_1": false,
+			"UNKNOWN_2": false,
+			"UNKNOWN_3": false,
+			"UNKNOWN_4": false,
+			"UNKNOWN_5": false
+		},
+		"Instance": {
+			"OPAQUE_EMISSIVE": false,
+			"TRANS_EMISSIVE": false,
+			"TRANSADD_EMISSIVE": false,
+			"OPAQUE_LIT": true,
+			"TRANS_LIT": false,
+			"DECAL": false,
+			"REFRACTIVE": false,
+			"LM_SKIN": false,
+			"LM_HAIR": false,
+			"FORCE_EMISSIVE": false,
+			"DISABLE_SHADER_LOD": true,
+			"DISCARD": false,
+			"DECAL_EMISSIVE": false,
+			"WATER_CLIPPING": false
+		}
+	}
 }
