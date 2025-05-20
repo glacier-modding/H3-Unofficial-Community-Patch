@@ -442,6 +442,35 @@
 				"1766502356": "Помогите Лукасу Грею похитить Константу [Дополнительно]"
 			}
 		},
+		"0098F645934E706D": {
+			"english": {
+				"489605828": "This is an internal report showing the progress of the previous month's activity within the key expertise areas of Haven. It notes several full identity wipes – or 'nulls', as they are called – having been completed and three additional ones have been reported as initiated just a few days ago. Presumably these belong to the Providence Partners. From the looks of it, Haven has its hooks into every major social and governmental platform in the world and is effectively able to completely remove any client entirely from every official or privately owned database in the world. Additionally, if needed, new identities can easily be crafted with practically bullet-proof backgrounds established."
+			},
+			"french": {
+				"489605828": "Un rapport de Haven interne qui présente la progression de l'activité des secteurs d'expertise clés de l'entreprise au cours des derniers mois. On y retrouve plusieurs identités entièrement effacées (dites \"nulles\"), ainsi que trois nouvelles dont l'effacement a été initié il y a quelques jours. Celles-ci semblent être celles des partenaires de Providence. Haven aurait donc des points d'accès dans les plateformes sociales et gouvernementales mondiales majeures, ce qui les rend capables d'effacer n'importe quel client de n'importe quelle base de données privée ou publique dans le monde. Ils sont également en mesure de créer de nouvelles identités de toute pièce, en leur fournissant un passé à toute épreuve."
+			},
+			"italian": {
+				"489605828": "Questo rapporto interno mostra i progressi dell'ultimo mese di attività nelle principali aree di competenza di Haven. Riporta molte cancellazioni totali di identità, o \"annullamenti\", come vengono chiamate, che sono state portate a termine, oltre a tre nuove avviate solo un paio di giorni fa. Probabilmente riguardano i soci di Providence. Da quanto sembra, la Haven ha ganci in tutte le maggiori società e piattaforme governative nel mondo, per questo sarebbe di fatto in grado di rimuovere qualsiasi cliente da ogni singolo database, pubblico o privato che sia. In più, se necessario, è possibile creare nuove identità con esperienze pregresse praticamente a prova di bomba."
+			},
+			"german": {
+				"489605828": "Dieser interne Bericht zeigt den Fortschritt der letzten Monate bei den Schlüsselaktivitäten in den Kernkompetenzbereichen von Haven. Es werden mehrere vollständige Identitätslöschungen – oder „Nullen“, wie sie genannt werden – erwähnt, die abgeschlossen sind, sowie drei weitere, die erst vor ein paar Tagen eingeleitet wurden. Anscheinend gehören diese zu den Providence-Partnern. So wie es aussieht, hat Haven seine Finger in so gut wie allen größeren Social-Media- und Regierungsplattformen der Welt. Dadurch ist es ihnen möglich, Klienten vollkommen aus allen offiziellen und privaten Datenbanken rund um den Erdball zu löschen. Hinzu kommt noch, dass man auf diese Weise auch noch leicht neue Identitäten erstellen kann, die nahezu jeder Hintergrundüberprüfung standhalten."
+			},
+			"spanish": {
+				"489605828": "Un informe interno que muestra los progresos hechos en el último mes en áreas clave de Haven. Incluye varios borrados de identidad completos ya realizados (o «anulaciones», que es como los llaman), así como tres nuevos que aparecen como «iniciados» hace unos días. En teoría, esos tres pertenecen a los socios de Providence. Según parece, Haven tiene contactos en todas las principales plataformas sociales y gubernamentales del mundo, de tal modo que puede hacer desaparecer completamente a cualquier cliente de todas las bases de datos oficiales o privadas del planeta. Además, de ser necesario, puede crear con facilidad nuevas identidades, con unos pasados férreos y demostrables."
+			},
+			"russian": {
+				"489605828": "Внутренний отчет «Гавани» за последние несколько месяцев работы комплекса. В нем сообщается, что следы и упоминания нескольких клиентов уже полностью стерты из всех источников, а «стирание» еще трех клиентов началось буквально пару дней назад. Судя по всему, речь идет о партнерах «Провиденс». Из него следует, что у «Гавани» есть связи в крупных общественных и правительственных организациях по всему миру, — именно это позволяет ей полностью удалять своих клиентов из любых государственных и частных баз данных. При необходимости клиенту могут даже создать совершенно новую «личность» с безупречной биографией."
+			},
+			"chineseSimplified": {
+				"489605828": "这份海文的内部报告显示了海文公司上个月关键业务领域的活动进展。上面写道已经完成了对若干人身份的彻底抹除工作（他们称之为“清零”），且报告称又有三人的身份抹除工作已在几天前开始。这些东西可能是属于神意秘会同伙的。看起来，海文与全世界所有主流的社会以及政府平台都有往来，能有效地从世界上一切官方或私人数据库中完全抹除任何客户的相关信息。另外，若有必要，他们还能轻松伪造拥有无懈可击背景的新身份。"
+			},
+			"chineseTraditional": {
+				"489605828": "這份避風港內部報告，其中顯示過去幾週避風港在關鍵區域的活動。其中紀錄著幾起完整身份移除或是「歸零」，這些已經完成了，而且過去幾天還開始了三個案子。這些應該屬於神意秘會同夥。看來，避風港在世界各地所有的社群和政府平台都有爪牙，他們能夠從世界上的所有官方或私有數據庫中移除任何客戶。另外，他們打造的身份幾乎擁有完美無缺的背景。"
+			},
+			"japanese": {
+				"489605828": "ヘイヴンの内部報告書。先月のヘイヴンの重要な専門的領域での活動の進捗が説明されている。報告書には、数件のアイデンティティの抹消（つまり、ヘイヴンが「ゼロ」と呼んでいるもの）の完了が記載されており、さらに3件のアイデンティティの抹消がわずか数日前に開始されたことが報告されている。おそらくはプロヴィデンスのパートナーに属しているものだ。ここから考えると、ヘイヴンは世界中のあらゆる大手のソーシャルや政府のプラットフォームに影響力を及ぼしており、公有、私有を問わず、世界中のどんなデータベースからもクライアントのアイデンティティを効率的かつ完全に消し去る力を持っている。さらには必要に応じて、疑いの余地のない完璧な経歴を備えた、新しいアイデンティティを簡単にねつ造することも可能だ。"
+			}
+		},
 		"00A40B0195844051": {
 			"spanish": {
 				"3375291446": "Explota cinco globos."
