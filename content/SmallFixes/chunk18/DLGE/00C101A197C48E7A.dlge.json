@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/colombia/23000_hippo/23000_story/dr23640_hallowedground_shaman47sicarioacknowledge3.sweetdialog?/dr23640_hallowedground_shaman47sicarioacknowledge3_thuges03_001.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr23640_hallowedground_shaman47sicarioacknowledge3_thuges03_001",
+		"soundtag": "In-world_Mission_Important",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/colombia/23000_hippo/23000_story/dr23640_hallowedground_shaman47sicarioacknowledge3_thuges03_001.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/colombia/23000_hippo/23000_story/dr23640_hallowedground_shaman47sicarioacknowledge3_thuges03_001.animset].pc_animset",
+		"languages": {
+			"en": "//(0,3.405409)\\\\Taita! My father told me of the purifaction ritual//(3.405409,6.189645)\\\\you performed on him last week.//(6.189645,8.217125)\\\\He's never looked better.",
+			"fr": "//(0,3.514778)\\\\Taita ! Mon père m'a parlé du rituel que vous avez fait//(3.514778,5.546426)\\\\pour lui la semaine dernière.//(5.546426,8.217125)\\\\Il n'a jamais paru si en forme.",
+			"it": "//(0,2.76809)\\\\Taita! Mio padre mi ha detto del rituale di//(2.76809,5.228614)\\\\purificazione che hai eseguito su di lui la//(5.228614,6.261521)\\\\settimana scorsa.//(6.261521,8.217125)\\\\Non è mai stato meglio.",
+			"de": "//(0,0.9680982)\\\\Taita!//(0.9680982,4.182883)\\\\Mein Vater hat mir von dem Reinigungsritual erzählt,//(4.182883,6.257088)\\\\das du letzte Woche an ihm durchgeführt hast.//(6.257088,8.217125)\\\\Er hat noch nie besser ausgesehen.",
+			"es": "//(0,1)\\\\¡Taita!//(1,6.199002)\\\\Mi padre me habló del ritual purificador que le hizo la semana pasada.//(6.199002,8.217125)\\\\¡Ahora está mejor que nunca!",
+			"ru": "//(0,1.773581)\\\\Таита! Мой отец рассказал,//(1.773581,6.430289)\\\\что на прошлой неделе ты провел с ним обряд очищения.//(6.430289,8.217125)\\\\Отец словно помолодел.",
+			"cn": "//(0,30)\\\\萨满！我父亲告诉我说您上周对他进行了净化仪式。他现在气色前所未有得好。",
+			"tc": "//(0,30)\\\\薩滿！我父親告訴我說您上週對他進行了淨化儀式。他現在氣色前所未有的好到不行。",
+			"jp": "//(0,2.318)\\\\タイタ！父があんたにやってもらった//(2.318,6.368)\\\\浄化の儀式のことを教えてくれたよ。//(6.368,36.368)\\\\すごく元気になったよ。"
+		}
+	}
+}

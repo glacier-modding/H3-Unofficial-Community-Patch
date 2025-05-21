@@ -1,0 +1,10 @@
+{
+	"tempHash": "00E95B973DD44755",
+	"tbluHash": "00FF110EBD82A8FC",
+	"patch": [
+		{
+			"SubEntityOperation": ["15ad4877e2b8c4bc", { "RemovePropertyByName": "m_eActorRank" }]
+		}
+	],
+	"patchVersion": 6
+}
