@@ -1,0 +1,157 @@
+{
+	"tempHash": "002A59DAE0F57482",
+	"tbluHash": "0040251EE82A570D",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"ae29c1d4b5cb0f48",
+				{
+					"SetPropertyValue": {
+						"property_name": "C_AudioCloseComplete",
+						"value": null
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ae29c1d4b5cb0f48",
+				{
+					"SetPropertyValue": {
+						"property_name": "B_AudioCloseMovement",
+						"value": null
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ae29c1d4b5cb0f48",
+				{
+					"SetPropertyValue": {
+						"property_name": "A_AudioCloseInitial",
+						"value": {
+							"resource": "00CB5D397D02A8B5",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ae29c1d4b5cb0f48",
+				{
+					"SetPropertyValue": {
+						"property_name": "B_AudioOpenMovement",
+						"value": null
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ae29c1d4b5cb0f48",
+				{
+					"SetPropertyValue": {
+						"property_name": "A_AudioOpenInitial",
+						"value": {
+							"resource": "002C6835E8082C3F",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"107aca4d75224d46",
+				{
+					"AddPropertyAliasConnection": [
+						"VolumeBoxTransform",
+						{
+							"originalProperty": "m_mTransform",
+							"originalEntity": "cafe1a47959c6eb7"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"107aca4d75224d46",
+				{
+					"AddPropertyAliasConnection": [
+						"VolumeBoxSize",
+						{
+							"originalProperty": "m_vGlobalSize",
+							"originalEntity": "cafe1a47959c6eb7"
+						}
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe1a47959c6eb7",
+				{
+					"parent": "107aca4d75224d46",
+					"name": "VolumeBox",
+					"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+					"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": 0.0,
+									"y": 0.0,
+									"z": 1.5
+								}
+							}
+						},
+						"m_vGlobalSize": {
+							"type": "SVector3",
+							"value": { "x": 2.425, "y": 3.45, "z": 2.935 }
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "107aca4d75224d46"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafecc2bfa80dd14",
+				{
+					"parent": "107aca4d75224d46",
+					"name": "VolumeTriggerCharacter",
+					"factory": "[assembly:/templates/markup/volumetrigger.template?/volumetriggercharacter.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/templates/markup/volumetrigger.template?/volumetriggercharacter.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_TriggerOnActorAlive": {
+							"type": "bool",
+							"value": true
+						},
+						"m_Boxes": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe1a47959c6eb7"],
+							"postInit": true
+						}
+					},
+					"events": {
+						"OnTrue": { "OpenDoorIn": ["ae29c1d4b5cb0f48"] }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

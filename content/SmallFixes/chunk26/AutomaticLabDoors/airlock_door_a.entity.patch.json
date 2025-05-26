@@ -1,0 +1,96 @@
+{
+	"tempHash": "00C471F28ED5A3E2",
+	"tbluHash": "00CC8E922879AF06",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"fdd7a92500ea4cfb",
+				{
+					"AddPropertyAliasConnection": [
+						"VolumeBoxTransform",
+						{
+							"originalProperty": "m_mTransform",
+							"originalEntity": "cafed93192197e27"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fdd7a92500ea4cfb",
+				{
+					"AddPropertyAliasConnection": [
+						"VolumeBoxSize",
+						{
+							"originalProperty": "m_vGlobalSize",
+							"originalEntity": "cafed93192197e27"
+						}
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe98c58c197405",
+				{
+					"parent": "fdd7a92500ea4cfb",
+					"name": "VolumeTriggerCharacter",
+					"factory": "[assembly:/templates/markup/volumetrigger.template?/volumetriggercharacter.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/templates/markup/volumetrigger.template?/volumetriggercharacter.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_TriggerOnActorAlive": {
+							"type": "bool",
+							"value": true
+						},
+						"m_Boxes": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafed93192197e27"],
+							"postInit": true
+						}
+					},
+					"events": {
+						"OnTrue": { "OpenDoorIn": ["4901a46c76e48788"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed93192197e27",
+				{
+					"parent": "fdd7a92500ea4cfb",
+					"name": "VolumeBox",
+					"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+					"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": 0.0,
+									"y": 0.0,
+									"z": 1.5
+								}
+							}
+						},
+						"m_vGlobalSize": {
+							"type": "SVector3",
+							"value": { "x": 2.425, "y": 3.45, "z": 2.935 }
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fdd7a92500ea4cfb"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
