@@ -1,0 +1,107 @@
+{
+	"tempHash": "00B7EDF53810976D",
+	"tbluHash": "0069057EDF74A309",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"9337c1a3f1ba22b6",
+				{
+					"AddProperty": [
+						"m_aValues",
+						{
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								{
+									"ref": "9c774680fddab508",
+									"externalScene": null,
+									"exposedEntity": "State_On"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"9c774680fddab508",
+				{
+					"parent": "051d482891d8bb15",
+					"name": "SetPiece_Distraction_ShandyLaptop",
+					"factory": "009FB7D1E305C91D",
+					"blueprint": "005669466685BA9C",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": 44.889113056529304
+								},
+								"position": {
+									"x": -296.34649658203125,
+									"y": -18.570310592651367,
+									"z": -1.5359779596328735
+								}
+							}
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
+						"m_bInitialStateOn": {
+							"type": "bool",
+							"value": true
+						},
+						"m_bUseCustomDramaSituation": {
+							"type": "bool",
+							"value": false
+						},
+						"NPCDispatchKeyword": {
+							"type": "SEntityTemplateReference",
+							"value": "16578ac2b30eec2f"
+						},
+						"SoundEnabled": { "type": "bool", "value": true },
+						"m_pMainEvent": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00C0EEBFCBACACE2",
+								"flag": "5F"
+							}
+						},
+						"m_aValues": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [],
+							"postInit": true
+						},
+						"m_Boxes": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["e18f37105e834bed"],
+							"postInit": true
+						},
+						"m_aEmitters": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["d7cc220bcc1d7448"],
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					},
+					"events": {
+						"OnDestroyed": { "SetTrue": ["33eb2edad25ae917"] },
+						"OnTurnedOn": { "SetTrue": ["ead4a250600dbdb6"] },
+						"OnTurnedOff": {
+							"SetFalse": ["ead4a250600dbdb6"],
+							"SetTrue": ["b7e7e225b9b50a0e"]
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
