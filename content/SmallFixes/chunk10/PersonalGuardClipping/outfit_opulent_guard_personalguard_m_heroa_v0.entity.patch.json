@@ -1,0 +1,32 @@
+{
+	"tempHash": "005FF29852CCFC1D",
+	"tbluHash": "0011662EBE75D416",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"46a9f558e6a5c486",
+				{
+					"AddProperty": [
+						"Rifle_Holster_Attacher_Transform",
+						{
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": 0.019999999552965164,
+									"y": 0.0,
+									"z": 0.0
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
