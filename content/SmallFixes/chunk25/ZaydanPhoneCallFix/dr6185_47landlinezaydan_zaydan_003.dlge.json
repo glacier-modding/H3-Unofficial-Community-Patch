@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/marrakech/6000_coup/6000_story/dr6185_47landlinezaydan.sweetdialog?/dr6185_47landlinezaydan_zaydan_003.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr6185_47landlinezaydan_zaydan_003",
+		"soundtag": "In-world_Telephoneprocessed",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/marrakech/6000_coup/6000_story/dr6185_47landlinezaydan_zaydan_003.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/marrakech/6000_coup/6000_story/dr6185_47landlinezaydan_zaydan_003.animset].pc_animset",
+		"languages": {
+			"en": "//(0,2.494785)\\\\Goddammit! I don't have time for this nonsense!//(2.494785,32.49479)\\\\I'm in the middle of a military operation. I-- very well. I will be there as fast as I can.",
+			"fr": "//(0,2.649)\\\\Et merde ! J'ai pas de temps à perdre avec ces conneries !//(2.649,7.426)\\\\Je suis en pleine opération militaire. Je...//(7.426,37.426)\\\\Bon, OK. Je fais au plus vite.",
+			"it": "//(0,7.385)\\\\Maledizione! Non ho tempo per queste stupidaggini! Sono nel mezzo di un'operazione militare.//(7.385,37.385)\\\\Ah... D'accordo. Sarò lì il prima possibile.",
+			"de": "//(0,30)\\\\Verdammt. Ich hab keine Zeit für diesen Unsinn. Ich stecke mitten in einer militärischen Operation. Ich ... also schön. Ich komme so schnell ich kann.",
+			"es": "//(0,6.889571)\\\\¡Maldita sea! ¡No tengo tiempo para estas tonterías! Estoy en medio de una operación militar. Es...//(6.889571,36.88957)\\\\Muy bien. Llegaré lo más rápido que pueda.",
+			"ru": "//(0,2.345)\\\\Проклятье! У меня нет времени на эту ерунду!//(2.345,4.566)\\\\У нас тут военная операция идет. Я...//(7.018,37.018)\\\\ну ладно. Прибуду, как только смогу.",
+			"cn": "//(0,2.486196)\\\\该死的！我没有时间处理这种事情！//(2.486196,32.48619)\\\\我正在指挥军事行动啊。我......好的。我会尽快去那里。",
+			"tc": "//(0,4.3)\\\\該死的！我沒有時間處理這種事情！我正在指揮軍事行動啊。//(4.3,34.3)\\\\我......好的。我會儘快去那裡。",
+			"jp": "//(0,7.686075)\\\\まったく！ くだらんことに 付き合って いる暇は ない！ 軍事作戦を 指揮してるのだぞ、 私は...//(7.686075,10.15)\\\\わかった。 できるだけ早く向かうと しよう。"
+		}
+	}
+}
