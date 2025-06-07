@@ -1,0 +1,62 @@
+{
+	"tempHash": "00A71960C9CDC4BE",
+	"tbluHash": "00AE916601515EF1",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"b5e5ea0b2c67cee6",
+				{
+					"AddProperty": [
+						"m_pMeshResource",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "001ECEAD8065CB53",
+								"flag": "5F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ea1934ec28d14366",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aBodyParts",
+						[
+							{ "RemoveItemByValue": "c11f3f3e85515d0d" },
+							{
+								"AddItemAfter": ["17d2ae7571c9e286", "b5e5ea0b2c67cee6"]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0489fda9d22f048f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 92.78023048958472,
+								"y": 89.90270768604432,
+								"z": 85.31230527542604
+							},
+							"position": {
+								"x": 0.08554799854755402,
+								"y": 0.02534200064837933,
+								"z": -0.00034500000765547156
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

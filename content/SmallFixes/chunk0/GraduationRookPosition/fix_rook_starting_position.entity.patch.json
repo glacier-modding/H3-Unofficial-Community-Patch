@@ -1,0 +1,74 @@
+{
+	"tempHash": "00FABAF9A85B05DC",
+	"tbluHash": "00D715AE4D6BCD71",
+	"patch": [
+		{
+			"AddEntity": [
+				"cafed7ea406f22d2",
+				{
+					"parent": "874518581c05250a",
+					"name": "HACK - Reset on gameplay and save load",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe4cf4ae19da3b",
+				{
+					"parent": "cafed7ea406f22d2",
+					"name": "Has a move been made?",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rValueEntity": {
+							"type": "SEntityTemplateReference",
+							"value": "8b3f840cfdfd9481"
+						}
+					},
+					"events": {
+						"PollFalse": {
+							"DEBUG_Reset": ["874518581c05250a"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe3a9be6ffd4ea",
+				{
+					"parent": "cafed7ea406f22d2",
+					"name": "On gameplay start",
+					"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+					"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+					"events": {
+						"EventOccurred": { "Poll": ["cafe4cf4ae19da3b"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe9d4473b44b40",
+				{
+					"parent": "cafed7ea406f22d2",
+					"name": "On save load",
+					"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+					"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+					"properties": {
+						"m_eEvent": {
+							"type": "EGameEventType",
+							"value": "GET_SavegameRestored"
+						}
+					},
+					"events": {
+						"EventOccurred": { "Poll": ["cafe4cf4ae19da3b"] }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

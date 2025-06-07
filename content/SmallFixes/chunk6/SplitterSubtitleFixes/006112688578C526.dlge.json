@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/wet/43000_elusive/lambic/43750_story/dr43780_lptrshcomp.sweetdialog?/dr43780_lptrshcomp_et_lambic_004.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr43780_lptrshcomp_et_lambic_004",
+		"soundtag": "In-world_Mission_Important",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/43000_elusive/lambic/43750_story/dr43780_lptrshcomp_et_lambic_004.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/43000_elusive/lambic/43750_story/dr43780_lptrshcomp_et_lambic_004.animset].pc_animset",
+		"languages": {
+			"en": "//(0,30)\\\\It is, n'est-ce pas?",
+			"fr": "//(0,30)\\\\Ça, vous pouvez le dire.",
+			"it": "//(0,30)\\\\Vero, n'est-ce pas?",
+			"de": "//(0,30)\\\\Das ist es, n’est-ce pas?",
+			"es": "//(0,30)\\\\¿A que sí?",
+			"ru": "//(0,30)\\\\Здорово, правда?",
+			"cn": "//(0,30)\\\\没错吧？",
+			"tc": "//(0,30)\\\\很厲害對吧？",
+			"jp": "//(0,30)\\\\そうだろう？"
+		}
+	}
+}

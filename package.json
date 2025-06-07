@@ -2,7 +2,7 @@
 	"name": "smf-mod",
 	"version": "0.0.0",
 	"description": "An SMF mod.",
-	"license": "LGPL-3.0-only",
+	"license": "ISC",
 	"private": true,
 	"devDependencies": {
 		"conventional-changelog-conventionalcommits": "^6.1.0",

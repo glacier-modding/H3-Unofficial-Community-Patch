@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/bangkok/4000_cross/4000_story/dr4238_gueststalksanguine.sweetdialog?/dr4238_gueststalksanguine_civmale01_006.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr4238_gueststalksanguine_civmale01_006",
+		"soundtag": "In-world_Mission_Normal",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/bangkok/4000_cross/4000_story/dr4238_gueststalksanguine_civmale01_006.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/bangkok/4000_cross/4000_story/dr4238_gueststalksanguine_civmale01_006.animset].pc_animset",
+		"languages": {
+			"en": "//(0,30)\\\\Sato? That twerpy little head designer?",
+			"fr": "//(0,30)\\\\Sato ? Le petit styliste ?",
+			"it": "//(0,30)\\\\Sato? Quel patetico stilista senza cervello?",
+			"de": "//(0,30)\\\\Sato? Dieser Komische Chefdesigner?",
+			"es": "//(0,30)\\\\¿Sato? ¿El diseñador principal bajito y bobalicón?",
+			"ru": "//(0,0.8680981)\\\\Сато?//(0.8680981,30.8681)\\\\Тот нервный пустоголовый модельер?",
+			"cn": "//(0,30)\\\\佐藤？那个令人作呕的设计师吗？",
+			"tc": "//(0,30)\\\\佐藤？那個令人作嘔的設計師嗎？",
+			"jp": "//(0,30)\\\\サトウ？ あのバカでチビのヘッドデザイナーが？"
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/wet/43000_elusive/lambic/43750_story/dr43847_ambsitationguards.sweetdialog?/dr43847_ambsitationguards_bdygrd07_010.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr43847_ambsitationguards_bdygrd07_010",
+		"soundtag": "In-world_Mission_Important",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/43000_elusive/lambic/43750_story/dr43847_ambsitationguards_bdygrd07_010.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/43000_elusive/lambic/43750_story/dr43847_ambsitationguards_bdygrd07_010.animset].pc_animset",
+		"languages": {
+			"en": "//(0,30)\\\\Killing civilians is no fun.",
+			"fr": "//(0,30)\\\\Tuer des civils, c'est lourd.",
+			"it": "//(0,30)\\\\Eliminare dei civili non dovrebbe essere divertente...",
+			"de": "//(0,30)\\\\Es macht keinen Spaß, Zivilisten zu töten ...",
+			"es": "//(0,30)\\\\El verdadero rollo es tener que matar a civiles.",
+			"ru": "//(0,30)\\\\Мочить гражданских скучно...",
+			"cn": "//(0,30)\\\\杀害平民真无聊......",
+			"tc": "//(0,30)\\\\殺百姓本來就很無趣......",
+			"jp": "//(0,30)\\\\一般人を殺すのは心苦しい..."
+		}
+	}
+}

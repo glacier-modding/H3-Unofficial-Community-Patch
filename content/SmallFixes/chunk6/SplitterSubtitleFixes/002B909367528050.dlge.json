@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/wet/43000_elusive/lambic/43750_story/dr43760_lppsntnstart01.sweetdialog?/dr43760_lppsntnstart01_et_lambic_003.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr43760_lppsntnstart01_et_lambic_003",
+		"soundtag": "In-world_Mission_Important",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/43000_elusive/lambic/43750_story/dr43760_lppsntnstart01_et_lambic_003.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/43000_elusive/lambic/43750_story/dr43760_lppsntnstart01_et_lambic_003.animset].pc_animset",
+		"languages": {
+			"en": "//(0,4.2)\\\\For years, the ICA has been on top of the game.//(4.2,10.05)\\\\Employing only the best agents to ensure that nobody is untouchable.//(10.05,13.8)\\\\This dedication to quality is expensive...//(13.8,18.65)\\\\How much time and money do you put into a single candidate?//(18.65,48.65)\\\\Anyone?",
+			"fr": "//(0,10.05)\\\\Ça fait des années que l'ICA domine le milieu ; vous employez les meilleurs agents pour veiller à ce que personne ne reste intouchable.//(10.05,13.8)\\\\Une telle qualité de service coûte une fortune...//(13.8,18.65)\\\\Combien de temps et d'argent sont investis dans un seul candidat ?//(18.65,48.65)\\\\Une idée ?",
+			"it": "//(0,4.2)\\\\Per anni, l'ICA è rimasta un'istituzione.//(4.2,10.05)\\\\Avete impiegato i migliori agenti per assicurarvi che nessuno fosse davvero intoccabile.//(10.05,13.8)\\\\Questa dedizione alla qualità ha un costo...//(13.8,43.8)\\\\Quanto tempo e denaro sprecate per un singolo candidato?",
+			"de": "//(0,4.2)\\\\Jahrelang war die ICA immer an der Spitze.//(4.2,10)\\\\Sie setzte nur die besten Agenten ein, damit niemand unantastbar blieb.//(10,13.7)\\\\Wenn man sich so sehr der Qualität verschreibt, ist das teuer ...//(13.7,18.55)\\\\Wie viel Zeit und Geld steckt man in einen einzelnen Kandidaten?//(18.55,48.55)\\\\Weiß das wer?",
+			"es": "//(0,4.5)\\\\Durante años, ha sido la Agencia quien estaba en la cima del negocio.//(4.5,9.65)\\\\Usaba solo a los mejores agentes para asegurarse de que nadie fuera intocable.//(10.05,14)\\\\Semejante dedicación a la calidad es cara...//(14,18)\\\\¿Cuánto tiempo y dinero se invierte en cada candidato?//(18.85,48.85)\\\\¿Alguien sabe la respuesta?",
+			"ru": "//(0,4.2)\\\\Долгие годы МКА были на высоте.//(4.2,10.05)\\\\Вербовали лучших агентов, чтобы ни одна цель не ускользнула.//(10.05,13.8)\\\\Это стремление к качеству обходится дорого...//(13.8,18.65)\\\\Сколько времени и средств вы тратите на каждого кандидата?//(18.65,48.65)\\\\Кто скажет?",
+			"cn": "//(0,4.2)\\\\多年来，ICA一直主宰着局势。//(4.2,10.05)\\\\只雇用最优秀的特工，确保没有人可以逃脱制裁。//(10.05,13.8)\\\\这种对质量的执着追求是昂贵的......//(13.8,18.65)\\\\你们在一个候选人身上会花费多少时间和金钱？//(18.65,48.65)\\\\有人知道吗？",
+			"tc": "//(0,4.3)\\\\好幾年來，ICA 一直都是業界龍頭。//(4.3,10)\\\\你們只雇用最厲害的特務，確保沒有殺不死的目標。//(10,13.8)\\\\對品質要求的代價自然很高......//(13.8,43.8)\\\\一個特務候選人要花上你們多少金錢與時間？有人知道嗎？",
+			"jp": "//(0,9.75)\\\\何年間もICAがトップに君臨してきた。最高のエージェントを雇うことによって、誰も安全でいることはできなかった。//(9.75,13.3)\\\\しかし最高の腕を雇い続けるのには莫大な金が必要となる...//(13.3,43.3)\\\\1人のエージェントに費やす金額と時間はどれくらいだ？わかる人はいるか？"
+		}
+	}
+}

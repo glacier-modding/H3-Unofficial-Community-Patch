@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/wet/43000_elusive/lambic/43750_story/dr43846_bdybgroom.sweetdialog?/dr43846_bdybgroom_bdygrd07_007.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr43846_bdybgroom_bdygrd07_007",
+		"soundtag": "In-world_Mission_Important",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/43000_elusive/lambic/43750_story/dr43846_bdybgroom_bdygrd07_007.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/43000_elusive/lambic/43750_story/dr43846_bdybgroom_bdygrd07_007.animset].pc_animset",
+		"languages": {
+			"en": "//(0,30)\\\\Isn't Valliant using that for training?",
+			"fr": "//(0,30)\\\\C'est pas un truc que Valliant utilise pour l'entraînement ?",
+			"it": "//(0,30)\\\\Valliant non lo utilizza per l'addestramento?",
+			"de": "//(0,30)\\\\Benutzt das Valliant nicht zum Trainieren?",
+			"es": "//(0,30)\\\\¿Pero Valliant no estaba usándola para los entrenamientos?",
+			"ru": "//(0,30)\\\\А разве Вальян не использует его для своих тренировок?",
+			"cn": "//(0,30)\\\\瓦兰特不是用这个来做训练的吗？",
+			"tc": "//(0,30)\\\\瓦里安不是在用它做訓練？",
+			"jp": "//(0,30)\\\\ヴァリアントはそれを訓練用に使ってなかったか？"
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"tempHash": "003BB89D2E90CF2B",
+	"tbluHash": "00E75765060CB886",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"f65e32cacb301313",
+				{
+					"AddProperty": ["m_bVisible", { "type": "bool", "value": false }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2c7175d92443a556",
+				{
+					"AddProperty": ["m_bVisible", { "type": "bool", "value": false }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3878186a799af8df",
+				{
+					"AddProperty": ["m_bVisible", { "type": "bool", "value": false }]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

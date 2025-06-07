@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/edgy/fox/42000_story/dr42176_cocontbouncechat.sweetdialog?/dr42176_cocontbouncechat_fox_icaagent_m04_006.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr42176_cocontbouncechat_fox_icaagent_m04_006",
+		"soundtag": "In-world_Mission_Important",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/edgy/fox/42000_story/dr42176_cocontbouncechat_fox_icaagent_m04_006.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/edgy/fox/42000_story/dr42176_cocontbouncechat_fox_icaagent_m04_006.animset].pc_animset",
+		"languages": {
+			"en": "//(3.35,8)\\\\Listen here, you two apes. I’ll let you in on a little secret.//(8,14.5)\\\\I’ve been sent from the head chapter – undercover – because they believe some of Rolf’s crew, meaning you morons,//(14.5,44.5)\\\\are being a little light-fingered.",
+			"fr": "//(3.45,8.1)\\\\Écoutez, les gorilles. Je vais vous dire un secret ://(8.1,12.75)\\\\c'est la haute division qui m'envoie ici, en civil, parce qu'ils croient que certains dans la bande de Rolf,//(12.75,42.75)\\\\donc des abrutis comme vous, ont les mains qui traînent...",
+			"it": "//(3.57,8.155)\\\\Sentite, scimmioni. Vi dirò un piccolo segreto.//(8.155,10.825)\\\\Sono stato mandato qui dal gruppo principale sotto copertura//(10.825,40.825)\\\\perché credono che qualcuno del gruppo di Rolf, ovvero voi coglioni, abbia le mani un po' lunghe.",
+			"de": "//(0,8.087178)\\\\Hört mal her, ihr zwei Affen. Ich verrate Euch ein kleines Geheimnis.//(8.087178,38.08718)\\\\Ich wurde vom Head-Chapter hergeschickt. Undercover, weil sie meinen, dass einige aus Rolfs Crew ... Ich sag es mal so: Ihr Deppen habt etwas zu lange Finger.",
+			"es": "//(3.2,8.1)\\\\Oídme bien, botarates, os voy a contar un secretito.//(8.1,13)\\\\Me han enviado del capítulo principal, de incógnito, porque creen que algunos del equipo de Rolf...//(13,43)\\\\es decir, vosotros, mamones, estáis siendo algo descuidados.",
+			"ru": "//(0,7.7)\\\\Слушайте сюда, гориллы. Открою вам маленькую тайну.//(7.7,10)\\\\Меня прислали сюда из штаба.//(10,11.7)\\\\Я действую под прикрытием, потому что они//(11.7,14.2)\\\\думают, что кое-кто из ребят Рольфа нечист на руку.//(14.2,44.2)\\\\Да, вы тоже под подозрением.",
+			"cn": "//(0,8)\\\\听着，你们这两只猴子。告诉你们一个小秘密。//(8,12.8)\\\\我是总会秘密派来的，因为他们认为罗尔夫的一些小弟，//(12.8,42.8)\\\\也就是你们这些白痴，一直有点手脚不干净。",
+			"tc": "//(0,5.9)\\\\聽好了，你們兩個傻瓜。//(5.9,10.8)\\\\我告訴你個秘密。我是主堂口派來臥底的，//(10.8,12.9)\\\\因為他們認為羅爾夫的人，//(12.9,42.9)\\\\也就是你們這些白癡，有人手腳不乾淨。",
+			"jp": "//(0,7.7)\\\\いいか、よく聞け、猿ども。ちょっとした秘密を教えてやるよ。//(7.7,37.7)\\\\俺は本部に頼まれて、潜入調査をしてる。上の連中が、ロルフの部下、つまりお前らのような能無しどもの横領を疑ってるからだ。"
+		}
+	}
+}

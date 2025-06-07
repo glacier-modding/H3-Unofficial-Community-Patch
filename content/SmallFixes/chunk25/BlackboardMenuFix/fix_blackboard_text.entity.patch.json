@@ -1,0 +1,82 @@
+{
+	"tempHash": "002A0A9EC9747E51",
+	"tbluHash": "000E8D5DB3C97DB7",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"34f1444e870c0a83",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 104.99999581901793,
+								"y": -0.000057295762005168816,
+								"z": -89.99982811270748
+							},
+							"position": {
+								"x": 0.1549910008907318,
+								"y": 0.016502000391483307,
+								"z": 0.492
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"00c64bab26e39bee",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 104.9999397406336,
+								"y": 0.0001145915841145445,
+								"z": 89.99988540841588
+							},
+							"position": {
+								"x": -0.16082799434661865,
+								"y": -0.016582999378442764,
+								"z": 0.495
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe3ee5b001d61d",
+				{
+					"parent": "825b26f3ecc66e9e",
+					"name": "blackboard_menu_italy_a",
+					"factory": "[assembly:/_pro/environment/materials/props/signs/blackboard_menu_italy_a.mi].pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/materials/props/signs/blackboard_menu_italy_a.mi].pc_entityblueprint",
+					"properties": {
+						"ConstantColorRGB_02_Value": {
+							"type": "SColorRGB",
+							"value": "#000000"
+						},
+						"ConstantColorRGB_02_Value_op": {
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						},
+						"Active": { "type": "bool", "value": true },
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "825b26f3ecc66e9e"
+						},
+						"Clients": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["825b26f3ecc66e9e"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

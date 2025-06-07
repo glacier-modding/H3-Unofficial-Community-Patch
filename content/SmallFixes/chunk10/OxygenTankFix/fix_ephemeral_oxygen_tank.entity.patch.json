@@ -1,0 +1,21 @@
+{
+	"tempHash": "0070350DB311B9D9",
+	"tbluHash": "00B6655C51182972",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"0c021f1995e87ea9",
+				{
+					"AddProperty": [
+						"m_eRoomBehaviour",
+						{
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "1.30.0",
+	"version": "1.85.1",
 	"id": "GlacierOrganisation.CommunityPatches",
 	"name": "Unofficial Community Patch",
 	"description": "It's like a patch, but unofficial! Fixes various bugs that IO Interactive haven't yet.",
@@ -9,15 +9,23 @@
 		"Anthony Fuller",
 		"Cybore",
 		"Dribbleondo",
+		"invalid",
 		"Jojje",
 		"Luiluix",
 		"musicalmushr00m",
 		"Minnow",
+		"moonshot11",
 		"Notex",
-		"VoodooHillbilly"
+		"RDIL",
+		"SayBan1MoreTime",
+		"VoodooHillbilly",
+		"Watchman",
+		"Zachwesse"
 	],
 	"contentFolders": [
+		"content/Audio",
 		"content/DIF",
+		"content/FractureLiquidColor",
 		"content/MovieSetLamp",
 		"content/OACFixes",
 		"content/OutfitFilterFixes",
@@ -29,7 +37,7 @@
 	"loadBefore": ["KevinRudd.FreelancerVariations"],
 	"loadAfter": ["invalid.earpiecevoices"],
 	"blobsFolders": ["blobs", "blobsIOI"],
-	"frameworkVersion": "2.33.22",
+	"frameworkVersion": "2.33.25",
 	"updateCheck": "https://github.com/glacier-modding/H3-Unofficial-Community-Patch/releases/latest/download/updates.json",
 	"options": [
 		{
@@ -69,7 +77,7 @@
 		},
 		{
 			"name": "Snow Globe Spelling",
-			"tooltip": "This replaces the uncommon \"Snowglobe\" spelling used in the game with the dictionary-approved \"Snow Globe\" spelling.",
+			"tooltip": "This replaces the \"Snowglobe\" spelling used in the game with the dictionary-approved \"Snow Globe\" spelling.",
 			"type": "checkbox",
 			"enabledByDefault": true,
 			"localisationOverrides": {
@@ -104,6 +112,20 @@
 			}
 		},
 		{
+			"name": "Disable Online Resources",
+			"tooltip": "Allows for edits to the REPO, such as changing NPC names or certain weapon details. Not necessary if using Peacock. If you enable this and use the Peacock server, you need to also install https://github.com/thepeacockproject/peacock-strings for Peacock’s text to display properly.",
+			"type": "checkbox",
+			"enabledByDefault": false,
+			"thumbs": ["ConsoleCmd OnlineResources_Disable 1"]
+		},
+		{
+			"name": "REPO Edits",
+			"tooltip": "Edits the REPO, changing NPC names or certain weapon details.",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/REPO"]
+		},
+		{
 			"type": "conditional",
 			"name": "Disruptor Escape - Base",
 			"condition": "\"invalid.earpiecevoices\" not in config.loadOrder",
@@ -116,6 +138,7 @@
 			"contentFolders": ["content/DisruptorEscape/base", "content/DisruptorEscape/earpiecevoices"]
 		}
 	],
+	"dependencies": ["001ECEAD8065CB53"],
 	"localisationOverrides": {
 		"0005BE61D5257592": {
 			"english": {
@@ -127,6 +150,55 @@
 				"3574464083": "Born in the slums of then-Bombay, Wazir Kale grew up on the streets. Orphaned from a young age, Wazir quickly joined a small group of lawless children nicknamed ‘The Crows’. Young Wazir eventually grew to the top of the gang and, after the old boss died in a car accident, he assumed the role of leader. At the ripe age of 12, his legend was already taking shape.<br><br>As the years passed, Wazir Kale grew with the task, taking care of the children who relied so much on him. In time, the legends outgrew the boy who by then had become a young man. Then, on a hot summer night, the Mumbai mafia decided to set an example and exert the ‘protection’ it was paid to provide shopkeepers with. The Crows were rounded up and Wazir got a severe beating. All but a few remaining Crows were not so lucky. Some legends have it he fought bravely as the gangsters burned down the shack filled with children and young men. Others mention it was in fact Kale himself who killed the Crows.<br><br>Whatever the truth is, Wazir Kale was subsequently initiated into the mafia and accepted his new position with an eye for revenge. A few years later, as he moved up the ranks, he was finally able to exert his revenge. He did so with incredible fury, practically annihilating the local mob outfit. This event added fuel to his already legendary reputation and “The Maelstrom” was born.<br><br>Post-carnage, Kale got out of Mumbai and ended up roaming around the Asian continent. Along the way, he picked up a rag-tag bunch of criminals with whom he formed a sort of paramilitary unit. Together, they eventually ended up raiding commercial ships in the South China Sea, stealing the transported fuel in highly coordinated hits and selling it on the black market.<br><br>The pressure on Kale kept building as the constant obligations mounted. Each new raid forced him to find new waters, find new partners, relocate to another abandoned island. On top of that, the legend forged by the pirates who retired from the raiding added more pressure than ever and gripped his crew in such a way that they began acting more carelessly, adopting more loose tactics and to some extent, chose more daring targets. They were, after all, with The Maelstrom.<br><br>One night, while raiding a Hamsun Oil freighter, a firefight ensued between the Maelstrom’s crew and the ship’s unexpectedly well-armed security force. Someone had tipped them off about the raid and the owner of Hamsun Oil had insisted that the pirates be dealt with – with extreme prejudice. While Kale survived, most of his crew did not and from the wreckage emerged a darker, more menacing figure. Wazir Kale was gone and all that remained was The Maelstrom. This was a dark time for Kale who had not only lost his way but also control of his outfit – all that remained was a desire to destroy, to tear down the bastions of rich westerners who had brought so much injustice to every single member of his crew.<br><br>And then, a light was lit in the far distance. One of The Maelstrom’s surviving crew members contacted him and let him know that a man of great importance wanted to see him. The Maelstrom agreed to the meeting and over the course of a few days got to know Lucas Grey and understand his agenda. While not an altruistic person, The Maelstrom saw something in what Grey was selling – a chance to find a new purpose, to solidify the legend of The Maelstrom into something beyond a modern-day pirate. He would bring liberation to the entire world, no matter the cost in blood.",
 				"3703768432": "The Director of the New York branch of the banking division of financial giant Milton-Fitzpatrick, Miss Savalas is an extremely hard-working, entirely unscrupulous woman who gave up everything personal to succeed in her life as a high-tier banker. \r\n<br>\r\nAn heir to a logistics empire, Athena Savalas entered the male-dominated banking system fresh out of business school. She quickly learned that to succeed, she would need to transform herself entirely from the classic businesswoman she’d been bred to become. Savalas developed a harshness and cut-throat approach to her co-workers, which alienated her from personal relationships at the bank as well as in her private life.\r\n<br>\r\nNow, at the age of 51, Athena Savalas’ transformation is complete. The fair-skinned girl with the bright blue eyes and warm smile has been replaced by an impossibly white creature of infinite sternness who is always in complete control. Savalas is a marble statue at this point, having shed every original bit of herself with every year that she’s worked in finance. She’s an expert at finding loopholes, exploiting tax rules and laundering money for criminals and has been involved in numerous tax evasion schemes, which have earned her multiple “Banker of the Year” awards in the last decade.\r\n<br> \r\nOver the years, Savalas has also developed a refined disdain for the middle class, reducing customers to numbers on sheets of paper with no thought to the things she destroys with her constant “less is more” approach to small and medium-sized businesses. Rumors of wanton gambling with client money and the bank’s finances are beginning to catch up to her and with the board of directors looking for a new CEO of Milton-Fitzpatrick, Savalas is eagerly covering her tracks, using any means necessary.",
 				"4247778829": "Estranged daughter of Robert Knox, Sierra Knox wasn't dealt the best of cards from her early childhood. Her mother died due to complications from childbirth, a fact that Sierra to this day still believes her father holds her secretly responsible for.<br><br>Growing up with a father who always worked, Sierra developed a somewhat reckless personality, always trying to out-do everyone else – including her old man. At age of 17, she was deeply involved with competitive short distance running and, worried that she might lose to her high school competitor, paid a man to ensure the competitor didn't run that afternoon. The competitor was chained to a wheelchair for the rest of her life while Sierra won the race easily. The tactic is one she would use again and again to get the upper hand in both athletics and life in general.<br><br>Sierra Knox graduated from Harvard business school and, without telling her father, secured a job with Kronstadt Industries, diligently working her way to the top of the financial department, finally interviewing for the position of CFO with her somewhat surprised father.<br><br>Sierra Knox has been instrumental in developing the money-earning side of the family business, and she has secured many deals with foreign nationals, including a very controversial decision to field test robot matériel in several rogue nations. While the loss of civilian life was never formally assigned as collateral damage following those tests, leaked internal reports suggest as much.<br><br>Sierra suffers from a serious inferiority complex in relation to her father. Always trying to prove herself to him but often coming up short, she is uncertain about whether he truly cares for her or not. Her insecurity causes her to act out, often irrationally or violently, and she is known for her lifestyle of working hard and partying even harder.<br><br>Sierra Knox is currently highly invested in the Kronstadt racing team and is the company’s lead driver in the Innovation Race. She’s won the race multiple times and is expected to bring home the trophy again."
+			}
+		},
+		"004976B829D7B87D": {
+			"english": {
+				"1745510790": "Tim Weimer"
+			},
+			"french": {
+				"1745510790": "Tim Weimer"
+			},
+			"italian": {
+				"1745510790": "Tim Weimer"
+			},
+			"german": {
+				"1745510790": "Tim Weimer"
+			},
+			"spanish": {
+				"1745510790": "Tim Weimer"
+			},
+			"russian": {
+				"1745510790": "Тим Ваймер"
+			},
+			"chineseSimplified": {
+				"1745510790": "蒂姆·韦默"
+			},
+			"chineseTraditional": {
+				"1745510790": "提姆‧韋默"
+			},
+			"japanese": {
+				"1745510790": "ティム・ワイマー"
+			}
+		},
+		"0082FCF9BF0CA18E": {
+			"english": {
+				"401636084": "Join Sierra's drinking game"
+			}
+		},
+		"00F5ABD36DC190F8": {
+			"english": {
+				"40654488": "Addressed for James Batty, 432 Whittleton Creek, VT."
+			}
+		},
+		"00F95A921D2E3A59": {
+			"english": {
+				"4223995132": "Slurry Pit"
+			}
+		},
+		"000C2FF325E2CF7D": {
+			"spanish": {
+				"3566935146": "Pesadilla en Bahía de Hawke"
 			}
 		},
 		"001F0F3B7F11E788": {
@@ -194,14 +266,90 @@
 				"4293601719": "como prisionero"
 			}
 		},
+		"002207BD4C412AD8": {
+			"english": {
+				"4102147943": "Claus Hugo Strandberg"
+			}
+		},
 		"0024113CCDF1598B": {
 			"english": {
 				"773185078": "Mark Faba was always a strange kid. Born to a firefighting father with a serious alcohol problem and an overworked mother working two jobs as a secretary in the iron and steel industry, Mark was left to his own devices from an early age. He spent his formative years living in his parents' basement and deeply embedded himself in the world of hobby electronics, phone phreaking and eventually computer hacking. <br><br> At 18, he found his calling as part of the underground computer hacking scene and sought to make himself a name by performing spectacular penetrations into corporate systems. After a series of hacks against the government, Faba was arrested by MI5 and placed in custody. Here, he was given a non-choice. Hone his skills with the Secret Service and work for England or face years of incarceration. <br><br> Faba spent two decades with MI5. He became an expert at demolitions and marksmanship. He learned infiltration techniques and grew his expertise at espionage, working for years on domestic surveillance projects aimed at journalists, politicians, corporate heads and members of the upper class. The stress and nature of his work got to Faba and one day, everything collapsed. <br><br> While on a mission to install surveillance equipment in the hotel suite of a visiting foreign diplomat, Faba was discovered. A struggle ensued and Faba ended up killing his intended surveillance target. Desperate and fearful of what might happen, Faba worked through the night to fake the circumstances around the man's death. Unfortunately, forensic experts at MI5 soon suspected foul play and as the evidence mounted, Faba felt the ground burn beneath him. In his desperation, he turned to an old bounty hunter connection and with their aid, Mark Faba disappeared from the world and was eventually presumed dead by his own hand. <br><br> Five years later, MI6 discovered a connection between of one their agents, who had been assassinated a year prior, and Mark Faba. Investigating the lead further provided vague indications that Faba was alive and was working as an assassin in various conflict zones around the world. An ICA contract was issued on Faba, requesting that he be terminated. The ICA sent one of their agents and eliminated Faba while on a mission in Somalia. However, Faba reappeared in Kosovo a few months later and so began one of the most enigmatic cases in ICA history. From that initial contract until present day, the ICA has confirmed the death of Faba more than 20 times and somehow, he keeps reappearing. <br><br> Faba has been given the nickname \"The Undying\" and has proven to be an un-erasable embarrassment for the ICA."
 			}
 		},
+		"0024A5A15AC9CC2F": {
+			"spanish": {
+				"1371055075": "«Mixtape 47»"
+			}
+		},
 		"003131BA6C4C5074": {
 			"english": {
-				"3203892346": "Coming from a proud lineage of Belgian war heroes—men who boldly defected to France in protest of King Leopold's surrender in World War II—Valliant was born with rebellion in his blood. For him, honor was everything, and he upheld his family's legacy with unwavering commitment. After graduating at the top of his class from Paris Sciences et Lettres, he took the next, inevitable step: enlisting in the French Foreign Legion. But Valliant’s ambitions ran darker than mere duty. He craved something beyond glory… he wanted power. <br><br>After his service, he transformed into a mercenary—a soldier of fortune—and soon caught the attention of the ICA, who wasted no time in recruiting him. Valliant rose quickly through their ranks, earning a deadly reputation as ICA’s most ruthless operative. Swift, precise, and merciless, he was everything they needed—and for Valliant, the money and the thrill of absolute control were… intoxicating. Killing came naturally to him. <br><br>But power, he realized, could be wielded in more ways than one. Playing multiple sides, manipulating his targets, Valliant’s games soon became a dangerous liability for ICA. When they uncovered his double-dealings, ICA took swift action, eliminating their top agent… or so they thought. <br><br>Now, he’s back, and this time, ICA’s very foundation is under threat…"
+				"605566503": "Boiling Point Reached",
+				"3053819346": "47 has been embedded undercover as a bodyguard in the ICA delegation.",
+				"3203892346": "Coming from a proud lineage of Belgian war heroes—men who boldly defected to France in protest of King Leopold's surrender in World War II—Valliant was born with rebellion in his blood. For him, honor was everything, and he upheld his family's legacy with unwavering commitment. After graduating at the top of his class from Paris Sciences et Lettres, he took the next, inevitable step: enlisting in the French Foreign Legion. But Valliant’s ambitions ran darker than mere duty. He craved something beyond glory… he wanted power. <br><br>After his service, he transformed into a mercenary—a soldier of fortune—and soon caught the attention of the ICA, who wasted no time in recruiting him. Valliant rose quickly through their ranks, earning a deadly reputation as ICA’s most ruthless operative. Swift, precise, and merciless, he was everything they needed—and for Valliant, the money and the thrill of absolute control were… intoxicating. Killing came naturally to him. <br><br>But power, he realized, could be wielded in more ways than one. Playing multiple sides, manipulating his targets, Valliant’s games soon became a dangerous liability for ICA. When they uncovered his double-dealings, ICA took swift action, eliminating their top agent… or so they thought. <br><br>Now, he’s back, and this time, ICA’s very foundation is under threat…",
+				"3818080128": "ICA Delegation"
+			},
+			"french": {
+				"605566503": "Point d'ébullition atteint"
+			},
+			"italian": {
+				"605566503": "Punto di ebollizione raggiunto"
+			},
+			"german": {
+				"605566503": "Siedepunkt erreicht"
+			},
+			"spanish": {
+				"605566503": "Punto de ebullición alcanzado"
+			},
+			"russian": {
+				"605566503": "Достигнута точка кипения"
+			},
+			"chineseSimplified": {
+				"605566503": "到达沸点"
+			},
+			"chineseTraditional": {
+				"605566503": "到達沸點"
+			},
+			"japanese": {
+				"605566503": "沸点に到達"
+			}
+		},
+		"0031D320C0F9FF08": {
+			"english": {
+				"3273557029": "Hawke's Bay"
+			},
+			"italian": {
+				"3273557029": "Hawke's Bay"
+			},
+			"spanish": {
+				"3273557029": "Bahía de Hawke"
+			}
+		},
+		"0034B7D0E44452E0": {
+			"spanish": {
+				"240629091": "<li>Completa 12 intensificaciones en estas ubicaciones:</li><li>Bahía de Hawke, Miami, Santa Fortuna, Bombay, Whittleton Creek, Isla de Sgàil, Nueva York, Isla Haven.</li>",
+				"313773456": "<li>Completa 35 contratos destacados en estas ubicaciones:</li><li>París, Sapienza, Marrakech, Bangkok, Colorado, Hokkaido.</li><li>Bahía de Hawke, Miami, Santa Fortuna, Bombay, Whittleton Creek, Isla de Sgàil, Nueva York, Isla Haven.</li>",
+				"324175323": "<li>Completa 3 intensificaciones en estas ubicaciones:</li><li>Bahía de Hawke, Miami, Santa Fortuna, Bombay, Whittleton Creek, Isla de Sgàil, Nueva York, Isla Haven.</li>",
+				"426380553": "<li>Completa 26 intensificaciones en estas ubicaciones:</li><li>Bahía de Hawke, Miami, Santa Fortuna, Bombay, Whittleton Creek, Isla de Sgàil, Nueva York, Isla Haven.</li>",
+				"597401889": "<li>Completa 10 contratos destacados en estas ubicaciones:</li><li>París, Sapienza, Marrakech, Bangkok, Colorado, Hokkaido.</li><li>Bahía de Hawke, Miami, Santa Fortuna, Bombay, Whittleton Creek, Isla de Sgàil, Nueva York, Isla Haven.</li>",
+				"683257056": "<li>Completa 45 contratos destacados en estas ubicaciones:</li><li>París, Sapienza, Marrakech, Bangkok, Colorado, Hokkaido.</li><li>Bahía de Hawke, Miami, Santa Fortuna, Bombay, Whittleton Creek, Isla de Sgàil, Nueva York, Isla Haven.</li>",
+				"1115577379": "<li>Completa 10 contratos destacados en estas ubicaciones:</li><li>París, Sapienza, Marrakech, Bangkok, Colorado, Hokkaido.</li><li>Bahía de Hawke, Miami, Santa Fortuna, Bombay, Whittleton Creek, Isla de Sgàil, Nueva York, Isla Haven.</li>",
+				"1134498920": "<li>Completa 18 intensificaciones en estas ubicaciones:</li><li>Bahía de Hawke, Miami, Santa Fortuna, Bombay, Whittleton Creek, Isla de Sgàil, Nueva York, Isla Haven.</li>",
+				"1230475225": "<li>Completa 30 contratos destacados en estas ubicaciones:</li><li>París, Sapienza, Marrakech, Bangkok, Colorado, Hokkaido.</li><li>Bahía de Hawke, Miami, Santa Fortuna, Bombay, Whittleton Creek, Isla de Sgàil, Nueva York, Isla Haven.</li>",
+				"1509398971": "<li>Completa 20 contratos destacados en estas ubicaciones:</li><li>París, Sapienza, Marrakech, Bangkok, Colorado, Hokkaido.</li><li>Bahía de Hawke, Miami, Santa Fortuna, Bombay, Whittleton Creek, Isla de Sgàil, Nueva York, Isla Haven.</li>",
+				"1601924251": "<li>Completa 25 contratos destacados en estas ubicaciones:</li><li>París, Sapienza, Marrakech, Bangkok, Colorado, Hokkaido.</li><li>Bahía de Hawke, Miami, Santa Fortuna, Bombay, Whittleton Creek, Isla de Sgàil, Nueva York, Isla Haven.</li>",
+				"2039837976": "<li>Completa 24 intensificaciones en estas ubicaciones:</li><li>Bahía de Hawke, Miami, Santa Fortuna, Bombay, Whittleton Creek, Isla de Sgàil, Nueva York, Isla Haven.</li>",
+				"2294532045": "<li>Completa 15 intensificaciones en estas ubicaciones:</li><li>Bahía de Hawke, Miami, Santa Fortuna, Bombay, Whittleton Creek, Isla de Sgàil, Nueva York, Isla Haven.</li>",
+				"2300743558": "<li>Completa 15 contratos destacados en estas ubicaciones:</li><li>París, Sapienza, Marrakech, Bangkok, Colorado, Hokkaido.</li><li>Bahía de Hawke, Miami, Santa Fortuna, Bombay, Whittleton Creek, Isla de Sgàil, Nueva York, Isla Haven.</li>",
+				"2485632830": "<li>Completa 20 contratos destacados en estas ubicaciones:</li><li>París, Sapienza, Marrakech, Bangkok, Colorado, Hokkaido.</li><li>Bahía de Hawke, Miami, Santa Fortuna, Bombay, Whittleton Creek, Isla de Sgàil, Nueva York, Isla Haven.</li>",
+				"2512844661": "<li>Completa 1 intensificación en estas ubicaciones:</li><li>Bahía de Hawke, Miami, Santa Fortuna, Bombay, Whittleton Creek, Isla de Sgàil, Nueva York, Isla Haven.</li>",
+				"2876713461": "<li>Completa 40 contratos destacados en estas ubicaciones:</li><li>París, Sapienza, Marrakech, Bangkok, Colorado, Hokkaido.</li><li>Bahía de Hawke, Miami, Santa Fortuna, Bombay, Whittleton Creek, Isla de Sgàil, Nueva York, Isla Haven.</li>",
+				"2999559869": "<li>Completa 21 intensificaciones en estas ubicaciones:</li><li>Bahía de Hawke, Miami, Santa Fortuna, Bombay, Whittleton Creek, Isla de Sgàil, Nueva York, Isla Haven.</li>",
+				"3303681677": "<li>Completa 5 contratos destacados en estas ubicaciones:</li><li>París, Sapienza, Marrakech, Bangkok, Colorado, Hokkaido.</li><li>Bahía de Hawke, Miami, Santa Fortuna, Bombay, Whittleton Creek, Isla de Sgàil, Nueva York, Isla Haven.</li>",
+				"3305858758": "<li>Completa 9 intensificaciones en estas ubicaciones:</li><li>Bahía de Hawke, Miami, Santa Fortuna, Bombay, Whittleton Creek, Isla de Sgàil, Nueva York, Isla Haven.</li>",
+				"3526811308": "<li>Completa 28 intensificaciones en estas ubicaciones:</li><li>Bahía de Hawke, Miami, Santa Fortuna, Bombay, Whittleton Creek, Isla de Sgàil, Nueva York, Isla Haven.</li>",
+				"3624818302": "<li>Completa 6 intensificaciones en estas ubicaciones:</li><li>Bahía de Hawke, Miami, Santa Fortuna, Bombay, Whittleton Creek, Isla de Sgàil, Nueva York, Isla Haven.</li>",
+				"3656326709": "<li>Completa 30 contratos destacados en estas ubicaciones:</li><li>París, Sapienza, Marrakech, Bangkok, Colorado, Hokkaido.</li><li>Bahía de Hawke, Miami, Santa Fortuna, Bombay, Whittleton Creek, Isla de Sgàil, Nueva York, Isla Haven.</li>",
+				"3823468357": "<li>Completa 40 contratos destacados en estas ubicaciones:</li><li>París, Sapienza, Marrakech, Bangkok, Colorado, Hokkaido.</li><li>Bahía de Hawke, Miami, Santa Fortuna, Bombay, Whittleton Creek, Isla de Sgàil, Nueva York, Isla Haven.</li>"
 			}
 		},
 		"004757029ED4D7C4": {
@@ -209,6 +357,11 @@
 				"998061099": "A small plastic bag filled with nondescript pills, euphemistically dubbed \"Allergy Pills\" by the man outside the club entrance.",
 				"3503488150": "Bag of \"Allergy Pills\"",
 				"4183668711": "A man outside the entrance claims he can get you into the club if you help him find his missing \"Allergy Pills\". They're probably close by..."
+			}
+		},
+		"004B8C5124A49543": {
+			"spanish": {
+				"2231831317": "Traje de Código 47"
 			}
 		},
 		"004EC612565A38BD": {
@@ -239,6 +392,11 @@
 				"638095483": "The young Dame Barbara Keating, née Johnson, was from a modest working-class English background. Her father was a waiter at an expensive restaurant and unlike the rest of the fathers in their neighborhood, who wore overalls and worked on a factory line, Samuel Johnson left to work in a white shirt and a tuxedo. Seeing her father dressed up every morning and her mother’s glowing eyes as she served him his breakfast and brought him the paper was a source of pride to young Barbara. They may not have been better off than anybody else on the block - in fact they often struggled due to her father's heavy drinking - but in her esteem, they were still different.<br>Barbara was a stunning beauty, and at the age of 18 she caught the eye of a visiting businessman, Robert Keating, who was 25 years older than her and based halfway around the world in New Zealand. They married a few years later and when Keating had a heart attack in bed, Barbara sidelined Keating’s family and took control of her late husband's business interests. A tough and ruthless businesswoman, Barbara Keating built an empire, often leaving a fair bit of wreckage in her slipstream.<br>Much later, she made a foray into politics and was eventually appointed Minister of Trade and Foreign Affairs in her adopted homeland, before being given the honorary title Dame Barbara by the queen.<br>At the height of her powers, however, the newly-minted Dame became engulfed in a scandal and was forced to step down from her post. A charity she represented benifitting the homeless was found to have funneled donations into Dame Barbara’s own offshore holdings. To minimize the damage to herself, she drew on tabloid contacts and orchestrated an elaborate smear campaign against the director of the charity, a renowned but fragile poet and social organizer by the name of Jacqueline Vicar. The director was depicted as a blackmailer and conspirator, who aimed to entrap Dame Barbara in a scheme to pay off the mounting costs of Vicar's own private vices. Shortly thereafter, the director was involved in a conspicuously timed car accident, officially (and publicly) considered a suicide.<br>Now a somewhat more paranoid (and significantly more cautious) Dame Barbara is preparing for her political comeback, with help from an uncanny body double."
 			}
 		},
+		"005C45D871601753": {
+			"spanish": {
+				"4124322807": "<li>Inféctate con el virus.</li><li>Túmbate en una mesa de la morgue mientras estás infectado.</li><li>Completa la misión.</li>"
+			}
+		},
 		"005DE6FF4B418AF8": {
 			"english": {
 				"2935068597": "A ceremonial dagger."
@@ -250,6 +408,14 @@
 				"1442088885": "Eliminate Shahin Abdul-Barr Maalouf with a battle axe. <br>Eliminate Mahbub Jalal al Din Ganim while disguised as the Headmaster. <br>Break into the safe in the school and steal the contents. <br>Wild Card: Some things have been moved, removed or added to the level. <br>You are allowed one disguise change while playing the mission. If you change disguise more than once, you will fail the mission.",
 				"2209178792": "Eliminate Shahin Abdul-Barr Maalouf with a battle axe. <br>Eliminate Mahbub Jalal al Din Ganim while disguised as the Headmaster. <br>Break into the safe in the school and steal the contents.",
 				"2661831696": "Eliminate Shahin Abdul-Barr Maalouf with a battle axe. <br>Eliminate Mahbub Jalal al Din Ganim while disguised as the Headmaster. <br>Break into the safe in the school and steal the contents. <br>Wild Card: Some things have been moved, removed or added to the level."
+			}
+		},
+		"00643867EAFB7F36": {
+			"spanish": {
+				"409489378": "Ubicación de HITMAN 2: Bahía de Hawke, Nueva Zelanda<br>Disfruta de un paseo a la luz de la luna con el sonido de las olas de fondo por la costa de Bahía de Hawke (Nueva Zelanda) y, de noche, retírate a la terraza de una segura y lujosa casa de playa diseñada por el famoso arquitecto Oscar Wong.",
+				"1261797312": "¡El Paquete Bombay de HITMAN 2 te da acceso a todo el contenido permanente y futuro de las ubicaciones Bahía de Hawke y Bombay, así como al mapa de Asesino francotirador Himmelstein!<br><br>Si te gusta el Paquete Bombay, podrás mejorar a la experiencia completa de HITMAN 2 a precio reducido.",
+				"2787068754": "¡Obtén acceso gratuito a la primera misión de HITMAN 2! ¿Serás capaz de ayudar al Agente 47 a escapar del peligroso giro de los acontecimientos?<br>Disfruta de la rejugabilidad única de HITMAN 2, donde podrás experimentar, improvisar y completar todos los desafíos que Bahía de Hawke ofrece.",
+				"3175993088": "Bahía de Hawke"
 			}
 		},
 		"006F74FEE85A5CF3": {
@@ -272,7 +438,32 @@
 		"008322D98E1CFE04": {
 			"english": {
 				"611928695": "Old garden shears.",
-				"2913254817": "\"Good Quack Vol. 3\" VHS Tape"
+				"2913254817": "\"Good Quack Vol. 3\" VHS Tape",
+				"4164055027": "Enjoy this wonderful compilation chock full of footage of everyone’s favorite bird. Don’t have a VHS player? Then you can always use it to unleash your frustrations on your enemy!"
+			},
+			"french": {
+				"2913254817": "Cassette VHS \"Bon coin-coin vol. 3\""
+			},
+			"italian": {
+				"2913254817": "Videocassetta \"Buon qua-qua vol. 3\""
+			},
+			"german": {
+				"2913254817": "„Guter Quaken Vol. 3“ VHS-Kassette"
+			},
+			"spanish": {
+				"2913254817": "Cinta de vídeo «Buen cuac cuac, vol. 3»"
+			},
+			"russian": {
+				"2913254817": "Видеокассета «Хороший Кря-кря, часть 3»"
+			},
+			"chineseSimplified": {
+				"2913254817": "《好呱呱第3集》家庭录像带"
+			},
+			"chineseTraditional": {
+				"2913254817": "「好嘎嘎第3集」錄影帶"
+			},
+			"japanese": {
+				"2913254817": "「Good Quack Vol. 3」VHSテープ"
 			}
 		},
 		"0094D363985DA031": {
@@ -295,6 +486,45 @@
 				"1766502356": "Помогите Лукасу Грею похитить Константу [Дополнительно]"
 			}
 		},
+		"0098F645934E706D": {
+			"english": {
+				"489605828": "This is an internal report showing the progress of the previous month's activity within the key expertise areas of Haven. It notes several full identity wipes – or 'nulls', as they are called – having been completed and three additional ones have been reported as initiated just a few days ago. Presumably these belong to the Providence Partners. From the looks of it, Haven has its hooks into every major social and governmental platform in the world and is effectively able to completely remove any client entirely from every official or privately owned database in the world. Additionally, if needed, new identities can easily be crafted with practically bullet-proof backgrounds established."
+			},
+			"french": {
+				"489605828": "Un rapport de Haven interne qui présente la progression de l'activité des secteurs d'expertise clés de l'entreprise au cours des derniers mois. On y retrouve plusieurs identités entièrement effacées (dites \"nulles\"), ainsi que trois nouvelles dont l'effacement a été initié il y a quelques jours. Celles-ci semblent être celles des partenaires de Providence. Haven aurait donc des points d'accès dans les plateformes sociales et gouvernementales mondiales majeures, ce qui les rend capables d'effacer n'importe quel client de n'importe quelle base de données privée ou publique dans le monde. Ils sont également en mesure de créer de nouvelles identités de toute pièce, en leur fournissant un passé à toute épreuve."
+			},
+			"italian": {
+				"489605828": "Questo rapporto interno mostra i progressi dell'ultimo mese di attività nelle principali aree di competenza di Haven. Riporta molte cancellazioni totali di identità, o \"annullamenti\", come vengono chiamate, che sono state portate a termine, oltre a tre nuove avviate solo un paio di giorni fa. Probabilmente riguardano i soci di Providence. Da quanto sembra, la Haven ha ganci in tutte le maggiori società e piattaforme governative nel mondo, per questo sarebbe di fatto in grado di rimuovere qualsiasi cliente da ogni singolo database, pubblico o privato che sia. In più, se necessario, è possibile creare nuove identità con esperienze pregresse praticamente a prova di bomba."
+			},
+			"german": {
+				"489605828": "Dieser interne Bericht zeigt den Fortschritt der letzten Monate bei den Schlüsselaktivitäten in den Kernkompetenzbereichen von Haven. Es werden mehrere vollständige Identitätslöschungen – oder „Nullen“, wie sie genannt werden – erwähnt, die abgeschlossen sind, sowie drei weitere, die erst vor ein paar Tagen eingeleitet wurden. Anscheinend gehören diese zu den Providence-Partnern. So wie es aussieht, hat Haven seine Finger in so gut wie allen größeren Social-Media- und Regierungsplattformen der Welt. Dadurch ist es ihnen möglich, Klienten vollkommen aus allen offiziellen und privaten Datenbanken rund um den Erdball zu löschen. Hinzu kommt noch, dass man auf diese Weise auch noch leicht neue Identitäten erstellen kann, die nahezu jeder Hintergrundüberprüfung standhalten."
+			},
+			"spanish": {
+				"489605828": "Un informe interno que muestra los progresos hechos en el último mes en áreas clave de Haven. Incluye varios borrados de identidad completos ya realizados (o «anulaciones», que es como los llaman), así como tres nuevos que aparecen como «iniciados» hace unos días. En teoría, esos tres pertenecen a los socios de Providence. Según parece, Haven tiene contactos en todas las principales plataformas sociales y gubernamentales del mundo, de tal modo que puede hacer desaparecer completamente a cualquier cliente de todas las bases de datos oficiales o privadas del planeta. Además, de ser necesario, puede crear con facilidad nuevas identidades, con unos pasados férreos y demostrables."
+			},
+			"russian": {
+				"489605828": "Внутренний отчет «Гавани» за последние несколько месяцев работы комплекса. В нем сообщается, что следы и упоминания нескольких клиентов уже полностью стерты из всех источников, а «стирание» еще трех клиентов началось буквально пару дней назад. Судя по всему, речь идет о партнерах «Провиденс». Из него следует, что у «Гавани» есть связи в крупных общественных и правительственных организациях по всему миру, — именно это позволяет ей полностью удалять своих клиентов из любых государственных и частных баз данных. При необходимости клиенту могут даже создать совершенно новую «личность» с безупречной биографией."
+			},
+			"chineseSimplified": {
+				"489605828": "这份海文的内部报告显示了海文公司上个月关键业务领域的活动进展。上面写道已经完成了对若干人身份的彻底抹除工作（他们称之为“清零”），且报告称又有三人的身份抹除工作已在几天前开始。这些东西可能是属于神意秘会同伙的。看起来，海文与全世界所有主流的社会以及政府平台都有往来，能有效地从世界上一切官方或私人数据库中完全抹除任何客户的相关信息。另外，若有必要，他们还能轻松伪造拥有无懈可击背景的新身份。"
+			},
+			"chineseTraditional": {
+				"489605828": "這份避風港內部報告，其中顯示過去幾週避風港在關鍵區域的活動。其中紀錄著幾起完整身份移除或是「歸零」，這些已經完成了，而且過去幾天還開始了三個案子。這些應該屬於神意秘會同夥。看來，避風港在世界各地所有的社群和政府平台都有爪牙，他們能夠從世界上的所有官方或私有數據庫中移除任何客戶。另外，他們打造的身份幾乎擁有完美無缺的背景。"
+			},
+			"japanese": {
+				"489605828": "ヘイヴンの内部報告書。先月のヘイヴンの重要な専門的領域での活動の進捗が説明されている。報告書には、数件のアイデンティティの抹消（つまり、ヘイヴンが「ゼロ」と呼んでいるもの）の完了が記載されており、さらに3件のアイデンティティの抹消がわずか数日前に開始されたことが報告されている。おそらくはプロヴィデンスのパートナーに属しているものだ。ここから考えると、ヘイヴンは世界中のあらゆる大手のソーシャルや政府のプラットフォームに影響力を及ぼしており、公有、私有を問わず、世界中のどんなデータベースからもクライアントのアイデンティティを効率的かつ完全に消し去る力を持っている。さらには必要に応じて、疑いの余地のない完璧な経歴を備えた、新しいアイデンティティを簡単にねつ造することも可能だ。"
+			}
+		},
+		"00A40B0195844051": {
+			"spanish": {
+				"3375291446": "Explota cinco globos."
+			}
+		},
+		"00C473591C72C358": {
+			"english": {
+				"3352206434": "KAI Malfunction"
+			}
+		},
 		"00C4FB89CD2F7B77": {
 			"english": {
 				"639433783": "as a Waiter",
@@ -309,7 +539,7 @@
 				"3651785796": "as an Armored Knight",
 				"4098699491": "as the Master of Ceremonies"
 			},
-			"it": {
+			"italian": {
 				"639433783": "come cameriere",
 				"1401254989": "come Blake Nathaniel",
 				"1987771976": "come Jebediah Block",
@@ -372,7 +602,6 @@
 				"2944546513": "Good morning, 47.<br><br>Your target is the infamous serial killer known as \"The Censor.\" With a flair for the theatrical, The Censor acts as an examiner who grades his victims based on how much they struggle for their lives.<br><br>The true identity of The Censor is unfortunately unknown, but the discovery of two recent victims indicates he's now exploring Whittleton Creek, Vermont, in search of prey.<br><br>We only have a limited window of opportunity here, 47. Find The Censor and make sure he never grades anyone again.<br><br>Best of luck."
 			},
 			"french": {
-				"2074750976": "La véritable identité de votre mission, le tueur en série appelé le Censeur, est inconnue.<br><br>Ce pseudonyme de \"Censeur\" provient des seuls indices qu'il laisse sur les scènes de ses crimes: une note évaluant à quel point sa victime s'est débattue avant de mourir.<br><br>D'après le rapport officiel de profilage, il s'agirait d'un homme, caucasien et dans la cinquantaine. Il est méthodique, méticuleux et possède évidemment un QI élevé.<br><br>Le rapport précise également qu'il a été élevé par un parent seul, très critique et autoritaire, et qui serait très probablement la cause de ses choix de victimes et de cette manie qu'il a de les noter.<br><br>Il a échappé aux autorités pendant des années, mais il commence à se montrer moins prudent et celles-ci ont pu déceler un point commun à ses assassinats, ce qui les amène à penser qu'il se trouve actuellement dans la Crique de Whittleton.",
 				"2944546513": "Bonjour, 47.<br><br>Votre cible est le célèbre tueur en série connu sous le nom du \"Censeur\". Grand amateur de mises en scène théâtrales, le Censeur se prend pour un examinateur qui note ses victimes, jugeant leur capacité à se débattre avant de mourir.<br><br>Sa véritable identité reste malheureusement un mystère, mais la découverte récente de deux de ses victimes tend à indiquer qu'il cherche actuellement une nouvelle proie à Whittleton Creek, dans le Vermont.<br><br>Je crains que nos options ne soient limitées, 47. Trouvez le Censeur et veillez à lui passer l'envie de noter qui que ce soit d'autre.<br><br>Bonne chance."
 			},
 			"italian": {
@@ -380,15 +609,12 @@
 				"2944546513": "Buongiorno, 47.<br><br>Il tuo bersaglio è il famigerato serial killer noto come \"il Censore\". Il Censore, con la sua predisposizione alla teatralità, si comporta come un esaminatore che valuta le proprie vittime in base a quanto lottano per la loro vita.<br><br>La vera identità del Censore è sfortunatamente ignota, ma il recente ritrovamento di due vittime indica che ora sta esplorando Whittleton Creek, nel Vermont, alla ricerca di prede.<br><br>Abbiamo a disposizione una finestra temporale limitata, 47. Trova il Censore e assicurati che non valuti mai più nessuno.<br><br>Buona fortuna."
 			},
 			"german": {
-				"2074750976": "Die wahre Identität dieses Auftragsziels, ein Serienmörder namens „Censor“, ist unbekannt.<br><br>Der Spitzname „Censor“ rührt von den Beweisen her, die er am Tatort zurücklässt: Benotungen, die aussagen, wie sehr die Opfer um ihr Leben gekämpft haben.<br><br>Seinem offiziellen Polizeiprofil zufolge ist er vermutlich männlich, weiß und Anfang, Mitte 50. Er ist sehr sorgfältig und methodisch und hat offensichtlich einen hohen IQ.<br><br>Die Berichte postulieren weiterhin, dass er aus einem dominanten Haushalt kommt, sehr wahrscheinlich mit einem wertenden und autoritären Elternteil, das ihn allein erzog. Das hatte vermutlich einen starken Einfluss darauf, wie das Ziel seine Opfer auswählt und „benotet“.<br><br>Den Behörden entgeht er seit vielen Jahren, beginnt aber langsam Anzeichen für mangelnde Vorsicht und ein klares Muster zu zeigen, weshalb man vermutet, dass sein nächstes Ziel sich irgendwo in Whittleton Creek aufhält.",
 				"2944546513": "Guten Morgen, 47.<br><br>Ihr Ziel ist der berüchtigte Serienmörder, der als „Censor“ bekannt ist. Mit einem Hang zum Dramatischen fungiert der „Censor“ als eine Art Gutachter, der seinen Opfern Noten dafür erteilt, wie sehr sie um ihr Leben kämpfen.<br><br>Die wahre Identität des „Censor“ ist leider unbekannt, doch der Fundort seiner beiden letzten Opfer deutet darauf hin, dass er inzwischen in Whittleton Creek in Vermont nach Beute sucht.<br><br>Wir haben hier nur ein begrenztes Einsatzfenster, 47. Finden Sie den „Censor“ und sorgen Sie dafür, dass er niemanden mehr benotet.<br><br>Viel Glück."
 			},
 			"spanish": {
-				"2074750976": "Desconocemos la verdadera identidad del objetivo, un asesino en serie conocido como El Censor.<br><br>El apodo de «El Censor» viene derivado de la única prueba que deja siempre en la escena del crimen: la nota que le da al modo en que sus víctimas lucharon por sobrevivir.<br><br>A tenor de los informes criminales oficiales, se cree que es un varón caucásico de 50-55 años. Es meticuloso y metódico, además de haber demostrado ser muy inteligente.<br><br>Los informes también destacan que posiblemente fuese criado en un hogar estricto, bajo la tutela de un solo progenitor, padre o madre, autoritario y moralista. Esto dejaría una huella profunda en el modo en el que el sospechoso elige y «evalúa» a sus víctimas.<br><br>Lleva muchos años eludiendo a las autoridades, pero empieza a volverse descuidado y va dejando entrever un patrón. Por eso mismo, las autoridades creen que su próximo objetivo está en algún rincón de Whittleton Creek.",
 				"2944546513": "Buenos días, 47.<br><br>Tu objetivo es el famoso asesino en serie conocido como «El Censor». Al Censor le gusta mucho el melodrama. Suele examinar a sus víctimas y valorarlas según cuánto luchen por la supervivencia.<br><br>Por desgracia, desconocemos la verdadera identidad del Censor, pero el descubrimiento de dos víctimas recientes nos indica que está buscando presas en Whittleton Creek, en Vermont.<br><br>Tenemos muy poco margen de maniobra, 47. Encuentra al Censor y asegúrate de que no vuelva a examinar a nadie.<br><br>Que tengas suerte."
 			},
 			"russian": {
-				"2074750976": "Настоящее имя серийного убийцы по прозвищу Критик неизвестно.<br><br>Убийца получил это прозвище за то, что на месте каждого преступления оставлял оценку, которую давал жертве в зависимости от того, насколько отважно она сопротивлялась.<br><br>Судя по официальным полицейским сводкам, убийца — белый мужчина-европеоид в возрасте 50–55 лет. Он очень педантичен и внимателен, а также обладает высоким IQ.<br><br>Составитель отчета предполагает, что убийца воспитывался авторитарным родителем в неполной семье в обстановке постоянного осуждения и контроля, из-за чего и захотел ставить оценки своим жертвам.<br><br>Убийца, который уже много лет скрывается от правосудия, в последнее время отошел от привычной схемы и проявил неосмотрительность, что позволило следствию выйти на след его возможной следующей жертвы в Уиттлтон-Крике.",
 				"2944546513": "Доброе утро, 47-й.<br><br>Твоя цель — одиозный серийный убийца по прозвищу Критик. Как тонкий ценитель театра, Критик «оценивает» своих жертв по тому, насколько отважно они сопротивляются перед смертью.<br><br>К сожалению, мы не знаем, кто скрывается под этим прозвищем, но, вероятнее всего, он сейчас охотится в Уиттлтон-Крике, штат Вермонт, — там были найдены две его последние жертвы.<br><br>Второго такого шанса устранить Критика у нас не будет, 47-й. Найди Критика и сделай всё возможное, чтобы он больше никого не критиковал.<br><br>Желаю удачи."
 			}
 		},
@@ -420,8 +646,17 @@
 			}
 		},
 		"00DC202021F89A51": {
+			"spanish": {
+				"634477522": "<li>Completa «Explosiones desatadas».</li><li>Elimina a todos los guardias del tren durante la misión «Intocable» en los Cárpatos, Rumanía.</li><li>Acaba con todo con un viaje por los recuerdos.</li>",
+				"1364212078": "Completa todos los desafíos de Código 47. <li>El Dragón Rojo</li><li>Saluda a mi amiguito</li><li>Tradiciones del oficio</li><li>Explosiones desatadas</li><li>La artimaña</li>",
+				"2799138235": "Tradiciones del oficio",
+				"3625841451": "<li>Completa «Tradiciones del oficio».</li><li>Elimina a 5 agentes de la ICA con explosivos durante la misión «Superdepredador» en Berlín, Alemania.</li><li>Hay que conseguir todas las eliminaciones en una misma partida.</li>",
+				"4081166313": "<li>Completa «Saluda a mi amiguito».</li><li>Elimina a cualquier objetivo en Bangkok, Tailandia ahogándolo.</li>"
+			}
+		},
+		"00E45529FDC93B59": {
 			"english": {
-				"634477522": "<li>Complete \"Explosions Run Loose\"</li><li>Eliminate all guards on the train during the Untouchable mission in the Carpathian Mountains, Romania</li><li>End it all by taking a trip down memory lane</li>"
+				"2571192323": "<li>[REDACTED]</li>"
 			}
 		},
 		"00E4A105055DA583": {
@@ -463,6 +698,11 @@
 				"512609165": "Protected<br>Reservoir"
 			}
 		},
+		"00EBEB2121174D0B": {
+			"spanish": {
+				"85490831": "Ubicación de HITMAN 2: Bahía de Hawke, Nueva Zelanda<br>Disfruta de un paseo a la luz de la luna con el sonido de las olas de fondo por la costa de Bahía de Hawke (Nueva Zelanda) y, de noche, retírate a la terraza de una segura y lujosa casa de playa diseñada por el famoso arquitecto Oscar Wong."
+			}
+		},
 		"00F3D25FC3719890": {
 			"english": {
 				"1490854150": "Born in the early 1980s, Alexios Laskaridis' childhood was heavily influenced by the electronic music scene maturing alongside him. He spent his youth on the move with his family -- both of his parents being touring theater actors -- but he was always able to turn to the world of music to keep him anchored. It was a lifestyle that lead him easily into his own role on stage. In Laskaridis' case, it was the DJ booth specifically that called to him. This career kept him flexible. He was comfortable moving on with the seasons, going where the crowds (and the work) were, and never laying roots down too deeply. It worked for the most part,  but in those gaps and hollows when it didn’t quite come together there was always a little bit of illicit work to be found nearby. Drug trafficking helped Laskaridis make ends meet, but he swore he would give it up once he'd built more of a following, or once he’d bought a club of his own. <br><br>It was a jealous up-and-comer from a privileged family who threw a wrench in these admittedly naive plans. Money was exchanged, and not long after, Laskaridis' hand was crushed under a poorly-secured piece of stage decor. Although he would eventually make a full recovery, it came with a significant amount of downtime in his budding career. Nevertheless the bills had to be paid. While his skills as a performer risked atrophy, his connections and criminal talents were honed. When he made his inevitable comeback, many agreed that he wasn't quite the same. His hand seemed perfectly fine, but the experience had hardened him. He was laser-focused now – but on what is anyone's guess. Clarity only came when the man who had arranged his accident (an open secret in their tight social circle) disappeared, leaving behind only a single foot in a brand new sneaker on the side of the highway. <br><br>Laskaridis' face became a less common sight on stage after that. The underworld had given him power where his music had failed to. His alliance shifted accordingly, and he made it his mission to dominate the scene in a manner where he knew he could seize the upper hand."
@@ -475,7 +715,8 @@
 		},
 		"00F56C5CB4D83712": {
 			"english": {
-				"2612477407": "Meadow<br>Brown<br>Lounge"
+				"2612477407": "Meadow<br>Brown<br>Lounge",
+				"3059624533": "Manager's<br>Office"
 			},
 			"german": {
 				"2612477407": "Meadow-<br>Brown-<br>Lounge"

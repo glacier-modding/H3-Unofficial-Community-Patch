@@ -1,0 +1,228 @@
+{
+	"tempHash": "004F13995E0E9AF5",
+	"tbluHash": "00D86D84723DECC6",
+	"patch": [
+		{ "RemoveEntityByID": "4acb67d888baa2a3" },
+		{
+			"SubEntityOperation": [
+				"3a32e1eb9a0c8a10",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": 57.363125522698816
+							},
+							"position": {
+								"x": 24.760910034179688,
+								"y": -34.044490814208984,
+								"z": -3.871959686279297
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9d4d1c3a6a8cd3a6",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -10.09650499806694,
+								"y": -6.230313313108293,
+								"z": -148.64155340142008
+							},
+							"position": {
+								"x": -16.16857147216797,
+								"y": -7.387866973876953,
+								"z": 0.6827850341796875
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4cf932954fe49591",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 1.8385268212156325,
+								"y": 0.18060872349363952,
+								"z": 40.14788390429741
+							},
+							"position": {
+								"x": 2.6777313232421878,
+								"y": -71.99150085449219,
+								"z": -0.033107757568359375
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"152f43b29e34b393",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -15.479148255303052
+							},
+							"position": {
+								"x": -2.2249908447265625,
+								"y": 3.7213566303253174,
+								"z": -0.8895111083984375
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6d44965dce15fc4b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -13.788659648437417,
+								"y": -19.227935141275484,
+								"z": 153.42361840027897
+							},
+							"position": {
+								"x": 6.933305603027344,
+								"y": 12.193828582763672,
+								"z": 0.4651908874511719
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"62c5d494c2bff09e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -8.189741781412911,
+								"y": -11.64893731738198,
+								"z": -131.2402796425276
+							},
+							"position": {
+								"x": 2.3561248779296875,
+								"y": -0.00579833984375,
+								"z": -0.3912010192871094
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8c04d41ef8b0453d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 8.15492799244538,
+								"y": 0.09091604554635152,
+								"z": -161.20093213731178
+							},
+							"position": {
+								"x": 24.351490020751953,
+								"y": -27.568204879760746,
+								"z": -3.163829803466797
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f2bb1bc577dbe9e4",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -11.548619462699833,
+								"y": -18.25708129497626,
+								"z": -81.92305736636087
+							},
+							"position": {
+								"x": 0.9011459350585938,
+								"y": -6.381869720458984,
+								"z": -0.4267659912109375
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"742f4f8eb78ddbf7",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -9.238389270372668,
+								"y": -28.02631229824888,
+								"z": 37.25338391784071
+							},
+							"position": {
+								"x": 1.4315185546875,
+								"y": 8.79018783569336,
+								"z": 0.43218994140625
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"60b4d8da4adb8a8b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 8.624885540579122,
+								"y": 1.971138291699181,
+								"z": 83.6278029153035
+							},
+							"position": {
+								"x": 18.487953186035156,
+								"y": -57.84603118896485,
+								"z": -5.072425842285156
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
