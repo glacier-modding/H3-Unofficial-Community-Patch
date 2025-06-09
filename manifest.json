@@ -360,8 +360,33 @@
 			}
 		},
 		"004B8C5124A49543": {
+			"english": {
+				"659782193": "Have an ace up your sleeve? In this gorgeous dark ensemble, with a beautiful pattern of all four suits, no one will know what card you will bet on."
+			},
+			"french": {
+				"659782193": "Vous avez un atout dans votre manche ? Dans ce superbe ensemble sombre, avec un magnifique motif des quatre couleurs, personne ne saura sur quelle carte vous allez parier."
+			},
+			"italian": {
+				"659782193": "Avete un asso nella manica? In questo splendido ensemble scuro, con un bellissimo disegno di tutti e quattro i semi, nessuno saprà su quale carta punterete."
+			},
+			"german": {
+				"659782193": "Haben Sie ein Ass im Ärmel? In diesem herrlichen dunklen Ensemble mit einem schönen Muster aus allen vier Farben wird niemand wissen, auf welche Karte Sie setzen werden."
+			},
 			"spanish": {
+				"659782193": "¿Tienes un as en la manga? Con este precioso conjunto oscuro, con un precioso estampado de los cuatro palos, nadie sabrá por qué carta apostarás.",
 				"2231831317": "Traje de Código 47"
+			},
+			"russian": {
+				"659782193": "У вас есть туз в рукаве? В этом великолепном темном ансамбле с красивым узором из всех четырех мастей никто не узнает, на какую карту вы поставите."
+			},
+			"chineseSimplified": {
+				"659782193": "袖子里有王牌吗？穿上这套华丽的深色套装，配上所有四种花色的美丽图案，没人会知道你会押什么牌。"
+			},
+			"chineseTraditional": {
+				"659782193": "您有王牌嗎？穿上這套華麗的深色套裝，配上四種花色的美麗圖案，沒有人會知道您會押哪張牌。"
+			},
+			"japanese": {
+				"659782193": "あなたの袖にエースが？このゴージャスでダークなアンサンブルに、4つのスートすべての美しい模様が描かれている。"
 			}
 		},
 		"004EC612565A38BD": {
