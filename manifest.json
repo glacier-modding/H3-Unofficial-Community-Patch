@@ -1,12 +1,13 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "1.81.0",
+	"version": "1.88.0",
 	"id": "GlacierOrganisation.CommunityPatches",
 	"name": "Unofficial Community Patch",
 	"description": "It's like a patch, but unofficial! Fixes various bugs that IO Interactive haven't yet.",
 	"authors": [
 		"Atampy26",
 		"Anthony Fuller",
+		"AtomicForce",
 		"Cybore",
 		"Dribbleondo",
 		"invalid",
@@ -37,7 +38,7 @@
 	"loadBefore": ["KevinRudd.FreelancerVariations"],
 	"loadAfter": ["invalid.earpiecevoices"],
 	"blobsFolders": ["blobs", "blobsIOI"],
-	"frameworkVersion": "2.33.25",
+	"frameworkVersion": "2.33.26",
 	"updateCheck": "https://github.com/glacier-modding/H3-Unofficial-Community-Patch/releases/latest/download/updates.json",
 	"options": [
 		{
@@ -150,6 +151,50 @@
 				"3574464083": "Born in the slums of then-Bombay, Wazir Kale grew up on the streets. Orphaned from a young age, Wazir quickly joined a small group of lawless children nicknamed ‘The Crows’. Young Wazir eventually grew to the top of the gang and, after the old boss died in a car accident, he assumed the role of leader. At the ripe age of 12, his legend was already taking shape.<br><br>As the years passed, Wazir Kale grew with the task, taking care of the children who relied so much on him. In time, the legends outgrew the boy who by then had become a young man. Then, on a hot summer night, the Mumbai mafia decided to set an example and exert the ‘protection’ it was paid to provide shopkeepers with. The Crows were rounded up and Wazir got a severe beating. All but a few remaining Crows were not so lucky. Some legends have it he fought bravely as the gangsters burned down the shack filled with children and young men. Others mention it was in fact Kale himself who killed the Crows.<br><br>Whatever the truth is, Wazir Kale was subsequently initiated into the mafia and accepted his new position with an eye for revenge. A few years later, as he moved up the ranks, he was finally able to exert his revenge. He did so with incredible fury, practically annihilating the local mob outfit. This event added fuel to his already legendary reputation and “The Maelstrom” was born.<br><br>Post-carnage, Kale got out of Mumbai and ended up roaming around the Asian continent. Along the way, he picked up a rag-tag bunch of criminals with whom he formed a sort of paramilitary unit. Together, they eventually ended up raiding commercial ships in the South China Sea, stealing the transported fuel in highly coordinated hits and selling it on the black market.<br><br>The pressure on Kale kept building as the constant obligations mounted. Each new raid forced him to find new waters, find new partners, relocate to another abandoned island. On top of that, the legend forged by the pirates who retired from the raiding added more pressure than ever and gripped his crew in such a way that they began acting more carelessly, adopting more loose tactics and to some extent, chose more daring targets. They were, after all, with The Maelstrom.<br><br>One night, while raiding a Hamsun Oil freighter, a firefight ensued between the Maelstrom’s crew and the ship’s unexpectedly well-armed security force. Someone had tipped them off about the raid and the owner of Hamsun Oil had insisted that the pirates be dealt with – with extreme prejudice. While Kale survived, most of his crew did not and from the wreckage emerged a darker, more menacing figure. Wazir Kale was gone and all that remained was The Maelstrom. This was a dark time for Kale who had not only lost his way but also control of his outfit – all that remained was a desire to destroy, to tear down the bastions of rich westerners who had brought so much injustice to every single member of his crew.<br><br>And then, a light was lit in the far distance. One of The Maelstrom’s surviving crew members contacted him and let him know that a man of great importance wanted to see him. The Maelstrom agreed to the meeting and over the course of a few days got to know Lucas Grey and understand his agenda. While not an altruistic person, The Maelstrom saw something in what Grey was selling – a chance to find a new purpose, to solidify the legend of The Maelstrom into something beyond a modern-day pirate. He would bring liberation to the entire world, no matter the cost in blood.",
 				"3703768432": "The Director of the New York branch of the banking division of financial giant Milton-Fitzpatrick, Miss Savalas is an extremely hard-working, entirely unscrupulous woman who gave up everything personal to succeed in her life as a high-tier banker. \r\n<br>\r\nAn heir to a logistics empire, Athena Savalas entered the male-dominated banking system fresh out of business school. She quickly learned that to succeed, she would need to transform herself entirely from the classic businesswoman she’d been bred to become. Savalas developed a harshness and cut-throat approach to her co-workers, which alienated her from personal relationships at the bank as well as in her private life.\r\n<br>\r\nNow, at the age of 51, Athena Savalas’ transformation is complete. The fair-skinned girl with the bright blue eyes and warm smile has been replaced by an impossibly white creature of infinite sternness who is always in complete control. Savalas is a marble statue at this point, having shed every original bit of herself with every year that she’s worked in finance. She’s an expert at finding loopholes, exploiting tax rules and laundering money for criminals and has been involved in numerous tax evasion schemes, which have earned her multiple “Banker of the Year” awards in the last decade.\r\n<br> \r\nOver the years, Savalas has also developed a refined disdain for the middle class, reducing customers to numbers on sheets of paper with no thought to the things she destroys with her constant “less is more” approach to small and medium-sized businesses. Rumors of wanton gambling with client money and the bank’s finances are beginning to catch up to her and with the board of directors looking for a new CEO of Milton-Fitzpatrick, Savalas is eagerly covering her tracks, using any means necessary.",
 				"4247778829": "Estranged daughter of Robert Knox, Sierra Knox wasn't dealt the best of cards from her early childhood. Her mother died due to complications from childbirth, a fact that Sierra to this day still believes her father holds her secretly responsible for.<br><br>Growing up with a father who always worked, Sierra developed a somewhat reckless personality, always trying to out-do everyone else – including her old man. At age of 17, she was deeply involved with competitive short distance running and, worried that she might lose to her high school competitor, paid a man to ensure the competitor didn't run that afternoon. The competitor was chained to a wheelchair for the rest of her life while Sierra won the race easily. The tactic is one she would use again and again to get the upper hand in both athletics and life in general.<br><br>Sierra Knox graduated from Harvard business school and, without telling her father, secured a job with Kronstadt Industries, diligently working her way to the top of the financial department, finally interviewing for the position of CFO with her somewhat surprised father.<br><br>Sierra Knox has been instrumental in developing the money-earning side of the family business, and she has secured many deals with foreign nationals, including a very controversial decision to field test robot matériel in several rogue nations. While the loss of civilian life was never formally assigned as collateral damage following those tests, leaked internal reports suggest as much.<br><br>Sierra suffers from a serious inferiority complex in relation to her father. Always trying to prove herself to him but often coming up short, she is uncertain about whether he truly cares for her or not. Her insecurity causes her to act out, often irrationally or violently, and she is known for her lifestyle of working hard and partying even harder.<br><br>Sierra Knox is currently highly invested in the Kronstadt racing team and is the company’s lead driver in the Innovation Race. She’s won the race multiple times and is expected to bring home the trophy again."
+			}
+		},
+		"004976B829D7B87D": {
+			"english": {
+				"1745510790": "Tim Weimer"
+			},
+			"french": {
+				"1745510790": "Tim Weimer"
+			},
+			"italian": {
+				"1745510790": "Tim Weimer"
+			},
+			"german": {
+				"1745510790": "Tim Weimer"
+			},
+			"spanish": {
+				"1745510790": "Tim Weimer"
+			},
+			"russian": {
+				"1745510790": "Тим Ваймер"
+			},
+			"chineseSimplified": {
+				"1745510790": "蒂姆·韦默"
+			},
+			"chineseTraditional": {
+				"1745510790": "提姆‧韋默"
+			},
+			"japanese": {
+				"1745510790": "ティム・ワイマー"
+			}
+		},
+		"0082FCF9BF0CA18E": {
+			"english": {
+				"401636084": "Join Sierra's drinking game"
+			}
+		},
+		"00F5ABD36DC190F8": {
+			"english": {
+				"40654488": "Addressed for James Batty, 432 Whittleton Creek, VT."
+			}
+		},
+		"00F95A921D2E3A59": {
+			"english": {
+				"4223995132": "Slurry Pit"
 			}
 		},
 		"000C2FF325E2CF7D": {
@@ -395,6 +440,7 @@
 			"english": {
 				"611928695": "Old garden shears.",
 				"2913254817": "\"Good Quack Vol. 3\" VHS Tape",
+				"4091088772": "Everyone knows that silver is so last year… so why not impress and make your fellow coin collectors twitch with envy with this elegant, yet simple purple coin.",
 				"4164055027": "Enjoy this wonderful compilation chock full of footage of everyone’s favorite bird. Don’t have a VHS player? Then you can always use it to unleash your frustrations on your enemy!"
 			},
 			"french": {
@@ -442,6 +488,35 @@
 				"1766502356": "Помогите Лукасу Грею похитить Константу [Дополнительно]"
 			}
 		},
+		"0098F645934E706D": {
+			"english": {
+				"489605828": "This is an internal report showing the progress of the previous month's activity within the key expertise areas of Haven. It notes several full identity wipes – or 'nulls', as they are called – having been completed and three additional ones have been reported as initiated just a few days ago. Presumably these belong to the Providence Partners. From the looks of it, Haven has its hooks into every major social and governmental platform in the world and is effectively able to completely remove any client entirely from every official or privately owned database in the world. Additionally, if needed, new identities can easily be crafted with practically bullet-proof backgrounds established."
+			},
+			"french": {
+				"489605828": "Un rapport de Haven interne qui présente la progression de l'activité des secteurs d'expertise clés de l'entreprise au cours des derniers mois. On y retrouve plusieurs identités entièrement effacées (dites \"nulles\"), ainsi que trois nouvelles dont l'effacement a été initié il y a quelques jours. Celles-ci semblent être celles des partenaires de Providence. Haven aurait donc des points d'accès dans les plateformes sociales et gouvernementales mondiales majeures, ce qui les rend capables d'effacer n'importe quel client de n'importe quelle base de données privée ou publique dans le monde. Ils sont également en mesure de créer de nouvelles identités de toute pièce, en leur fournissant un passé à toute épreuve."
+			},
+			"italian": {
+				"489605828": "Questo rapporto interno mostra i progressi dell'ultimo mese di attività nelle principali aree di competenza di Haven. Riporta molte cancellazioni totali di identità, o \"annullamenti\", come vengono chiamate, che sono state portate a termine, oltre a tre nuove avviate solo un paio di giorni fa. Probabilmente riguardano i soci di Providence. Da quanto sembra, la Haven ha ganci in tutte le maggiori società e piattaforme governative nel mondo, per questo sarebbe di fatto in grado di rimuovere qualsiasi cliente da ogni singolo database, pubblico o privato che sia. In più, se necessario, è possibile creare nuove identità con esperienze pregresse praticamente a prova di bomba."
+			},
+			"german": {
+				"489605828": "Dieser interne Bericht zeigt den Fortschritt der letzten Monate bei den Schlüsselaktivitäten in den Kernkompetenzbereichen von Haven. Es werden mehrere vollständige Identitätslöschungen – oder „Nullen“, wie sie genannt werden – erwähnt, die abgeschlossen sind, sowie drei weitere, die erst vor ein paar Tagen eingeleitet wurden. Anscheinend gehören diese zu den Providence-Partnern. So wie es aussieht, hat Haven seine Finger in so gut wie allen größeren Social-Media- und Regierungsplattformen der Welt. Dadurch ist es ihnen möglich, Klienten vollkommen aus allen offiziellen und privaten Datenbanken rund um den Erdball zu löschen. Hinzu kommt noch, dass man auf diese Weise auch noch leicht neue Identitäten erstellen kann, die nahezu jeder Hintergrundüberprüfung standhalten."
+			},
+			"spanish": {
+				"489605828": "Un informe interno que muestra los progresos hechos en el último mes en áreas clave de Haven. Incluye varios borrados de identidad completos ya realizados (o «anulaciones», que es como los llaman), así como tres nuevos que aparecen como «iniciados» hace unos días. En teoría, esos tres pertenecen a los socios de Providence. Según parece, Haven tiene contactos en todas las principales plataformas sociales y gubernamentales del mundo, de tal modo que puede hacer desaparecer completamente a cualquier cliente de todas las bases de datos oficiales o privadas del planeta. Además, de ser necesario, puede crear con facilidad nuevas identidades, con unos pasados férreos y demostrables."
+			},
+			"russian": {
+				"489605828": "Внутренний отчет «Гавани» за последние несколько месяцев работы комплекса. В нем сообщается, что следы и упоминания нескольких клиентов уже полностью стерты из всех источников, а «стирание» еще трех клиентов началось буквально пару дней назад. Судя по всему, речь идет о партнерах «Провиденс». Из него следует, что у «Гавани» есть связи в крупных общественных и правительственных организациях по всему миру, — именно это позволяет ей полностью удалять своих клиентов из любых государственных и частных баз данных. При необходимости клиенту могут даже создать совершенно новую «личность» с безупречной биографией."
+			},
+			"chineseSimplified": {
+				"489605828": "这份海文的内部报告显示了海文公司上个月关键业务领域的活动进展。上面写道已经完成了对若干人身份的彻底抹除工作（他们称之为“清零”），且报告称又有三人的身份抹除工作已在几天前开始。这些东西可能是属于神意秘会同伙的。看起来，海文与全世界所有主流的社会以及政府平台都有往来，能有效地从世界上一切官方或私人数据库中完全抹除任何客户的相关信息。另外，若有必要，他们还能轻松伪造拥有无懈可击背景的新身份。"
+			},
+			"chineseTraditional": {
+				"489605828": "這份避風港內部報告，其中顯示過去幾週避風港在關鍵區域的活動。其中紀錄著幾起完整身份移除或是「歸零」，這些已經完成了，而且過去幾天還開始了三個案子。這些應該屬於神意秘會同夥。看來，避風港在世界各地所有的社群和政府平台都有爪牙，他們能夠從世界上的所有官方或私有數據庫中移除任何客戶。另外，他們打造的身份幾乎擁有完美無缺的背景。"
+			},
+			"japanese": {
+				"489605828": "ヘイヴンの内部報告書。先月のヘイヴンの重要な専門的領域での活動の進捗が説明されている。報告書には、数件のアイデンティティの抹消（つまり、ヘイヴンが「ゼロ」と呼んでいるもの）の完了が記載されており、さらに3件のアイデンティティの抹消がわずか数日前に開始されたことが報告されている。おそらくはプロヴィデンスのパートナーに属しているものだ。ここから考えると、ヘイヴンは世界中のあらゆる大手のソーシャルや政府のプラットフォームに影響力を及ぼしており、公有、私有を問わず、世界中のどんなデータベースからもクライアントのアイデンティティを効率的かつ完全に消し去る力を持っている。さらには必要に応じて、疑いの余地のない完璧な経歴を備えた、新しいアイデンティティを簡単にねつ造することも可能だ。"
+			}
+		},
 		"00A40B0195844051": {
 			"spanish": {
 				"3375291446": "Explota cinco globos."
@@ -466,7 +541,7 @@
 				"3651785796": "as an Armored Knight",
 				"4098699491": "as the Master of Ceremonies"
 			},
-			"it": {
+			"italian": {
 				"639433783": "come cameriere",
 				"1401254989": "come Blake Nathaniel",
 				"1987771976": "come Jebediah Block",
@@ -529,7 +604,6 @@
 				"2944546513": "Good morning, 47.<br><br>Your target is the infamous serial killer known as \"The Censor.\" With a flair for the theatrical, The Censor acts as an examiner who grades his victims based on how much they struggle for their lives.<br><br>The true identity of The Censor is unfortunately unknown, but the discovery of two recent victims indicates he's now exploring Whittleton Creek, Vermont, in search of prey.<br><br>We only have a limited window of opportunity here, 47. Find The Censor and make sure he never grades anyone again.<br><br>Best of luck."
 			},
 			"french": {
-				"2074750976": "La véritable identité de votre mission, le tueur en série appelé le Censeur, est inconnue.<br><br>Ce pseudonyme de \"Censeur\" provient des seuls indices qu'il laisse sur les scènes de ses crimes: une note évaluant à quel point sa victime s'est débattue avant de mourir.<br><br>D'après le rapport officiel de profilage, il s'agirait d'un homme, caucasien et dans la cinquantaine. Il est méthodique, méticuleux et possède évidemment un QI élevé.<br><br>Le rapport précise également qu'il a été élevé par un parent seul, très critique et autoritaire, et qui serait très probablement la cause de ses choix de victimes et de cette manie qu'il a de les noter.<br><br>Il a échappé aux autorités pendant des années, mais il commence à se montrer moins prudent et celles-ci ont pu déceler un point commun à ses assassinats, ce qui les amène à penser qu'il se trouve actuellement dans la Crique de Whittleton.",
 				"2944546513": "Bonjour, 47.<br><br>Votre cible est le célèbre tueur en série connu sous le nom du \"Censeur\". Grand amateur de mises en scène théâtrales, le Censeur se prend pour un examinateur qui note ses victimes, jugeant leur capacité à se débattre avant de mourir.<br><br>Sa véritable identité reste malheureusement un mystère, mais la découverte récente de deux de ses victimes tend à indiquer qu'il cherche actuellement une nouvelle proie à Whittleton Creek, dans le Vermont.<br><br>Je crains que nos options ne soient limitées, 47. Trouvez le Censeur et veillez à lui passer l'envie de noter qui que ce soit d'autre.<br><br>Bonne chance."
 			},
 			"italian": {
@@ -537,15 +611,12 @@
 				"2944546513": "Buongiorno, 47.<br><br>Il tuo bersaglio è il famigerato serial killer noto come \"il Censore\". Il Censore, con la sua predisposizione alla teatralità, si comporta come un esaminatore che valuta le proprie vittime in base a quanto lottano per la loro vita.<br><br>La vera identità del Censore è sfortunatamente ignota, ma il recente ritrovamento di due vittime indica che ora sta esplorando Whittleton Creek, nel Vermont, alla ricerca di prede.<br><br>Abbiamo a disposizione una finestra temporale limitata, 47. Trova il Censore e assicurati che non valuti mai più nessuno.<br><br>Buona fortuna."
 			},
 			"german": {
-				"2074750976": "Die wahre Identität dieses Auftragsziels, ein Serienmörder namens „Censor“, ist unbekannt.<br><br>Der Spitzname „Censor“ rührt von den Beweisen her, die er am Tatort zurücklässt: Benotungen, die aussagen, wie sehr die Opfer um ihr Leben gekämpft haben.<br><br>Seinem offiziellen Polizeiprofil zufolge ist er vermutlich männlich, weiß und Anfang, Mitte 50. Er ist sehr sorgfältig und methodisch und hat offensichtlich einen hohen IQ.<br><br>Die Berichte postulieren weiterhin, dass er aus einem dominanten Haushalt kommt, sehr wahrscheinlich mit einem wertenden und autoritären Elternteil, das ihn allein erzog. Das hatte vermutlich einen starken Einfluss darauf, wie das Ziel seine Opfer auswählt und „benotet“.<br><br>Den Behörden entgeht er seit vielen Jahren, beginnt aber langsam Anzeichen für mangelnde Vorsicht und ein klares Muster zu zeigen, weshalb man vermutet, dass sein nächstes Ziel sich irgendwo in Whittleton Creek aufhält.",
 				"2944546513": "Guten Morgen, 47.<br><br>Ihr Ziel ist der berüchtigte Serienmörder, der als „Censor“ bekannt ist. Mit einem Hang zum Dramatischen fungiert der „Censor“ als eine Art Gutachter, der seinen Opfern Noten dafür erteilt, wie sehr sie um ihr Leben kämpfen.<br><br>Die wahre Identität des „Censor“ ist leider unbekannt, doch der Fundort seiner beiden letzten Opfer deutet darauf hin, dass er inzwischen in Whittleton Creek in Vermont nach Beute sucht.<br><br>Wir haben hier nur ein begrenztes Einsatzfenster, 47. Finden Sie den „Censor“ und sorgen Sie dafür, dass er niemanden mehr benotet.<br><br>Viel Glück."
 			},
 			"spanish": {
-				"2074750976": "Desconocemos la verdadera identidad del objetivo, un asesino en serie conocido como El Censor.<br><br>El apodo de «El Censor» viene derivado de la única prueba que deja siempre en la escena del crimen: la nota que le da al modo en que sus víctimas lucharon por sobrevivir.<br><br>A tenor de los informes criminales oficiales, se cree que es un varón caucásico de 50-55 años. Es meticuloso y metódico, además de haber demostrado ser muy inteligente.<br><br>Los informes también destacan que posiblemente fuese criado en un hogar estricto, bajo la tutela de un solo progenitor, padre o madre, autoritario y moralista. Esto dejaría una huella profunda en el modo en el que el sospechoso elige y «evalúa» a sus víctimas.<br><br>Lleva muchos años eludiendo a las autoridades, pero empieza a volverse descuidado y va dejando entrever un patrón. Por eso mismo, las autoridades creen que su próximo objetivo está en algún rincón de Whittleton Creek.",
 				"2944546513": "Buenos días, 47.<br><br>Tu objetivo es el famoso asesino en serie conocido como «El Censor». Al Censor le gusta mucho el melodrama. Suele examinar a sus víctimas y valorarlas según cuánto luchen por la supervivencia.<br><br>Por desgracia, desconocemos la verdadera identidad del Censor, pero el descubrimiento de dos víctimas recientes nos indica que está buscando presas en Whittleton Creek, en Vermont.<br><br>Tenemos muy poco margen de maniobra, 47. Encuentra al Censor y asegúrate de que no vuelva a examinar a nadie.<br><br>Que tengas suerte."
 			},
 			"russian": {
-				"2074750976": "Настоящее имя серийного убийцы по прозвищу Критик неизвестно.<br><br>Убийца получил это прозвище за то, что на месте каждого преступления оставлял оценку, которую давал жертве в зависимости от того, насколько отважно она сопротивлялась.<br><br>Судя по официальным полицейским сводкам, убийца — белый мужчина-европеоид в возрасте 50–55 лет. Он очень педантичен и внимателен, а также обладает высоким IQ.<br><br>Составитель отчета предполагает, что убийца воспитывался авторитарным родителем в неполной семье в обстановке постоянного осуждения и контроля, из-за чего и захотел ставить оценки своим жертвам.<br><br>Убийца, который уже много лет скрывается от правосудия, в последнее время отошел от привычной схемы и проявил неосмотрительность, что позволило следствию выйти на след его возможной следующей жертвы в Уиттлтон-Крике.",
 				"2944546513": "Доброе утро, 47-й.<br><br>Твоя цель — одиозный серийный убийца по прозвищу Критик. Как тонкий ценитель театра, Критик «оценивает» своих жертв по тому, насколько отважно они сопротивляются перед смертью.<br><br>К сожалению, мы не знаем, кто скрывается под этим прозвищем, но, вероятнее всего, он сейчас охотится в Уиттлтон-Крике, штат Вермонт, — там были найдены две его последние жертвы.<br><br>Второго такого шанса устранить Критика у нас не будет, 47-й. Найди Критика и сделай всё возможное, чтобы он больше никого не критиковал.<br><br>Желаю удачи."
 			}
 		},
@@ -646,7 +717,8 @@
 		},
 		"00F56C5CB4D83712": {
 			"english": {
-				"2612477407": "Meadow<br>Brown<br>Lounge"
+				"2612477407": "Meadow<br>Brown<br>Lounge",
+				"3059624533": "Manager's<br>Office"
 			},
 			"german": {
 				"2612477407": "Meadow-<br>Brown-<br>Lounge"
