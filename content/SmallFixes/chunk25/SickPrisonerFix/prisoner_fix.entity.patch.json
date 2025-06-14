@@ -1,0 +1,48 @@
+{
+	"tempHash": "004868F794D35933",
+	"tbluHash": "006E467BCDA40509",
+	"patch": [
+		{
+			"AddEntity": [
+				"cafe2f1ff2e4f136",
+				{
+					"parent": "47e014a718fdacdb",
+					"name": "Keyword_STATE_POISONED",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordstates.template?/keyword_state_poisoned.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordstates.template?/keyword_state_poisoned.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe1e6db3887e92",
+				{
+					"parent": "47e014a718fdacdb",
+					"name": "ActorKeywordCondition",
+					"factory": "[modules:/zactorkeywordcondition.class].pc_entitytype",
+					"blueprint": "[modules:/zactorkeywordcondition.class].pc_entityblueprint",
+					"properties": {
+						"m_bSubscribeToKeywordChanges": {
+							"type": "bool",
+							"value": true
+						},
+						"m_rActor": {
+							"type": "SEntityTemplateReference",
+							"value": "47e014a718fdacdb",
+							"postInit": true
+						},
+						"m_rRequirements": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe2f1ff2e4f136",
+							"postInit": true
+						}
+					},
+					"events": {
+						"OnTrue": { "KillActor": ["b15e4a28ef8d3e0f"] }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
