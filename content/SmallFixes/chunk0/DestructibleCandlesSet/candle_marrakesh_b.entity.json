@@ -1,0 +1,257 @@
+{
+	"tempHash": "009D26BDFECA183D",
+	"tbluHash": "00D2E9F62522E271",
+	"rootEntity": "606eaa11d1ec5104",
+	"entities": {
+		"1204d9c6c78291b8": {
+			"parent": "606eaa11d1ec5104",
+			"name": "FX_Logic_LightFlicker_Burning",
+			"factory": "[assembly:/_pro/effects/templates/logic/fx_logic_lightflicker.template?/fx_logic_lightflicker_burning.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/logic/fx_logic_lightflicker.template?/fx_logic_lightflicker_burning.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Enabled": { "type": "bool", "value": false },
+				"PowerBase": { "type": "float32", "value": 5.0 },
+				"FadeTime": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"PowerFlicker": { "type": "float32", "value": 4.0 },
+				"Rotation": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"ColorLow": { "type": "SColorRGB", "value": "#d4a155" },
+				"ColorHigh": { "type": "SColorRGB", "value": "#c99951" },
+				"m_aRenderables": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["a01ab4a88cfeaf91"],
+					"postInit": true
+				},
+				"Lights": {
+					"type": "SEntityTemplateReference",
+					"value": "a01ab4a88cfeaf91",
+					"postInit": true
+				}
+			},
+			"events": {
+				"Color": { "DiffuseColor": ["a01ab4a88cfeaf91"] },
+				"Power": { "DiffusePower": ["a01ab4a88cfeaf91"] },
+				"On": { "SetVisible": ["a01ab4a88cfeaf91"] }
+			}
+		},
+		"8a314f0e34d15cb1": {
+			"parent": "606eaa11d1ec5104",
+			"name": "FX_Logic_ShotActivate_Simple",
+			"factory": "[assembly:/_pro/effects/templates/logic/fx_logic_shotactivate.template?/fx_logic_shotactivate_simple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/logic/fx_logic_shotactivate.template?/fx_logic_shotactivate_simple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Listener": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["606eaa11d1ec5104"],
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActivate": {
+					"Deactivate": ["1204d9c6c78291b8", "b609d560b24403d9"]
+				}
+			}
+		},
+		"a01ab4a88cfeaf91": {
+			"parent": "606eaa11d1ec5104",
+			"name": "Light_Master",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 3.620576426092669,
+							"y": -5.4449872419208685,
+							"z": -4.244914922850861
+						},
+						"position": {
+							"x": -0.00047599998652003706,
+							"y": -0.0005259999888949096,
+							"z": 0.10313399881124496
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_OMNI"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.20000000298023224, "y": 1.0 }
+				},
+				"m_diffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ff944d"
+				},
+				"m_fDiffusePower": { "type": "float32", "value": 5.0 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_bEnableLightFade": { "type": "bool", "value": true },
+				"m_bCastOmniShadows": { "type": "bool", "value": false },
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 5.0
+				},
+				"m_fShadowFadeLength": { "type": "float32", "value": 3.0 },
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.05000000074505806,
+						"y": 0.10000000149011612
+					}
+				},
+				"m_bCrowdCastShadows": { "type": "bool", "value": false },
+				"m_bUseStaticShadowMap": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "606eaa11d1ec5104",
+					"postInit": true
+				}
+			}
+		},
+		"b609d560b24403d9": {
+			"parent": "606eaa11d1ec5104",
+			"name": "FX_E_Fire_Candle05",
+			"factory": "[assembly:/_pro/effects/templates/fire/fx_fire.template?/fx_e_fire_candle.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/fire/fx_fire.template?/fx_e_fire_candle.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"position": {
+							"x": 0.005446000024676323,
+							"y": 0.0004579999949783087,
+							"z": 0.0818910002708435
+						}
+					}
+				},
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "606eaa11d1ec5104",
+					"postInit": true
+				}
+			}
+		},
+		"606eaa11d1ec5104": {
+			"parent": null,
+			"name": "Candle_Marrakesh_B_00",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/candels_marrakesh_a.wl2?/candle_marrakesh_b_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"position": {
+							"x": 0.14591899514198303,
+							"y": -3.676038980484009,
+							"z": 0.08889800310134888
+						}
+					}
+				},
+				"m_fLODOffset": { "type": "float32", "value": 4.0 },
+				"CandlesLit": { "type": "bool", "value": true },
+				"LightEnabled": { "type": "bool", "value": false },
+				"ColorHigh": { "type": "SColorRGB", "value": "#c99951" },
+				"PowerBase": { "type": "float32", "value": 5.0 },
+				"PowerFlicker": { "type": "float32", "value": 4.0 }
+			},
+			"inputCopying": {
+				"Activate": {
+					"MakeVisible": ["a01ab4a88cfeaf91"],
+					"Activate": ["b609d560b24403d9"]
+				},
+				"Deactivate": {
+					"MakeInvisible": ["a01ab4a88cfeaf91"],
+					"Deactivate": ["b609d560b24403d9"]
+				}
+			},
+			"propertyAliases": {
+				"CandlesLit": [
+					{
+						"originalProperty": "m_bEnabled",
+						"originalEntity": "b609d560b24403d9"
+					}
+				],
+				"ColorHigh": [
+					{
+						"originalProperty": "ColorHigh",
+						"originalEntity": "1204d9c6c78291b8"
+					}
+				],
+				"ColorLow": [
+					{
+						"originalProperty": "ColorLow",
+						"originalEntity": "1204d9c6c78291b8"
+					}
+				],
+				"FadeTime": [
+					{
+						"originalProperty": "FadeTime",
+						"originalEntity": "1204d9c6c78291b8"
+					}
+				],
+				"LightEnabled": [
+					{
+						"originalProperty": "Enabled",
+						"originalEntity": "1204d9c6c78291b8"
+					}
+				],
+				"PowerBase": [
+					{
+						"originalProperty": "PowerBase",
+						"originalEntity": "1204d9c6c78291b8"
+					}
+				],
+				"PowerFlicker": [
+					{
+						"originalProperty": "PowerFlicker",
+						"originalEntity": "1204d9c6c78291b8"
+					}
+				],
+				"m_fDiffusePower": [
+					{
+						"originalProperty": "m_fDiffusePower",
+						"originalEntity": "a01ab4a88cfeaf91"
+					}
+				],
+				"m_vFarAttenuation": [
+					{
+						"originalProperty": "m_vFarAttenuation",
+						"originalEntity": "a01ab4a88cfeaf91"
+					}
+				]
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/_pro/environment/geometry/props/decorative/candels_marrakesh_a.wl2?/candle_marrakesh_b_00.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/props/decorative/candels_marrakesh_a.wl2?/candle_marrakesh_b_00.prim].pc_coll",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
