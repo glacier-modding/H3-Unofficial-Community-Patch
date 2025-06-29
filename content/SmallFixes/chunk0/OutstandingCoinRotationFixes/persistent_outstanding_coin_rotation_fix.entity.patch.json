@@ -1,0 +1,61 @@
+{
+	"tempHash": "0060CFC712A6A9F7",
+	"tbluHash": "0052AD6626997917",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"c5e0250ad312a3e0",
+				{
+					"SetPropertyValue": {
+						"property_name": "InspectionPivotTransform",
+						"value": {
+							"rotation": { "x": 0.0, "y": -90.0, "z": 0.0 },
+							"position": {
+								"x": -0.019999999552965164,
+								"y": 3.469446951953614e-18,
+								"z": -0.18000000715255737
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c5e0250ad312a3e0",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -180,
+								"y": -180,
+								"z": -180
+							},
+							"position": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": -0.04391099885106087
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3708cea71649c0b9",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+							"position": { "x": -9.0, "y": 0.0, "z": 1.0 }
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
