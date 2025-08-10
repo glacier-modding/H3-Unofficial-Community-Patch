@@ -8,14 +8,18 @@
 				{
 					"PatchArrayPropertyValue": [
 						"m_aBodyParts",
-						[{ "AddItemAfter": ["09d5cbdb545eea59", "feed94e7dd849d1b"] }]
+						[
+							{
+								"AddItemAfter": ["742b561d137c8944", "cafe75bcf854f9f1"]
+							}
+						]
 					]
 				}
 			]
 		},
 		{
 			"AddEntity": [
-				"feed94e7dd849d1b",
+				"cafe75bcf854f9f1",
 				{
 					"parent": "75b48aa0c6194815",
 					"name": "Necklace_Cross_GoldChain_L",
