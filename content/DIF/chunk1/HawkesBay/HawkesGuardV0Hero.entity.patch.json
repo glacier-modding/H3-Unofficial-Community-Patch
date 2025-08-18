@@ -1,0 +1,36 @@
+{
+	"tempHash": "000806922A18B55B",
+	"tbluHash": "009F4F1C8C759D44",
+	"patch": [
+		{ "RemoveEntityByID": "6d9b5f06dc789252" },
+		{
+			"SubEntityOperation": ["058ea4959f57deda", { "SetParent": "571e8c4b5f1d386d" }]
+		},
+		{
+			"SubEntityOperation": [
+				"058ea4959f57deda",
+				{
+					"AddProperty": [
+						"m_rLinkedProxyEntity",
+						{
+							"type": "SEntityTemplateReference",
+							"value": "36e389253d56ff53"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"058ea4959f57deda",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "571e8c4b5f1d386d"
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
