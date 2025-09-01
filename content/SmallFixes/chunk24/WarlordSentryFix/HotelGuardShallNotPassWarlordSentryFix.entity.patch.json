@@ -1,0 +1,108 @@
+{
+	"tempHash": "006D1E9C109EA52B",
+	"tbluHash": "009545585FB4CE13",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"65cc6279ddfa9a0c",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"RemoveItemByValue": {
+									"ref": "158be035048cd4e5",
+									"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+								}
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"65cc6279ddfa9a0c",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesFriskExempt",
+						[
+							{
+								"RemoveItemByValue": {
+									"ref": "158be035048cd4e5",
+									"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+								}
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"eec34fbf8cd5de61",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vGlobalSize",
+						"value": { "x": 5.0, "y": 4.0, "z": 2.0 }
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"eec34fbf8cd5de61",
+				{
+					"AddProperty": [
+						"m_eRoomBehaviour",
+						{
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2b8d131d5758a0d5",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -0.9310420748495872
+							},
+							"position": {
+								"x": 116.02488708496094,
+								"y": -65.68699645996094,
+								"z": 66.33525085449219
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2b8d131d5758a0d5",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vGlobalSize",
+						"value": {
+							"x": 5.0,
+							"y": 7.6680498123168945,
+							"z": 2.324259996414185
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddExternalScene": "[assembly:/_pro/scenes/bricks/sounddefs/soldier_sounddefs.brick].pc_entitytype"
+		}
+	],
+	"patchVersion": 6
+}
