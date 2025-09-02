@@ -37,7 +37,7 @@
 	],
 	"loadBefore": ["KevinRudd.FreelancerVariations"],
 	"loadAfter": ["invalid.earpiecevoices"],
-	"blobsFolders": ["blobs", "blobsIOI"],
+	"blobsFolders": ["blobs"],
 	"frameworkVersion": "2.33.27",
 	"updateCheck": "https://github.com/glacier-modding/H3-Unofficial-Community-Patch/releases/latest/download/updates.json",
 	"options": [
