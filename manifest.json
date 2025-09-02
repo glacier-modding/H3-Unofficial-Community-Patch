@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "1.100.1",
+	"version": "1.100.2",
 	"id": "GlacierOrganisation.CommunityPatches",
 	"name": "Unofficial Community Patch",
 	"description": "It's like a patch, but unofficial! Fixes various bugs that IO Interactive haven't yet.",
@@ -597,39 +597,39 @@
 		},
 		"00C97E46E53547D0": {
 			"english": {
-				"561792422": "as an Engineer",
-				"1232568181": "as a Cook",
 				"353845924": "as a Metalworker",
+				"561792422": "as an Engineer",
 				"612925757": "as Militia Member",
-				"996394990": "as a Pirate"
+				"996394990": "as a Pirate",
+				"1232568181": "as a Cook"
 			},
 			"italian": {
-				"561792422": "come tecnico",
-				"1232568181": "come cuoco",
 				"353845924": "come operaio metalmeccanico",
+				"561792422": "come tecnico",
 				"612925757": "come membro della milizia",
-				"996394990": "come pirata"
+				"996394990": "come pirata",
+				"1232568181": "come cuoco"
 			},
 			"german": {
-				"561792422": "als Ingenieur",
-				"1232568181": "als Koch",
 				"353845924": "als Metallarbeiter",
+				"561792422": "als Ingenieur",
 				"612925757": "als Miliz-Mitglied",
-				"996394990": "als Pirat"
+				"996394990": "als Pirat",
+				"1232568181": "als Koch"
 			},
 			"spanish": {
-				"561792422": "de ingeniero",
-				"1232568181": "de cocinero",
 				"353845924": "de obrero metalúrgico",
+				"561792422": "de ingeniero",
 				"612925757": "de miembro de la milicia",
-				"996394990": "de pirata"
+				"996394990": "de pirata",
+				"1232568181": "de cocinero"
 			},
 			"russian": {
-				"561792422": "под видом инженера",
-				"1232568181": "под видом повара",
 				"353845924": "под видом рабочего по металлу",
+				"561792422": "под видом инженера",
 				"612925757": "под видом боевика",
-				"996394990": "под видом пирата"
+				"996394990": "под видом пирата",
+				"1232568181": "под видом повара"
 			}
 		},
 		"00CA2B4B38BDC8B0": {
