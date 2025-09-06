@@ -125,18 +125,6 @@
 			"type": "checkbox",
 			"enabledByDefault": true,
 			"contentFolders": ["content/REPO"]
-		},
-		{
-			"type": "conditional",
-			"name": "Disruptor Escape - Base",
-			"condition": "\"invalid.earpiecevoices\" not in config.loadOrder",
-			"contentFolders": ["content/DisruptorEscape/base", "content/DisruptorEscape/subtitles"]
-		},
-		{
-			"type": "conditional",
-			"name": "Disruptor Escape - Earpiece Voices Compatibility Layer",
-			"condition": "\"invalid.earpiecevoices\" in config.loadOrder",
-			"contentFolders": ["content/DisruptorEscape/base", "content/DisruptorEscape/earpiecevoices"]
 		}
 	],
 	"dependencies": ["001ECEAD8065CB53"],
