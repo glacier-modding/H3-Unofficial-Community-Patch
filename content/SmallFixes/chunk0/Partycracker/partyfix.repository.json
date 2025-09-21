@@ -1,7 +1,7 @@
 {
 	"e5b8b236-2e14-413f-b892-d311baa06733": {
 		"_comment": "Flash firework",
-        "AIPerceptibleOnRelease": false,
-        "EnablePickUpOnThrowRelease": false
+		"AIPerceptibleOnRelease": false,
+		"EnablePickUpOnThrowRelease": false
 	}
 }
