@@ -1,0 +1,228 @@
+{
+    "$schema": "https://glaciermodding.org/schemas/material.schema.json",
+    "MATI": "[assembly:/_pro/environment/materials/props/signs/miami_shop_closed_sign_a.mi].pc_mi",
+    "MATT": "",
+    "MATB": "",
+    "MATE": "[[assembly:/_pro/environment/materialclasses/basicmaterial_hardalpha.materialclass].fx](dx11).pc_mate",
+    "ERES": "[assembly:/_pro/effects/templates/materialdescriptors/fx_md_env_plastic.template?/fx_md_env_plastic.entitytemplate].pc_entityresource",
+    "TYPE": "Standard",
+    "Material": {
+        "Instance": [
+            {
+                "Name": "miami_shop_closed_sign_a.mi",
+                "Tags": "",
+                "Binder": [
+                    {
+                        "Render State": [
+                            {
+                                "Name": "RenderState",
+                                "Enabled": 1,
+                                "Blend Enabled": 0,
+                                "Decal Blend Diffuse": 0,
+                                "Decal Blend Normal": 0,
+                                "Decal Blend Specular": 0,
+                                "Decal Blend Roughness": 0,
+                                "Decal Blend Emission": 0,
+                                "Alpha Test Enabled": 0,
+                                "Alpha Reference": 255,
+                                "Fog Enabled": 1,
+                                "Culling Mode": "DontCare",
+                                "Z Bias": 0,
+                                "Z Offset": 0.0,
+                                "Subsurface Red": 0.0,
+                                "Subsurface Green": 0.0,
+                                "Subsurface Blue": 0.0,
+                                "Subsurface Value": 0.0
+                            }
+                        ],
+                        "Float Value": [
+                            {
+                                "Name": "ConstantVector1D_03_Value",
+                                "Enabled": 1,
+                                "Value": 0.5
+                            },
+                            {
+                                "Name": "gm_mTransform2D_01",
+                                "Enabled": 1,
+                                "Value": [
+                                    1.0,
+                                    -0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "Name": "ConstantVector1D_04_Value",
+                                "Enabled": 1,
+                                "Value": 0.0
+                            },
+                            {
+                                "Name": "ConstantVector1D_05_Value",
+                                "Enabled": 1,
+                                "Value": 1.0
+                            },
+                            {
+                                "Name": "gm_mTransform2D_02",
+                                "Enabled": 1,
+                                "Value": [
+                                    1.0,
+                                    -0.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "Name": "ConstantVector1D_06_Value",
+                                "Enabled": 1,
+                                "Value": 1.0
+                            },
+                            {
+                                "Name": "ConstantVector1D_02_Value",
+                                "Enabled": 1,
+                                "Value": 0.0
+                            },
+                            {
+                                "Name": "ConstantVector1D_01_Value",
+                                "Enabled": 1,
+                                "Value": 0.5
+                            },
+                            {
+                                "Name": "Specular_Multiplier_Value",
+                                "Enabled": 1,
+                                "Value": 1.0
+                            },
+                            {
+                                "Name": "ConstantVector1D_08_Value",
+                                "Enabled": 1,
+                                "Value": 0.5
+                            },
+                            {
+                                "Name": "ConstantVector1D_07_Value",
+                                "Enabled": 1,
+                                "Value": 0.0
+                            }
+                        ],
+                        "Texture": [
+                            {
+                                "Name": "mapTexture2D_03",
+                                "Enabled": 1,
+                                "Texture Id": "00B764A61FC036BE",
+                                "Tiling U": "",
+                                "Tiling V": "",
+                                "Type": "AsColorMap"
+                            },
+                            {
+                                "Name": "mapTexture2DCompoundNormal_01",
+                                "Enabled": 1,
+                                "Texture Id": "[assembly:/_pro/environment/textures/detailmaps/default.texture?/detail_a.tex](ascompoundnormal).pc_tex",
+                                "Tiling U": "",
+                                "Tiling V": "",
+                                "Type": "AsCompoundNormal"
+                            },
+                            {
+                                "Name": "mapTexture2DNormal_01",
+                                "Enabled": 1,
+                                "Texture Id": "00BEF744B339F13D",
+                                "Tiling U": "",
+                                "Tiling V": "",
+                                "Type": "AsNormalMap"
+                            },
+                            {
+                                "Name": "mapTexture2D_01",
+                                "Enabled": 1,
+                                "Texture Id": "006E95E3F3FAC6DA",
+                                "Tiling U": "",
+                                "Tiling V": "",
+                                "Type": "AsColorMap"
+                            },
+                            {
+                                "Name": "mapTexture2D_04",
+                                "Enabled": 1,
+                                "Texture Id": "[assembly:/_pro/environment/textures/constants/color_black.texture?/diffuse_a.tex](ascolormap).pc_tex",
+                                "Tiling U": "",
+                                "Tiling V": "",
+                                "Type": "AsColorMap"
+                            }
+                        ],
+                        "Color": [
+                            {
+                                "Name": "ConstantColorRGB_02_Value",
+                                "Enabled": 1,
+                                "Value": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ]
+                            },
+                            {
+                                "Name": "ConstantColorRGB_01_Value",
+                                "Enabled": 1,
+                                "Value": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Overrides": {},
+    "Flags": {
+        "Class": {
+            "REFLECTION2D": false,
+            "REFRACTION2D": false,
+            "LIGHTING": true,
+            "EMISSIVE": true,
+            "DISCARD": true,
+            "LM_SKIN": false,
+            "PRIMCLASS_STANDARD": true,
+            "PRIMCLASS_LINKED": false,
+            "PRIMCLASS_WEIGHTED": false,
+            "DOFOVERRIDE": false,
+            "USES_DEFAULT_VS": true,
+            "USES_SPRITE_SA_VS": false,
+            "USES_SPRITE_AO_VS": false,
+            "ALPHA": false,
+            "USES_SIMPLE_SHADER": true,
+            "DISABLE_INSTANCING": false,
+            "LM_HAIR": false,
+            "SAMPLE_LIGHTING": false,
+            "HORIZONMAPPING": false,
+            "UNKNOWN_3": false,
+            "UNKNOWN_4": false,
+            "UNKNOWN_5": false
+        },
+        "Instance": {
+            "OPAQUE_EMISSIVE": false,
+            "TRANS_EMISSIVE": false,
+            "TRANSADD_EMISSIVE": false,
+            "TRANSALL": false,
+            "OPAQUE_LIT": true,
+            "TRANS_LIT": false,
+            "DECAL": false,
+            "REFRACTIVE": false,
+            "LM_SKIN": false,
+            "LM_HAIR": false,
+            "FORCE_EMISSIVE": false,
+            "DISABLE_SHADER_LOD": true,
+            "DISCARD": false,
+            "DECAL_EMISSIVE": false,
+            "DECAL_ALL": false,
+            "WATER_CLIPPING": false,
+            "SAMPLE_LIGHTING": false,
+            "EXCLUDE_GLOBAL_SHADOWS": false,
+            "ALL": false
+        }
+    }
+}
