@@ -1,0 +1,106 @@
+{
+	"tempHash": "0056406088754691",
+	"tbluHash": "00CF14C55C3BCCA8",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"a7f203bb0e28dad4",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rActorProvider",
+						"value": "0b56ddcd192628c3"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3993b5ae429b7e7a",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eRequiredVoiceVariation",
+						"value": "eAVV_CIVMALE08"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d9b2fd84281bad75",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eRequiredVoiceVariation",
+						"value": "eAVV_CIVMALEES02"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"31c28259015d933a",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rActorProvider",
+						"value": "8501ac469325c714"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8701c9717321b3fc",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rActorProvider",
+						"value": "0b56ddcd192628c3"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8701c9717321b3fc",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rActorProvider2",
+						"value": "8501ac469325c714"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c03af4a740a88ce6",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rActorProvider",
+						"value": "8501ac469325c714"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"154c8ed26eef3370",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rActorProvider",
+						"value": "0b56ddcd192628c3"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7795cf6a4f993f1b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rActorProvider",
+						"value": "0b56ddcd192628c3"
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
