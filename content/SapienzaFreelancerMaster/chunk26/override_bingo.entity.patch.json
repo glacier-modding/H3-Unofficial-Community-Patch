@@ -1,0 +1,22 @@
+{
+	"tempHash": "00AC32D2CCC449A7",
+	"tbluHash": "00C63AC62C8E65C9",
+	"patch": [
+		{
+			"RemoveOverrideDelete": {
+				"ref": "95713a26d1838422",
+				"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/octopus_pro1.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "22b4b158429a1b58",
+				"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/octopus_pro1.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/coastaltown/octopus_pro1.brick].pc_entitytype"
+		}
+	],
+	"patchVersion": 6
+}
