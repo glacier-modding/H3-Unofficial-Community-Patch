@@ -1,12 +1,13 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "1.85.1",
+	"version": "1.111.0",
 	"id": "GlacierOrganisation.CommunityPatches",
 	"name": "Unofficial Community Patch",
 	"description": "It's like a patch, but unofficial! Fixes various bugs that IO Interactive haven't yet.",
 	"authors": [
 		"Atampy26",
 		"Anthony Fuller",
+		"AtomicForce",
 		"Cybore",
 		"Dribbleondo",
 		"invalid",
@@ -36,8 +37,8 @@
 	],
 	"loadBefore": ["KevinRudd.FreelancerVariations"],
 	"loadAfter": ["invalid.earpiecevoices"],
-	"blobsFolders": ["blobs", "blobsIOI"],
-	"frameworkVersion": "2.33.25",
+	"blobsFolders": ["blobs"],
+	"frameworkVersion": "2.33.29",
 	"updateCheck": "https://github.com/glacier-modding/H3-Unofficial-Community-Patch/releases/latest/download/updates.json",
 	"options": [
 		{
@@ -124,18 +125,6 @@
 			"type": "checkbox",
 			"enabledByDefault": true,
 			"contentFolders": ["content/REPO"]
-		},
-		{
-			"type": "conditional",
-			"name": "Disruptor Escape - Base",
-			"condition": "\"invalid.earpiecevoices\" not in config.loadOrder",
-			"contentFolders": ["content/DisruptorEscape/base", "content/DisruptorEscape/subtitles"]
-		},
-		{
-			"type": "conditional",
-			"name": "Disruptor Escape - Earpiece Voices Compatibility Layer",
-			"condition": "\"invalid.earpiecevoices\" in config.loadOrder",
-			"contentFolders": ["content/DisruptorEscape/base", "content/DisruptorEscape/earpiecevoices"]
 		}
 	],
 	"dependencies": ["001ECEAD8065CB53"],
@@ -360,8 +349,33 @@
 			}
 		},
 		"004B8C5124A49543": {
+			"english": {
+				"659782193": "Have an ace up your sleeve? In this gorgeous dark ensemble, with a beautiful pattern of all four suits, no one will know what card you will bet on."
+			},
+			"french": {
+				"659782193": "Vous avez un atout dans votre manche ? Dans ce superbe ensemble sombre, avec un magnifique motif des quatre couleurs, personne ne saura sur quelle carte vous allez parier."
+			},
+			"italian": {
+				"659782193": "Avete un asso nella manica? In questo splendido ensemble scuro, con un bellissimo disegno di tutti e quattro i semi, nessuno saprà su quale carta punterete."
+			},
+			"german": {
+				"659782193": "Haben Sie ein Ass im Ärmel? In diesem herrlichen dunklen Ensemble mit einem schönen Muster aus allen vier Farben wird niemand wissen, auf welche Karte Sie setzen werden."
+			},
 			"spanish": {
+				"659782193": "¿Tienes un as en la manga? Con este precioso conjunto oscuro, con un precioso estampado de los cuatro palos, nadie sabrá por qué carta apostarás.",
 				"2231831317": "Traje de Código 47"
+			},
+			"russian": {
+				"659782193": "У вас есть туз в рукаве? В этом великолепном темном ансамбле с красивым узором из всех четырех мастей никто не узнает, на какую карту вы поставите."
+			},
+			"chineseSimplified": {
+				"659782193": "袖子里有王牌吗？穿上这套华丽的深色套装，配上所有四种花色的美丽图案，没人会知道你会押什么牌。"
+			},
+			"chineseTraditional": {
+				"659782193": "您有王牌嗎？穿上這套華麗的深色套裝，配上四種花色的美麗圖案，沒有人會知道您會押哪張牌。"
+			},
+			"japanese": {
+				"659782193": "あなたの袖にエースが？このゴージャスでダークなアンサンブルに、4つのスートすべての美しい模様が描かれている。"
 			}
 		},
 		"004EC612565A38BD": {
@@ -438,31 +452,41 @@
 		"008322D98E1CFE04": {
 			"english": {
 				"611928695": "Old garden shears.",
+				"1772560051": "For the hitman who dares to be bold. This beautiful purple fiber wire set will give your execution that certain \"Je ne sais quoi\". The only downside? Your victims will never know they went down in style.",
 				"2913254817": "\"Good Quack Vol. 3\" VHS Tape",
+				"4091088772": "Everyone knows that silver is so last year… so why not impress and make your fellow coin collectors twitch with envy with this elegant, yet simple purple coin.",
 				"4164055027": "Enjoy this wonderful compilation chock full of footage of everyone’s favorite bird. Don’t have a VHS player? Then you can always use it to unleash your frustrations on your enemy!"
 			},
 			"french": {
+				"1772560051": "For the hitman who dares to be bold. This beautiful purple fiber wire set will give your execution that certain \"Je ne sais quoi\". The only downside? Your victims will never know they went down in style.",
 				"2913254817": "Cassette VHS \"Bon coin-coin vol. 3\""
 			},
 			"italian": {
+				"1772560051": "For the hitman who dares to be bold. This beautiful purple fiber wire set will give your execution that certain \"Je ne sais quoi\". The only downside? Your victims will never know they went down in style.",
 				"2913254817": "Videocassetta \"Buon qua-qua vol. 3\""
 			},
 			"german": {
+				"1772560051": "For the hitman who dares to be bold. This beautiful purple fiber wire set will give your execution that certain \"Je ne sais quoi\". The only downside? Your victims will never know they went down in style.",
 				"2913254817": "„Guter Quaken Vol. 3“ VHS-Kassette"
 			},
 			"spanish": {
+				"1772560051": "For the hitman who dares to be bold. This beautiful purple fiber wire set will give your execution that certain \"Je ne sais quoi\". The only downside? Your victims will never know they went down in style.",
 				"2913254817": "Cinta de vídeo «Buen cuac cuac, vol. 3»"
 			},
 			"russian": {
+				"1772560051": "For the hitman who dares to be bold. This beautiful purple fiber wire set will give your execution that certain \"Je ne sais quoi\". The only downside? Your victims will never know they went down in style.",
 				"2913254817": "Видеокассета «Хороший Кря-кря, часть 3»"
 			},
 			"chineseSimplified": {
+				"1772560051": "For the hitman who dares to be bold. This beautiful purple fiber wire set will give your execution that certain \"Je ne sais quoi\". The only downside? Your victims will never know they went down in style.",
 				"2913254817": "《好呱呱第3集》家庭录像带"
 			},
 			"chineseTraditional": {
+				"1772560051": "For the hitman who dares to be bold. This beautiful purple fiber wire set will give your execution that certain \"Je ne sais quoi\". The only downside? Your victims will never know they went down in style.",
 				"2913254817": "「好嘎嘎第3集」錄影帶"
 			},
 			"japanese": {
+				"1772560051": "For the hitman who dares to be bold. This beautiful purple fiber wire set will give your execution that certain \"Je ne sais quoi\". The only downside? Your victims will never know they went down in style.",
 				"2913254817": "「Good Quack Vol. 3」VHSテープ"
 			}
 		},
@@ -561,39 +585,39 @@
 		},
 		"00C97E46E53547D0": {
 			"english": {
-				"217C45A6": "as an Engineer",
-				"49777F75": "as a Cook",
-				"151742A4": "as a Metalworker",
-				"2488813D": "as Militia Member",
-				"3B63C7EE": "as a Pirate"
+				"353845924": "as a Metalworker",
+				"561792422": "as an Engineer",
+				"612925757": "as Militia Member",
+				"996394990": "as a Pirate",
+				"1232568181": "as a Cook"
 			},
 			"italian": {
-				"217C45A6": "come tecnico",
-				"49777F75": "come cuoco",
-				"151742A4": "come operaio metalmeccanico",
-				"2488813D": "come membro della milizia",
-				"3B63C7EE": "come pirata"
+				"353845924": "come operaio metalmeccanico",
+				"561792422": "come tecnico",
+				"612925757": "come membro della milizia",
+				"996394990": "come pirata",
+				"1232568181": "come cuoco"
 			},
 			"german": {
-				"217C45A6": "als Ingenieur",
-				"49777F75": "als Koch",
-				"151742A4": "als Metallarbeiter",
-				"2488813D": "als Miliz-Mitglied",
-				"3B63C7EE": "als Pirat"
+				"353845924": "als Metallarbeiter",
+				"561792422": "als Ingenieur",
+				"612925757": "als Miliz-Mitglied",
+				"996394990": "als Pirat",
+				"1232568181": "als Koch"
 			},
 			"spanish": {
-				"217C45A6": "de ingeniero",
-				"49777F75": "de cocinero",
-				"151742A4": "de obrero metalúrgico",
-				"2488813D": "de miembro de la milicia",
-				"3B63C7EE": "de pirata"
+				"353845924": "de obrero metalúrgico",
+				"561792422": "de ingeniero",
+				"612925757": "de miembro de la milicia",
+				"996394990": "de pirata",
+				"1232568181": "de cocinero"
 			},
 			"russian": {
-				"217C45A6": "под видом инженера",
-				"49777F75": "под видом повара",
-				"151742A4": "под видом рабочего по металлу",
-				"2488813D": "под видом боевика",
-				"3B63C7EE": "под видом пирата"
+				"353845924": "под видом рабочего по металлу",
+				"561792422": "под видом инженера",
+				"612925757": "под видом боевика",
+				"996394990": "под видом пирата",
+				"1232568181": "под видом повара"
 			}
 		},
 		"00CA2B4B38BDC8B0": {

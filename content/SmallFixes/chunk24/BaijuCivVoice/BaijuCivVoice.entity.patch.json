@@ -1,0 +1,23 @@
+{
+	"tempHash": "007673B3C17F8314",
+	"tbluHash": "0075B6D2089B833E",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"476766a133e23f77",
+				{
+					"PatchArrayPropertyValue": [
+						"m_rDefaultVoiceVariations",
+						[
+							{ "RemoveItemByValue": "eAVV_CIVMALE10" },
+							{
+								"AddItemAfter": ["eAVV_CIVFEM09", "eAVV_CIVFEM10"]
+							}
+						]
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

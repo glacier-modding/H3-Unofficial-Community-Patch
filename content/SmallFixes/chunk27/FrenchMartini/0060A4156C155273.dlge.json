@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "0060A4156C155273",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "40233B63",
+		"soundtag": "In-world_Maincharacter",
+		"defaultWav": "00E4A415B638AB8D",
+		"defaultFfx": "00247F189090825E",
+		"languages": {
+			"en": "//(0,5.2)\\\\You need to understand. Le Chiffre HAS to lose tonight.//(5.2,35.2)\\\\And I will use any means necessary. Is that clear?",
+			"fr": "//(0,1.972393)\\\\Vous ne comprenez pas.//(1.972393,8.8)\\\\Le Chiffre DOIT perdre ce soir, et je compte utiliser tous les moyens nécessaires.//(8.8,38.8)\\\\Est-ce que vous comprenez ?",
+			"it": "//(0,30)\\\\È necessario che lei capisca. Le Chiffre deve perdere stasera. E io userò qualsiasi mezzo necessario. È chiaro?",
+			"de": "//(0,1.9)\\\\Sie verstehen mich nicht.//(1.9,5.3)\\\\Le Chiffre MUSS heute Abend verlieren.//(5.3,8.8)\\\\Und ich werde zu allen nötigen Mitteln greifen.//(8.8,38.8)\\\\Verstanden?",
+			"es": "//(0,1.8)\\\\Escúcheme.//(1.8,31.8)\\\\Le Chiffre tiene que perder esta noche y para ello usaré cualquier medio que sea necesario. ¿Está claro?",
+			"ru": "//(0,5.45)\\\\Вы должны понять: Лё Шиффр обязан сегодня проиграть.//(5.45,35.45)\\\\И я сделаю всё необходимое. Ясно?",
+			"cn": "//(0,1.8)\\\\你最好认清形势。//(1.8,5.1)\\\\今晚勒齐弗必须一败涂地。//(5.1,35.1)\\\\我会动用一切必要手段。听清楚了吗？",
+			"tc": "//(0,5.4)\\\\你得搞清楚，勒西弗今晚必須輸。//(5.4,35.4)\\\\不管用什麼手段我都會讓他輸。明白了嗎？",
+			"jp": "//(0,5.2)\\\\ル・シッフルは絶対に負けないといけない。//(5.2,35.2)\\\\そして俺は必要であればどんな手段でも使う。わかったか？"
+		}
+	}
+}

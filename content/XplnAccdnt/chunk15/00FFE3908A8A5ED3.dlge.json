@@ -9,7 +9,7 @@
 			{
 				"type": "WavFile",
 				"wavName": "inca_xplnaccdnt_constant_constant_001",
-				"weight": 0.1666666368643425,
+				"weight": 0.25,
 				"soundtag": "In-world_AI_Important",
 				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/constant/inca_xplnaccdnt_constant_constant_001.wav].pc_wes",
 				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/constant/inca_xplnaccdnt_constant_constant_001.animset].pc_animset",
@@ -18,7 +18,7 @@
 			{
 				"type": "WavFile",
 				"wavName": "inca_xplnaccdnt_constant_constant_002",
-				"weight": 0.1666666368643425,
+				"weight": 0.25,
 				"soundtag": "In-world_AI_Important",
 				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/constant/inca_xplnaccdnt_constant_constant_002.wav].pc_wes",
 				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/constant/inca_xplnaccdnt_constant_constant_002.animset].pc_animset",
@@ -27,7 +27,7 @@
 			{
 				"type": "WavFile",
 				"wavName": "inca_xplnaccdnt_constant_constant_003",
-				"weight": 0.1666666368643425,
+				"weight": 0.25,
 				"soundtag": "In-world_AI_Important",
 				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/constant/inca_xplnaccdnt_constant_constant_003.wav].pc_wes",
 				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/constant/inca_xplnaccdnt_constant_constant_003.animset].pc_animset",
@@ -36,28 +36,10 @@
 			{
 				"type": "WavFile",
 				"wavName": "inca_xplnaccdnt_constant_constant_004",
-				"weight": 0.1666666368643425,
+				"weight": 0.25,
 				"soundtag": "In-world_AI_Important",
 				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/constant/inca_xplnaccdnt_constant_constant_004.wav].pc_wes",
 				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/constant/inca_xplnaccdnt_constant_constant_004.animset].pc_animset",
-				"languages": {}
-			},
-			{
-				"type": "WavFile",
-				"wavName": "inca_xplnx_constant_constant_001",
-				"weight": 0.1666666368643425,
-				"soundtag": "In-world_AI_Important",
-				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/constant/inca_xplnx_constant_constant_001.wav].pc_wes",
-				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/constant/inca_xplnx_constant_constant_001.animset].pc_animset",
-				"languages": {}
-			},
-			{
-				"type": "WavFile",
-				"wavName": "inca_xplnx_constant_constant_002",
-				"weight": 0.1666666368643425,
-				"soundtag": "In-world_AI_Important",
-				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/constant/inca_xplnx_constant_constant_002.wav].pc_wes",
-				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/constant/inca_xplnx_constant_constant_002.animset].pc_animset",
 				"languages": {}
 			}
 		]
