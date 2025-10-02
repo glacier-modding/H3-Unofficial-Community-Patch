@@ -1,10 +1,18 @@
 {
-	"tempHash": "00FFE1E0730546C2",
-	"tbluHash": "008130A85A690BE8",
+	"tempHash": "00C3C1186E7495FE",
+	"tbluHash": "00EB7557C5F42132",
 	"patch": [
 		{
 			"SubEntityOperation": [
-				"2ed3aa8cc1e0b74f",
+				"9d1353bea7bfc3ab",
+				{
+					"SetBlueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9d1353bea7bfc3ab",
 				{
 					"AddProperty": [
 						"m_CollisionResourceID",
