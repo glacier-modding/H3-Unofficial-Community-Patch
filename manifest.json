@@ -113,6 +113,13 @@
 			}
 		},
 		{
+			"name": "Sapienza Freelancer Persistent Master Brick Fix",
+			"tooltip": "Removes the Master Difficulty Brick in Sapienza on Freelancer when the map is not alerted.",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/SapienzaFreelancerMaster"]
+		},
+		{
 			"name": "Disable Online Resources",
 			"tooltip": "Allows for edits to the REPO, such as changing NPC names or certain weapon details. Not necessary if using Peacock. If you enable this and use the Peacock server, you need to also install https://github.com/thepeacockproject/peacock-strings for Peacock’s text to display properly.",
 			"type": "checkbox",

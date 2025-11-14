@@ -1,0 +1,10 @@
+{
+	"tempHash": "004B6755A8F753FA",
+	"tbluHash": "00B134321DA7A03C",
+	"patch": [
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/coastaltown/octopus_pro1.brick].pc_entitytype"
+		}
+	],
+	"patchVersion": 6
+}
