@@ -1,0 +1,217 @@
+{
+	"tempHash": "00D15B6A8159D00D",
+	"tbluHash": "00F23DCB39B5FD0D",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"98ca7baed06a1211",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aActors",
+						[
+							{
+								"RemoveItemByValue": {
+									"ref": "26d6172097fca1cb",
+									"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/octopus_pro1.brick].pc_entitytype"
+								}
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "0dbbc35ec8949506",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+									},
+									"cafee13999798827"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe20ac95aa9455",
+				{
+					"parent": "aa811fc36bfa98c7",
+					"name": "Pro target actor",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe85e28464ec18",
+				{
+					"parent": "cafee13999798827",
+					"name": "Prof_Sapienza_Guard_Mansion",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_guard_mansion.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_guard_mansion.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe8959014a3d61",
+				{
+					"parent": "cafee13999798827",
+					"name": "Sound_Character_BodyGuard_Lab",
+					"factory": "[assembly:/templates/sound/sound_characters.template?/sound_character_bodyguard_lab.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/templates/sound/sound_characters.template?/sound_character_bodyguard_lab.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_pActor": {
+							"type": "SEntityTemplateReference",
+							"value": "cafee13999798827",
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafee13999798827",
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe0b5566c9b6de",
+				{
+					"parent": "cafee13999798827",
+					"name": "Prof_Sapienza_Worker_Gardener",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_gardener.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_gardener.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe2b7b57f8ed15",
+				{
+					"parent": "cafee13999798827",
+					"name": "Prof_Sapienza_Worker_Cleaner",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_cleaner.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_cleaner.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe5aff23c31721",
+				{
+					"parent": "cafee13999798827",
+					"name": "Prof_Agent47",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafee13999798827",
+				{
+					"parent": "cafe20ac95aa9455",
+					"name": "CHAR_Guard_Bodyguard_Biosuit_VIP_Male04",
+					"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -176.35576642424434
+								},
+								"position": {
+									"x": -85.93115997314453,
+									"y": -47.07646179199219,
+									"z": 7.729864120483398
+								}
+							}
+						},
+						"m_bStartEnabled": {
+							"type": "bool",
+							"value": true
+						},
+						"m_sActorName": {
+							"type": "ZString",
+							"value": "Nicola Trevisan"
+						},
+						"m_aEnforcedOutfits": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"cafe65ccfa419c6f",
+								"cafee809764d5a60"
+							]
+						},
+						"RepositoryId": {
+							"type": "ZGuid",
+							"value": "4d04f53c-17d9-4df7-8d04-fbdd05519be8"
+						},
+						"m_bWeaponUnholstered": {
+							"type": "bool",
+							"value": false
+						},
+						"m_nWeaponIndex": { "type": "int32", "value": 0 },
+						"m_OutfitRepositoryID": {
+							"type": "ZGuid",
+							"value": "91b37d1f-21ba-42b5-81fa-f4b6ce2ba691"
+						},
+						"m_nOutfitVariation": {
+							"type": "int32",
+							"value": 3
+						},
+						"m_InventoryItemKeys": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": []
+						}
+					},
+					"subsets": {
+						"AudioEmitters": ["fffffffffffffffe"],
+						"Replicable": ["fffffffffffffffe"]
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe65ccfa419c6f",
+				{
+					"parent": "cafe699630b1052a",
+					"name": "Prof_Sapienza_Worker_LabBioSuit",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_labbiosuit.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_labbiosuit.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe699630b1052a",
+				{
+					"parent": "cafee13999798827",
+					"name": "Enforced",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafee809764d5a60",
+				{
+					"parent": "cafe699630b1052a",
+					"name": "Prof_Sapienza_Worker_LabTechnician",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_labtechnician.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_labtechnician.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/coastaltown/octopus_pro1.brick].pc_entitytype"
+		}
+	],
+	"patchVersion": 6
+}
