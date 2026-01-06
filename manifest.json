@@ -35,7 +35,7 @@
 		"content/SecurityCams",
 		"content/SmallFixes",
 		"content/VendingMachines",
-		"content/ATFfC"
+		"content/ATFC"
 	],
 	"loadBefore": ["KevinRudd.FreelancerVariations"],
 	"loadAfter": ["invalid.earpiecevoices"],
