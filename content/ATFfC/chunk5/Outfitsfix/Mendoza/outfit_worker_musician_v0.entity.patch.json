@@ -1,0 +1,13 @@
+{
+	"tempHash": "00E48721407F1066",
+	"tbluHash": "00C14866E1FF3482",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"b3a46e1c10dc2111",
+				{ "RemovePropertyByName": "Texture2D_01" }
+			]
+		}
+	],
+	"patchVersion": 6
+}
