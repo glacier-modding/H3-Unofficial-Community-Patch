@@ -21,7 +21,8 @@
 		"SayBan1MoreTime",
 		"VoodooHillbilly",
 		"Watchman",
-		"Zachwesse"
+		"Zachwesse",
+		"LukaMegurine6"
 	],
 	"contentFolders": [
 		"content/Audio",
@@ -33,7 +34,8 @@
 		"content/SapienzaChurch",
 		"content/SecurityCams",
 		"content/SmallFixes",
-		"content/VendingMachines"
+		"content/VendingMachines",
+		"content/ATFC"
 	],
 	"loadBefore": ["KevinRudd.FreelancerVariations"],
 	"loadAfter": ["invalid.earpiecevoices"],
