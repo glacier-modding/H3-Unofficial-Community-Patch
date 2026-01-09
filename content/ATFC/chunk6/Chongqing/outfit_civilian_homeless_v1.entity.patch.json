@@ -3,7 +3,10 @@
 	"tbluHash": "009FF6E22961E64E",
 	"patch": [
 		{
-			"SubEntityOperation": ["a2332fcbcefd7bd1", { "RemovePropertyByName": "Texture2D_01" }]
+			"SubEntityOperation": [
+				"a2332fcbcefd7bd1",
+				{ "RemovePropertyByName": "Texture2D_01" }
+			]
 		}
 	],
 	"patchVersion": 6
