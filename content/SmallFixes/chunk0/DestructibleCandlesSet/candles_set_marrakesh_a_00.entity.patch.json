@@ -1,0 +1,213 @@
+{
+	"tempHash": "0031EA1BE392C093",
+	"tbluHash": "00191F08016884BA",
+	"patch": [
+		{ "RemoveEntityByID": "fef158a47c3c629d" },
+		{ "RemoveEntityByID": "a327b4d54472cff6" },
+		{ "RemoveEntityByID": "a1f17cb53097c31e" },
+		{ "RemoveEntityByID": "85b296b06519642c" },
+		{ "RemoveEntityByID": "017d63f2bc697893" },
+		{ "RemoveEntityByID": "8e7fc6c91a106ec7" },
+		{ "RemoveEntityByID": "1ddd09a389161f31" },
+		{ "RemoveEntityByID": "3d246c4f9d896746" },
+		{
+			"SubEntityOperation": [
+				"cd40846b6c49c41f",
+				{ "SetFactory": "0093B3D0EAE1F42C" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cd40846b6c49c41f",
+				{ "SetBlueprint": "00BE4C150ED72390" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cd40846b6c49c41f",
+				{
+					"AddProperty": [
+						"LightEnabled",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c02e99ed40715839",
+				{ "SetFactory": "0093B3D0EAE1F42C" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c02e99ed40715839",
+				{ "SetBlueprint": "00BE4C150ED72390" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c02e99ed40715839",
+				{
+					"AddProperty": [
+						"LightEnabled",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c4aa7e8903fa6da8",
+				{ "SetFactory": "0093B3D0EAE1F42C" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c4aa7e8903fa6da8",
+				{ "SetBlueprint": "00BE4C150ED72390" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c4aa7e8903fa6da8",
+				{
+					"AddProperty": [
+						"LightEnabled",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"81d85af1a440b81d",
+				{ "SetFactory": "009D26BDFECA183D" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"81d85af1a440b81d",
+				{ "SetBlueprint": "00D2E9F62522E271" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"81d85af1a440b81d",
+				{
+					"AddProperty": [
+						"LightEnabled",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5542c75a427ea46b",
+				{ "SetFactory": "009DC7146B42F54C" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5542c75a427ea46b",
+				{ "SetBlueprint": "00EF97824489B4F3" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5542c75a427ea46b",
+				{
+					"AddProperty": [
+						"LightEnabled",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"338c179cc3bd5739",
+				{ "SetFactory": "0093B3D0EAE1F42C" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"338c179cc3bd5739",
+				{ "SetBlueprint": "00BE4C150ED72390" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"338c179cc3bd5739",
+				{
+					"AddProperty": [
+						"LightEnabled",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0bad8b237d5563cc",
+				{ "RemoveAllInputCopyConnectionsForInput": "Activate" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0bad8b237d5563cc",
+				{ "RemoveAllInputCopyConnectionsForInput": "Deactivate" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0bad8b237d5563cc",
+				{ "RemovePropertyAlias": "CandlesLit" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0bad8b237d5563cc",
+				{ "RemovePropertyAlias": "ColorHigh" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0bad8b237d5563cc",
+				{ "RemovePropertyAlias": "ColorLow" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0bad8b237d5563cc",
+				{ "RemovePropertyAlias": "FadeTime" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0bad8b237d5563cc",
+				{ "RemovePropertyAlias": "LightEnabled" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0bad8b237d5563cc",
+				{ "RemovePropertyAlias": "PowerBase" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0bad8b237d5563cc",
+				{ "RemovePropertyAlias": "PowerFlicker" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0bad8b237d5563cc",
+				{ "RemovePropertyAlias": "m_vFarAttenuation" }
+			]
+		}
+	],
+	"patchVersion": 6
+}
