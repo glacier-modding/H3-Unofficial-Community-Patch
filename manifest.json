@@ -34,8 +34,7 @@
 		"content/SapienzaChurch",
 		"content/SecurityCams",
 		"content/SmallFixes",
-		"content/VendingMachines",
-		"content/ATFC"
+		"content/VendingMachines"
 	],
 	"loadBefore": ["KevinRudd.FreelancerVariations"],
 	"loadAfter": ["invalid.earpiecevoices"],
