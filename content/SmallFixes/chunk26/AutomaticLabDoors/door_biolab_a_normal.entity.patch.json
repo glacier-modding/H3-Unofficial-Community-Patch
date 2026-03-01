@@ -1,0 +1,53 @@
+{
+	"tempHash": "00289F94BBE83557",
+	"tbluHash": "0090841DB14DFC31",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"3fc70ffa7a8b8efc",
+				{ "RemovePropertyByName": "m_TriggerOnThrownItem" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3fc70ffa7a8b8efc",
+				{
+					"AddEventConnection": [
+						"OnTrue",
+						"OpenDoorIn",
+						"e2373a6b3bb49fd5"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"31aba201f7eb4274",
+				{
+					"AddPropertyAliasConnection": [
+						"VolumeBoxTransform",
+						{
+							"originalProperty": "m_mTransform",
+							"originalEntity": "24bd02d1e7909afd"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"31aba201f7eb4274",
+				{
+					"AddPropertyAliasConnection": [
+						"VolumeBoxSize",
+						{
+							"originalProperty": "m_vGlobalSize",
+							"originalEntity": "24bd02d1e7909afd"
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

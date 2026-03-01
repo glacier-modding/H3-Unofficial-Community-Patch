@@ -1,0 +1,230 @@
+{
+	"tempHash": "000DF7E558403601",
+	"tbluHash": "007E707469B96060",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"6e3b728c81bd22dc",
+				{ "RemovePropertyByName": "m_TriggerOnThrownItem" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6e3b728c81bd22dc",
+				{
+					"AddEventConnection": [
+						"OnTrue",
+						"OpenDoorIn",
+						"5729788ff2b10bdb"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"152c51c2934ecdf6",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -180.0,
+								"y": 0.0,
+								"z": -0.0
+							},
+							"position": {
+								"x": 0.31786298751831055,
+								"y": 0.1078689992427826,
+								"z": 1.0324959754943848
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5729788ff2b10bdb",
+				{
+					"SetPropertyValue": {
+						"property_name": "B_AudioCloseMovement",
+						"value": null
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5729788ff2b10bdb",
+				{
+					"SetPropertyValue": {
+						"property_name": "A_AudioCloseInitial",
+						"value": {
+							"resource": "00CB5D397D02A8B5",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5729788ff2b10bdb",
+				{
+					"SetPropertyValue": {
+						"property_name": "B_AudioOpenMovement",
+						"value": null
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5729788ff2b10bdb",
+				{
+					"SetPropertyValue": {
+						"property_name": "A_AudioOpenInitial",
+						"value": {
+							"resource": "002C6835E8082C3F",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5729788ff2b10bdb",
+				{
+					"SetPropertyValue": {
+						"property_name": "C_AudioCloseComplete",
+						"value": null
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"31b4d2efa8a503c7",
+				{
+					"AddPropertyAliasConnection": [
+						"VolumeBoxTransform",
+						{
+							"originalProperty": "m_mTransform",
+							"originalEntity": "e23f398f0e51c5d6"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"31b4d2efa8a503c7",
+				{
+					"AddPropertyAliasConnection": [
+						"VolumeBoxSize",
+						{
+							"originalProperty": "m_vGlobalSize",
+							"originalEntity": "e23f398f0e51c5d6"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d4908401cf6500f7",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -180.0,
+								"y": 0.0,
+								"z": -180.0
+							},
+							"position": {
+								"x": 0.31786298751831055,
+								"y": -0.11005599796772005,
+								"z": 1.0324959754943848
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe961bbf4438b2",
+				{
+					"parent": "b5dfccd35c0d7ec0",
+					"name": "Laboratory_Handles_B_00_14",
+					"factory": "[assembly:/_pro/environment/templates/props/laboratory/laboratory_props.template?/laboratory_handles_b_00.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/templates/props/laboratory/laboratory_props.template?/laboratory_handles_b_00.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -180.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": 0.31786298751831055,
+									"y": 0.1078689992427826,
+									"z": 2.2865960597991943
+								}
+							}
+						},
+						"m_bRemovePhysics": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "b5dfccd35c0d7ec0"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed02ae83b3f30",
+				{
+					"parent": "b5dfccd35c0d7ec0",
+					"name": "Laboratory_Handles_B_00_15",
+					"factory": "[assembly:/_pro/environment/templates/props/laboratory/laboratory_props.template?/laboratory_handles_b_00.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/templates/props/laboratory/laboratory_props.template?/laboratory_handles_b_00.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -180.0,
+									"y": 0.0,
+									"z": -180.0
+								},
+								"position": {
+									"x": 0.31786298751831055,
+									"y": -0.11005599796772005,
+									"z": 2.2865960597991943
+								}
+							}
+						},
+						"m_bRemovePhysics": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "b5dfccd35c0d7ec0"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
