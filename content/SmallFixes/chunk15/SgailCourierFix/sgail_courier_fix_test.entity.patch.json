@@ -1,0 +1,10 @@
+{
+	"tempHash": "000DC47AA2A17BFC",
+	"tbluHash": "0064D2D9AE247E8B",
+	"patch": [
+		{
+			"SubEntityOperation": ["914fdc380efb25e1", { "RemovePropertyByName": "m_bStartEnabled" }]
+		}
+	],
+	"patchVersion": 6
+}
