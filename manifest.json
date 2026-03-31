@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "1.127.0",
+	"version": "1.128.0",
 	"id": "GlacierOrganisation.CommunityPatches",
 	"name": "Unofficial Community Patch",
 	"description": "It's like a patch, but unofficial! Fixes various bugs that IO Interactive haven't yet.",
@@ -381,40 +381,40 @@
 		},
 		"005DD05D21A6E5A0": {
 			"english": {
-				"1374608671": "Client List",
-				"267297889": "Tablet contains the Soirée Horrible client list"
+				"267297889": "Tablet contains the Soirée Horrible client list",
+				"1374608671": "Client List"
 			},
 			"french": {
-				"1374608671": "Liste des clients",
-				"267297889": "La tablette contient la liste des clients de Soirée horrible."
+				"267297889": "La tablette contient la liste des clients de Soirée horrible.",
+				"1374608671": "Liste des clients"
 			},
 			"italian": {
-				"1374608671": "Lista clienti",
-				"267297889": "Il tablet contiene la lista clienti di Soirée Horrible"
+				"267297889": "Il tablet contiene la lista clienti di Soirée Horrible",
+				"1374608671": "Lista clienti"
 			},
 			"german": {
-				"1374608671": "Kundenliste",
-				"267297889": "Tablet enthält die Kundenliste des Soirée Horrible"
+				"267297889": "Tablet enthält die Kundenliste des Soirée Horrible",
+				"1374608671": "Kundenliste"
 			},
 			"spanish": {
-				"1374608671": "Lista de clientes",
-				"267297889": "La tableta contiene la lista de clientes de la Soirée Horrible."
+				"267297889": "La tableta contiene la lista de clientes de la Soirée Horrible.",
+				"1374608671": "Lista de clientes"
 			},
 			"russian": {
-				"1374608671": "Список клиентов",
-				"267297889": "Планшет содержит список клиентов «Суаре Хоррибль»"
+				"267297889": "Планшет содержит список клиентов «Суаре Хоррибль»",
+				"1374608671": "Список клиентов"
 			},
 			"chineseSimplified": {
-				"1374608671": "客户名单",
-				"267297889": "含有恐怖晚宴客户名单的平板电脑"
+				"267297889": "含有恐怖晚宴客户名单的平板电脑",
+				"1374608671": "客户名单"
 			},
 			"chineseTraditional": {
-				"1374608671": "客戶名單",
-				"267297889": "包含恐懼晚宴客戶名單的平板電腦"
+				"267297889": "包含恐懼晚宴客戶名單的平板電腦",
+				"1374608671": "客戶名單"
 			},
 			"japanese": {
-				"1374608671": "顧客リスト",
-				"267297889": "ソワレ・ホリブルの顧客リストが記録されたタブレット"
+				"267297889": "ソワレ・ホリブルの顧客リストが記録されたタブレット",
+				"1374608671": "顧客リスト"
 			}
 		},
 		"004EC612565A38BD": {
