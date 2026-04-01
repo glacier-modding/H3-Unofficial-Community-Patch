@@ -26,6 +26,7 @@
 	],
 	"contentFolders": [
 		"content/Audio",
+		"content/DartmoorHarbingerStaff",
 		"content/DIF",
 		"content/FractureLiquidColor",
 		"content/MovieSetLamp",
@@ -38,7 +39,7 @@
 	],
 	"loadBefore": ["KevinRudd.FreelancerVariations"],
 	"loadAfter": ["invalid.earpiecevoices"],
-	"blobsFolders": ["blobs"],
+	"blobsFolders": ["blobs", "blobsIOI"],
 	"frameworkVersion": "2.33.35",
 	"updateCheck": "https://github.com/glacier-modding/H3-Unofficial-Community-Patch/releases/latest/download/updates.json",
 	"options": [

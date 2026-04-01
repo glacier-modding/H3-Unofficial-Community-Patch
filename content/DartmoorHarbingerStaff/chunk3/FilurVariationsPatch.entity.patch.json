@@ -1,0 +1,195 @@
+{
+	"tempHash": "00DC692646C00776",
+	"tbluHash": "00C0F37BA20637F7",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"23747430712978b0",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nOutfitVariation",
+						"value": 1
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"da7b967451014a82",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": 63.734898225774
+							},
+							"position": {
+								"x": -18.647829055786133,
+								"y": 16.617839813232422,
+								"z": 4.013554096221924
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"da7b967451014a82",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nOutfitVariation",
+						"value": 5
+					}
+				}
+			]
+		},
+		{
+			"RemovePropertyOverrideConnection": {
+				"entity": {
+					"ref": "54da9f1dd50eff6a",
+					"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 95.70122605847737
+						},
+						"position": {
+							"x": -5.5718278884887695,
+							"y": 136.7772979736328,
+							"z": 0.392428994178772
+						}
+					}
+				}
+			}
+		},
+		{
+			"RemovePropertyOverrideConnection": {
+				"entity": {
+					"ref": "2b0b01b46768bb9b",
+					"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -30.643649347950486
+						},
+						"position": {
+							"x": 37.47063827514648,
+							"y": 101.77330017089844,
+							"z": 0.03941499814391136
+						}
+					}
+				}
+			}
+		},
+		{
+			"RemovePropertyOverrideConnection": {
+				"entity": {
+					"ref": "6f751cc3701d1bb3",
+					"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 63.734898225773996
+						},
+						"position": {
+							"x": -18.64188003540039,
+							"y": 16.616039276123047,
+							"z": 4.000002861022949
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "54da9f1dd50eff6a",
+					"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 95.70122605847736
+						},
+						"position": {
+							"x": -5.5718278884887695,
+							"y": 136.7772979736328,
+							"z": 0.392428994178772
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "2b0b01b46768bb9b",
+					"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -30.64364934795049
+						},
+						"position": {
+							"x": 37.47063827514648,
+							"y": 101.77330017089844,
+							"z": 0.03941499814391136
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "6f751cc3701d1bb3",
+					"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 63.734898225774
+						},
+						"position": {
+							"x": -18.64188003540039,
+							"y": 16.616039276123047,
+							"z": 4.000002861022949
+						}
+					}
+				}
+			}
+		}
+	],
+	"patchVersion": 6
+}
