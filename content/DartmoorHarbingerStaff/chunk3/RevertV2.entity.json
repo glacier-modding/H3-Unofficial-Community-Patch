@@ -1,0 +1,194 @@
+{
+	"tempHash": "00AE277F184C4F7B",
+	"tbluHash": "00145990763ED9CA",
+	"rootEntity": "a09a83dbb1106e1e",
+	"entities": {
+		"0b9d64c25698e478": {
+			"parent": "a09a83dbb1106e1e",
+			"name": "Dress_Maid_Long_Sleeve",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/fem_apparel/fem_reg_apparel_dresses_l01.template?/dress_maid_long_sleeve.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/fem_apparel/fem_reg_apparel_dresses_l01.template?/dress_maid_long_sleeve.entitytemplate].pc_entityblueprint"
+		},
+		"a09a83dbb1106e1e": {
+			"parent": null,
+			"name": "OUTFIT_Bulldog_Worker_MansionStaff_F_Actor_v2",
+			"factory": "[assembly:/_pro/characters/templates/_sourcefiles/outfit.template?/outfit_base.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_sourcefiles/outfit.template?/outfit_base.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -5.879838943481445, "y": 0, "z": 0 }
+					}
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_sourcefiles/fem_reg/geometry/fem_reg.wl2?/bones.weightedprim](bodypart).pc_bonerig",
+						"flag": "5F"
+					}
+				},
+				"m_LocalColliders": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_bSimulationEnabled": { "type": "bool", "value": true },
+				"m_BodyPartLODCutOffMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_lod/bulldog/char_bulldog_workers/geometry/outfit_bulldog_worker_mansionstaff_f_actor_v0.wl2?/lod_override.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				},
+				"m_nBodypartLODCutOff": { "type": "uint32", "value": 3 },
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"f80b20436d8eb6e1",
+						"76bb9e912d287bbd",
+						"bc2ffa5b44dae83a",
+						"5b2dda98e352746d",
+						"8db1d3cc96e70fde",
+						"2db316a1233d532b",
+						"0b9d64c25698e478"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"bc2ffa5b44dae83a": {
+			"parent": "a09a83dbb1106e1e",
+			"name": "Shoes_SlipOn_Heeled",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/fem_apparel/fem_reg_apparel_feet.template?/shoes_slipon_heeled.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/fem_apparel/fem_reg_apparel_feet.template?/shoes_slipon_heeled.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Diffuse_Saturation_01_Value": { "type": "float32", "value": 0 },
+				"Diffuse_Color_01_Value": { "type": "SColorRGB", "value": "#4a4946" }
+			}
+		},
+		"2db316a1233d532b": {
+			"parent": "a09a83dbb1106e1e",
+			"name": "Tights_Hips_Feet_Shoes",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/fem_apparel/fem_reg_apparel_feet.template?/tights_hips_feet_shoes.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/fem_apparel/fem_reg_apparel_feet.template?/tights_hips_feet_shoes.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Texture2D_03_2": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_apparel/female/volumes_l01/shoes/textures/fem_reg_tights.texture?/specular_net.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Texture2DNormal_01_2": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_apparel/female/volumes_l01/shoes/textures/fem_reg_tights.texture?/normal_net.tex](asnormalmap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01_2": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_apparel/female/volumes_l01/shoes/textures/fem_reg_tights.texture?/diffuse_net.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"f80b20436d8eb6e1": {
+			"parent": "a09a83dbb1106e1e",
+			"name": "Head_caucasian_20s_03",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/fem_parts/fem_heads_caucasian.template?/head_caucasian_20s_03.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/fem_parts/fem_heads_caucasian.template?/head_caucasian_20s_03.entitytemplate].pc_entityblueprint",
+			"properties": { "ConstantColorRGB_01_Value_3": { "type": "SColorRGB", "value": "#fffdfc" } }
+		},
+		"5b2dda98e352746d": {
+			"parent": "a09a83dbb1106e1e",
+			"name": "Hands",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/fem_parts/fem_reg_bodyparts.template?/hands.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/fem_parts/fem_reg_bodyparts.template?/hands.entitytemplate].pc_entityblueprint"
+		},
+		"8db1d3cc96e70fde": {
+			"parent": "a09a83dbb1106e1e",
+			"name": "Hair_M_BunSidebang",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/fem_parts/fem_hair.template?/hair_m_bunsidebang.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/fem_parts/fem_hair.template?/hair_m_bunsidebang.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"ConstantColorRGB_02_Value": { "type": "SColorRGB", "value": "#a39a81" },
+				"ConstantColorRGB_02_Value_1": { "type": "SColorRGB", "value": "#6e655d" }
+			}
+		},
+		"76bb9e912d287bbd": {
+			"parent": "a09a83dbb1106e1e",
+			"name": "Torso_Neck",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/fem_parts/fem_reg_bodyparts.template?/torso_neck.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/fem_parts/fem_reg_bodyparts.template?/torso_neck.entitytemplate].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/hotelstaff/female/textures/fem_reg_hotelstaff_shoes_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/hotelstaff/female/textures/fem_reg_hotelstaff_shoes_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/hotelstaff/female/textures/fem_reg_hotelstaff_shoes_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/female/volumes_l01/shoes/geometry/fem_reg_shoes.wl2?/shoes_slipon_heeled.weightedprim](bodypart).pc_weightedprim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_sourcefiles/fem_reg/textures/fem_reg_haircap.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_sourcefiles/fem_reg/textures/fem_reg_haircap.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_sourcefiles/fem_reg/textures/fem_reg_haircap.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_sourcefiles/fem_reg/geometry/fem_reg_torso.wl2?/torso_neck.weightedprim](bodypart).pc_weightedprim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_sourcefiles/fem_reg/geometry/fem_reg_arms.wl2?/hands.weightedprim](bodypart).pc_weightedprim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/female/volumes_l01/dresses/geometry/fem_reg_dress_maid.wl2?/dress_maid_long_sleeve.weightedprim](bodypart).pc_weightedprim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_sourcefiles/generic/eyes/textures/base_eyes.texture?/diffuse_brown.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_sourcefiles/fem_reg/textures/fem_reg_body.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_sourcefiles/fem_reg/textures/fem_reg_body.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_sourcefiles/fem_reg/textures/fem_reg_body.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
