@@ -1,0 +1,144 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/ancestral/smoothsnake/41800_story/dr41807_corncompliment.sweetdialog].pc_dialogevent",
+	"DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+	"CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+	"rootContainer": {
+		"type": "Random",
+		"containers": [
+			{
+				"type": "WavFile",
+				"wavName": "dr41807_corncompliment_gecko_corneliastuyvesant_f_001",
+				"weight": 0.14285714285714285,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ancestral/smoothsnake/41800_story/dr41807_corncompliment_gecko_corneliastuyvesant_f_001.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ancestral/smoothsnake/41800_story/dr41807_corncompliment_gecko_corneliastuyvesant_f_001.animset].pc_animset",
+				"languages": {
+					"en": "//(0,30)\\\\Very impressive.",
+					"fr": "//(0,30)\\\\Très impressionnant.",
+					"it": "//(0,30)\\\\Davvero incredibile.",
+					"de": "//(0,30)\\\\Sehr eindrucksvoll.",
+					"es": "//(0,30)\\\\Impresionante.",
+					"ru": "//(0,30)\\\\Впечатляет.",
+					"cn": "//(0,30)\\\\了不起。",
+					"tc": "//(0,30)\\\\真厲害。",
+					"jp": "//(0,30)\\\\本当に素晴らしい。"
+				}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "dr41807_corncompliment_gecko_corneliastuyvesant_f_002",
+				"weight": 0.14285714285714285,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ancestral/smoothsnake/41800_story/dr41807_corncompliment_gecko_corneliastuyvesant_f_002.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ancestral/smoothsnake/41800_story/dr41807_corncompliment_gecko_corneliastuyvesant_f_002.animset].pc_animset",
+				"languages": {
+					"en": "//(0,30)\\\\Well done. Everything's just thriving.",
+					"fr": "//(0,30)\\\\Beau travail. Tout est absolument splendide.",
+					"it": "//(0,30)\\\\Ben fatto. È tutto così rigoglioso.",
+					"de": "//(0,30)\\\\Gut gemacht. Alles wächst und gedeiht.",
+					"es": "//(0,30)\\\\Bien hecho. Todo está floreciente.",
+					"ru": "//(0,30)\\\\Прекрасно. Как всё пышно растет.",
+					"cn": "//(0,30)\\\\干得好。一切都欣欣向荣。",
+					"tc": "//(0,30)\\\\做得好，一片生意盎然。",
+					"jp": "//(0,30)\\\\お見事。何もかもが生き生きとしてるわ。"
+				}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "dr41807_corncompliment_gecko_corneliastuyvesant_f_003",
+				"weight": 0.14285714285714285,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ancestral/smoothsnake/41800_story/dr41807_corncompliment_gecko_corneliastuyvesant_f_003.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ancestral/smoothsnake/41800_story/dr41807_corncompliment_gecko_corneliastuyvesant_f_003.animset].pc_animset",
+				"languages": {
+					"en": "//(0,30)\\\\Your design here is truly a masterwork.",
+					"fr": "//(0,30)\\\\On a clairement affaire à un chef-d'œuvre.",
+					"it": "//(0,30)\\\\Hai fatto un vero capolavoro.",
+					"de": "//(0,30)\\\\Ihre Entwurf hier ist wirklich ein Meisterwerk.",
+					"es": "//(0,30)\\\\Tu diseño es una obra maestra.",
+					"ru": "//(0,30)\\\\Вы создали настоящий шедевр.",
+					"cn": "//(0,30)\\\\你的设计真是杰作啊。",
+					"tc": "//(0,30)\\\\你的這些設計簡直是大師之作。",
+					"jp": "//(0,30)\\\\素晴らしいデザインだわ。"
+				}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "dr41807_corncompliment_gecko_corneliastuyvesant_f_004",
+				"weight": 0.14285714285714285,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ancestral/smoothsnake/41800_story/dr41807_corncompliment_gecko_corneliastuyvesant_f_004.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ancestral/smoothsnake/41800_story/dr41807_corncompliment_gecko_corneliastuyvesant_f_004.animset].pc_animset",
+				"languages": {
+					"en": "//(0,30)\\\\Lucy's really going to love this one.",
+					"fr": "//(0,30)\\\\Lucy va vraiment l'adorer.",
+					"it": "//(0,30)\\\\A Lucy questa piacerà di certo.",
+					"de": "//(0,30)\\\\Das hier wird Lucy wirklich lieben.",
+					"es": "//(0,30)\\\\A Lucy le va a encantar esta.",
+					"ru": "//(0,30)\\\\Люси это очень понравится.",
+					"cn": "//(0,30)\\\\露西一定会喜欢的。",
+					"tc": "//(0,30)\\\\露西肯定會很喜歡這一個。",
+					"jp": "//(0,30)\\\\きっとルーシーが気に入るわ。"
+				}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "dr41807_corncompliment_gecko_corneliastuyvesant_f_005",
+				"weight": 0.14285714285714285,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ancestral/smoothsnake/41800_story/dr41807_corncompliment_gecko_corneliastuyvesant_f_005.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ancestral/smoothsnake/41800_story/dr41807_corncompliment_gecko_corneliastuyvesant_f_005.animset].pc_animset",
+				"languages": {
+					"en": "//(0,30)\\\\I might have to call you the next time I need some landscaping done.",
+					"fr": "//(0,30)\\\\Je crois que je ferai appel à vous le jour où je voudrai refaire mon jardin.",
+					"it": "//(0,30)\\\\Quando avrò bisogno di sistemare il mio giardino, probabilmente ti chiamerò.",
+					"de": "//(0,30)\\\\Vielleicht muss ich Sie das nächste Mal anrufen, wenn es eine Landschaft umzugestalten gibt.",
+					"es": "//(0,30)\\\\Puede que te llame la próxima vez que necesite arreglar mis jardines.",
+					"ru": "//(0,30)\\\\Надо будет позвать вас, когда снова захочу изменить ландшафт.",
+					"cn": "//(0,30)\\\\下次我需要园林改造的时候可能会打电话给你。",
+					"tc": "//(0,30)\\\\下次我需要景觀設計的時候一定找你。",
+					"jp": "//(0,30)\\\\造園するときは、あなたにお願いしようかしら。"
+				}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "dr41807_corncompliment_gecko_corneliastuyvesant_f_006",
+				"weight": 0.14285714285714285,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ancestral/smoothsnake/41800_story/dr41807_corncompliment_gecko_corneliastuyvesant_f_006.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ancestral/smoothsnake/41800_story/dr41807_corncompliment_gecko_corneliastuyvesant_f_006.animset].pc_animset",
+				"languages": {
+					"en": "//(0,3)\\\\Oh, make sure Lucy sees what you've done with the...//(3,33)\\\\you know, the taller ones there? She'll adore it.",
+					"fr": "//(0,30)\\\\Veillez à ce que Lucy voie bien ce que vous avez fait avec les... Vous savez, les grands, là ? Elle va adorer.",
+					"it": "//(0,30)\\\\Oh, fai in modo che Lucy veda quel che hai fatto con... sai, quelle alte, laggiù. Le piacerà un sacco.",
+					"de": "//(0,2.8)\\\\Oh, achten Sie darauf, dass Lucy sieht, was Sie hier gemacht haben ...//(2.8,10.32626)\\\\Sie wissen schon: Die größeren da vorn? Sie wird das lieben.",
+					"es": "//(0,30)\\\\Oh, asegúrate de que Lucy vea lo que has hecho con... ya sabes, con esas más altas. Le va a encantar.",
+					"ru": "//(0,2.35)\\\\О, и проследите, чтобы Люси увидела то,//(2.35,32.35)\\\\как вы поработали над... этими высокими? Ей понравится.",
+					"cn": "//(0,5.1)\\\\一定要让露西看看你的手段......我是说那边的高个子植物。//(5.1,35.1)\\\\她会喜欢的。",
+					"tc": "//(0,3.2)\\\\噢，記得讓露西看看你的作品......//(3.2,33.2)\\\\尤其是，那些比較高的？她肯定會喜歡的。",
+					"jp": "//(0,30)\\\\必ずルーシーにも見てもらうといいわ... そこの、背の高い所？きっと気に入るわ。"
+				}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "dr41807_corncompliment_gecko_corneliastuyvesant_f_007",
+				"weight": 0.14285714285714285,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ancestral/smoothsnake/41800_story/dr41807_corncompliment_gecko_corneliastuyvesant_f_007.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ancestral/smoothsnake/41800_story/dr41807_corncompliment_gecko_corneliastuyvesant_f_007.animset].pc_animset",
+				"languages": {
+					"en": "//(0,0.85)\\\\Aah...//(0.85,4.9)\\\\The energy in this part of the garden is so healing.//(5.6,35.6)\\\\I could practically live here.",
+					"fr": "//(0,5.55)\\\\Aaah, l'énergie dans cette partie du jardin est si... revigorante.//(5.55,35.55)\\\\Je pourrais vivre ici.",
+					"it": "//(0,30)\\\\Aah, l'energia in questa parte del giardino è così... terapeutica. Potrei viverci, qui.",
+					"de": "//(0,5)\\\\Ah ... Die Energie in diesem Teil des Gartens ist so ... heilsam.//(5,35)\\\\Ich könnte hier einziehen.",
+					"es": "//(0,30)\\\\Aaah... La energía en esta parte del jardín es tan... curativa. Casi podría venirme a vivir aquí.",
+					"ru": "//(0,3.65)\\\\А-а... В этой части сада такая...//(3.65,33.65)\\\\целительная энергия. Я бы могла здесь жить.",
+					"cn": "//(0,5.6)\\\\啊......花园里这地方的能量如此的......治愈人心。//(5.6,35.6)\\\\我都想永远住在这儿了。",
+					"tc": "//(0,30)\\\\啊......花園的這個部分感覺好......治癒系。我好像住在這裡啊。",
+					"jp": "//(0,30)\\\\ああ... とてもいいエネルギーを感じる... 癒されるわ。ここに住みたいぐらい。"
+				}
+			}
+		]
+	}
+}
