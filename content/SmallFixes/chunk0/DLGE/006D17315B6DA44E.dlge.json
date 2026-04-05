@@ -1,0 +1,528 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/evergreen/handler/ed030_welcome/_.sweetfolder].pc_dialogevent",
+	"DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+	"CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+	"rootContainer": {
+		"type": "Switch",
+		"switchKey": "EV_DianaWelcome",
+		"default": "DIALOGUE_LOCFALLBACK",
+		"containers": [
+			{
+				"type": "Random",
+				"cases": ["DIALOGUE_BINGO"],
+				"containers": [
+					{
+						"type": "WavFile",
+						"wavName": "ed030_welcomea_bingo_diana_001",
+						"weight": 1.0,
+						"soundtag": "Voiceover_Handler_Evergreen",
+						"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_bingo_diana_001.wav].pc_wes",
+						"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_bingo_diana_001.animset].pc_animset",
+						"languages": {
+							"en": "//[DIANA]\\\\//(0,30)\\\\Welcome to Sapienza.",
+							"fr": "//[DIANA]\\\\//(0,30)\\\\Bienvenue à Sapienza.",
+							"it": "//[DIANA]\\\\//(0,30)\\\\Benvenuto a Sapienza.",
+							"de": "//[DIANA]\\\\//(0,30)\\\\Willkommen in Sapienza.",
+							"es": "//[DIANA]\\\\//(0,30)\\\\Bienvenido a Sapienza.",
+							"ru": "//[DIANA]\\\\//(0,30)\\\\Добро пожаловать в Сапиенцу.",
+							"cn": "//[DIANA]\\\\//(0,30)\\\\欢迎来到萨比恩撒。",
+							"tc": "//[DIANA]\\\\//(0,30)\\\\歡迎來到羅馬大學。",
+							"jp": "//[DIANA]\\\\//(0,30)\\\\サピエンツァへようこそ。"
+						}
+					}
+				]
+			},
+			{
+				"type": "Random",
+				"cases": ["DIALOGUE_BLACKJACK"],
+				"containers": [
+					{
+						"type": "WavFile",
+						"wavName": "ed030_welcomea_blackjack_diana_001",
+						"weight": 1.0,
+						"soundtag": "Voiceover_Handler_Evergreen",
+						"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_blackjack_diana_001.wav].pc_wes",
+						"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_blackjack_diana_001.animset].pc_animset",
+						"languages": {
+							"en": "//[DIANA]\\\\//(0,30)\\\\Welcome to New York.",
+							"fr": "//[DIANA]\\\\//(0,30)\\\\Bienvenue à New York.",
+							"it": "//[DIANA]\\\\//(0,30)\\\\Benvenuto a New York.",
+							"de": "//[DIANA]\\\\//(0,30)\\\\Willkommen in New York.",
+							"es": "//[DIANA]\\\\//(0,30)\\\\Bienvenido a Nueva York.",
+							"ru": "//[DIANA]\\\\//(0,30)\\\\Добро пожаловать в Нью-Йорк.",
+							"cn": "//[DIANA]\\\\//(0,30)\\\\欢迎来到纽约。",
+							"tc": "//[DIANA]\\\\//(0,30)\\\\歡迎來到紐約。",
+							"jp": "//[DIANA]\\\\//(0,30)\\\\ニューヨークへようこそ。"
+						}
+					}
+				]
+			},
+			{
+				"type": "Random",
+				"cases": ["DIALOGUE_BRIDGE"],
+				"containers": [
+					{
+						"type": "WavFile",
+						"wavName": "ed030_welcomea_bridge_diana_001",
+						"weight": 1.0,
+						"soundtag": "Voiceover_Handler_Evergreen",
+						"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_bridge_diana_001.wav].pc_wes",
+						"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_bridge_diana_001.animset].pc_animset",
+						"languages": {
+							"en": "//[DIANA]\\\\//(0,30)\\\\Welcome to Thornbridge Manor.",
+							"fr": "//[DIANA]\\\\//(0,30)\\\\Bienvenue au manoir Thornbridge.",
+							"it": "//[DIANA]\\\\//(0,30)\\\\Benvenuto al Thornbridge Manor.",
+							"de": "//[DIANA]\\\\//(0,30)\\\\Willkommen in Thornbridge Manor.",
+							"es": "//[DIANA]\\\\//(0,30)\\\\Bienvenido a la mansión Thornbridge.",
+							"ru": "//[DIANA]\\\\//(0,30)\\\\Добро пожаловать в поместье Торнбридж.",
+							"cn": "//[DIANA]\\\\//(0,30)\\\\欢迎来到索布里奇庄园。",
+							"tc": "//[DIANA]\\\\//(0,30)\\\\歡迎來到索恩橋庄園。",
+							"jp": "//[DIANA]\\\\//(0,30)\\\\ソーンブリッジ・マナーへようこそ。"
+						}
+					}
+				]
+			},
+			{
+				"type": "Random",
+				"cases": ["DIALOGUE_CHESS"],
+				"containers": [
+					{
+						"type": "WavFile",
+						"wavName": "ed030_welcomea_chess_diana_001",
+						"weight": 1.0,
+						"soundtag": "Voiceover_Handler_Evergreen",
+						"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_chess_diana_001.wav].pc_wes",
+						"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_chess_diana_001.animset].pc_animset",
+						"languages": {
+							"en": "//[DIANA]\\\\//(0,30)\\\\Welcome to The Sceptre, Dubai.",
+							"fr": "//[DIANA]\\\\//(0,30)\\\\Bienvenue au Sceptre de Dubaï.",
+							"it": "//[DIANA]\\\\//(0,30)\\\\Benvenuto allo Scettro, Dubai.",
+							"de": "//[DIANA]\\\\//(0,30)\\\\Willkommen im Zepter in Dubai.",
+							"es": "//[DIANA]\\\\//(0,30)\\\\Bienvenido a El Cetro de Dubái.",
+							"ru": "//[DIANA]\\\\//(0,30)\\\\Добро пожаловать в «Скипетр», Дубай.",
+							"cn": "//[DIANA]\\\\//(0,30)\\\\欢迎来到迪拜的权杖塔。",
+							"tc": "//[DIANA]\\\\//(0,30)\\\\歡迎來到杜拜，權杖。",
+							"jp": "//[DIANA]\\\\//(0,30)\\\\ドバイ、セプターへようこそ。"
+						}
+					}
+				]
+			},
+			{
+				"type": "Random",
+				"cases": ["DIALOGUE_CRAPS"],
+				"containers": [
+					{
+						"type": "WavFile",
+						"wavName": "ed030_welcomea_craps_diana_001",
+						"weight": 1.0,
+						"soundtag": "Voiceover_Handler_Evergreen",
+						"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_craps_diana_001.wav].pc_wes",
+						"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_craps_diana_001.animset].pc_animset",
+						"languages": {
+							"en": "//[DIANA]\\\\//(0,30)\\\\Welcome to Paris.",
+							"fr": "//[DIANA]\\\\//(0,30)\\\\Bienvenue à Paris.",
+							"it": "//[DIANA]\\\\//(0,30)\\\\Benvenuto a Parigi.",
+							"de": "//[DIANA]\\\\//(0,30)\\\\Willkommen in Paris.",
+							"es": "//[DIANA]\\\\//(0,30)\\\\Bienvenido a París.",
+							"ru": "//[DIANA]\\\\//(0,30)\\\\Добро пожаловать в Париж.",
+							"cn": "//[DIANA]\\\\//(0,30)\\\\欢迎来到巴黎。",
+							"tc": "//[DIANA]\\\\//(0,30)\\\\歡迎來到巴黎。",
+							"jp": "//[DIANA]\\\\//(0,30)\\\\パリへようこそ。"
+						}
+					}
+				]
+			},
+			{
+				"type": "Random",
+				"cases": ["DIALOGUE_HEX"],
+				"containers": [
+					{
+						"type": "WavFile",
+						"wavName": "ed030_welcomea_hex_diana_001",
+						"weight": 1.0,
+						"soundtag": "Voiceover_Handler_Evergreen",
+						"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_hex_diana_001.wav].pc_wes",
+						"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_hex_diana_001.animset].pc_animset",
+						"languages": {
+							"en": "//[DIANA]\\\\//(0,30)\\\\Welcome to Hawke's Bay.",
+							"fr": "//[DIANA]\\\\//(0,30)\\\\Bienvenue à Hawke's Bay.",
+							"it": "//[DIANA]\\\\//(0,30)\\\\Benvenuto a Hawke's Bay.",
+							"de": "//[DIANA]\\\\//(0,30)\\\\Willkommen in Hawkes Bay.",
+							"es": "//[DIANA]\\\\//(0,30)\\\\Bienvenido a Hawke's Bay.",
+							"ru": "//[DIANA]\\\\//(0,30)\\\\Добро пожаловать в Хокс-Бей.",
+							"cn": "//[DIANA]\\\\//(0,30)\\\\欢迎来到霍克斯湾。",
+							"tc": "//[DIANA]\\\\//(0,30)\\\\歡迎來到霍克斯灣。",
+							"jp": "//[DIANA]\\\\//(0,30)\\\\ホークスベイへようこそ。"
+						}
+					}
+				]
+			},
+			{
+				"type": "Random",
+				"cases": ["DIALOGUE_HILO"],
+				"containers": [
+					{
+						"type": "WavFile",
+						"wavName": "ed030_welcomea_hilo_diana_001",
+						"weight": 1.0,
+						"soundtag": "Voiceover_Handler_Evergreen",
+						"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_hilo_diana_001.wav].pc_wes",
+						"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_hilo_diana_001.animset].pc_animset",
+						"languages": {
+							"en": "//[DIANA]\\\\//(0,30)\\\\Welcome to the Maldives.",
+							"fr": "//[DIANA]\\\\//(0,30)\\\\Bienvenue aux Maldives.",
+							"it": "//[DIANA]\\\\//(0,30)\\\\Benvenuto alle Maldive.",
+							"de": "//[DIANA]\\\\//(0,30)\\\\Willkommen auf den Malediven.",
+							"es": "//[DIANA]\\\\//(0,30)\\\\Bienvenido a las Maldivas.",
+							"ru": "//[DIANA]\\\\//(0,30)\\\\Добро пожаловать на Мальдивы.",
+							"cn": "//[DIANA]\\\\//(0,30)\\\\欢迎来到马尔代夫。",
+							"tc": "//[DIANA]\\\\//(0,30)\\\\歡迎來到馬爾地夫。",
+							"jp": "//[DIANA]\\\\//(0,30)\\\\モルディブへようこそ。"
+						}
+					}
+				]
+			},
+			{
+				"type": "Random",
+				"cases": ["DIALOGUE_LOCFALLBACK"],
+				"containers": [
+					{
+						"type": "WavFile",
+						"wavName": "ed030_welcomea_locfallback_diana_001",
+						"weight": 1.0,
+						"soundtag": "Voiceover_Handler_Evergreen",
+						"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_locfallback_diana_001.wav].pc_wes",
+						"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_locfallback_diana_001.animset].pc_animset",
+						"languages": {}
+					}
+				]
+			},
+			{
+				"type": "Random",
+				"cases": ["DIALOGUE_LUDO"],
+				"containers": [
+					{
+						"type": "WavFile",
+						"wavName": "ed030_welcomea_ludo_diana_001",
+						"weight": 1.0,
+						"soundtag": "Voiceover_Handler_Evergreen",
+						"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_ludo_diana_001.wav].pc_wes",
+						"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_ludo_diana_001.animset].pc_animset",
+						"languages": {
+							"en": "//[DIANA]\\\\//(0,30)\\\\Welcome to Mumbai.",
+							"fr": "//[DIANA]\\\\//(0,30)\\\\Bienvenue à Bombay.",
+							"it": "//[DIANA]\\\\//(0,30)\\\\Benvenuto a Mumbai.",
+							"de": "//[DIANA]\\\\//(0,30)\\\\Willkommen in Mumbai.",
+							"es": "//[DIANA]\\\\//(0,30)\\\\Bienvenido a Bombay.",
+							"ru": "//[DIANA]\\\\//(0,30)\\\\Добро пожаловать в Мумбаи.",
+							"cn": "//[DIANA]\\\\//(0,30)\\\\欢迎来到孟买。",
+							"tc": "//[DIANA]\\\\//(0,30)\\\\歡迎來到孟買。",
+							"jp": "//[DIANA]\\\\//(0,30)\\\\ムンバイへようこそ。"
+						}
+					}
+				]
+			},
+			{
+				"type": "Random",
+				"cases": ["DIALOGUE_MAHJONG"],
+				"containers": [
+					{
+						"type": "WavFile",
+						"wavName": "ed030_welcomea_mahjong_diana_001",
+						"weight": 1.0,
+						"soundtag": "Voiceover_Handler_Evergreen",
+						"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_mahjong_diana_001.wav].pc_wes",
+						"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_mahjong_diana_001.animset].pc_animset",
+						"languages": {
+							"en": "//[DIANA]\\\\//(0,30)\\\\Welcome to Chongqing.",
+							"fr": "//[DIANA]\\\\//(0,30)\\\\Bienvenue à Chongqing.",
+							"it": "//[DIANA]\\\\//(0,30)\\\\Benvenuto a Chongqing.",
+							"de": "//[DIANA]\\\\//(0,30)\\\\Willkommen in Chongqing.",
+							"es": "//[DIANA]\\\\//(0,30)\\\\Bienvenido a Chongqing.",
+							"ru": "//[DIANA]\\\\//(0,30)\\\\Добро пожаловать в Чунцин.",
+							"cn": "//[DIANA]\\\\//(0,30)\\\\欢迎来到重庆。",
+							"tc": "//[DIANA]\\\\//(0,30)\\\\歡迎來到重慶。",
+							"jp": "//[DIANA]\\\\//(0,30)\\\\重慶へようこそ。"
+						}
+					}
+				]
+			},
+			{
+				"type": "Random",
+				"cases": ["DIALOGUE_MANCALA"],
+				"containers": [
+					{
+						"type": "WavFile",
+						"wavName": "ed030_welcomea_mancala_diana_001",
+						"weight": 1.0,
+						"soundtag": "Voiceover_Handler_Evergreen",
+						"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_mancala_diana_001.wav].pc_wes",
+						"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_mancala_diana_001.animset].pc_animset",
+						"languages": {
+							"en": "//[DIANA]\\\\//(0,30)\\\\Welcome to Marrakesh.",
+							"fr": "//[DIANA]\\\\//(0,30)\\\\Bienvenue à Marrakech.",
+							"it": "//[DIANA]\\\\//(0,30)\\\\Benvenuto a Marrakech.",
+							"de": "//[DIANA]\\\\//(0,30)\\\\Willkommen in Marrakesch.",
+							"es": "//[DIANA]\\\\//(0,30)\\\\Bienvenido a Marrakech.",
+							"ru": "//[DIANA]\\\\//(0,30)\\\\Добро пожаловать в Марракеш.",
+							"cn": "//[DIANA]\\\\//(0,30)\\\\欢迎来到马拉喀什。",
+							"tc": "//[DIANA]\\\\//(0,30)\\\\歡迎來到馬拉喀什。",
+							"jp": "//[DIANA]\\\\//(0,30)\\\\マラケシュへようこそ。"
+						}
+					}
+				]
+			},
+			{
+				"type": "Random",
+				"cases": ["DIALOGUE_MEYER"],
+				"containers": [
+					{
+						"type": "WavFile",
+						"wavName": "ed030_welcomea_meyer_diana_001",
+						"weight": 1.0,
+						"soundtag": "Voiceover_Handler_Evergreen",
+						"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_meyer_diana_001.wav].pc_wes",
+						"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_meyer_diana_001.animset].pc_animset",
+						"languages": {
+							"en": "//[DIANA]\\\\//(0,30)\\\\Welcome to Berlin.",
+							"fr": "//[DIANA]\\\\//(0,30)\\\\Bienvenue à Berlin.",
+							"it": "//[DIANA]\\\\//(0,30)\\\\Benvenuto a Berlino.",
+							"de": "//[DIANA]\\\\//(0,30)\\\\Willkommen in Berlin.",
+							"es": "//[DIANA]\\\\//(0,30)\\\\Bienvenido a Berlín.",
+							"ru": "//[DIANA]\\\\//(0,30)\\\\Добро пожаловать в Берлин.",
+							"cn": "//[DIANA]\\\\//(0,30)\\\\欢迎来到柏林。",
+							"tc": "//[DIANA]\\\\//(0,30)\\\\歡迎來到柏林。",
+							"jp": "//[DIANA]\\\\//(0,30)\\\\ベルリンへようこそ。"
+						}
+					}
+				]
+			},
+			{
+				"type": "Random",
+				"cases": ["DIALOGUE_PINOCHLE"],
+				"containers": [
+					{
+						"type": "WavFile",
+						"wavName": "ed030_welcomea_pinochle_diana_001",
+						"weight": 1.0,
+						"soundtag": "Voiceover_Handler_Evergreen",
+						"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_pinochle_diana_001.wav].pc_wes",
+						"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_pinochle_diana_001.animset].pc_animset",
+						"languages": {
+							"en": "//[DIANA]\\\\//(0,30)\\\\Welcome to Miami.",
+							"fr": "//[DIANA]\\\\//(0,30)\\\\Bienvenue à Miami.",
+							"it": "//[DIANA]\\\\//(0,30)\\\\Benvenuto a Miami.",
+							"de": "//[DIANA]\\\\//(0,30)\\\\Willkommen in Miami.",
+							"es": "//[DIANA]\\\\//(0,30)\\\\Bienvenido a Miami.",
+							"ru": "//[DIANA]\\\\//(0,30)\\\\Добро пожаловать в Майами.",
+							"cn": "//[DIANA]\\\\//(0,30)\\\\欢迎来到迈阿密。",
+							"tc": "//[DIANA]\\\\//(0,30)\\\\歡迎來到邁阿密。",
+							"jp": "//[DIANA]\\\\//(0,30)\\\\マイアミへようこそ。"
+						}
+					}
+				]
+			},
+			{
+				"type": "Random",
+				"cases": ["DIALOGUE_POKER"],
+				"containers": [
+					{
+						"type": "WavFile",
+						"wavName": "ed030_welcomea_poker_diana_001",
+						"weight": 1.0,
+						"soundtag": "Voiceover_Handler_Evergreen",
+						"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_poker_diana_001.wav].pc_wes",
+						"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_poker_diana_001.animset].pc_animset",
+						"languages": {
+							"en": "//[DIANA]\\\\//(0,30)\\\\Welcome to Ambrose Island.",
+							"fr": "//[DIANA]\\\\//(0,30)\\\\Bienvenue sur l'ïle Ambrose.",
+							"it": "//[DIANA]\\\\//(0,30)\\\\Benvenuto ad Ambrose Island.",
+							"de": "//[DIANA]\\\\//(0,30)\\\\Willkommen auf Ambrose Island.",
+							"es": "//[DIANA]\\\\//(0,30)\\\\Bienvenido a Isla Ambrosio.",
+							"ru": "//[DIANA]\\\\//(0,30)\\\\Добро пожаловать на остров Эмброуз.",
+							"cn": "//[DIANA]\\\\//(0,30)\\\\欢迎来到安布罗斯岛。",
+							"tc": "//[DIANA]\\\\//(0,30)\\\\歡迎來到安布羅斯島。",
+							"jp": "//[DIANA]\\\\//(0,30)\\\\アンブローズ島へようこそ。"
+						}
+					}
+				]
+			},
+			{
+				"type": "Random",
+				"cases": ["DIALOGUE_SAPO"],
+				"containers": [
+					{
+						"type": "WavFile",
+						"wavName": "ed030_welcomea_sapo_diana_001",
+						"weight": 1.0,
+						"soundtag": "Voiceover_Handler_Evergreen",
+						"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_sapo_diana_001.wav].pc_wes",
+						"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_sapo_diana_001.animset].pc_animset",
+						"languages": {
+							"en": "//[DIANA]\\\\//(0,30)\\\\Welcome to Vinedo Yates, Argentina.",
+							"fr": "//[DIANA]\\\\//(0,30)\\\\Bienvenue au Viñedo Yates, en Argentine.",
+							"it": "//[DIANA]\\\\//(0,30)\\\\Benvenuto al Viñedo Yates, Argentina.",
+							"de": "//[DIANA]\\\\//(0,30)\\\\Willkommen in der Viñedo Yates in Argentinien.",
+							"es": "//[DIANA]\\\\//(0,30)\\\\Bienvenido a Viñedo Yates, Argentina.",
+							"ru": "//[DIANA]\\\\//(0,30)\\\\Добро пожаловать в Виньедо Йейтс, Аргентина.",
+							"cn": "//[DIANA]\\\\//(0,30)\\\\欢迎来到阿根廷的耶茨葡萄园。",
+							"tc": "//[DIANA]\\\\//(0,30)\\\\歡迎來到阿根廷，耶茨葡萄園。",
+							"jp": "//[DIANA]\\\\//(0,30)\\\\アルゼンチン、ビニェード・イエーツへようこそ。"
+						}
+					}
+				]
+			},
+			{
+				"type": "Random",
+				"cases": ["DIALOGUE_SHOGI"],
+				"containers": [
+					{
+						"type": "WavFile",
+						"wavName": "ed030_welcomea_shogi_diana_001",
+						"weight": 1.0,
+						"soundtag": "Voiceover_Handler_Evergreen",
+						"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_shogi_diana_001.wav].pc_wes",
+						"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_shogi_diana_001.animset].pc_animset",
+						"languages": {
+							"en": "//[DIANA]\\\\//(0,30)\\\\Welcome to Hokkaido.",
+							"fr": "//[DIANA]\\\\//(0,30)\\\\Bienvenue à Hokkaido.",
+							"it": "//[DIANA]\\\\//(0,30)\\\\Benvenuto in Hokkaidō.",
+							"de": "//[DIANA]\\\\//(0,30)\\\\Willkommen in Hokkaido.",
+							"es": "//[DIANA]\\\\//(0,30)\\\\Bienvenido a Hokkaido.",
+							"ru": "//[DIANA]\\\\//(0,30)\\\\Добро пожаловать в Хоккайдо.",
+							"cn": "//[DIANA]\\\\//(0,30)\\\\欢迎来到北海道。",
+							"tc": "//[DIANA]\\\\//(0,30)\\\\歡迎來到北海道。",
+							"jp": "//[DIANA]\\\\//(0,30)\\\\北海道へようこそ。"
+						}
+					}
+				]
+			},
+			{
+				"type": "Random",
+				"cases": ["DIALOGUE_SICBO"],
+				"containers": [
+					{
+						"type": "WavFile",
+						"wavName": "ed030_welcomea_sicbo_diana_001",
+						"weight": 1.0,
+						"soundtag": "Voiceover_Handler_Evergreen",
+						"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_sicbo_diana_001.wav].pc_wes",
+						"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_sicbo_diana_001.animset].pc_animset",
+						"languages": {
+							"en": "//[DIANA]\\\\//(0,30)\\\\Welcome to Bangkok.",
+							"fr": "//[DIANA]\\\\//(0,30)\\\\Bienvenue à Bangkok.",
+							"it": "//[DIANA]\\\\//(0,30)\\\\Benvenuto a Bangkok.",
+							"de": "//[DIANA]\\\\//(0,30)\\\\Willkommen in Bangkok.",
+							"es": "//[DIANA]\\\\//(0,30)\\\\Bienvenido a Bangkok.",
+							"ru": "//[DIANA]\\\\//(0,30)\\\\Добро пожаловать в Бангкок.",
+							"cn": "//[DIANA]\\\\//(0,30)\\\\欢迎来到曼谷。",
+							"tc": "//[DIANA]\\\\//(0,30)\\\\歡迎來到曼谷。",
+							"jp": "//[DIANA]\\\\//(0,30)\\\\バンコクへようこそ。"
+						}
+					}
+				]
+			},
+			{
+				"type": "Random",
+				"cases": ["DIALOGUE_SOLITAIRE"],
+				"containers": [
+					{
+						"type": "WavFile",
+						"wavName": "ed030_welcomea_solitaire_diana_001",
+						"weight": 1.0,
+						"soundtag": "Voiceover_Handler_Evergreen",
+						"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_solitaire_diana_001.wav].pc_wes",
+						"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_solitaire_diana_001.animset].pc_animset",
+						"languages": {
+							"en": "//[DIANA]\\\\//(0,30)\\\\Welcome to Whittleton Creek.",
+							"fr": "//[DIANA]\\\\//(0,30)\\\\Bienvenue à la Crique de Whittleton",
+							"it": "//[DIANA]\\\\//(0,30)\\\\Benvenuto a Whittleton Creek.",
+							"de": "//[DIANA]\\\\//(0,30)\\\\Willkommen in Whittleton Creek.",
+							"es": "//[DIANA]\\\\//(0,30)\\\\Bienvenido a Whittleton Creek.",
+							"ru": "//[DIANA]\\\\//(0,30)\\\\Добро пожаловать в Уиттлтон-Крик.",
+							"cn": "//[DIANA]\\\\//(0,30)\\\\欢迎来到维多顿小溪。",
+							"tc": "//[DIANA]\\\\//(0,30)\\\\歡迎來到維多頓小溪。",
+							"jp": "//[DIANA]\\\\//(0,30)\\\\ホイットルトン・クリークへようこそ。"
+						}
+					}
+				]
+			},
+			{
+				"type": "Random",
+				"cases": ["DIALOGUE_SPADES"],
+				"containers": [
+					{
+						"type": "WavFile",
+						"wavName": "ed030_welcomea_spades_diana_001",
+						"weight": 1.0,
+						"soundtag": "Voiceover_Handler_Evergreen",
+						"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_spades_diana_001.wav].pc_wes",
+						"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_spades_diana_001.animset].pc_animset",
+						"languages": {
+							"en": "//[DIANA]\\\\//(0,30)\\\\Welcome to Colorado.",
+							"fr": "//[DIANA]\\\\//(0,30)\\\\Bienvenue au Colorado.",
+							"it": "//[DIANA]\\\\//(0,30)\\\\Benvenuto in Colorado.",
+							"de": "//[DIANA]\\\\//(0,30)\\\\Willkommen in Colorado.",
+							"es": "//[DIANA]\\\\//(0,30)\\\\Bienvenido a Colorado.",
+							"ru": "//[DIANA]\\\\//(0,30)\\\\Добро пожаловать в Колорадо.",
+							"cn": "//[DIANA]\\\\//(0,30)\\\\欢迎来到科罗拉多。",
+							"tc": "//[DIANA]\\\\//(0,30)\\\\歡迎來到科羅拉多。",
+							"jp": "//[DIANA]\\\\//(0,30)\\\\コロラドへようこそ。"
+						}
+					}
+				]
+			},
+			{
+				"type": "Random",
+				"cases": ["DIALOGUE_TROMPO"],
+				"containers": [
+					{
+						"type": "WavFile",
+						"wavName": "ed030_welcomea_trompo_diana_001",
+						"weight": 1.0,
+						"soundtag": "Voiceover_Handler_Evergreen",
+						"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_trompo_diana_001.wav].pc_wes",
+						"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_trompo_diana_001.animset].pc_animset",
+						"languages": {
+							"en": "//[DIANA]\\\\//(0,30)\\\\Welcome to Santa Fortuna, Colombia.",
+							"fr": "//[DIANA]\\\\//(0,30)\\\\Bienvenue à Santa Fortuna, en Colombie.",
+							"it": "//[DIANA]\\\\//(0,30)\\\\Benvenuto a Santa Fortuna, Colombia.",
+							"de": "//[DIANA]\\\\//(0,30)\\\\Willkommen in Santa Fortuna in Kolumbien.",
+							"es": "//[DIANA]\\\\//(0,30)\\\\Bienvenido a Santa Fortuna, Colombia.",
+							"ru": "//[DIANA]\\\\//(0,30)\\\\Добро пожаловать в Сан-Фортуну, Колумбия.",
+							"cn": "//[DIANA]\\\\//(0,30)\\\\欢迎来到哥伦比亚的圣福耳图那。",
+							"tc": "//[DIANA]\\\\//(0,30)\\\\歡迎來到哥倫比亞，聖福耳圖那。",
+							"jp": "//[DIANA]\\\\//(0,30)\\\\コロンビア、サンタ・フォルチューナへようこそ。"
+						}
+					}
+				]
+			},
+			{
+				"type": "Random",
+				"cases": ["DIALOGUE_WHIST"],
+				"containers": [
+					{
+						"type": "WavFile",
+						"wavName": "ed030_welcomea_whist_diana_001",
+						"weight": 1.0,
+						"soundtag": "Voiceover_Handler_Evergreen",
+						"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_whist_diana_001.wav].pc_wes",
+						"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_whist_diana_001.animset].pc_animset",
+						"languages": {
+							"en": "//[DIANA]\\\\//(0,30)\\\\Welcome to the Isle of Sgail.",
+							"fr": "//[DIANA]\\\\//(0,30)\\\\Bienvenue sur l'île de Sgàil.",
+							"it": "//[DIANA]\\\\//(0,30)\\\\Benvenuto sull'Isola di Sgàil.",
+							"de": "//[DIANA]\\\\//(0,30)\\\\Willkommen auf der Isle of Sgàil.",
+							"es": "//[DIANA]\\\\//(0,30)\\\\Bienvenido a la isla de Sgàil.",
+							"ru": "//[DIANA]\\\\//(0,30)\\\\Добро пожаловать на остров Тени.",
+							"cn": "//[DIANA]\\\\//(0,30)\\\\欢迎来到萨加尔岛。",
+							"tc": "//[DIANA]\\\\//(0,30)\\\\歡迎來到薩加爾島。",
+							"jp": "//[DIANA]\\\\//(0,30)\\\\スゴール島へようこそ。"
+						}
+					}
+				]
+			}
+		]
+	}
+}
