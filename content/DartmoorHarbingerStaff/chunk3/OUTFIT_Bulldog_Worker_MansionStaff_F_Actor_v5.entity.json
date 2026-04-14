@@ -563,7 +563,6 @@
 			"resource": "[assembly:/_pro/characters/assets/_genericparts/skin/textures/skin_detail_h3.texture?/skin_normal_detail.tex](asnormalmap).pc_tex",
 			"flag": "5F"
 		},
-		{ "resource": "007AB310F7DB3836", "flag": "5F" },
 		{
 			"resource": "[assembly:/_pro/characters/assets/_genericparts/skin/textures/skin_detail_h3.texture?/skin_variance_detail.tex](ascolormap).pc_tex",
 			"flag": "5F"
