@@ -1,0 +1,172 @@
+{
+	"tempHash": "00108176C7E67F7B",
+	"tbluHash": "002936E7D826B671",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"dffbc4e4fdd7e870",
+				{
+					"AddProperty": [
+						"m_bCastShadows",
+						{ "type": "bool", "value": false }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9f283393a6916588",
+				{
+					"SetPropertyValue": {
+						"property_name": "HandAttacherTransform",
+						"value": {
+							"rotation": {
+								"x": 90.00000000000001,
+								"y": 4.296211924040461e-31,
+								"z": 90.00000000000001
+							},
+							"position": {
+								"x": 0.0,
+								"y": 0.008700000122189522,
+								"z": 0.17710000276565552
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"576e126b779d594e",
+				{
+					"AddProperty": [
+						"m_bCastShadows",
+						{ "type": "bool", "value": false }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b560803d776095e8",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -90.53211705688508,
+								"y": 15.916956107229009,
+								"z": 0.00011916008137003268
+							},
+							"position": {
+								"x": 0.06958500295877457,
+								"y": 0.016651000827550888,
+								"z": 0.026353999972343445
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b560803d776095e8",
+				{
+					"AddProperty": [
+						"m_bCastShadows",
+						{ "type": "bool", "value": false }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2c5864648725dc05",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 86.76141934517871,
+								"y": 31.44925709229024,
+								"z": 179.40137689812252
+							},
+							"position": {
+								"x": 0.10657600313425064,
+								"y": 0.05065799877047539,
+								"z": -0.040546998381614685
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2c5864648725dc05",
+				{
+					"AddProperty": [
+						"m_bCastShadows",
+						{ "type": "bool", "value": false }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e13673bf552b652f",
+				{
+					"AddProperty": [
+						"m_bCastShadows",
+						{ "type": "bool", "value": false }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"326c4adec75fd7ca",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -89.99907062807969,
+								"y": -9.460010599843574,
+								"z": 0.0004065997573849641
+							},
+							"position": {
+								"x": 0.1293749958276749,
+								"y": 0.018570000305771828,
+								"z": -0.08459000289440155
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"326c4adec75fd7ca",
+				{
+					"AddProperty": [
+						"m_bCastShadows",
+						{ "type": "bool", "value": false }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c4f6889e3309b684",
+				{
+					"AddProperty": [
+						"m_bCastShadows",
+						{ "type": "bool", "value": false }
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
