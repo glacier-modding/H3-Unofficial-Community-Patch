@@ -6,10 +6,7 @@
 			"SubEntityOperation": [
 				"dffbc4e4fdd7e870",
 				{
-					"AddProperty": [
-						"m_bCastShadows",
-						{ "type": "bool", "value": false }
-					]
+					"AddProperty": ["m_bCastShadows", { "type": "bool", "value": false }]
 				}
 			]
 		},
@@ -39,10 +36,7 @@
 			"SubEntityOperation": [
 				"576e126b779d594e",
 				{
-					"AddProperty": [
-						"m_bCastShadows",
-						{ "type": "bool", "value": false }
-					]
+					"AddProperty": ["m_bCastShadows", { "type": "bool", "value": false }]
 				}
 			]
 		},
@@ -72,10 +66,7 @@
 			"SubEntityOperation": [
 				"b560803d776095e8",
 				{
-					"AddProperty": [
-						"m_bCastShadows",
-						{ "type": "bool", "value": false }
-					]
+					"AddProperty": ["m_bCastShadows", { "type": "bool", "value": false }]
 				}
 			]
 		},
@@ -105,10 +96,7 @@
 			"SubEntityOperation": [
 				"2c5864648725dc05",
 				{
-					"AddProperty": [
-						"m_bCastShadows",
-						{ "type": "bool", "value": false }
-					]
+					"AddProperty": ["m_bCastShadows", { "type": "bool", "value": false }]
 				}
 			]
 		},
@@ -116,10 +104,7 @@
 			"SubEntityOperation": [
 				"e13673bf552b652f",
 				{
-					"AddProperty": [
-						"m_bCastShadows",
-						{ "type": "bool", "value": false }
-					]
+					"AddProperty": ["m_bCastShadows", { "type": "bool", "value": false }]
 				}
 			]
 		},
@@ -149,10 +134,7 @@
 			"SubEntityOperation": [
 				"326c4adec75fd7ca",
 				{
-					"AddProperty": [
-						"m_bCastShadows",
-						{ "type": "bool", "value": false }
-					]
+					"AddProperty": ["m_bCastShadows", { "type": "bool", "value": false }]
 				}
 			]
 		},
@@ -160,10 +142,7 @@
 			"SubEntityOperation": [
 				"c4f6889e3309b684",
 				{
-					"AddProperty": [
-						"m_bCastShadows",
-						{ "type": "bool", "value": false }
-					]
+					"AddProperty": ["m_bCastShadows", { "type": "bool", "value": false }]
 				}
 			]
 		}
