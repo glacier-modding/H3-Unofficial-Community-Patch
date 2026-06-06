@@ -1,0 +1,18 @@
+{
+	"tempHash": "00DC692646C00776",
+	"tbluHash": "00C0F37BA20637F7",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"23747430712978b0",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nOutfitVariation",
+						"value": 1
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
