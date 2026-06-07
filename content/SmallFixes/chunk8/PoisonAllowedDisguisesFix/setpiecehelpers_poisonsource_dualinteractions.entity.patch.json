@@ -1,0 +1,31 @@
+{
+    "tempHash": "0044F3E0FE32703F",
+    "tbluHash": "0043E8E5D339DE95",
+    "patch": [
+        {
+            "AddEntity": [
+                "24056b6d4a413296",
+                {
+                    "parent": "52384c6bdd6e8759",
+                    "name": "Prop_Trap_PoisonHelper_AllowedDisguises",
+                    "factory": "[assembly:/_pro/design/items/prop_traps_runtimes.template?/prop_trap_poisonhelper_alloweddisguises.entitytemplate].pc_entitytype",
+                    "blueprint": "[assembly:/_pro/design/items/prop_traps_runtimes.template?/prop_trap_poisonhelper_alloweddisguises.entitytemplate].pc_entityblueprint",
+                    "properties": {
+                        "m_aHolders": {
+                            "type": "TArray<SEntityTemplateReference>",
+                            "value": [
+                                {
+                                    "ref": "f76668a29ce06283",
+                                    "externalScene": null,
+                                    "exposedEntity": "DisguiseKeyword"
+                                }
+                            ],
+                            "postInit": true
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "patchVersion": 6
+}

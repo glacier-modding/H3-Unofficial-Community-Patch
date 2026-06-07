@@ -1,0 +1,654 @@
+{
+    "tempHash": "006D83222C463D0F",
+    "tbluHash": "000324052369C0E7",
+    "rootEntity": "9b6a52532810e6b9",
+    "entities": {
+        "ab0b2753fc7ba66f": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Golden_Worker_Chef",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_golden_worker_chef.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_golden_worker_chef.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "ca6bcb489aca2a84": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Ancestral_Worker_MansionStaff",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_ancestral_worker_mansionstaff.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_ancestral_worker_mansionstaff.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "095028cd00c5263e": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Golden_Worker_KitchenStaff",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_golden_worker_kitchenstaff.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_golden_worker_kitchenstaff.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "60160ef9c6525177": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Sapienza_Worker_Waiter",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_waiter.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_waiter.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "b8e8622f04adf4e0": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Opulent_Worker_Waiter_Restaurant",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_opulent_worker_waiter_restaurant.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_opulent_worker_waiter_restaurant.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "6061befa380d3cbe": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Elegant_Waiter",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_elegant_waiter.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_elegant_waiter.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "621a53710be0bf4a": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Sapienza_Worker_Chef01",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_chef.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_chef.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "51179d98af3f709c": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Global_Waiter",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_global_waiter.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_global_waiter.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "ba7c6fc13508848b": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Hokkaido_Worker_Chef",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_hokkaido_worker_chef.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hokkaido_worker_chef.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "4a2e7a4e71bf88a3": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Edgy_Worker_Bartender",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_edgy_worker_bartender.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_edgy_worker_bartender.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "052c7c805a6e4a62": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Wet_Worker_DumplingCook",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_wet_worker_dumplingcook.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_wet_worker_dumplingcook.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "f19eaa9ce554cd31": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Miami_Worker_FoodStands",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami_worker_foodstands.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami_worker_foodstands.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "3c3e105a832a6e12": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Greenland_YachtCrew",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_yachtcrew.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_yachtcrew.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "414c37113fe8900a": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Sapienza_Worker_KitchenAssistant",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_kitchenassistant.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_kitchenassistant.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "8dbd281f043ce209": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Marrakesh_Worker_Cafe",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_marrakesh_worker_cafe.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_marrakesh_worker_cafe.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "15a5849c9543a980": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Golden_Worker_EventStaff",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_golden_worker_eventstaff.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_golden_worker_eventstaff.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "fd5661c1405845ed": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Paris_Worker_AuctionStaff",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_paris_worker_auctionstaff.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_paris_worker_auctionstaff.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "42127fa135919ac0": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Golden_Worker_PenthouseStaff",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_golden_worker_penthousestaff.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_golden_worker_penthousestaff.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "e46e3261802635ea": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Miami_Worker_Waiter",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami_worker_waiter.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami_worker_waiter.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "121a7bf109804bfa": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Opulent_Worker_JuniorChef",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_opulent_worker_juniorchef.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_opulent_worker_juniorchef.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "78f09ef76dd52cff": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Rocky_Worker_FoodWorker",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_rocky_worker_foodworker.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_rocky_worker_foodworker.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "be6d43e589e5389f": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Opulent_Worker_Staff_Villa",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_opulent_worker_staff_villa.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_opulent_worker_staff_villa.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "053d844285d95087": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Global_Chef",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_global_chef.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_global_chef.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "c68be0206786c74c": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Colombia_Worker_Barman",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_colombia_worker_barman.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colombia_worker_barman.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "685150d724460d83": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Bangkok_Worker_KitchenStaff",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_bangkok_worker_kitchenstaff.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_bangkok_worker_kitchenstaff.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "46d3323d90947b37": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Colorado_MilitiaCook",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_militiacook.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_militiacook.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "684eb08cd0c674b6": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Bangkok_Worker_RestaurantWaiter",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_bangkok_worker_restaurantwaiter.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_bangkok_worker_restaurantwaiter.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "1fd95df66e5c0176": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Elegant_Chef",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_elegant_chef.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_elegant_chef.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "7395cdab578af894": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Opulent_Worker_Chef_Restaurant",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_opulent_worker_chef_restaurant.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_opulent_worker_chef_restaurant.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "42c3f2ee78671633": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Miami_Worker_KitchenStaff",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami_worker_kitchenstaff.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami_worker_kitchenstaff.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "9e69de670a078ed2": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Paris_Worker_Chef",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_paris_worker_chef.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_paris_worker_chef.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "12d817517899bcf0": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Sapienza_Worker_Chef",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_chef.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_chef.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "df61e72bd6e57e15": {
+            "parent": "9b6a52532810e6b9",
+            "name": "Prof_Paris_Worker_PalaceStaff",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_paris_worker_palacestaff.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_paris_worker_palacestaff.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aHolders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "9b6a52532810e6b9"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "9b6a52532810e6b9": {
+            "parent": null,
+            "name": "Prop_Trap_PoisonHelper_AllowedDisguises",
+            "factory": "[modules:/zentity.class].pc_entitytype",
+            "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+            "propertyAliases": {
+                "m_aHolders": [
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "414c37113fe8900a"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "60160ef9c6525177"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "12d817517899bcf0"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "8dbd281f043ce209"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "684eb08cd0c674b6"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "ba7c6fc13508848b"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "621a53710be0bf4a"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "df61e72bd6e57e15"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "fd5661c1405845ed"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "3c3e105a832a6e12"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "9e69de670a078ed2"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "685150d724460d83"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "46d3323d90947b37"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "c68be0206786c74c"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "053d844285d95087"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "51179d98af3f709c"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "f19eaa9ce554cd31"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "e46e3261802635ea"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "42c3f2ee78671633"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "7395cdab578af894"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "121a7bf109804bfa"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "b8e8622f04adf4e0"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "be6d43e589e5389f"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "ca6bcb489aca2a84"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "ab0b2753fc7ba66f"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "15a5849c9543a980"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "095028cd00c5263e"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "42127fa135919ac0"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "4a2e7a4e71bf88a3"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "6061befa380d3cbe"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "1fd95df66e5c0176"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "052c7c805a6e4a62"
+                    },
+                    {
+                        "originalProperty": "m_aHolders",
+                        "originalEntity": "78f09ef76dd52cff"
+                    }
+                ]
+            }
+        }
+    },
+    "propertyOverrides": [],
+    "overrideDeletes": [],
+    "pinConnectionOverrides": [],
+    "pinConnectionOverrideDeletes": [],
+    "externalScenes": [],
+    "subType": "template",
+    "quickEntityVersion": 3.1,
+    "extraFactoryDependencies": [],
+    "extraBlueprintDependencies": [],
+    "comments": []
+}
