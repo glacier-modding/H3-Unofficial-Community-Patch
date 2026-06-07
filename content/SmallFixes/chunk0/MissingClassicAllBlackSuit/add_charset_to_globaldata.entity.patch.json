@@ -10,9 +10,7 @@
 						"m_aCharSets",
 						{
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"cafeab35c33fe2fc"
-							],
+							"value": ["cafeab35c33fe2fc"],
 							"postInit": true
 						}
 					]
