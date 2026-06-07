@@ -1,0 +1,105 @@
+{
+    "tempHash": "00D8CA471B3D5B9B",
+    "tbluHash": "007C2B80EFAEF200",
+    "rootEntity": "7cd90ca62ec8694d",
+    "entities": {
+        "dcf615ad6f09e500": {
+            "parent": "00c1481c266a7faf",
+            "name": "0",
+            "factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+            "blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+        },
+        "6760c262cde108f0": {
+            "parent": "7cd90ca62ec8694d",
+            "name": "Nude",
+            "factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+            "blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+            "properties": {
+                "m_aVariations": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "d4921ec4ec31039d"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "d4921ec4ec31039d": {
+            "parent": "6760c262cde108f0",
+            "name": "Var0",
+            "factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+            "blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+        },
+        "7cd90ca62ec8694d": {
+            "parent": null,
+            "name": "CHARSET_Agent47_Reward_S1ChallangesNormalAll",
+            "factory": "[assembly:/_pro/characters/templates/_sourcefiles/outfit.template?/charset_base.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/characters/templates/_sourcefiles/outfit.template?/charset_base.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aCharacters": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "00c1481c266a7faf",
+                        "6760c262cde108f0",
+                        "4028a59cb24f301a"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "4028a59cb24f301a": {
+            "parent": "7cd90ca62ec8694d",
+            "name": "HeroA",
+            "factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+            "blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+            "properties": {
+                "m_aVariations": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "452b6aac95b83959"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "00c1481c266a7faf": {
+            "parent": "7cd90ca62ec8694d",
+            "name": "Actor",
+            "factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+            "blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+            "properties": {
+                "m_aVariations": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "dcf615ad6f09e500"
+                    ]
+                }
+            }
+        },
+        "452b6aac95b83959": {
+            "parent": "4028a59cb24f301a",
+            "name": "Var0",
+            "factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+            "blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+            "properties": {
+                "m_Outfit": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_reward_s1challangesnormalall_heroa_v0.entitytemplate].pc_entitytemplate",
+                        "flag": "9F"
+                    }
+                }
+            }
+        }
+    },
+    "propertyOverrides": [],
+    "overrideDeletes": [],
+    "pinConnectionOverrides": [],
+    "pinConnectionOverrideDeletes": [],
+    "externalScenes": [],
+    "subType": "template",
+    "quickEntityVersion": 3.1,
+    "extraFactoryDependencies": [],
+    "extraBlueprintDependencies": [],
+    "comments": []
+}
