@@ -1,0 +1,35 @@
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"a63fd24ee4195551",
+				{
+					"AddProperty": [
+						"m_aCharSets",
+						{
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"cafeab35c33fe2fc"
+							],
+							"postInit": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeab35c33fe2fc",
+				{
+					"parent": "a63fd24ee4195551",
+					"name": "CHARSET_Agent47_Reward_S1ChallangesNormalAll",
+					"factory": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_s1challangesnormalall.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_s1challangesnormalall.entitytemplate].pc_entityblueprint"
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
