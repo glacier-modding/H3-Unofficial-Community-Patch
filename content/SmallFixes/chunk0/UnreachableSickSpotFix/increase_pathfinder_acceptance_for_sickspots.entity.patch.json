@@ -1,0 +1,18 @@
+{
+	"tempHash": "0098C7BD51E1C742",
+	"tbluHash": "00CD208F7E4A992F",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"b36db37879440323",
+				{
+					"AddProperty": [
+						"m_fAcceptance",
+						{ "type": "float32", "value": 0.5 }
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
