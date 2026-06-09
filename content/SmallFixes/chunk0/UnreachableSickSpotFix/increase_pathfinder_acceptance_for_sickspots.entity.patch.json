@@ -6,10 +6,7 @@
 			"SubEntityOperation": [
 				"b36db37879440323",
 				{
-					"AddProperty": [
-						"m_fAcceptance",
-						{ "type": "float32", "value": 0.5 }
-					]
+					"AddProperty": ["m_fAcceptance", { "type": "float32", "value": 0.5 }]
 				}
 			]
 		}
