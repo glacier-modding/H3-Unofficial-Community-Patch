@@ -128,43 +128,7 @@
 			"contentFolders": ["content/REPO"]
 		}
 	],
-	"dependencies": [
-		"001ECEAD8065CB53",
-		"00477F26A729A7D4",
-		"0065407F35881766",
-		"007EBFF860115C57",
-		"00BE85635EDC6FB6",
-		{
-			"runtimeID": "00F2FE7013ACD763",
-			"portFromChunk1": true
-		},
-		"00BE0B9B3E460DDA",
-		"004940C6C2551F4C",
-		"00B9BFD83B7C2027",
-		{
-			"runtimeID": "00720AC75FDCB6CE",
-			"portFromChunk1": true
-		},
-		"005F8950B4EE4196",
-		"00A79CA4724563D6",
-		"0025E0EA817A21D2",
-		"000E3FE3A9481903",
-		"00124433BD567913",
-		{
-			"runtimeID": "00ED35DF92B21E49",
-			"portFromChunk1": true
-		},
-		{
-			"runtimeID": "00FB6672D9650A93",
-			"portFromChunk1": true
-		},
-		"00EF211640B1796D",
-		"0095C784DC9807B7",
-		"0081DC5F3F9314BA",
-		"0060FEF30458DBC6",
-		"00AA8992FEA69732",
-		"00308F8B7C190669"
-	],
+	"dependencies": ["001ECEAD8065CB53"],
 	"localisationOverrides": {
 		"0005BE61D5257592": {
 			"english": {
