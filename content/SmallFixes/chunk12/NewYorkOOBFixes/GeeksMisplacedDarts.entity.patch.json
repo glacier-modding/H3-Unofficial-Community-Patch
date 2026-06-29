@@ -1,0 +1,73 @@
+{
+	"tempHash": "009FDC60393C0DA2",
+	"tbluHash": "00A8BF4B33B25673",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"41311b6227d668d9",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 179.99927945834295,
+								"y": -49.798537787039535,
+								"z": -6.914957129128004
+							},
+							"position": {
+								"x": -0.4352092742919922,
+								"y": 0.22860336303710935,
+								"z": -2.005195379257202
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"21d2e895df7dcb7a",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 9.205377911322062,
+								"y": -44.62733761682054,
+								"z": -174.17938517929994
+							},
+							"position": {
+								"x": -0.7219009399414062,
+								"y": 1.8874378204345703,
+								"z": -1.2487938404083252
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"98dcb82fbef56392",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -57.62732905320978
+							},
+							"position": {
+								"x": 0.03227996826171875,
+								"y": 0.1913127899169922,
+								"z": -2.0092263221740723
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
