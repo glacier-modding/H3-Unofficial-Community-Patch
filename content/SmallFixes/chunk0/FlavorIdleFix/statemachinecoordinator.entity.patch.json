@@ -3,6 +3,9 @@
 	"tbluHash": "00B35AB8FFF33681",
 	"patch": [
 		{
+			"SubEntityOperation": ["6ad56c220d337174", { "RemovePropertyByName": "m_eActorNearbyRequirements" }]
+		},
+		{
 			"SubEntityOperation": [
 				"6ad56c220d337174",
 				{
@@ -12,6 +15,133 @@
 					}
 				}
 			]
+		},
+		{
+			"SubEntityOperation": [
+				"d45304b0f7b652eb",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_ePriority",
+						"value": "eCIP_High"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d45304b0f7b652eb",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fCooldownForThis",
+						"value": 15.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["b44a356315b341eb", { "RemovePropertyByName": "m_eActorNearbyRequirements" }]
+		},
+		{
+			"SubEntityOperation": [
+				"b44a356315b341eb",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_ePriority",
+						"value": "eCIP_High"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"20ab0f0e926878ee",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_ePriority",
+						"value": "eCIP_High"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"20ab0f0e926878ee",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fCooldownForThis",
+						"value": 15.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"463fef8fdf2a48b4",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_ePriority",
+						"value": "eCIP_High"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"463fef8fdf2a48b4",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fCooldownForThis",
+						"value": 15.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"34c170b2eec33a51",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_ePriority",
+						"value": "eCIP_High"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"34c170b2eec33a51",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fCooldownForThis",
+						"value": 15.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a1277ea9cb7c2ca4",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_ePriority",
+						"value": "eCIP_High"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a1277ea9cb7c2ca4",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fCooldownForThis",
+						"value": 15.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["a88230b8b0cc8f50", { "RemovePropertyByName": "m_eActorNearbyRequirements" }]
 		},
 		{
 			"SubEntityOperation": [
@@ -25,6 +155,9 @@
 			]
 		},
 		{
+			"SubEntityOperation": ["ba732bb94e6b30c2", { "RemovePropertyByName": "m_eActorNearbyRequirements" }]
+		},
+		{
 			"SubEntityOperation": [
 				"ba732bb94e6b30c2",
 				{
@@ -34,6 +167,9 @@
 					}
 				}
 			]
+		},
+		{
+			"SubEntityOperation": ["8e1cd11e2bfd1650", { "RemovePropertyByName": "m_eActorNearbyRequirements" }]
 		},
 		{
 			"SubEntityOperation": [
@@ -47,6 +183,9 @@
 			]
 		},
 		{
+			"SubEntityOperation": ["e67f58a8b67a7b99", { "RemovePropertyByName": "m_eActorNearbyRequirements" }]
+		},
+		{
 			"SubEntityOperation": [
 				"e67f58a8b67a7b99",
 				{
@@ -54,6 +193,69 @@
 						"property_name": "m_ePriority",
 						"value": "eCIP_High"
 					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4af61e722635776d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_ePriority",
+						"value": "eCIP_High"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4af61e722635776d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fCooldownForThis",
+						"value": 15.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d1ad003297182194",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_ePriority",
+						"value": "eCIP_High"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6a4222e10e475801",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aHandlers",
+						[
+							{
+								"AddItemAfter": ["63c844e4f28b38ab", "20ab0f0e926878ee"]
+							},
+							{
+								"AddItemAfter": ["63c844e4f28b38ab", "d45304b0f7b652eb"]
+							},
+							{
+								"AddItemAfter": ["63c844e4f28b38ab", "a1277ea9cb7c2ca4"]
+							},
+							{
+								"AddItemAfter": ["63c844e4f28b38ab", "34c170b2eec33a51"]
+							},
+							{
+								"AddItemAfter": ["63c844e4f28b38ab", "4af61e722635776d"]
+							},
+							{
+								"AddItemAfter": ["63c844e4f28b38ab", "463fef8fdf2a48b4"]
+							}
+						]
+					]
 				}
 			]
 		}
