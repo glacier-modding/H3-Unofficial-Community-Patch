@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/island/29000_magpie/29000_story/dr29257_storyambience_washingtontwins.sweetdialog?/dr29257_storyambience_washingtontwins_civmale09_012.sweetdialogitem].pc_dialogevent",
+	"DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+	"CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr29257_storyambience_washingtontwins_civmale09_012",
+		"soundtag": "In-world_Mission_Important",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/island/29000_magpie/29000_story/dr29257_storyambience_washingtontwins_civmale09_012.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/island/29000_magpie/29000_story/dr29257_storyambience_washingtontwins_civmale09_012.animset].pc_animset",
+		"languages": {
+			"en": "//(0,2.804687)\\\\Yeah. Ex-CICADA mercenaries mostly.//(2.804687,4.587938)\\\\Call themselves Raiders.//(4.587938,7.300733)\\\\Zoe and Sophia employ them on their missions.//(7.300733,8.49742)\\\\Word is, they kill and blow up//(8.49742,11.19221)\\\\anything that stands in their way. Amnesty claims//(11.19221,14.4957)\\\\they annihilated an entire indigenous Amazon tribe,//(14.4957,17.0427)\\\\while searching for the lost city of Z,//(17.0427,18.69958)\\\\but they never found the smoking gun.",
+			"fr": "//(0,3)\\\\Oui. Ce sont principalement d'anciens mercenaires de CICADA.//(3,7.5)\\\\Ils se font appeler les Pillards. Zoe et Sophia les emploient.//(7.5,10.9)\\\\Il paraît qu'ils tuent et font sauter tout ce qui se met sur leur route.//(10.9,15)\\\\Amnesty prétend qu'ils ont exterminé toute une tribu amazonienne,//(15,18.69958)\\\\lorsqu'ils cherchaient une cité perdue. Mais ils n'en ont pas la preuve.",
+			"it": "//(0,0.8680981)\\\\Esatto.//(0.8680981,3.05)\\\\Sono quasi tutti ex mercenari della CICADA//(3.05,4.8)\\\\e si fanno chiamare i \"Predatori\".//(4.8,7.45)\\\\Zoe e Sophia li reclutano per le loro missioni.//(7.45,8.89)\\\\Si dice che uccidano o facciano saltare in aria//(8.89,10.98)\\\\qualunque cosa si metta sul loro cammino.//(10.98,12.46)\\\\Amnesty sostiene che abbiano annientato//(12.46,14.82)\\\\un'intera tribù indigena dell'Amazzonia//(14.82,17.08)\\\\mentre cercavano la Civiltà perduta,//(17.08,18.7)\\\\ma non sono mai riusciti a beccarli coi fucili fumanti.",
+			"de": "//(0,2.898987)\\\\Ja. Vor allem Ex-CICADA-Söldner.//(2.898987,4.604666)\\\\Nennen sich selbst die Räuber.//(4.604666,7.301926)\\\\Zoe und Sophia heuern sie für ihre Missionen an.//(7.301926,8.99101)\\\\Man sagt, dass sie alles umbringen oder in die Luft sprengen,//(8.99101,10.84101)\\\\was sich ihnen in den Weg stellt.//(10.84101,11.4682)\\\\Amnesty meint,//(11.4682,13.37017)\\\\sie hätten einen kompletten Eingeborenenstamm//(13.37017,14.78625)\\\\am Amazonas umgebracht,//(14.78625,16.71272)\\\\während sie nach der verlorenen Stadt Z suchten.//(16.71272,18.69958)\\\\Aber klare Beweise hat man dafür nie gefunden.",
+			"es": "//(0,2.955624)\\\\Sí. Casi todos son antiguos mercenarios de CICADA.//(2.955624,5.437796)\\\\Se hacen llamar Saqueadores y Zoe y Sophia los//(5.437796,6.915608)\\\\contratan para sus misiones.//(6.915608,9.39778)\\\\Se comenta que matan y destrozan todo aquello que//(9.39778,11.15139)\\\\se interponga en su camino.//(11.15139,12.06869)\\\\Amnistía asegura que,//(12.06869,14.64077)\\\\durante su búsqueda de la ciudad perdida de Z,//(14.64077,17.22177)\\\\aniquilaron a toda una tribu indígena del Amazonas...//(17.22177,18.69958)\\\\pero nunca encontraron pruebas.",
+			"ru": "//(0,3.218508)\\\\Угу. Это в основном бывшие наемники «Цикады».//(3.218508,4.662143)\\\\Называют себя «Рейдерами».//(4.662143,8.093194)\\\\Зои и София берут их с собой в экспедиции.//(8.093194,11.63223)\\\\Говорят, они убивают и взрывают все на своем пути.//(11.63223,12.40268)\\\\«Эмнести» считает,//(12.40268,14.49808)\\\\что они перебили целое племя аборигенов,//(14.49808,16.92471)\\\\когда искали затерянный город Z в Амазонке,//(16.92471,18.69958)\\\\но веских доказательств нет.",
+			"cn": "//(0,7.22)\\\\是啊。大部分都是前希卡达佣兵。他们自称为“劫掠者”。佐伊和索菲娅雇他们来干老本行。//(7.22,10.845)\\\\也就是说，他们会负责扫清挡路的一切障碍。//(10.845,16.856)\\\\特赦组织声称这些人在搜寻失落的Z城时屠杀了一整个亚马逊本土部落，//(16.856,18.7)\\\\但并没有找到确切证据。",
+			"tc": "//(0,4.5)\\\\是啊。大部分都是前希卡達傭兵。他們自稱為「劫掠者」。//(4.5,7.2)\\\\佐伊和索菲婭僱他們來幹老本行。//(7.2,10.8)\\\\也就是說，他們會負責掃清擋路的一切障礙。//(10.8,18.69958)\\\\特赦組織聲稱這些人在搜尋失落的Z城時屠殺一整個亞馬遜本土部落，但沒有找到確切證據。",
+			"jp": "//(0,3)\\\\ああ。ほとんどは元CICADAの傭兵だ。//(3,4.5)\\\\自分たちのことをレイダーズと呼んでいる。//(4.5,7)\\\\ゾーイとソフィアは任務の際に奴らを使ってる。//(7,11.5)\\\\噂によると、奴らは邪魔になるものをすべて殺して爆破するらしい。//(11.5,15.5)\\\\アムネスティは奴らがアマゾンに住む部族を丸ごと抹殺したと主張してる。//(15.5,17)\\\\幻の都市Zを捜索している最中にな。//(17,18.69958)\\\\だけど、決定的な証拠は掴めなかったらしい。"
+		}
+	}
+}
