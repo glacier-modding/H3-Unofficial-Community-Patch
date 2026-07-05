@@ -1,0 +1,21 @@
+{
+	"tempHash": "00775CC5F09F80E1",
+	"tbluHash": "001419EDA9617608",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"2ec0f6f4995c13d8",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pMeshResource",
+						"value": {
+							"resource": "[assembly:/_pro/characters/assets/_sourcefiles/fem_reg/geometry/fem_reg_hair_long.wl2?/hair_l_ponytail_loose_braid_cut_hat.weightedprim](bodypart).pc_weightedprim",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
