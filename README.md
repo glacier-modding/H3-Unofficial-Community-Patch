@@ -1,10 +1,18 @@
 # Unofficial Community Patch
 
-A collection of Quality of Life fixes for Hitman III (or Hitman: World of Assassination). This ranges from localisation line break fixes, all the way to model part replacements to fix inverted normals on clothing, and everything in-between. If it's broken in-game, this project aims to fix it!
+A collection of Quality of Life fixes for Hitman: World of Assassination. This ranges from localisation line break fixes, all the way to model part replacements to fix inverted normals on clothing, and everything in-between. If it's broken in-game, this project aims to fix it!
 
 [Install](https://hitman-resources.netlify.app/smf-install-link/https://github.com/glacier-modding/H3-Community-Patches/releases/latest/download/mod.framework.zip) | [Download](https://github.com/glacier-modding/H3-Community-Patches/releases/latest/download/mod.framework.zip) | [To-Do & Fixed Issues](https://github.com/orgs/glacier-modding/projects/2)
 
 ## Contributing
+
+### How-to guide
+
+Do you have something to contribute to the community patch but don't know how to start with GitHub?
+
+We have a [guide on the Glacier Modding Wiki](https://glaciermodding.org/docs/modding/github) showing you how to contribute!
+
+### Contribution etiquette
 
 To contribute a fix, make an issue for it first in this repository, then make a fork (or a branch if you have the right permissions), and then commit your fix to the branch with the title named: `feat: fix this thing`.
 
