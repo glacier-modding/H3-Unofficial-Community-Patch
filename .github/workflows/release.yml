@@ -136,8 +136,6 @@ jobs:
                       # ${{ steps.modName.outputs.prop }}
                       ${{ steps.modDesc.outputs.prop }}
 
-                      [Install](https://hitman-resources.netlify.app/smf-install-link/${{ format('https://github.com/{0}/releases/latest/download/mod.framework.zip', github.repository) }}) | [Download](${{ format('https://github.com/{0}/releases/latest/download/mod.framework.zip', github.repository) }})
-
                       ---
 
                       `${{ steps.modID.outputs.prop }}` v${{ steps.newVersion.outputs.new-release-version }}, by ${{ join(fromJSON(steps.modAuthors.outputs.prop), ', ') }}. This README was automatically generated from the mod's manifest.
@@ -164,7 +162,7 @@ jobs:
               with:
                   token: ${{ secrets.GITHUB_TOKEN }}
                   config_file: .github/tag-changelog-config.js
-                  exclude_types: other,docs,chore,build,amend,refactor
+                  exclude_types: other,docs,chore,build,amend,refactor,ci
 
             - name: Copy files
               if: ${{ steps.newVersion.outputs.new-release-version }}
