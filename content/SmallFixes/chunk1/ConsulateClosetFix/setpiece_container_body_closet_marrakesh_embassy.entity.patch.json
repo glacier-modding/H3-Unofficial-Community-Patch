@@ -1,0 +1,79 @@
+{
+	"tempHash": "002A11BCC18AEC47",
+	"tbluHash": "00D7E5C17C127CD5",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"2bfb5dfa65e5d9af",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": 0.0, "y": 0.0, "z": 0.0 },
+							"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5b4bbb7125d838de",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": -180.0
+							},
+							"position": {
+								"x": -0.607,
+								"y": -0.389,
+								"z": 0.095
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"bf8376fe6bae5b19",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": -180.0
+							},
+							"position": {
+								"x": 0.59,
+								"y": -0.389,
+								"z": 0.09
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ad08e96bef17b3d4",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": 0.0, "y": 0.0, "z": 0.0 },
+							"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
