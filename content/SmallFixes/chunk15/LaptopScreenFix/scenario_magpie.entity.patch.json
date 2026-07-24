@@ -1,0 +1,49 @@
+{
+	"tempHash": "009792BC33857D2A",
+	"tbluHash": "00B8EE64611429CC",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"88aa842e9894e0ed",
+				{
+					"SetPropertyValue": {
+						"property_name": "ScreenTextureA",
+						"value": {
+							"resource": "[assembly:/_pro/environment/textures/props/electronic/computer_screen_a.texture?/emissive_k2.tex](ascolormap).pc_tex",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"88aa842e9894e0ed",
+				{
+					"SetPropertyValue": {
+						"property_name": "ScreenTextureB",
+						"value": {
+							"resource": "[assembly:/_pro/environment/textures/props/electronic/computer_screen_a.texture?/emissive_k2.tex](ascolormap).pc_tex",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fdcea5d75a84e098",
+				{
+					"SetPropertyValue": {
+						"property_name": "ScreenTextureB",
+						"value": {
+							"resource": "[assembly:/_pro/environment/textures/props/electronic/computer_screen_a.texture?/emissive_l.tex](ascolormap).pc_tex",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
