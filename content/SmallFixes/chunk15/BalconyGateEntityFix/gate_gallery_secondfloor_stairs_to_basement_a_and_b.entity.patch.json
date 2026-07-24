@@ -1,0 +1,81 @@
+{
+	"tempHash": "009792BC33857D2A",
+	"tbluHash": "00B8EE64611429CC",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"bf8a2a337516c45c",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -180.0
+							},
+							"position": {
+								"x": -25.25930976867676,
+								"y": 54.09,
+								"z": 33.991
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"bf8a2a337516c45c",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vPortalSize",
+						"value": {
+							"x": 2.7557899951934814,
+							"y": 5.0,
+							"z": 3.803
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c505f65dfb665c62",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -180.0
+							},
+							"position": {
+								"x": -29.678869247436523,
+								"y": 54.09,
+								"z": 33.991
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c505f65dfb665c62",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vPortalSize",
+						"value": {
+							"x": 2.971100091934204,
+							"y": 5.0,
+							"z": 3.803
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
