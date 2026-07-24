@@ -1,0 +1,29 @@
+{
+	"tempHash": "00CA78C22F6FEDE2",
+	"tbluHash": "0047A819C062FFB4",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"1653f6782d947e0f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bCastShadows",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1653f6782d947e0f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bCastShadowsPC",
+						"value": true
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
