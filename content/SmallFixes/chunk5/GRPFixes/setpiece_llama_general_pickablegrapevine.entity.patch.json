@@ -1,0 +1,106 @@
+{
+	"tempHash": "00D9B6A82AC1756A",
+	"tbluHash": "00D62F4230A518F5",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"159acb3136a91f34",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fLODScale",
+						"value": 1.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ec5824b82d9ff493",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fLODOffset",
+						"value": 0.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"66c92da28512c441",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fLODOffset",
+						"value": 0.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"663f738285bec409",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -2.3407430733027983,
+								"y": -0.22339679721268255,
+								"z": 7.0443679379907005
+							},
+							"position": {
+								"x": -0.6830635070800781,
+								"y": 0.08839821815490723,
+								"z": 0.2319784015417099
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"663f738285bec409",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fLODOffset",
+						"value": 0.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"520fc9393b177bf5",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fLODOffset",
+						"value": 0.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"15cd7ec454937f4e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": 90.2006502012446
+							},
+							"position": {
+								"x": 58.82918167114258,
+								"y": 10.223150253295898,
+								"z": 0.20000000298023224
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
