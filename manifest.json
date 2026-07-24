@@ -34,7 +34,8 @@
 		"content/SapienzaChurch",
 		"content/SecurityCams",
 		"content/SmallFixes",
-		"content/VendingMachines"
+		"content/VendingMachines",
+		"content/GRPConsoleFixes"
 	],
 	"loadBefore": ["KevinRudd.FreelancerVariations"],
 	"loadAfter": ["invalid.earpiecevoices"],
@@ -76,6 +77,13 @@
 			"type": "checkbox",
 			"enabledByDefault": false,
 			"contentFolders": ["content/OutfitFilterFixesToggle"]
+		},
+		{
+			"name": "Grapes LoD from console version",
+			"tooltip": "Give the same LoD values from console version to make Mendoza more smooth.",
+			"type": "checkbox",
+			"enabledByDefault": false,
+			"contentFolders": ["content/GRPConsoleFixes"]
 		},
 		{
 			"name": "Snow Globe Spelling",
