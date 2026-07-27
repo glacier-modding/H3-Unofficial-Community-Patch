@@ -7,28 +7,6 @@
 				"bfd6ea4b5609df60",
 				{
 					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": 5.101710536100522,
-								"y": -0.011631052168700228,
-								"z": -176.42322053987144
-							},
-							"position": {
-								"x": -4.164487838745117,
-								"y": -0.32337498664855957,
-								"z": 0.07997900247573853
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"bfd6ea4b5609df60",
-				{
-					"SetPropertyValue": {
 						"property_name": "m_fLODOffset",
 						"value": 0.0
 					}
@@ -86,28 +64,6 @@
 					"SetPropertyValue": {
 						"property_name": "m_fLODOffset",
 						"value": 0.0
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"c1ef27d5e0e60c3b",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": 5.101881889978332,
-								"y": 0.01781899109444016,
-								"z": -0.22832445998206743
-							},
-							"position": {
-								"x": -3.026421070098877,
-								"y": -0.32337498664855957,
-								"z": 0.09243299812078476
-							}
-						}
 					}
 				}
 			]
