@@ -1,0 +1,139 @@
+{
+	"tempHash": "0093F0555CA55CC6",
+	"tbluHash": "00AC76C340E4DA17",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"bfd6ea4b5609df60",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fLODOffset",
+						"value": 0.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ce9820c3a7d6994a",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fLODScale",
+						"value": 1.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a3c990fcfb5f10f1",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fLODOffset",
+						"value": 0.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"baa490a5e913131f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fLODScale",
+						"value": 1.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"26370ba10cd1ce9c",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fLODScale",
+						"value": 1.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f7b216caa5f759df",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fLODOffset",
+						"value": 0.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c1ef27d5e0e60c3b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fLODOffset",
+						"value": 0.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cc624270d739b186",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fLODOffset",
+						"value": 0.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b31e0cdfbe0578c4",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fLODOffset",
+						"value": 0.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2cd10959b342c249",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fLODOffset",
+						"value": 0.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e13b3ddbe6276455",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fLODOffset",
+						"value": 0.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"408205a2508e5e32",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fLODScale",
+						"value": 1.0
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

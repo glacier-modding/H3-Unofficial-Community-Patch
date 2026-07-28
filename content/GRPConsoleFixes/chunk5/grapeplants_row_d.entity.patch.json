@@ -1,0 +1,40 @@
+{
+	"tempHash": "004E9B0F314F21F7",
+	"tbluHash": "00914EFA6F107D50",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"052075c094aa5ba4",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fLODOffset",
+						"value": 0.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"bb64bad5ecadc3b8",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fLODScale",
+						"value": 1.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3ac251e709d8a0e8",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fLODOffset",
+						"value": 0.0
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

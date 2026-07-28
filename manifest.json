@@ -78,6 +78,13 @@
 			"contentFolders": ["content/OutfitFilterFixesToggle"]
 		},
 		{
+			"name": "Grapes LoD from console version",
+			"tooltip": "Give the same LoD values from console version to make Mendoza more smooth.",
+			"type": "checkbox",
+			"enabledByDefault": false,
+			"contentFolders": ["content/GRPConsoleFixes"]
+		},
+		{
 			"name": "Snow Globe Spelling",
 			"tooltip": "This replaces the \"Snowglobe\" spelling used in the game with the dictionary-approved \"Snow Globe\" spelling.",
 			"type": "checkbox",
