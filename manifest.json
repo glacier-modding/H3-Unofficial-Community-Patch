@@ -78,8 +78,8 @@
 			"contentFolders": ["content/OutfitFilterFixesToggle"]
 		},
 		{
-			"name": "Grapes LoD from console version",
-			"tooltip": "Give the same LoD values from console version to make Mendoza more smooth.",
+			"name": "Grapes Optimization (Mendoza)",
+			"tooltip": "Make Mendoza much smoother without huge visual loose by remove useless stuff in Grapeplant entity.",
 			"type": "checkbox",
 			"enabledByDefault": false,
 			"contentFolders": ["content/GRPConsoleFixes"]
