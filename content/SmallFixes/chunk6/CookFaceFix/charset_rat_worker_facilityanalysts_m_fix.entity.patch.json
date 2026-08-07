@@ -21,6 +21,24 @@
 			]
 		},
 		{
+			"SubEntityOperation": [
+				"232c75dba2852c0d",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aVariations",
+						[
+							{
+								"AddItemAfter": [
+									"8a41ee20431c71ff",
+									"cafef2028ecd0c70"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
 			"AddEntity": [
 				"cafe6966e4578685",
 				{
