@@ -1,0 +1,31 @@
+{
+	"tempHash": "00F84465C5960E4B",
+	"tbluHash": "000468209FECFCEE",
+	"patch": [
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "8fa6da306a3f8e88",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 104.21694925440704
+						},
+						"position": {
+							"x": 7.638396739959717,
+							"y": 2.508026123046875,
+							"z": 0.7411022186279297
+						}
+					}
+				}
+			}
+		}
+	],
+	"patchVersion": 6
+}
