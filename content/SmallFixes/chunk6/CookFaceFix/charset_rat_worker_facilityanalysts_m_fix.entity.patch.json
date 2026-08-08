@@ -1,0 +1,83 @@
+{
+	"tempHash": "0091B440332E0DFD",
+	"tbluHash": "00D2DA5263C2FBEB",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"d7be8be18ddbb3fa",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aVariations",
+						[
+							{
+								"AddItemAfter": [
+									"564a6d326c6ffa26",
+									"cafe6966e4578685"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"232c75dba2852c0d",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aVariations",
+						[
+							{
+								"AddItemAfter": [
+									"8a41ee20431c71ff",
+									"cafef2028ecd0c70"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe6966e4578685",
+				{
+					"parent": "d7be8be18ddbb3fa",
+					"name": "2",
+					"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+					"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+					"properties": {
+						"m_Outfit": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/characters/templates/rat/char_rat_workers.template?/outfit_rat_worker_facilityanalysts_m_actor_v2.entitytemplate].pc_entitytemplate",
+								"flag": "9F"
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafef2028ecd0c70",
+				{
+					"parent": "232c75dba2852c0d",
+					"name": "Var2",
+					"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+					"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+					"properties": {
+						"m_Outfit": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/characters/templates/rat/char_rat_workers.template?/outfit_rat_worker_facilityanalysts_m_nude_v2.entitytemplate].pc_entitytemplate",
+								"flag": "9F"
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

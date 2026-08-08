@@ -1,0 +1,175 @@
+{
+	"tempHash": "00CF3BE6CB215472",
+	"tbluHash": "0019BA3DCA112474",
+	"rootEntity": "051dfe6c65a974dd",
+	"entities": {
+		"f15fc5fc8287c181": {
+			"parent": "051dfe6c65a974dd",
+			"name": "Head_asian_30s_02_Beard",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_heads_asian.template?/head_asian_30s_02_beard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_heads_asian.template?/head_asian_30s_02_beard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#ffe0db"
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ffe0db"
+				},
+				"Texture2DNormal_02": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_sourcefiles/male_reg/textures/male_reg_body.texture?/normal_slim.tex](asnormalmap).pc_tex",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"aded533a5a2beedf": {
+			"parent": "051dfe6c65a974dd",
+			"name": "Hair_Sides_MS",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_hair.template?/hair_sides_ms.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_hair.template?/hair_sides_ms.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#2b2b2b"
+				}
+			}
+		},
+		"051dfe6c65a974dd": {
+			"parent": null,
+			"name": "OUTFIT_Rat_Worker_FacilityAnalysts_M_Nude_v2",
+			"factory": "[assembly:/_pro/characters/templates/_sourcefiles/outfit.template?/outfit_base.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_sourcefiles/outfit.template?/outfit_base.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_sourcefiles/male_reg/geometry/male_reg.wl2?/bones.weightedprim](bodypart).pc_bonerig",
+						"flag": "5F"
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 0.0,
+							"y": -1.7723820209503174,
+							"z": 0.0
+						}
+					}
+				},
+				"m_bSimulationEnabled": { "type": "bool", "value": true },
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"d0d3ef5afa036fd3",
+						"f15fc5fc8287c181",
+						"aded533a5a2beedf",
+						"d26c4b287c98fdb9",
+						"c8a7b6ed38e032b6"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"d0d3ef5afa036fd3": {
+			"parent": "051dfe6c65a974dd",
+			"name": "Body_Full_Slim",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_slim_bodyparts.template?/body_full_slim.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_slim_bodyparts.template?/body_full_slim.entitytemplate].pc_entityblueprint"
+		},
+		"d26c4b287c98fdb9": {
+			"parent": "051dfe6c65a974dd",
+			"name": "Underwear_Boxers",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_legs.template?/underwear_boxers.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_legs.template?/underwear_boxers.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#fff9e8"
+				}
+			}
+		},
+		"c8a7b6ed38e032b6": {
+			"parent": "051dfe6c65a974dd",
+			"name": "Hair_Top_M_SideSweptFringe",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_hair.template?/hair_top_m_sidesweptfringe.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_hair.template?/hair_top_m_sidesweptfringe.entitytemplate].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/_pro/characters/assets/_sourcefiles/male_reg/geometry/male_reg_hair.wl2?/h_sides_ms.weightedprim](bodypart).pc_weightedprim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_sourcefiles/male_slim/geometry/male_slim.wl2?/male_slim_body.weightedprim](bodypart).pc_weightedprim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/shorts/textures/base_male_shorts_boxershorts.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/shorts/textures/base_male_shorts_boxershorts.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/shorts/textures/base_male_shorts_boxershorts.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/shorts/geometry/male_reg_shorts_boxershorts.wl2?/boxershorts.weightedprim](bodypart).pc_weightedprim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_sourcefiles/male_reg/geometry/male_reg_hair.wl2?/h_top_m_sidesweptfringe.weightedprim](bodypart).pc_weightedprim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_genericparts/heads/male/textures/male_reg_head_asian_04.texture?/normal_s2.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_genericparts/heads/male/textures/male_reg_head_asian_04.texture?/specular_s2.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_genericparts/heads/male/textures/male_reg_head_asian_04.texture?/diffuse_s2.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_sourcefiles/male_reg/textures/male_reg_body.texture?/diffuse_asian.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_sourcefiles/male_reg/textures/male_reg_body.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_sourcefiles/generic/eyes/textures/base_eyes.texture?/diffuse_darkbrown.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_sourcefiles/male_reg_heads/geometry/male_reg_head_asian_30s_02.wl2?/male_reg_head_asian_30s_02_beard.weightedprim](bodypart).pc_weightedprim",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
