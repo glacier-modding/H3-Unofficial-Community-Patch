@@ -10,10 +10,7 @@
 						"m_aVariations",
 						[
 							{
-								"AddItemAfter": [
-									"564a6d326c6ffa26",
-									"cafe6966e4578685"
-								]
+								"AddItemAfter": ["564a6d326c6ffa26", "cafe6966e4578685"]
 							}
 						]
 					]
@@ -28,10 +25,7 @@
 						"m_aVariations",
 						[
 							{
-								"AddItemAfter": [
-									"8a41ee20431c71ff",
-									"cafef2028ecd0c70"
-								]
+								"AddItemAfter": ["8a41ee20431c71ff", "cafef2028ecd0c70"]
 							}
 						]
 					]
