@@ -1,0 +1,30 @@
+{
+	"tempHash": "0072829C6871087C",
+	"tbluHash": "00BB4B2514C73EE6",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"d61eb0bb7e1b3fa1",
+				{
+					"RemoveAllEventConnectionsForTrigger": [
+						"PollFalse",
+						"LidOpen"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d61eb0bb7e1b3fa1",
+				{
+					"AddEventConnection": [
+						"PollFalse",
+						"LidClose",
+						"bff15823092bce83"
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
