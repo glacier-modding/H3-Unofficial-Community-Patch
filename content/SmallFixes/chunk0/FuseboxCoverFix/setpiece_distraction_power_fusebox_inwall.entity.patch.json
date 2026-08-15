@@ -6,10 +6,7 @@
 			"SubEntityOperation": [
 				"d61eb0bb7e1b3fa1",
 				{
-					"RemoveAllEventConnectionsForTrigger": [
-						"PollFalse",
-						"LidOpen"
-					]
+					"RemoveAllEventConnectionsForTrigger": ["PollFalse", "LidOpen"]
 				}
 			]
 		},
@@ -17,11 +14,7 @@
 			"SubEntityOperation": [
 				"d61eb0bb7e1b3fa1",
 				{
-					"AddEventConnection": [
-						"PollFalse",
-						"LidClose",
-						"bff15823092bce83"
-					]
+					"AddEventConnection": ["PollFalse", "LidClose", "bff15823092bce83"]
 				}
 			]
 		}
