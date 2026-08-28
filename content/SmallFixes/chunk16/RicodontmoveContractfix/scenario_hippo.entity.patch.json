@@ -1,0 +1,41 @@
+{
+	"tempHash": "00887DDFD8656D90",
+	"tbluHash": "00FA83E7FF633C2E",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"2dd7e1a2c509b77d",
+				{
+					"AddEventConnection": [
+						"OnPlay",
+						"TransmitEvent",
+						"cafee1b79a94a629"
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafee1b79a94a629",
+				{
+					"parent": "9c7272adeda746a0",
+					"name": "Stop Rico from waiting for intro",
+					"factory": "[modules:/zeventtransmitterentity_void.class].pc_entitytype",
+					"blueprint": "[modules:/zeventtransmitterentity_void.class].pc_entityblueprint",
+					"properties": {
+						"m_Receivers": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"dd3623f7ec40e51f",
+								"5af8fda5203583ba",
+								"851b4e2a3e3fe727"
+							],
+							"postInit": true
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
