@@ -3,7 +3,6 @@
 	"tbluHash": "000C59D3D8EB66B2",
 	"patch": [
 		{
-			
 			"SubEntityOperation": [
 				"4e402345f4c57939",
 				{
@@ -79,7 +78,6 @@
 					}
 				}
 			]
-	
 		}
 	],
 	"patchVersion": 6
