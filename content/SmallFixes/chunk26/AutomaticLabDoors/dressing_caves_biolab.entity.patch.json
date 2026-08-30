@@ -1,0 +1,177 @@
+{
+	"tempHash": "008393F4B010DC2C",
+	"tbluHash": "00A97B3B6EAFB9E3",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"49d4d1836cf87541",
+				{
+					"AddProperty": [
+						"VolumeBoxTransform",
+						{
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0,
+									"z": -0.0
+								},
+								"position": {
+									"x": 0.059,
+									"y": -1.019,
+									"z": 0.968
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"49d4d1836cf87541",
+				{
+					"AddProperty": [
+						"VolumeBoxSize",
+						{
+							"type": "SVector3",
+							"value": { "x": 2.425, "y": 1.726, "z": 2.935 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ac008c8857b3711d",
+				{
+					"AddProperty": [
+						"VolumeBoxTransform",
+						{
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0,
+									"z": -0.0
+								},
+								"position": {
+									"x": -0.059,
+									"y": -1.019,
+									"z": 0.968
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ac008c8857b3711d",
+				{
+					"AddProperty": [
+						"VolumeBoxSize",
+						{
+							"type": "SVector3",
+							"value": { "x": 2.425, "y": 1.726, "z": 2.935 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b794991ce9efee80",
+				{
+					"AddProperty": [
+						"VolumeBoxSize",
+						{
+							"type": "SVector3",
+							"value": { "x": 2.425, "y": 2.3, "z": 2.935 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c60153bf667d4851",
+				{
+					"AddProperty": [
+						"VolumeBoxTransform",
+						{
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0,
+									"z": -0.0
+								},
+								"position": {
+									"x": 0.0,
+									"y": -0.262,
+									"z": 0.968
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c60153bf667d4851",
+				{
+					"AddProperty": [
+						"VolumeBoxSize",
+						{
+							"type": "SVector3",
+							"value": { "x": 2.425, "y": 2.4, "z": 2.935 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ff026dec75765052",
+				{
+					"AddProperty": [
+						"VolumeBoxTransform",
+						{
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0,
+									"z": -0.0
+								},
+								"position": {
+									"x": 0.059,
+									"y": -1.019,
+									"z": 0.968
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ff026dec75765052",
+				{
+					"AddProperty": [
+						"VolumeBoxSize",
+						{
+							"type": "SVector3",
+							"value": { "x": 2.425, "y": 1.726, "z": 2.935 }
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
