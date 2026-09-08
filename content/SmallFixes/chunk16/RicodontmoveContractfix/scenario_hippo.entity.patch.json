@@ -6,11 +6,7 @@
 			"SubEntityOperation": [
 				"2dd7e1a2c509b77d",
 				{
-					"AddEventConnection": [
-						"OnPlay",
-						"TransmitEvent",
-						"cafee1b79a94a629"
-					]
+					"AddEventConnection": ["OnPlay", "TransmitEvent", "cafee1b79a94a629"]
 				}
 			]
 		},
@@ -25,11 +21,7 @@
 					"properties": {
 						"m_Receivers": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"dd3623f7ec40e51f",
-								"5af8fda5203583ba",
-								"851b4e2a3e3fe727"
-							],
+							"value": ["dd3623f7ec40e51f", "5af8fda5203583ba", "851b4e2a3e3fe727"],
 							"postInit": true
 						}
 					}
