@@ -1,0 +1,34 @@
+{
+	"hash_value": "0015BECB09830DD3",
+	"hash_path": "[assembly:/_pro/characters/assets/_sourcefiles/fem_reg_heads/geometry/fem_reg_head_indian_40s_01.wl2?/fem_reg_head_indian_40s_01.weightedprim](bodypart).pc_weightedprim",
+	"hash_offset": 13924405230,
+	"hash_size": 2148078018,
+	"hash_resource_type": "PRIM",
+	"hash_reference_table_size": 40,
+	"hash_reference_table_dummy": 0,
+	"hash_size_final": 788416,
+	"hash_size_in_memory": 4294967295,
+	"hash_size_in_video_memory": 4294967295,
+	"hash_reference_data": [
+		{
+			"hash": "[assembly:/_pro/characters/assets/_sourcefiles/fem_reg_heads/geometry/fem_reg_head_indian_40s_01.wl2?/fem_reg_head_indian_40s_01.weightedprim](bodypart).pc_bonerig",
+			"flag": "1F"
+		},
+		{
+			"hash": "[assembly:/_pro/characters/assets/_sourcefiles/generic/eyes/materials/base_eye.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/characters/assets/_sourcefiles/fem_reg_heads/materials/fem_reg_head_indian_40s_01.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/characters/assets/_sourcefiles/fem_reg/materials/fem_reg_eyelashes.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/characters/assets/_sourcefiles/generic/teeth/materials/base_teeth.mi].pc_mi",
+			"flag": "5F"
+		}
+	]
+}
