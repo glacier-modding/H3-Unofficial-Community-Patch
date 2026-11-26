@@ -15,6 +15,17 @@
 		},
 		{
 			"SubEntityOperation": [
+				"a7f4b2374583e96e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bVisible",
+						"value": false
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"bb64bad5ecadc3b8",
 				{
 					"SetPropertyValue": {
@@ -31,6 +42,17 @@
 					"SetPropertyValue": {
 						"property_name": "m_fLODOffset",
 						"value": 0.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e9ba2f84e3651096",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bVisible",
+						"value": false
 					}
 				}
 			]

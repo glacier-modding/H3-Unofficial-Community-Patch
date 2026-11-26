@@ -56,6 +56,28 @@
 					}
 				}
 			]
+		},
+		{
+			"SubEntityOperation": [
+				"6951da1e9a9fd326",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bVisible",
+						"value": false
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"18bb7f9337194f0e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bVisible",
+						"value": false
+					}
+				}
+			]
 		}
 	],
 	"patchVersion": 6

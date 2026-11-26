@@ -37,6 +37,28 @@
 		},
 		{
 			"SubEntityOperation": [
+				"fe7998f1b1143dc0",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bVisible",
+						"value": false
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d2e3186ebb79008e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bVisible",
+						"value": false
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"cdd23ca93e580749",
 				{
 					"SetPropertyValue": {
